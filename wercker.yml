@@ -7,10 +7,6 @@ build:
     # A step that executes `npm install` command
     - npm-install
 
-    # Execute "npm build"
-    - maxon/npm-run:
-            script: build
-
 deploy:
   steps:
     - heroku-deploy:
