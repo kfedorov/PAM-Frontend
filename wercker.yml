@@ -13,6 +13,7 @@ build:
 
 deploy:
   steps:
-    - lukevivier/gh-pages:
-        token: $GIT_TOKEN
-        basedir: build
+    - heroku-deploy:
+        key: $HEROKU_KEY
+        user: $HEROKU_USER
+        app-name: $HEROKU_APP_NAME
