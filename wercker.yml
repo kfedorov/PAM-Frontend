@@ -22,4 +22,4 @@ deploy-gh-pages:
         script: build
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        basedir: public
+        basedir: build
