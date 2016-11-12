@@ -2,7 +2,7 @@
   "name": "encounters-helper",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://encounter-helper.herokuapp.com/",
+  "homepage": "https://princessmadmath.github.io/EncountersHelper/",
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
