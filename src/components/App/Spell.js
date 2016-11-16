@@ -6,7 +6,7 @@ render() {
     return (
         <div>
             <h1> {this.props.spell.Name} </h1>
-            <p> {this.props.spell.Description} </p>
+            <p> {this.props.spell.Class} </p>
         </div>
     );
 }
