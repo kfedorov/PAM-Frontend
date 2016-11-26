@@ -3,6 +3,11 @@ import React from 'react';
 // Import spell style
 import './Spell.css';
 
+// To support markup in the description (like <br>)
+// Todo: find less dangerous alternative
+function createMarkup(text){
+    return {__html: text}; 
+}
 const Spell = ({spellToRender}) => {
     return (
         <div className="spell">
@@ -13,9 +18,7 @@ const Spell = ({spellToRender}) => {
              <h4>Range: {spellToRender.Range}</h4>
              <h4>Casting time: {spellToRender.CastingTime}</h4>   
             </div>
-            <p>
-                {spellToRender.Description}
-            </p>
+            <p className="description" dangerouslySetInnerHTML={createMarkup(spellToRender.Description)}/>
         </div>
     );
 
