@@ -1,9 +1,5 @@
 import React, {Component} from 'react'
 
-// Import for react-select
-import Select from 'react-select';
-import 'react-select/dist/react-select.css';
-
 class SearchBar extends Component {
 
     constructor(props) {
@@ -14,9 +10,6 @@ class SearchBar extends Component {
             .bind(this);
         this.handleNameChange = this
             .handleNameChange
-            .bind(this);
-        this.handleSelect = this
-            .handleSelect
             .bind(this);
     }
 
@@ -40,31 +33,14 @@ class SearchBar extends Component {
     };
 
     handleNameChange(event) {
-
         this.filtered(event.target.value);
     };
-
-    handleSelect(selected) {
-        console.log(selected);
-        this.filtered(selected.value);
-    };
-
-    getSearchable(item) {
-        return {value: item.Name, label: item.Name};
-    }
 
     render() {
         return (
             <div>
                 <label>Search by name: </label>
                 <input type="text" onChange={this.handleNameChange}/>
-                <Select
-                    type="text"
-                    onChange={this.handleSelect}
-                    options={this
-                    .props
-                    .input
-                    .map(this.getSearchable)}/>
             </div>
         );
     }
