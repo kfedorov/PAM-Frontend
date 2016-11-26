@@ -56,16 +56,15 @@ class SearchBar extends Component {
     render() {
         return (
             <div>
-                <form>
-                    <input type="text" onChange={this.handleNameChange}/>
-                    <Select
-                        type="text"
-                        onChange={this.handleSelect}
-                        options={this
-                        .props
-                        .input
-                        .map(this.getSearchable)}/>
-                </form>
+                <label>Search by name: </label>
+                <input type="text" onChange={this.handleNameChange}/>
+                <Select
+                    type="text"
+                    onChange={this.handleSelect}
+                    options={this
+                    .props
+                    .input
+                    .map(this.getSearchable)}/>
             </div>
         );
     }
