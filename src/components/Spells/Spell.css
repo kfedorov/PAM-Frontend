@@ -1,5 +1,62 @@
-.spell{
+.spell-title {
+    display: inline;
+}
+
+.spell-item {
     border-style: solid;
     border-color: #A00;
     margin: 1em;
+    max-width: 50em;
 }
+
+.components {
+    float: right;
+}
+
+.component-list {
+    display: flex;
+}
+
+.component-item{
+    /* Center logo inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Create circle border */
+    border-style: solid;
+    border-color: #0A0;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+}
+
+.hidden {
+    display: none;
+}
+
+.component-item:hover img{
+    display: none;
+}
+
+.component-item:hover .hidden{
+    display:inline;
+}
+
+
+.disabled {
+    opacity: 0.05;
+    border-color: #555;
+}
+
+.component-logo {
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+
+.quick-info {}
+
+.description {}
+
