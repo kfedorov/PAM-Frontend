@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import SpellsList from './SpellsList'
-import SearchBar from './SearchBar'
+import SpellsList from '../../components/Spells/SpellsList'
+import SearchBar from '../../components/Spells/SearchBar'
 
 import database_spells from '../../data/database';
 
