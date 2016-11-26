@@ -4,6 +4,7 @@ import React from 'react';
 import './Spell.css';
 
 // Import component icon
+import concentration from './concentration.svg';
 import verbal from './verbal.svg';
 import somatic from './somatic.svg';
 import material from './material.svg';
@@ -35,6 +36,10 @@ const Spell = ({spellToRender}) => {
             </h1>
             <div className="components">
                 <div className="component-list">
+                    <div className={"component-item " +(isComponentEnabled("concentration", spellToRender.Duration) ? "" : "disabled")} >
+                        <img src={concentration} className="component-logo" alt="verbal"/>
+                        <h2 className="hidden">C</h2 > 
+                    </div>
                     <div className={"component-item " +(isComponentEnabled("v", spellToRender.Components) ? "" : "disabled")} >
                         <img src={verbal} className="component-logo" alt="verbal"/>
                         <h2 className="hidden">V</h2 > 
