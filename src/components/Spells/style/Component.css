@@ -1,13 +1,4 @@
-.spell-title {
-    display: inline;
-}
-
-.spell-item {
-    border-style: solid;
-    border-color: #A00;
-    margin: 1em;
-    max-width: 50em;
-}
+/* The list of components*/
 
 .components {
     float: right;
@@ -16,6 +7,9 @@
 .component-list {
     display: flex;
 }
+
+
+/* Individual components */
 
 .component-item{
     /* Center logo inside */
@@ -54,9 +48,3 @@
     display: block;
     margin: auto;
 }
-
-
-.quick-info {}
-
-.description {}
-

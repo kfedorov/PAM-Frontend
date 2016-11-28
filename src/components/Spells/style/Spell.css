@@ -1,0 +1,14 @@
+.spell-title {
+    display: inline;
+}
+
+.spell-item {
+    border-style: solid;
+    border-color: #A00;
+    margin: 1em;
+    max-width: 50em;
+}
+
+
+
+
