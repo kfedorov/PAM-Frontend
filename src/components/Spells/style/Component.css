@@ -25,6 +25,11 @@
     height: 35px;
 }
 
+.component-item span{
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .hidden {
     display: none;
 }

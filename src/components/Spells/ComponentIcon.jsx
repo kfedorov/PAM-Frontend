@@ -18,7 +18,7 @@ const ComponentIcon = (prop) => {
             ? ""
             : "disabled")}>
             <img src={prop.icon} className="component-logo" alt={prop.alternative}/>
-            <h2 className="hidden">{prop.alternative[0]}</h2 >
+            <span className="hidden">{prop.alternative[0]}</span >
         </div>
     )
 }
