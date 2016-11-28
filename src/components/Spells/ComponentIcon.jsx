@@ -16,9 +16,9 @@ const ComponentIcon = (prop) => {
         <div
             className={"component-item " + (isComponentEnabled(prop.valueToCheck, prop.requiredValue)
             ? ""
-            : "disabled")}>
+            : "component-disabled")}>
             <img src={prop.icon} className="component-logo" alt={prop.alternative}/>
-            <span className="hidden">{prop.alternative[0]}</span >
+            <span className="component-alternive">{prop.alternative[0]}</span >
         </div>
     )
 }

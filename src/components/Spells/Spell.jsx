@@ -17,8 +17,10 @@ const Spell = ({spellToRender}) => {
             <h1 className="spell-title">
                 {spellToRender.Name}
             </h1>
-            <Components spellToRender={spellToRender} />
-            <div className="quick-info">
+            <div className="spell-components">
+                <Components spellToRender={spellToRender} />
+            </div>
+            <div className="spell-quick-info">
                 <p>
                     <b>Range:</b>
                     {spellToRender.Range}
@@ -32,7 +34,7 @@ const Spell = ({spellToRender}) => {
                 </p>
             </div>
             <p
-                className="description"
+                className="spell-description"
                 dangerouslySetInnerHTML={createMarkup(spellToRender.Description)}/>
 
         </div>

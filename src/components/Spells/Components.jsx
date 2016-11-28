@@ -14,7 +14,7 @@ import material from './icon/material.svg';
 const Components = ({spellToRender}) => {
 
     return(
-           <div className="components">
+           <div>
                 <div className="component-list">
                     <ComponentIcon
                         valueToCheck="concentration"

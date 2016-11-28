@@ -1,15 +1,20 @@
-/* The list of components*/
+/***
+TABLE OF CONTENTS
 
-.components {
-    float: right;
-}
+COMPONENT LIST - list
+COMPONENT ITEM - item, logo, alternive
+
+***/
+
+
+/* ************ COMPONENT LIST ************ */
 
 .component-list {
     display: flex;
 }
 
 
-/* Individual components */
+/* ************ COMPONENT ITEM ************ */
 
 .component-item{
     /* Center logo inside */
@@ -25,31 +30,33 @@
     height: 35px;
 }
 
-.component-item span{
-    font-size: 2em;
-    font-weight: bold;
-}
 
-.hidden {
-    display: none;
-}
-
+.component-alternive,
 .component-item:hover img{
     display: none;
 }
 
-.component-item:hover .hidden{
+/*Show alternative on hover*/
+.component-item:hover .component-alternive{
     display:inline;
 }
 
-
-.disabled {
+/*When component not used*/
+.component-disabled {
     opacity: 0.05;
     border-color: #555;
 }
 
+/*Logo inside component*/
 .component-logo {
     height: 30px;
     display: block;
     margin: auto;
 }
+
+/*Alternative to logo*/
+.component-alternive{
+    font-size: 2em;
+    font-weight: bold;
+}
+

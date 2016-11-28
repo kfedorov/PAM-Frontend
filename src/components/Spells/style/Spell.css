@@ -1,6 +1,14 @@
-.spell-title {
-    display: inline;
-}
+/***
+TABLE OF CONTENTS
+
+CONTAINER - item
+HEADER - title, components
+QUICK INFO -
+DESCRIPTION - 
+
+***/
+
+/* ************ CONTAINER ************ */
 
 .spell-item {
     border-style: solid;
@@ -8,6 +16,24 @@
     margin: 1em;
     max-width: 50em;
 }
+
+
+/* ************ HEADER ************ */
+
+.spell-title {
+    display: inline;
+}
+
+.spell-components{
+    float: right;
+}
+
+
+/* ************ QUICK INFO ************ */
+
+
+
+/* ************ QUICK INFO ************ */
 
 
 
