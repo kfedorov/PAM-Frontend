@@ -42,5 +42,11 @@ const Components = ({spellToRender}) => {
 
 }
 
+Components.propTypes = {
+    spellToRender: React.PropTypes.shape({
+        Duration: React.PropTypes.string.isRequired,
+        Components: React.PropTypes.string.isRequired,
+    })
+};
 
 export default Components;

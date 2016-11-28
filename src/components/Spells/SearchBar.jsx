@@ -24,7 +24,7 @@ class SearchBar extends Component {
 
         var filteredList = this
             .props
-            .input
+            .searchables
             .filter(contains);
 
         this
@@ -45,5 +45,13 @@ class SearchBar extends Component {
         );
     }
 }
+
+SearchBar.propType= {
+    searchables: React.PropTypes.arrayOf(React.PropTypes.shape(
+        {
+            Name: React.PropTypes.string.isRequired
+        }
+    )).isRequired
+};
 
 export default SearchBar

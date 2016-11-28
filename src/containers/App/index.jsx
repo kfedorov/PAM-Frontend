@@ -31,7 +31,7 @@ class App extends Component {
           <h2>Dnd Encounter Helper!</h2>
         </div>
         <div>
-          <SearchBar input={database_spells} callback={this.updateSpells}/>
+          <SearchBar searchables={database_spells} callback={this.updateSpells}/>
           <SpellsList spellsToRender={this.state.spells}/>
         </div>
       </div>

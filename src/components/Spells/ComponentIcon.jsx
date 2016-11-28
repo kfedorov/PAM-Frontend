@@ -23,6 +23,11 @@ const ComponentIcon = (prop) => {
     )
 }
 
-
+ComponentIcon.propTypes = {
+    valueToCheck: React.PropTypes.string.isRequired,
+    requiredValue: React.PropTypes.string.isRequired,
+    icon: React.PropTypes.string.isRequired,
+    alternative: React.PropTypes.string.isRequired,
+};
 
 export default ComponentIcon;
