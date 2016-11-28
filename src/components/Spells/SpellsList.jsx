@@ -6,7 +6,10 @@ const SpellsList = ({spellsToRender}) => {
     <div>
       {spellsToRender
         .map(function (value) {
-          return <SpellComponent spellToRender={value}></SpellComponent>;
+          return(
+          <div key={value.Name}>
+            <SpellComponent spellToRender={value}></SpellComponent>
+          </div>);          
         })}
     </div>
   );
