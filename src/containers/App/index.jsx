@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+
+// Load data
+import {spells, monsters} from '../../data/database';
+
+// Load components
+import SpellDatabase from './SpellDatabase'
+import MonsterDatabase from './MonsterDatabase'
+
+// Import style and assets
 import logo from './logo.svg';
 import './App.css';
 
-import SpellDatabase from './SpellDatabase'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-
-import database_spells from '../../data/database';
 
 class App extends Component {
 
@@ -23,10 +29,10 @@ class App extends Component {
             <Tab>Monsters</Tab>
           </TabList>
           <TabPanel>
-            <SpellDatabase all_spells={ database_spells } />
+            <SpellDatabase all_spells={ spells } />
           </TabPanel>
           <TabPanel>
-            <SpellDatabase all_spells={ database_spells } />
+            <MonsterDatabase all_monsters={ monsters } />
           </TabPanel>
         </Tabs>
       </div>
