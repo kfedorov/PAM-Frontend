@@ -2,38 +2,36 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import SpellsList from '../../components/Spells/SpellsList'
-import SearchBar from '../../components/Spells/SearchBar'
+import SpellDatabase from './SpellDatabase'
+import {Tab, Tabs, TabList, TabPanel} from 'react-tabs'
 
 import database_spells from '../../data/database';
 
 class App extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      spells: database_spells.slice()
-    };
-
-    this.updateSpells = this.updateSpells.bind(this);
-
-  }
-
-  updateSpells(updatedSpells) {
-    this.setState({spells: updatedSpells});
-  }
 
   render() {
     return (
+
       <div className="App">
+
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
           <h2>Dnd Encounter Helper!</h2>
         </div>
-        <div>
-          <SearchBar searchables={database_spells} callback={this.updateSpells}/>
-          <SpellsList spellsToRender={this.state.spells}/>
-        </div>
+
+        <Tabs>
+          <TabList>
+            <Tab>Spells</Tab>
+            <Tab>Monsters</Tab>
+          </TabList>
+
+          <TabPanel>
+            <SpellDatabase all_spells={database_spells}/>
+          </TabPanel>
+          <TabPanel>
+            <SpellDatabase all_spells={database_spells}/>
+          </TabPanel>
+        </Tabs>
       </div>
     );
   }
