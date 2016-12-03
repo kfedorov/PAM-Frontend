@@ -1394,10 +1394,6 @@
         "Name": "Legendary Resistance (3/Day)",
         "desc": "If the dragon fails a saving throw, it can choose to succeed instead.",
         "attack_bonus": "0"
-    }, {
-        "Name": "Legendary Resistance (3/Day)",
-        "desc": "If the dragon fails a saving throw, it can choose to succeed instead.",
-        "attack_bonus": "0"
     }],
     "Actions": [{
         "Name": "Multiattack",
