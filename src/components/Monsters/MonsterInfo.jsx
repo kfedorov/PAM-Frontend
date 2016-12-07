@@ -9,16 +9,17 @@ import OtherInfo from './OtherInfo'
 import './style/Monster.css'
 
 const MonsterInfo = ({monsterToRender}) => {
-    return(
+    return (
         <div className="monster-item">
-            <h1>{monsterToRender.Name}</h1>
-            <FightInfo monster={monsterToRender}/>
-            <OtherInfo monster={monsterToRender}/>
-            <Abilities abilities={monsterToRender.Abilities} />
-           <SpecialAbilities specialAbilities={monsterToRender.SpecialAbilities} />
-           <Actions actions={monsterToRender.Actions} />
+          <h1>{ monsterToRender.name }</h1>
+          <FightInfo monster={ monsterToRender } />
+          <OtherInfo monster={ monsterToRender } />
+          <Abilities abilities={ monsterToRender.abilities } />
+          <SpecialAbilities title="Special Abilities" specialAbilities={ monsterToRender.specialAbilities } />
+          <Actions actions={ monsterToRender.actions } />
+          <SpecialAbilities title="Legendaries Actions" specialAbilities={ monsterToRender.legendaryAbilities } />
         </div>
-    );
+        );
 }
 
 export default MonsterInfo;

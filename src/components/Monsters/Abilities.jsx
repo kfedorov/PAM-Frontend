@@ -15,12 +15,12 @@ const Abilities = ({abilities}) => {
     return (
         <div>
             <h2>Abilities</h2>
-            <Ability name="Strength" value={abilities.Strength} />
-            <Ability name="Dexterity" value={abilities.Strength} />
-            <Ability name="Constitution" value={abilities.Strength} />
-            <Ability name="Intelligence" value={abilities.Strength} />
-            <Ability name="Wisdom" value={abilities.Strength} />
-            <Ability name="Charisma" value={abilities.Strength} />
+            <Ability name="Strength" value={abilities.strength} />
+            <Ability name="Dexterity" value={abilities.dexterity} />
+            <Ability name="Constitution" value={abilities.constitution} />
+            <Ability name="Intelligence" value={abilities.intelligence} />
+            <Ability name="Wisdom" value={abilities.wisdom} />
+            <Ability name="Charisma" value={abilities.charisma} />
         </div>
     );
 
@@ -28,12 +28,12 @@ const Abilities = ({abilities}) => {
 
 Abilities.propType = {
     spellToRender: React.PropTypes.shape({
-        Strength: React.PropTypes.number.isRequired,
-        Dexterity: React.PropTypes.number.isRequired,
-        Constitution: React.PropTypes.number.isRequired,
-        Intelligence: React.PropTypes.number.isRequired,
-        Wisdom: React.PropTypes.number.isRequired,
-        Charisma: React.PropTypes.number.isRequired,
+        strength: React.PropTypes.number.isRequired,
+        dexterity: React.PropTypes.number.isRequired,
+        constitution: React.PropTypes.number.isRequired,
+        intelligence: React.PropTypes.number.isRequired,
+        wisdom: React.PropTypes.number.isRequired,
+        charisma: React.PropTypes.number.isRequired,
     }).isRequired
 };
 

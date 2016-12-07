@@ -5,9 +5,9 @@ const FightInfo = ({monster}) => {
     return (
         <div>
             <h2>Fight Info</h2>
-            <span>Armor Class: {monster.ArmorClass}</span><br/>
-            <span>Hit Points: {monster.HitPoints} ({monster.Hit_dice})</span><br/>
-            <span>Speed: {monster.Speed}</span><br/>
+            <span>Armor Class: {monster.armorClass}</span><br/>
+            <span>Hit Points: {monster.hitPoints} ({monster.hitDice})</span><br/>
+            <span>Speed: {monster.speed}</span><br/>
         </div>
     );
 
@@ -15,10 +15,10 @@ const FightInfo = ({monster}) => {
 
 FightInfo.propType = {
     monster: React.PropTypes.shape({
-        ArmorClass: React.PropTypes.number.isRequired,
-        HitPoints: React.PropTypes.number.isRequired,
-        Hit_dice: React.PropTypes.string.isRequired,
-        Speed: React.PropTypes.string.isRequired,
+        armorClass: React.PropTypes.number.isRequired,
+        hitPoints: React.PropTypes.number.isRequired,
+        hitDice: React.PropTypes.string.isRequired,
+        speed: React.PropTypes.string.isRequired,
     }).isRequired
 };
 

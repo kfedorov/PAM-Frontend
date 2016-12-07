@@ -7,7 +7,7 @@ const MonstersList = ({monstersToRender}) => {
           { monstersToRender
                 .map(function(value) {
                     return (
-                        <div key={ value.Name }>
+                        <div key={ value.name }>
                           <MonsterInfo monsterToRender={ value }></MonsterInfo>
                         </div>
                         );
@@ -20,7 +20,7 @@ const MonstersList = ({monstersToRender}) => {
 MonstersList.propType = {
     monstersToRender: React.PropTypes.arrayOf(
         React.PropTypes.shape({
-            Name: React.PropTypes.string.isRequired,
+            name: React.PropTypes.string.isRequired,
         })
     ).isRequired
 };

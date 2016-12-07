@@ -3,11 +3,11 @@ import React from 'react';
 const Action = ({action}) => {
     return (
         <div>
-            <h4>{action.Name}</h4>
+            <h4>{action.name}</h4>
             <p>{action.desc}</p>
-            {action.attack_bonus !== "0" ? <div><span>Attack bonus: {action.attack_bonus}</span><br/></div> : <div />}
-            {action.damage_dice !== null ? <div><span>Damage dice: {action.damage_dice}</span><br/></div> : <div />}
-            {action.damage_bonus !== null ? <div><span>Damage bonus: {action.damage_bonus}</span><br/></div> : <div />}
+            {action.attackBonus !== "0" ? <div><span>Attack bonus: {action.attackBonus}</span><br/></div> : <div />}
+            {action.damageDice !== null ? <div><span>Damage dice: {action.damageDice}</span><br/></div> : <div />}
+            {action.damageBonus !== null ? <div><span>Damage bonus: {action.damageBonus}</span><br/></div> : <div />}
 
         </div>
     );
@@ -25,7 +25,7 @@ const Actions = ({actions}) => {
             {actions
                 .map(function (value) {
                     return (
-                        <div key={value.Name}>
+                        <div key={value.name}>
                             <Action action={value} />
                         </div>
                     );
@@ -37,18 +37,18 @@ const Actions = ({actions}) => {
 
 Action.propType = {
     action: React.PropTypes.shape({
-        Name: React.PropTypes.string.isRequired,
+        bame: React.PropTypes.string.isRequired,
         desc: React.PropTypes.string.isRequired,
-        attack_bonus: React.PropTypes.string.isRequired,
-        damage_dice: React.PropTypes.string.isRequired,
-        damage_bonus: React.PropTypes.string.isRequired,
+        attackBonus: React.PropTypes.string.isRequired,
+        damageDice: React.PropTypes.string.isRequired,
+        damageBonus: React.PropTypes.string.isRequired,
     }).isRequired
 };
 
 Actions.propType = {
     actions: React.PropTypes.arrayOf(
         React.PropTypes.shape({
-            Name: React.PropTypes.string.isRequired,
+            name: React.PropTypes.string.isRequired,
         })
     ).isRequired
 };

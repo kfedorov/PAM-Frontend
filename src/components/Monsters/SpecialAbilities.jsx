@@ -3,23 +3,23 @@ import React from 'react';
 const SpecialAbility = ({specialAbility}) => {
     return (
         <div>
-            <h4>{specialAbility.Name}</h4>
+            <h4>{specialAbility.name}</h4>
             <p>{specialAbility.desc}</p>
-            {specialAbility.attack_bonus !== "0" ? <span>Attack bonus:{specialAbility.attack_bonus}</span> : <div />}
+            {specialAbility.attackBonus !== "0" ? <span>Attack bonus:{specialAbility.attackBonus}</span> : <div />}
         </div>
     );
 
 }
 
 
-const SpecialAbilities = ({specialAbilities}) => {
+const SpecialAbilities = ({title, specialAbilities}) => {
     if (specialAbilities == null) {
         return (<div />);
     }
 
     return (
         <div>
-            <h2>Special abilities</h2>
+            <h2>{title}</h2>
             {specialAbilities
                 .map(function (value) {
                     return (
@@ -35,7 +35,7 @@ const SpecialAbilities = ({specialAbilities}) => {
 
 SpecialAbility.propType = {
     specialAbility: React.PropTypes.shape({
-        Name: React.PropTypes.string.isRequired,
+        name: React.PropTypes.string.isRequired,
         desc: React.PropTypes.string.isRequired,
         specialAbility: React.PropTypes.string.isRequired,
     }).isRequired
@@ -44,7 +44,7 @@ SpecialAbility.propType = {
 SpecialAbilities.propType = {
     specialAbilities: React.PropTypes.arrayOf(
         React.PropTypes.shape({
-            Name: React.PropTypes.string.isRequired,
+            name: React.PropTypes.string.isRequired,
         })
     ).isRequired
 };
