@@ -33,10 +33,10 @@
         "modifier": 12
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -117,10 +117,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Spellcasting",
@@ -175,10 +175,10 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -263,7 +263,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["necrotic"],
         "damageImmunities": ["lightning", " poison"],
         "conditionImmunities": ["charmed", " exhaustion", " frightened", " paralyzed", " poisoned"]
@@ -367,10 +367,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Legendary Resistance (3/Day)",
@@ -475,10 +475,10 @@
         "modifier": 8
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Legendary Resistance (3/Day)",
@@ -567,10 +567,10 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -675,10 +675,10 @@
         "modifier": 8
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Legendary Resistance (3/Day)",
@@ -783,10 +783,10 @@
         "modifier": 13
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -899,8 +899,8 @@
         "modifier": 8
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -1003,10 +1003,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Legendary Resistance (3/Day)",
@@ -1117,10 +1117,10 @@
         "modifier": 8
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Legendary Resistance (3/Day)",
@@ -1217,10 +1217,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Ice Walk",
@@ -1305,7 +1305,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["lightning; thunder; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["exhaustion", " grappled", " paralyzed", " petrified", " poisoned", " prone", " restrained", " unconscious"]
@@ -1375,10 +1375,10 @@
         "modifier": 9
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -1483,10 +1483,10 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -1587,10 +1587,10 @@
         "modifier": 10
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Legendary Resistance (3/Day)",
@@ -1697,10 +1697,10 @@
         "modifier": 10
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -1811,10 +1811,10 @@
         "modifier": 11
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Legendary Resistance (3/Day)",
@@ -1925,10 +1925,10 @@
         "modifier": 16
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -2047,8 +2047,8 @@
         "modifier": 11
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -2151,10 +2151,10 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Legendary Resistance (3/Day)",
@@ -2259,10 +2259,10 @@
         "modifier": 11
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Legendary Resistance (3/Day)",
@@ -2365,10 +2365,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Ice Walk",
@@ -2461,8 +2461,8 @@
         "modifier": 15
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["psychic; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "conditionImmunities": ["charmed", " frightened"]
     },
@@ -2535,8 +2535,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison", " psychic"],
         "conditionImmunities": ["blinded", " charmed", " deafened", " exhaustion", " frightened", " paralyzed", " petrified", " poisoned"]
     },
@@ -2587,10 +2587,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -2631,10 +2631,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -2695,10 +2695,10 @@
         "modifier": 13
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["damage from spells; non magical bludgeoning", " piercing", " and slashing (from stoneskin)"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Magic Resistance",
@@ -2763,10 +2763,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["poison"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Assassinate",
@@ -2827,8 +2827,8 @@
     "resistances": {
         "damageVulnerabilities": ["fire"],
         "damageResistance": ["piercing"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "False Appearance",
@@ -2869,8 +2869,8 @@
     "resistances": {
         "damageVulnerabilities": ["fire"],
         "damageResistance": ["bludgeoning", " piercing"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "False Appearance",
@@ -2909,10 +2909,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -2950,8 +2950,8 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -3000,10 +3000,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Pack Tactics",
@@ -3042,10 +3042,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -3096,7 +3096,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " lightning; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
@@ -3174,10 +3174,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -3231,10 +3231,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -3301,7 +3301,7 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
@@ -3369,10 +3369,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Petrifying Gaze",
@@ -3411,10 +3411,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Echolocation",
@@ -3466,7 +3466,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
@@ -3532,10 +3532,10 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -3594,10 +3594,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Reckless",
@@ -3636,10 +3636,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -3706,10 +3706,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -3754,8 +3754,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid", " cold", " lightning", " slashing"],
         "conditionImmunities": ["blinded", " charmed", " deafened", " exhaustion", " frightened", " prone"]
     },
@@ -3808,10 +3808,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Smell",
@@ -3856,10 +3856,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Sight",
@@ -3918,10 +3918,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -3962,10 +3962,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Charge",
@@ -4025,7 +4025,7 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
@@ -4117,10 +4117,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -4177,10 +4177,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -4225,10 +4225,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -4287,10 +4287,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Brute",
@@ -4339,10 +4339,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Standing Leap",
@@ -4387,10 +4387,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -4425,10 +4425,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -4487,10 +4487,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -4529,10 +4529,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -4587,10 +4587,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Charge",
@@ -4647,7 +4647,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
@@ -4705,10 +4705,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -4767,8 +4767,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -4825,8 +4825,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid", " poison", " psychic; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't adamantine"],
         "conditionImmunities": ["charmed", " exhaustion", " frightened", " paralyzed", " petrified", " poisoned"]
     },
@@ -4899,10 +4899,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Damage Transfer",
@@ -4986,10 +4986,10 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -5044,10 +5044,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -5082,10 +5082,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -5120,10 +5120,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -5180,10 +5180,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -5233,10 +5233,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["radiant"],
         "damageImmunities": ["psychic; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Innate Spellcasting",
@@ -5299,10 +5299,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -5345,10 +5345,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Hold Breath",
@@ -5399,10 +5399,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Dark Devotion",
@@ -5459,10 +5459,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Dark Devotion",
@@ -5505,10 +5505,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Echolocation",
@@ -5561,10 +5561,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Two-Headed",
@@ -5617,10 +5617,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Stone Camouflage",
@@ -5673,10 +5673,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -5721,9 +5721,9 @@
         "modifier": 9
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["radiant; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " exhaustion", " frightened"]
     },
     "specialAbilities": [{
@@ -5793,10 +5793,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Smell",
@@ -5848,10 +5848,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning", " thunder"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Elemental Demise",
@@ -5918,10 +5918,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["charmed"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Shapechanger",
@@ -5980,10 +5980,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -6027,10 +6027,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["fire"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -6093,7 +6093,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " fire", " lightning"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
@@ -6153,10 +6153,10 @@
         "modifier": 9
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Fey Ancestry",
@@ -6233,10 +6233,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Fey Ancestry",
@@ -6293,10 +6293,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Spellcasting",
@@ -6339,10 +6339,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Innate Spellcasting",
@@ -6399,10 +6399,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["poison"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Duergar Resilience",
@@ -6468,7 +6468,7 @@
     }],
     "resistances": {
         "damageVulnerabilities": ["fire"],
-        "damageResistance": [""],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -6525,10 +6525,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Sight",
@@ -6628,10 +6628,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Elemental Demise",
@@ -6690,10 +6690,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Trampling Charge",
@@ -6738,10 +6738,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Charge",
@@ -6798,7 +6798,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
@@ -6870,10 +6870,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Spider Climb",
@@ -6944,10 +6944,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Two Heads",
@@ -7002,7 +7002,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["exhaustion", " grappled", " paralyzed", " petrified", " poisoned", " prone", " restrained", " unconscious"]
@@ -7067,10 +7067,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -7117,8 +7117,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning", " poison; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't adamantine"],
         "conditionImmunities": ["charmed", " exhaustion", " frightened", " paralyzed", " petrified", " poisoned"]
     },
@@ -7185,10 +7185,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Flyby",
@@ -7230,8 +7230,8 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison", " psychic"],
         "conditionImmunities": ["blinded", " charmed", " deafened", " frightened", " paralyzed", " petrified", " poisoned"]
     },
@@ -7280,10 +7280,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -7329,10 +7329,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -7379,7 +7379,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't adamantine"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["exhaustion", " petrified", " poisoned"]
@@ -7433,9 +7433,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
         "conditionImmunities": ["blinded", " charmed", " deafened", " exhaustion", " frightened", " prone"]
     },
     "specialAbilities": [{
@@ -7485,8 +7485,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["necrotic"],
         "conditionImmunities": ["poisoned"]
     },
@@ -7537,7 +7537,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["acid", " fire", " lightning", " thunder; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["cold", " necrotic", " poison"],
         "conditionImmunities": ["charmed", " exhaustion", " frightened", " grappled", " paralyzed", " petrified", " poisoned", " prone", " restrained"]
@@ -7601,9 +7601,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
         "conditionImmunities": ["poisoned"]
     },
     "specialAbilities": null,
@@ -7645,10 +7645,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -7695,10 +7695,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -7749,10 +7749,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Echolocation",
@@ -7795,10 +7795,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Charge",
@@ -7841,10 +7841,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -7879,10 +7879,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -7927,10 +7927,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -7973,10 +7973,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Hold Breath",
@@ -8027,10 +8027,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Sight",
@@ -8081,10 +8081,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Charge",
@@ -8129,10 +8129,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Illumination",
@@ -8175,10 +8175,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -8227,10 +8227,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Charge",
@@ -8273,10 +8273,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Rampage",
@@ -8315,10 +8315,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Variant: Hold Breath",
@@ -8365,10 +8365,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Hold Breath",
@@ -8425,10 +8425,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Flyby",
@@ -8471,10 +8471,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -8509,10 +8509,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -8555,10 +8555,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -8593,10 +8593,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -8643,10 +8643,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Charge",
@@ -8689,10 +8689,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Blood Frenzy",
@@ -8739,10 +8739,10 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Spider Climb",
@@ -8795,10 +8795,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -8847,10 +8847,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Sight and Smell",
@@ -8905,10 +8905,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -8947,10 +8947,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Smell",
@@ -8993,10 +8993,10 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Spider Climb",
@@ -9043,9 +9043,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
         "conditionImmunities": ["prone"]
     },
     "specialAbilities": [{
@@ -9113,7 +9113,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " fire", " lightning; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
@@ -9190,10 +9190,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Brave",
@@ -9248,10 +9248,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Rampage",
@@ -9302,10 +9302,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Charge",
@@ -9352,10 +9352,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Nimble Escape",
@@ -9416,10 +9416,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -9464,10 +9464,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["petrified"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Trampling Charge",
@@ -9522,9 +9522,9 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["acid", " cold", " fire"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["blinded", " charmed", " deafened", " exhaustion", " frightened", " prone"]
     },
     "specialAbilities": [{
@@ -9588,8 +9588,8 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -9648,10 +9648,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -9722,10 +9722,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " and slashing damage from nonmagical weapons"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Stone Camouflage",
@@ -9776,10 +9776,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Sight",
@@ -9834,10 +9834,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["blinded"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Blind Senses",
@@ -9884,10 +9884,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -9937,8 +9937,8 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["charmed", " poisoned"]
     },
@@ -10001,7 +10001,7 @@
         "modifier": 8
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["psychic"],
         "conditionImmunities": ["charmed", " frightened"]
@@ -10069,10 +10069,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["fire"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -10131,10 +10131,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -10187,10 +10187,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Sight",
@@ -10229,10 +10229,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Smell",
@@ -10290,7 +10290,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " fire", " lightning; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
@@ -10354,10 +10354,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -10404,10 +10404,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Sight",
@@ -10458,10 +10458,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Martial Advantage",
@@ -10506,8 +10506,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["charmed", " poisoned"]
     },
@@ -10560,7 +10560,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
@@ -10624,10 +10624,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Blood Frenzy",
@@ -10670,10 +10670,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Hold Breath",
@@ -10730,10 +10730,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Pack Tactics",
@@ -10784,7 +10784,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
@@ -10859,7 +10859,7 @@
     }],
     "resistances": {
         "damageVulnerabilities": ["bludgeoning", " fire"],
-        "damageResistance": [""],
+        "damageResistance": [],
         "damageImmunities": ["cold", " poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -10936,7 +10936,7 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold; bludgeoning", " piercing", " and slashing from nonmagical/nonsilver weapons"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
@@ -11000,7 +11000,7 @@
         "modifier": 10
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["exhaustion", " grappled", " paralyzed", " petrified", " poisoned", " prone", " restrained", " unconscious"]
@@ -11052,8 +11052,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire", " poison", " psychic; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't adamantine"],
         "conditionImmunities": ["charmed", " exhaustion", " frightened", " paralyzed", " petrified", " poisoned"]
     },
@@ -11124,10 +11124,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Smell",
@@ -11170,10 +11170,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Echolocation",
@@ -11226,10 +11226,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Brave",
@@ -11286,10 +11286,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Sunlight Sensitivity",
@@ -11353,8 +11353,8 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "conditionImmunities": ["frightened", " paralyzed"]
     },
@@ -11451,10 +11451,10 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Innate Spellcasting",
@@ -11511,7 +11511,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["charmed", " frightened", " poisoned"]
@@ -11578,7 +11578,7 @@
         "modifier": 9
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " lightning", " necrotic"],
         "damageImmunities": ["poison; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "conditionImmunities": ["charmed", " exhaustion", " frightened", " paralyzed", " poisoned"]
@@ -11652,10 +11652,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -11712,10 +11712,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -11758,10 +11758,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Hold Breath",
@@ -11838,10 +11838,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Spellcasting",
@@ -11885,7 +11885,7 @@
     }],
     "resistances": {
         "damageVulnerabilities": ["cold"],
-        "damageResistance": [""],
+        "damageResistance": [],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -11946,10 +11946,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Death Burst",
@@ -11992,10 +11992,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Trampling Charge",
@@ -12040,10 +12040,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Tail Spike Regrowth",
@@ -12112,7 +12112,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " fire", " lightning; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
@@ -12186,10 +12186,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Smell",
@@ -12240,10 +12240,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Petrifying Gaze",
@@ -12300,10 +12300,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -12342,10 +12342,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -12406,8 +12406,8 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid"],
         "conditionImmunities": ["prone"]
     },
@@ -12466,10 +12466,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Charge",
@@ -12523,7 +12523,7 @@
     "skills": [],
     "resistances": {
         "damageVulnerabilities": ["bludgeoning"],
-        "damageResistance": [""],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["exhaustion", " poisoned"]
     },
@@ -12570,10 +12570,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Beast of Burden",
@@ -12620,7 +12620,7 @@
     "skills": [],
     "resistances": {
         "damageVulnerabilities": ["fire"],
-        "damageResistance": [""],
+        "damageResistance": [],
         "damageImmunities": ["bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "conditionImmunities": ["necrotic", " poisoned"]
     },
@@ -12690,7 +12690,7 @@
     }],
     "resistances": {
         "damageVulnerabilities": ["bludgeoning"],
-        "damageResistance": [""],
+        "damageResistance": [],
         "damageImmunities": ["necrotic", " poison; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "conditionImmunities": ["charmed", " exhaustion", " frightened", " paralyzed", " poisoned"]
     },
@@ -12783,7 +12783,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " fire", " lightning; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
@@ -12867,9 +12867,9 @@
         "modifier": 7
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " fire; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed"]
     },
     "specialAbilities": [{
@@ -12947,10 +12947,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Confer Fire Resistance",
@@ -13011,10 +13011,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -13049,7 +13049,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["acid"],
         "damageImmunities": ["lightning", " slashing"],
         "conditionImmunities": ["blinded", " charmed", " deafened", " exhaustion", " frightened", " prone"]
@@ -13099,10 +13099,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Hold Breath",
@@ -13155,10 +13155,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -13199,8 +13199,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -13261,10 +13261,10 @@
         "modifier": 8
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Innate Spellcasting",
@@ -13333,10 +13333,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Aggressive",
@@ -13384,10 +13384,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Limited Telepathy",
@@ -13448,10 +13448,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Flyby",
@@ -13494,10 +13494,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Sight and Smell",
@@ -13552,10 +13552,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -13613,10 +13613,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -13655,10 +13655,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Ethereal Jaunt",
@@ -13714,7 +13714,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
@@ -13801,9 +13801,9 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["radiant; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " exhaustion", " frightened"]
     },
     "specialAbilities": [{
@@ -13871,10 +13871,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Hold Breath",
@@ -13913,10 +13913,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -13951,10 +13951,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -14005,10 +14005,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -14051,10 +14051,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Divine Eminence",
@@ -14101,10 +14101,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Senses",
@@ -14167,10 +14167,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Tunneler",
@@ -14225,7 +14225,7 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold; fire; lightning; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
@@ -14287,10 +14287,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Blood Frenzy",
@@ -14342,9 +14342,9 @@
     }],
     "resistances": {
         "damageVulnerabilities": ["piercing from magic weapons wielded by good creatures"],
-        "damageResistance": [""],
+        "damageResistance": [],
         "damageImmunities": ["bludgeoning", " piercing", " and slashing from nonmagical weapons"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Limited Magic Immunity",
@@ -14393,10 +14393,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -14435,10 +14435,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Mimicry",
@@ -14493,10 +14493,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -14537,10 +14537,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Pack Tactics",
@@ -14583,10 +14583,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold", " fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Heated Body",
@@ -14631,10 +14631,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Charge",
@@ -14673,10 +14673,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -14723,10 +14723,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Sight",
@@ -14781,10 +14781,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "False Appearance",
@@ -14849,8 +14849,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison", " psychic"],
         "conditionImmunities": ["blinded", " charmed", " deafened", " frightened", " paralyzed", " petrified", " poisoned"]
     },
@@ -14899,10 +14899,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Iron Scent",
@@ -14955,10 +14955,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -15007,10 +15007,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Blood Frenzy",
@@ -15078,7 +15078,7 @@
         "damageVulnerabilities": ["cold"],
         "damageResistance": ["bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Heated Body",
@@ -15141,10 +15141,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Magic Resistance",
@@ -15201,10 +15201,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -15251,10 +15251,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Sight",
@@ -15305,10 +15305,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -15375,10 +15375,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Water Breathing",
@@ -15469,7 +15469,7 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " fire"],
         "damageImmunities": ["lightning"],
         "conditionImmunities": ["blinded", " deafened", " exhaustion"]
@@ -15523,8 +15523,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["charmed", " exhaustion", " frightened", " paralyzed", " poisoned"]
     },
@@ -15579,9 +15579,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
         "conditionImmunities": ["blinded", " deafened", " frightened"]
     },
     "specialAbilities": [{
@@ -15637,10 +15637,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -15682,8 +15682,8 @@
     "skills": [],
     "resistances": {
         "damageVulnerabilities": ["bludgeoning"],
-        "damageResistance": [""],
-        "damageImmunities": [""],
+        "damageResistance": [],
+        "damageImmunities": [],
         "conditionImmunities": ["poisoned"]
     },
     "specialAbilities": null,
@@ -15734,7 +15734,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["radiant; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["necrotic", " poison"],
         "conditionImmunities": ["charmed", " exhaustion", " frightened", " poisoned"]
@@ -15824,7 +15824,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["acid", " cold", " fire", " lightning", " thunder; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["necrotic", " poison"],
         "conditionImmunities": ["charmed", " exhaustion", " grappled", " paralyzed", " petrified", " poisoned", " prone", " restrained", " unconscious"]
@@ -15874,10 +15874,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Spider Climb",
@@ -15936,8 +15936,8 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["charmed", " poisoned"]
     },
@@ -15986,10 +15986,10 @@
         "modifier": 8
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -16062,10 +16062,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Cunning Action",
@@ -16120,8 +16120,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire", " poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -16178,10 +16178,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -16225,10 +16225,10 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Stone Camouflage",
@@ -16279,8 +16279,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison", " psychic; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't adamantine"],
         "conditionImmunities": ["charmed", " exhaustion", " frightened", " paralyzed", " petrified", " poisoned"]
     },
@@ -16361,10 +16361,10 @@
         "modifier": 8
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold"],
         "damageImmunities": ["lightning", " thunder"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -16441,10 +16441,10 @@
         "modifier": 9
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " fire", " lightning", " poison; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Telepathic Bond",
@@ -16505,9 +16505,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " slashing"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " frightened", " grappled", " paralyzed", " petrified", " prone", " restrained", " stunned"]
     },
     "specialAbilities": [{
@@ -16555,9 +16555,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " slashing"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " frightened", " grappled", " paralyzed", " petrified", " prone", " restrained", " stunned"]
     },
     "specialAbilities": [{
@@ -16597,9 +16597,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " slashing"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " frightened", " grappled", " paralyzed", " petrified", " prone", " restrained", " stunned"]
     },
     "specialAbilities": [{
@@ -16639,9 +16639,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " slashing"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " frightened", " grappled", " paralyzed", " petrified", " prone", " restrained", " stunned"]
     },
     "specialAbilities": [{
@@ -16681,9 +16681,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " slashing"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " frightened", " grappled", " paralyzed", " petrified", " prone", " restrained", " stunned"]
     },
     "specialAbilities": [{
@@ -16723,9 +16723,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " slashing"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " frightened", " grappled", " paralyzed", " petrified", " prone", " restrained", " stunned"]
     },
     "specialAbilities": [{
@@ -16773,9 +16773,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " slashing"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " frightened", " grappled", " paralyzed", " petrified", " prone", " restrained", " stunned"]
     },
     "specialAbilities": [{
@@ -16819,9 +16819,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " slashing"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " frightened", " grappled", " paralyzed", " petrified", " prone", " restrained", " stunned"]
     },
     "specialAbilities": [{
@@ -16861,9 +16861,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " slashing"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " frightened", " paralyzed", " petrified", " prone", " restrained", " stunned"]
     },
     "specialAbilities": [{
@@ -16915,9 +16915,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["bludgeoning", " piercing", " slashing"],
-        "damageImmunities": [""],
+        "damageImmunities": [],
         "conditionImmunities": ["charmed", " frightened", " grappled", " paralyzed", " petrified", " prone", " restrained", " stunned"]
     },
     "specialAbilities": [{
@@ -16966,8 +16966,8 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire", " poison; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "conditionImmunities": ["charmed", " frightened", " paralyzed", " poisoned"]
     },
@@ -17072,10 +17072,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Pack Tactics",
@@ -17130,10 +17130,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -17184,8 +17184,8 @@
     "resistances": {
         "damageVulnerabilities": ["fire"],
         "damageResistance": ["bludgeoning", " piercing"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "False Appearance",
@@ -17246,10 +17246,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Pack Tactics",
@@ -17288,10 +17288,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Trampling Charge",
@@ -17336,10 +17336,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Smell",
@@ -17398,10 +17398,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -17448,8 +17448,8 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["charmed", " paralyzed", " poisoned"]
     },
@@ -17551,10 +17551,10 @@
         "modifier": 9
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["necrotic; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Shapechanger",
@@ -17659,10 +17659,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["necrotic; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Regeneration",
@@ -17721,10 +17721,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -17777,9 +17777,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
         "conditionImmunities": ["blinded", " deafened", " frightened"]
     },
     "specialAbilities": [{
@@ -17834,7 +17834,7 @@
     }],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["cold", " fire", " lightning; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
@@ -17906,10 +17906,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Sight and Smell",
@@ -17952,10 +17952,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Trampling Charge",
@@ -17995,7 +17995,7 @@
     "skills": [],
     "resistances": {
         "damageVulnerabilities": ["bludgeoning"],
-        "damageResistance": [""],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["exhaustion", " poisoned"]
     },
@@ -18032,7 +18032,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["acid; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["exhaustion", " grappled", " paralyzed", " petrified", " poisoned", " prone", " restrained", " unconscious"]
@@ -18094,10 +18094,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Smell",
@@ -18136,10 +18136,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["bludgeoning", " piercing", " and slashing damage from nonmagical weapons that aren't silvered"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Shapechanger",
@@ -18200,10 +18200,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["bludgeoning", " piercing", " and slashing damage from nonmagical weapons that aren't silvered"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Shapechanger",
@@ -18266,10 +18266,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["bludgeoning", " piercing", " and slashing damage from nonmagical weapons that aren't silvered"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Shapechanger",
@@ -18334,10 +18334,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["bludgeoning", " piercing", " and slashing damage from nonmagical weapons that aren't silvered"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Shapechanger",
@@ -18408,10 +18408,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["bludgeoning", " piercing", " and slashing damage from nonmagical weapons that aren't silvered"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Shapechanger",
@@ -18488,10 +18488,10 @@
         "modifier": 2
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -18536,8 +18536,8 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["necrotic; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
         "conditionImmunities": ["poisoned"]
     },
@@ -18596,7 +18596,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["acid", " cold", " fire", " necrotic", " thunder; bludgeoning", " piercing", " and slashing from nonmagical weapons"],
         "damageImmunities": ["lightning", " poison"],
         "conditionImmunities": ["exhaustion", " grappled", " paralyzed", " poisoned", " prone", " restrained", " unconscious"]
@@ -18660,10 +18660,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Smell",
@@ -18720,10 +18720,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Smell",
@@ -18766,10 +18766,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Keen Hearing and Smell",
@@ -18808,7 +18808,7 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["acid", " cold", " fire", " lightning", " thunder; bludgeoning", " piercing", " and slashing from nonmagical weapons that aren't silvered"],
         "damageImmunities": ["necrotic", " poison"],
         "conditionImmunities": ["charmed", " exhaustion", " grappled", " paralyzed", " petrified", " poisoned", " prone", " restrained"]
@@ -18860,10 +18860,10 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -18920,10 +18920,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
+        "damageVulnerabilities": [],
         "damageResistance": ["piercing and slashing from nonmagical weapons that aren't adamantine"],
-        "damageImmunities": [""],
-        "conditionImmunities": [""]
+        "damageImmunities": [],
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Earth Glide",
@@ -18998,10 +18998,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -19074,10 +19074,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -19150,10 +19150,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -19226,10 +19226,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["lightning"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -19306,10 +19306,10 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["acid"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -19386,10 +19386,10 @@
         "modifier": 9
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Amphibious",
@@ -19466,8 +19466,8 @@
         "modifier": 5
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["poison"],
         "conditionImmunities": ["poisoned"]
     },
@@ -19542,10 +19542,10 @@
         "modifier": 4
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["fire"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -19622,10 +19622,10 @@
         "modifier": 6
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": null,
     "actions": [{
@@ -19694,10 +19694,10 @@
         "modifier": 3
     }],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
         "damageImmunities": ["cold"],
-        "conditionImmunities": [""]
+        "conditionImmunities": []
     },
     "specialAbilities": [{
         "name": "Ice Walk",
@@ -19754,9 +19754,9 @@
     "saves": [],
     "skills": [],
     "resistances": {
-        "damageVulnerabilities": [""],
-        "damageResistance": [""],
-        "damageImmunities": [""],
+        "damageVulnerabilities": [],
+        "damageResistance": [],
+        "damageImmunities": [],
         "conditionImmunities": ["poisoned"]
     },
     "specialAbilities": [{
