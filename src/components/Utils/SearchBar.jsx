@@ -12,7 +12,9 @@ class SearchBar extends Component {
     filtered(name) {
 
         function contains(value) {
-            return value.Name.toLowerCase().includes(name.toLowerCase());
+            // OMG FIX THIS!!!!
+            var bigTempHack = value.name != null ? value.name : value.Name;
+            return bigTempHack.toLowerCase().includes(name.toLowerCase());
         }
 
         var filteredList = this.props.searchables.filter(contains);
