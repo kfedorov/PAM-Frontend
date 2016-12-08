@@ -1,41 +1,42 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+
+// Load data
+import {spells, monsters} from '../../data/database';
+
+// Load components
+import SpellDatabase from './SpellDatabase'
+import MonsterDatabase from './MonsterDatabase'
+
+// Import style and assets
 import logo from './logo.svg';
 import './App.css';
 
-import SpellsList from '../../components/Spells/SpellsList'
-import SearchBar from '../../components/Spells/SearchBar'
-
-import database_spells from '../../data/database';
 
 class App extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      spells: database_spells.slice()
-    };
-
-    this.updateSpells = this.updateSpells.bind(this);
-
-  }
-
-  updateSpells(updatedSpells) {
-    this.setState({spells: updatedSpells});
-  }
 
   render() {
     return (
+
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo"/>
+          <img src={ logo } className="App-logo" alt="logo" />
           <h2>Dnd Encounter Helper!</h2>
         </div>
-        <div>
-          <SearchBar searchables={database_spells} callback={this.updateSpells}/>
-          <SpellsList spellsToRender={this.state.spells}/>
-        </div>
+        <Tabs>
+          <TabList>
+            <Tab>Spells</Tab>
+            <Tab>Monsters</Tab>
+          </TabList>
+          <TabPanel>
+            <SpellDatabase all_spells={ spells } />
+          </TabPanel>
+          <TabPanel>
+            <MonsterDatabase all_monsters={ monsters } />
+          </TabPanel>
+        </Tabs>
       </div>
-    );
+      );
   }
 }
 

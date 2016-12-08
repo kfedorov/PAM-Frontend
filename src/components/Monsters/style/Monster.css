@@ -1,0 +1,19 @@
+/***
+TABLE OF CONTENTS
+
+CONTAINER - item
+
+***/
+
+/* ************ CONTAINER ************ */
+/*TODO: REMOVE DUPLICATION WITH SPELL*/
+
+.monster-item {
+    border-style: solid;
+    border-color: #A00;
+    margin: 1em;
+    max-width: 50em;
+}
+
+
+

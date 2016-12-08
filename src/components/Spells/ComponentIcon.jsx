@@ -13,13 +13,12 @@ function isComponentEnabled(component, requiredComponent) {
 
 const ComponentIcon = (prop) => {
     return (
-        <div
-            className={"component-item " + (isComponentEnabled(prop.valueToCheck, prop.requiredValue)
-            ? ""
-            : "component-disabled")}>
-            <img src={prop.icon} className="component-logo" alt={prop.alternative}/>
-            <span className="component-alternive">{prop.alternative[0]}</span >
-        </div>
+        <div className={ "component-item " + (isComponentEnabled(prop.valueToCheck, prop.requiredValue)
+                     ? ""
+                     : "component-disabled") }>
+          <img src={ prop.icon } className="component-logo" alt={ prop.alternative } />
+          <span className="component-alternive">{ prop.alternative[0] }</span >
+                </div>
     )
 }
 

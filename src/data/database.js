@@ -1,4 +1,4 @@
 var spells = require('./spells.json')
+var monsters = require('./monsters.json')
 
-
-export default spells;
+export {spells, monsters}
