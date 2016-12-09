@@ -25,8 +25,8 @@ class SpellDatabase extends Component {
   render() {
     return (
       <div>
-        <SearchBar searchables={ this.props.all_spells } callback={ this.updateSpells } /> 
-        <SpellsList spellsToRender={ this.state.showed_spells } /> 
+        <SearchBar searchables={ this.props.all_spells } callback={ this.updateSpells } />
+        <SpellsList spellsToRender={ this.state.showed_spells } />
       </div>
       );
   }
