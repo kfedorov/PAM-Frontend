@@ -1,24 +1,31 @@
-import React from 'react';
+import React, { Component } from 'react';
 import SpellInfo from './SpellInfo'
 
-import LazyLoad, {forceCheck} from 'react-lazyload';
+import LazyLoad, { forceCheck } from 'react-lazyload';
 
-const SpellsList = ({spellsToRender}) => {
-    forceCheck();
-    return (
-          <div >
-            { spellsToRender
-                  .map(function(value) {
-                      return (
-                          <LazyLoad key={ value.Name } height={200} offset={100} >
-                            <SpellInfo spellToRender={ value }></SpellInfo>
-                          </LazyLoad>
-                          );
-                  }) }
-          </div>
 
-        );
 
+class SpellsList extends Component {
+
+    componentDidUpdate() {
+        forceCheck();
+    }
+
+    render() {
+
+        return (
+            <div>
+              { this.props.spellsToRender
+                    .map(function(value) {
+                        return (
+                            <LazyLoad key={ value.Name } height={ 200 } offset={ 500 }>
+                              <SpellInfo spellToRender={ value }></SpellInfo>
+                            </LazyLoad>
+                            );
+                    }) }
+            </div>
+            );
+    }
 }
 
 SpellsList.propType = {

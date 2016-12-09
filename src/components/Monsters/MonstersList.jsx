@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import MonsterInfo from './MonsterInfo'
 
 import LazyLoad, {forceCheck} from 'react-lazyload';
 
-const MonstersList = ({monstersToRender}) => {
-    forceCheck();
+
+class MonstersList extends Component {
+
+  componentDidUpdate(){
+      forceCheck();
+  }  
+
+  render() {
+
     return (
         <div>
-          { monstersToRender
+          { this.props.monstersToRender
                 .map(function(value) {
                     return (
                         <LazyLoad key={ value.name } height={1000} offset={500}>
@@ -17,8 +24,9 @@ const MonstersList = ({monstersToRender}) => {
                 }) }
         </div>
         );
-
+  }
 }
+
 
 MonstersList.propType = {
     monstersToRender: React.PropTypes.arrayOf(
