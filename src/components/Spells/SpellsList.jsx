@@ -4,6 +4,7 @@ import SpellInfo from './SpellInfo'
 const SpellsList = ({spellsToRender}) => {
   return (
     <div>
+      <h2>Normal</h2>
       { spellsToRender
           .map(function(value) {
             return (
