@@ -1,20 +1,31 @@
-import React from 'react';
+import React, { Component } from 'react';
 import SpellInfo from './SpellInfo'
 
-const SpellsList = ({spellsToRender}) => {
-  return (
-    <div>
-      { spellsToRender
-          .map(function(value) {
-            return (
-              <div key={ value.Name }>
-                <SpellInfo spellToRender={ value }></SpellInfo>
-              </div>
-              );
-          }) }
-    </div>
-    );
+import LazyLoad, { forceCheck } from 'react-lazyload';
 
+
+
+class SpellsList extends Component {
+
+    componentDidUpdate() {
+        forceCheck();
+    }
+
+    render() {
+
+        return (
+            <div>
+              { this.props.spellsToRender
+                    .map(function(value) {
+                        return (
+                            <LazyLoad key={ value.Name } height={ 200 } offset={ 500 }>
+                              <SpellInfo spellToRender={ value }></SpellInfo>
+                            </LazyLoad>
+                            );
+                    }) }
+            </div>
+            );
+    }
 }
 
 SpellsList.propType = {
