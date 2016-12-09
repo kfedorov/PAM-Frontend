@@ -4,18 +4,22 @@ import SpellInfo from './SpellInfo'
 import LazyLoad from 'react-lazyload';
 
 const LazySpellsList = ({spellsToRender}) => {
-  return (
-    <div className="list">
-      { spellsToRender
-          .map(function(value) {
-            return (
-              <LazyLoad key={ value.Name } offset={100}>
-                <SpellInfo spellToRender={ value }></SpellInfo>
-              </LazyLoad >
-              );
-          }) }
-    </div>
-    );
+    return (
+        <div>
+        <h2>Lazy</h2>
+          <div className="list">
+            { spellsToRender
+                  .map(function(value) {
+                      return (
+                          <LazyLoad key={ value.Name } height={200} >
+                            <SpellInfo spellToRender={ value }></SpellInfo>
+                          </LazyLoad>
+                          );
+                  }) }
+          </div>
+        </div>
+
+        );
 
 }
 
