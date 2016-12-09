@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-
 import SpellsList from '../../components/Spells/SpellsList'
-import LazySpellsList from '../../components/Spells/LazySpellsList'
-import MinimalInfoSpellList from '../../components/Spells/MinimalInfoSpellList'
-import ReactListSpellsList from '../../components/Spells/ReactListSpellsList'
-
 import SearchBar from '../../components/Utils/SearchBar'
 
 
@@ -31,26 +25,8 @@ class SpellDatabase extends Component {
   render() {
     return (
       <div>
-        <Tabs>
-          <TabList>
-            <Tab>Slow</Tab>
-            <Tab>Lazy</Tab>
-            <Tab>Minimal</Tab>
-            <Tab>React-list</Tab>
-          </TabList>
-          <TabPanel>
-            <SpellsList spellsToRender={ this.state.showed_spells } />
-          </TabPanel>
-          <TabPanel>
-            <LazySpellsList spellsToRender={ this.state.showed_spells } />
-          </TabPanel>
-          <TabPanel>
-            <MinimalInfoSpellList spellsToRender={ this.state.showed_spells } />
-          </TabPanel>
-          <TabPanel>
-            <ReactListSpellsList spellsToRender={ this.state.showed_spells } />
-          </TabPanel>
-        </Tabs>
+        <SearchBar searchables={ this.props.all_spells } callback={ this.updateSpells } /> 
+        <SpellsList spellsToRender={ this.state.showed_spells } /> 
       </div>
       );
   }
