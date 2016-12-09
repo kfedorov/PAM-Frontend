@@ -1,15 +1,17 @@
 import React from 'react';
 import MonsterInfo from './MonsterInfo'
 
+import LazyLoad from 'react-lazyload';
+
 const MonstersList = ({monstersToRender}) => {
     return (
-        <div>
+        <div className="list">
           { monstersToRender
                 .map(function(value) {
                     return (
-                        <div key={ value.name }>
+                        <LazyLoad key={ value.name } height={200} offset={100}>
                           <MonsterInfo monsterToRender={ value }></MonsterInfo>
-                        </div>
+                        </LazyLoad>
                         );
                 }) }
         </div>
