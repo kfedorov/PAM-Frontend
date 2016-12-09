@@ -1,11 +1,12 @@
 import React from 'react';
 import SpellInfo from './SpellInfo'
 
-import LazyLoad from 'react-lazyload';
+import LazyLoad, {forceCheck} from 'react-lazyload';
 
 const SpellsList = ({spellsToRender}) => {
+    forceCheck();
     return (
-          <div className="list">
+          <div >
             { spellsToRender
                   .map(function(value) {
                       return (
