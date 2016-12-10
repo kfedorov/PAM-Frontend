@@ -1,0 +1,13 @@
+/***
+TABLE OF CONTENTS
+
+Style for listing and the list item
+
+
+***/
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
