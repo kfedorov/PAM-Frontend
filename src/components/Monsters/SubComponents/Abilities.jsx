@@ -15,6 +15,7 @@ const Abilities = ({abilities}) => {
     return (
         <div>
             <h2>Abilities</h2>
+            <hr/>
             <Ability name="Strength" value={abilities.strength} />
             <Ability name="Dexterity" value={abilities.dexterity} />
             <Ability name="Constitution" value={abilities.constitution} />

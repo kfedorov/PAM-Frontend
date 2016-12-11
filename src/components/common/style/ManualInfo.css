@@ -15,12 +15,14 @@ Style to look like the box information in manual
     max-width: 45em;
     background-color: #FEF5CE;
     box-shadow: 10px 10px 5px #888888;
+    
 }
 
-.information-box h1, .information-box h2{
+.information-box h1, .information-box h2, .information-box b{
     color: #8E2F1A;
-    text-decoration: underline;
 }
+
+
 
 
 /*.information-box:hover {

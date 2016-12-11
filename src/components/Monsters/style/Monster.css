@@ -7,4 +7,22 @@ CONTAINER - item
 
 /* ************ CONTAINER ************ */
 
+.monster-info{
 
+}
+
+.monster-info h1 {
+    margin-top: 0;
+}
+
+.monster-info h2{
+    margin-bottom: 0;
+}
+
+.monster-info hr{
+    margin: 0;
+    height: 3px;
+    border: 0;
+    background: #8E2F1A;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#8E2F1A), to(#FEF5CE));
+}

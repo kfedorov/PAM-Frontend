@@ -26,31 +26,32 @@ const Info = ({monster}) => {
     return (
         <div>
           <h2>Other Info</h2>
-          { monster.skills.length > 0 && <div><strong>Skills:</strong>
+          <hr/>
+          { monster.skills.length > 0 && <div><b>Skills:</b>
                                            { monster.skills.map(skill) }
                                          </div> }
-          { monster.saves.length > 0 && <div><strong>Saving throw:</strong>
+          { monster.saves.length > 0 && <div><b>Saving throw:</b>
                                           { monster.saves.map(savingThrow) }
                                         </div> }
-          { monster.resistances.damageVulnerabilities.length > 0 && <div><strong>Damage Vulnerabilities:</strong>
+          { monster.resistances.damageVulnerabilities.length > 0 && <div><b>Damage Vulnerabilities:</b>
                                                                       { monster.resistances.damageVulnerabilities.map(enumeration) }
                                                                     </div> }
-          { monster.resistances.damageResistance.length > 0 && <div><strong>Damage Resistances:</strong>
+          { monster.resistances.damageResistance.length > 0 && <div><b>Damage Resistances:</b>
                                                                  { monster.resistances.damageResistance.map(enumeration) }
                                                                </div> }
-          { monster.resistances.damageImmunities.length > 0 && <div><strong>Damage Immunities:</strong>
+          { monster.resistances.damageImmunities.length > 0 && <div><b>Damage Immunities:</b>
                                                                  { monster.resistances.damageImmunities.map(enumeration) }
                                                                </div> }
-          { monster.resistances.conditionImmunities.length > 0 && <div><strong>Condition Immunities:</strong>
+          { monster.resistances.conditionImmunities.length > 0 && <div><b>Condition Immunities:</b>
                                                                     { monster.resistances.conditionImmunities.map(enumeration) }
                                                                   </div> }
-          <div><strong>Senses: </strong>
+          <div><b>Senses: </b>
             { monster.senses }
           </div>
-          <div><strong>Languages: </strong>
+          <div><b>Languages: </b>
             { monster.languages ? monster.languages : "-" }
           </div>
-          <div><strong>Challenge Rating: </strong>
+          <div><b>Challenge Rating: </b>
             { monster.challengeRating }
           </div>
         </div>
