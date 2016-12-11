@@ -15,7 +15,7 @@ const enumeration = (value, element) => {
 
 const skill = (skill, element) => {
     return (
-        <span>{ element !== 0 ? "," : "" }  { skill.name } ({ skill.modifier })</span>
+        <span>{ element !== 0 ? "," : "" }  { skill.name } +{ skill.modifier }</span>
         );
 }
 
