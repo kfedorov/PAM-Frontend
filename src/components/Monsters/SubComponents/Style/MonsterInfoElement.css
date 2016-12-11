@@ -1,4 +1,14 @@
+.abilities{
+    display: flex;
+    flex-direction: horizontal;
+    flex-wrap: wrap;
+}
 
+.ability{
+    text-align: center;
+    min-width: 50px;
+    margin: 10px 15px 0;
+}
 
 .element-name{
     font-weight: bolder;
