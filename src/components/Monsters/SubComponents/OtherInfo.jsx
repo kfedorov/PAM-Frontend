@@ -2,7 +2,7 @@ import React from 'react'
 
 const savingThrow = (savingThrow, element) => {
     return (
-        <span>{ element !== 0 ? "," : "" }  { savingThrow.ability } ({ savingThrow.modifier })</span>
+        <span>{ element !== 0 ? "," : "" }  { savingThrow.ability.substring(0,3) } +{ savingThrow.modifier }</span>
         );
 }
 
