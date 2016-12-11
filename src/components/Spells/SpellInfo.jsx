@@ -3,6 +3,7 @@ import Components from './Components'
 
 // Import spell style
 import './style/Spell.css';
+import '../common/style/ManualInfo.css'
 
 // To support markup in the description (like <br>)
 // Todo: find less dangerous alternative
@@ -15,7 +16,7 @@ function createMarkup(text) {
 const SpellInfo = ({spellToRender}) => {
 
   return (
-    <div className="spell-item">
+    <div className="information-box">
       <h1 className="spell-title">{ spellToRender.Name }</h1>
       <div className="spell-components">
         <Components spellToRender={ spellToRender } />

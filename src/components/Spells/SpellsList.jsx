@@ -3,8 +3,8 @@ import SpellInfo from './SpellInfo'
 
 import LazyLoad, { forceCheck } from 'react-lazyload';
 
-import './style/List.css';
-
+// Importing style
+import '../common/style/List.css';
 
 
 class SpellsList extends Component {

@@ -1,0 +1,36 @@
+/***
+TABLE OF CONTENTS
+
+Style to look like the box information in manual
+
+
+***/
+
+.information-box {
+    border-style: solid;
+    border-color: #8E2F1A;
+    border-width: 6px 3px;
+    padding: 1em;
+    margin: 1em;
+    max-width: 45em;
+    background-color: #FEF5CE;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.information-box h1, .information-box h2{
+    color: #8E2F1A;
+    text-decoration: underline;
+}
+
+
+/*.information-box:hover {
+    animation-duration: 1s;
+    animation-name: pop_hover;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pop_hover {
+    100% {
+        transform: scale(1.2);
+    }
+}*/

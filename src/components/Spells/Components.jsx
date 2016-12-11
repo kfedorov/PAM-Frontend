@@ -1,7 +1,7 @@
 import React from 'react';
 import ComponentIcon from './ComponentIcon'
 
-// Import spell style
+// Import component style
 import './style/Component.css';
 
 // Import component icon

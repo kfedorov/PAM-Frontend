@@ -1,16 +1,19 @@
 import React from 'react';
 
+// Components
 import Abilities from './Abilities'
 import SpecialAbilities from './SpecialAbilities'
 import Actions from './Actions'
 import FightInfo from './FightInfo'
 import OtherInfo from './OtherInfo'
 
+// Style
 import './style/Monster.css'
+import '../common/style/ManualInfo.css'
 
 const MonsterInfo = ({monsterToRender}) => {
     return (
-        <div className="monster-item">
+        <div className="information-box">
           <h1>{ monsterToRender.name }</h1>
           <FightInfo monster={ monsterToRender } />
           <OtherInfo monster={ monsterToRender } />
