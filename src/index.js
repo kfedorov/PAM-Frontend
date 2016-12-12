@@ -5,6 +5,8 @@ import { browserHistory } from 'react-router';
 
 /* Components */
 import Routes from './routes';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 /* Style */
 import './index.css';
