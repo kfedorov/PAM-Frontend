@@ -9,7 +9,6 @@ DESCRIPTION -
 ***/
 
 
-
 /* ************ HEADER ************ */
 
 .spell-title {
@@ -18,6 +17,12 @@ DESCRIPTION -
 
 .spell-components {
     float: right;
+}
+
+@media (max-width: 550px) {
+    .spell-components {
+        float: none;
+    }
 }
 
 
