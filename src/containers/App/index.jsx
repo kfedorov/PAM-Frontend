@@ -10,7 +10,6 @@ import SpellDatabase from './SpellDatabase'
 import MonsterDatabase from './MonsterDatabase'
 
 /* Style and assets */
-import logo from './logo.svg';
 import './App.css';
 
 

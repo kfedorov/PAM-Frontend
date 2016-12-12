@@ -6,11 +6,11 @@ function modifierCalculator(value) {
     var modifier;
     if(value > 10)
     {
-        value = value - 10;
+        value -=  10;
         modifier = "+" + Math.floor(value/2); 
     }
     else{
-        value = value - 10;
+        value -= 10;
         modifier = Math.floor(value/2); 
     }
 
