@@ -4,7 +4,6 @@ import React from 'react'
 const FightInfo = ({monster}) => {
     return (
         <div>
-            <h2>Fight Info</h2>
             <hr/>
             <span><b>Armor Class:</b> {monster.armorClass}</span><br/>
             <span><b>Hit Points:</b> {monster.hitPoints} ({monster.hitDice})</span><br/>

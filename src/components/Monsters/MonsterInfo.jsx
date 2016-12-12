@@ -16,8 +16,8 @@ const MonsterInfo = ({monsterToRender}) => {
         <div className="information-box monster-info">
           <h1>{ monsterToRender.name }</h1>
           <FightInfo monster={ monsterToRender } />
-          <OtherInfo monster={ monsterToRender } />
           <Abilities abilities={ monsterToRender.abilities } />
+          <OtherInfo monster={ monsterToRender } />
           <SpecialAbilities title="Special Abilities" specialAbilities={ monsterToRender.specialAbilities } />
           <Actions actions={ monsterToRender.actions } />
           <SpecialAbilities title="Legendaries Actions" specialAbilities={ monsterToRender.legendaryAbilities } />

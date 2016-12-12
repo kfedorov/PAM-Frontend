@@ -34,7 +34,6 @@ const Ability = ({name, value}) => {
 const Abilities = ({abilities}) => {
     return (
         <div>
-          <h2>Abilities</h2>
           <hr/>
           <div className="abilities">
             <Ability name="Strength" value={ abilities.strength } />

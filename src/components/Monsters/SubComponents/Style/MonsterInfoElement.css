@@ -1,3 +1,7 @@
+.other-info{
+    margin-top: 5px;
+}
+
 .abilities{
     display: flex;
     flex-direction: horizontal;
@@ -7,7 +11,7 @@
 .ability{
     text-align: center;
     min-width: 50px;
-    margin: 10px 15px 0;
+    margin: 5px 15px;
 }
 
 .element-name{
