@@ -6,6 +6,7 @@ Style to look like the box information in manual
 
 ***/
 
+/* Recreate the style of the box in the monster manual */
 .information-box {
     border-style: solid;
     border-color: #8E2F1A;
@@ -18,21 +19,19 @@ Style to look like the box information in manual
     
 }
 
+/* Make header and bold text in dark red (like in the manual) */
 .information-box h1, .information-box h2, .information-box b{
     color: #8E2F1A;
 }
 
 
+/* ************ CONTAINER ************ */
 
-
-/*.information-box:hover {
-    animation-duration: 1s;
-    animation-name: pop_hover;
-    animation-fill-mode: forwards;
+/* Make the hr bar like in the book*/
+.information-box  hr{
+    margin: 0;
+    height: 3px;
+    border: 0;
+    background: #8E2F1A;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#8E2F1A), to(#FEF5CE));
 }
-
-@keyframes pop_hover {
-    100% {
-        transform: scale(1.2);
-    }
-}*/

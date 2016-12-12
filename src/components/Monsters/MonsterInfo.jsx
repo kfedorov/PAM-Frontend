@@ -1,15 +1,16 @@
+/* Utils */
 import React from 'react';
 
-// Components
+/* Sub-Components */
 import Abilities from './SubComponents/Abilities'
 import SpecialAbilities from './SubComponents/SpecialAbilities'
 import Actions from './SubComponents/Actions'
 import FightInfo from './SubComponents/FightInfo'
 import OtherInfo from './SubComponents/OtherInfo'
 
-// Style
+/* Style */
 import './style/Monster.css'
-import '../common/style/ManualInfo.css'
+import '../common/style/ManualStyle.css'
 
 const MonsterInfo = ({monsterToRender}) => {
     return (

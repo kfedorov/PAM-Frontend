@@ -1,3 +1,14 @@
+/***
+TABLE OF CONTENTS
+
+HEADER - App-header, h1
+
+Styling the main header
+
+***/
+
+/* ************ HEADER ************ */
+
 .App-header {
   display: flex;
   align-items: center;

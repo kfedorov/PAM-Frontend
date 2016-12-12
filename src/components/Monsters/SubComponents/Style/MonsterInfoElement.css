@@ -1,18 +1,17 @@
-.other-info{
-    margin-top: 5px;
-}
+/***
+TABLE OF CONTENTS
 
-.abilities{
-    display: flex;
-    flex-direction: horizontal;
-    flex-wrap: wrap;
-}
+GENERAL - element-name, element-description
+ABILITIES - abilities, .ability
+OTHER - other-info
 
-.ability{
-    text-align: center;
-    min-width: 50px;
-    margin: 5px 15px;
-}
+Adjustement for the different module of monster information
+
+***/
+
+
+/* ************ GENERAL ************ */
+/* To style things like a list of name: description*/
 
 .element-name{
     font-weight: bolder;
@@ -21,4 +20,29 @@
 
 .element-description{
     margin-top: 0;
+}
+
+
+/* ************ ABILITIES ************ */
+
+/*Make the list of abilities in flex to support smaller screen*/
+.abilities{
+    display: flex;
+    flex-direction: horizontal;
+    flex-wrap: wrap;
+}
+
+/*Target single ability information*/
+.ability{
+    text-align: center;
+    min-width: 50px;
+    margin: 5px 15px;
+}
+
+
+/* ************ OTHER ************ */
+
+/*Small adjustement for the other information component*/
+.other-info{
+    margin-top: 5px;
 }

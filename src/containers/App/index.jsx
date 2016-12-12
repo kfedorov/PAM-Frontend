@@ -1,14 +1,15 @@
+/* Utils */
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 
-// Load data
+/* Load data */
 import {spells, monsters} from '../../data/database';
 
-// Load components
+/* Components */
 import SpellDatabase from './SpellDatabase'
 import MonsterDatabase from './MonsterDatabase'
 
-// Import style and assets
+/* Style and assets */
 import logo from './logo.svg';
 import './App.css';
 

@@ -1,9 +1,12 @@
+/* Utils */
 import React from 'react';
+
+/* Components */
 import Components from './Components'
 
-// Import spell style
+/* Style */
 import './style/Spell.css';
-import '../common/style/ManualInfo.css'
+import '../common/style/ManualStyle.css'
 
 // To support markup in the description (like <br>)
 // Todo: find less dangerous alternative

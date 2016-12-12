@@ -1,5 +1,7 @@
+/* Utils */
 import React from 'react'
 
+/* Style */
 import './Style/MonsterInfoElement.css'
 
 const savingThrow = (savingThrow, element) => {

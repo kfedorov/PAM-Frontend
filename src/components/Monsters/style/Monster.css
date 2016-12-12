@@ -1,15 +1,14 @@
 /***
 TABLE OF CONTENTS
 
-CONTAINER - item
+HEADER - h1, h2
+
+Small adjustement for the monster information box
 
 ***/
 
-/* ************ CONTAINER ************ */
 
-.monster-info{
-
-}
+/* ************ HEADER ************ */
 
 .monster-info h1 {
     margin-top: 0;
@@ -19,10 +18,4 @@ CONTAINER - item
     margin-bottom: 0;
 }
 
-.monster-info hr{
-    margin: 0;
-    height: 3px;
-    border: 0;
-    background: #8E2F1A;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(#8E2F1A), to(#FEF5CE));
-}
+

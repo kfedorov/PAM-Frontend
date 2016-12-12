@@ -1,16 +1,16 @@
 /***
 TABLE OF CONTENTS
 
-CONTAINER - item
 HEADER - title, components
-QUICK INFO -
-DESCRIPTION - 
+
+Adjustement for spell information box
 
 ***/
 
 
 /* ************ HEADER ************ */
 
+/*To make the title and components on the same line*/
 .spell-title {
     display: inline;
 }
@@ -19,11 +19,10 @@ DESCRIPTION -
     float: right;
 }
 
+/*If small screen put components below*/
 @media (max-width: 550px) {
     .spell-components {
         float: none;
     }
 }
 
-
-/* ************ QUICK INFO ************ */

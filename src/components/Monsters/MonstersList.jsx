@@ -1,9 +1,11 @@
+/* Utils */
 import React, { Component } from 'react';
-import MonsterInfo from './MonsterInfo'
-
 import LazyLoad, {forceCheck} from 'react-lazyload';
 
-// Importing style
+/* Components */
+import MonsterInfo from './MonsterInfo'
+
+/* Style */
 import '../common/style/List.css';
 
 class MonstersList extends Component {

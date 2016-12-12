@@ -1,6 +1,7 @@
+/* Utils */
 import React, { Component } from 'react'
 
-/* Import style */
+/* Style */
 import './Style/SearchBar.css'
 
 class SearchBar extends Component {

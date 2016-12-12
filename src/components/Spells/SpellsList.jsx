@@ -1,9 +1,11 @@
+/* Utils */
 import React, { Component } from 'react';
-import SpellInfo from './SpellInfo'
-
 import LazyLoad, { forceCheck } from 'react-lazyload';
 
-// Importing style
+/* Components */
+import SpellInfo from './SpellInfo'
+
+/* Style */
 import '../common/style/List.css';
 
 

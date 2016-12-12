@@ -1,10 +1,13 @@
+/* Utils */
 import React from 'react';
-import ComponentIcon from './ComponentIcon'
 
-// Import component style
+/* Style */
 import './style/Component.css';
 
-// Import component icon
+/* Components */
+import ComponentIcon from './ComponentIcon'
+
+/* Components icon */
 import concentration from './icon/concentration.svg';
 import verbal from './icon/verbal.svg';
 import somatic from './icon/somatic.svg';
