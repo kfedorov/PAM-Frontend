@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 
+/* Import style */
+import './Style/SearchBar.css'
+
 class SearchBar extends Component {
 
     constructor(props) {
@@ -28,9 +31,8 @@ class SearchBar extends Component {
 
     render() {
         return (
-            <div>
-              <label>Search by name: </label>
-              <input type="text" onChange={ this.handleNameChange } />
+            <div className="search-bar">
+              <input type="text" onChange={ this.handleNameChange } autoFocus placeholder="Search by name: "/>
             </div>
             );
     }
