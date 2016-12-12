@@ -1,14 +1,15 @@
+/* Utils */
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 
-// Load data
+/* Load data */
 import {spells, monsters} from '../../data/database';
 
-// Load components
+/* Components */
 import SpellDatabase from './SpellDatabase'
 import MonsterDatabase from './MonsterDatabase'
 
-// Import style and assets
+/* Style and assets */
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,8 +21,7 @@ class App extends Component {
 
       <div className="App">
         <div className="App-header">
-          <img src={ logo } className="App-logo" alt="logo" />
-          <h2>Dnd Encounter Helper!</h2>
+          <h1>Encounter Helper</h1>
         </div>
         <Tabs>
           <TabList>

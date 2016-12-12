@@ -1,13 +1,18 @@
+/* Utils */
 import React from 'react';
+
+/* Style */
+import './Style/MonsterInfoElement.css'
 
 const SpecialAbility = ({specialAbility}) => {
     return (
         <div>
-            <h4>{specialAbility.name}</h4>
-            <p>{specialAbility.desc}</p>
-            {specialAbility.attackBonus !== "0" ? <span>Attack bonus:{specialAbility.attackBonus}</span> : <div />}
+          <p><span className="element-name">{ specialAbility.name }. </span>
+            { specialAbility.desc }
+          </p>
+          { specialAbility.attackBonus !== "0" ? <span>lololAttack bonus:{ specialAbility.attackBonus }</span> : <div /> }
         </div>
-    );
+        );
 
 }
 
@@ -19,17 +24,18 @@ const SpecialAbilities = ({title, specialAbilities}) => {
 
     return (
         <div>
-            <h2>{title}</h2>
-            {specialAbilities
-                .map(function (value) {
+          <h2>{ title }</h2>
+          <hr/>
+          { specialAbilities
+                .map(function(value) {
                     return (
-                        <div key={value.Name}>
-                            <SpecialAbility specialAbility={value} />
+                        <div key={ value.Name }>
+                          <SpecialAbility specialAbility={ value } />
                         </div>
-                    );
-                })}
+                        );
+                }) }
         </div>
-    );
+        );
 
 }
 

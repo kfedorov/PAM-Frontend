@@ -1,8 +1,12 @@
+/* Utils */
 import React, { Component } from 'react';
-import SpellInfo from './SpellInfo'
-
 import LazyLoad, { forceCheck } from 'react-lazyload';
 
+/* Components */
+import SpellInfo from './SpellInfo'
+
+/* Style */
+import '../common/style/List.css';
 
 
 class SpellsList extends Component {
@@ -14,7 +18,7 @@ class SpellsList extends Component {
     render() {
 
         return (
-            <div>
+            <div className="list">
               { this.props.spellsToRender
                     .map(function(value) {
                         return (

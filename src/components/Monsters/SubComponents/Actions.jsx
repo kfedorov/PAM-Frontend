@@ -1,18 +1,20 @@
+/* Utils */
 import React from 'react';
 
 const Action = ({action}) => {
     return (
         <div>
-            <h4>{action.name}</h4>
-            <p>{action.desc}</p>
-            {action.attackBonus !== "0" ? <div><span>Attack bonus: {action.attackBonus}</span><br/></div> : <div />}
-            {action.damageDice !== null ? <div><span>Damage dice: {action.damageDice}</span><br/></div> : <div />}
-            {action.damageBonus !== null ? <div><span>Damage bonus: {action.damageBonus}</span><br/></div> : <div />}
-
+          <p><span className="element-name">{ action.name }. </span>
+            { action.desc }
+          </p>
         </div>
     );
-
 }
+
+// Move in tool tip?
+// {action.attackBonus !== "0" ? <div><span>Attack bonus: {action.attackBonus}</span><br/></div> : <div />}
+// {action.damageDice !== null ? <div><span>Damage dice: {action.damageDice}</span><br/></div> : <div />}
+// {action.damageBonus !== null ? <div><span>Damage bonus: {action.damageBonus}</span><br/></div> : <div />}
 
 const Actions = ({actions}) => {
     if (actions == null) {
@@ -22,6 +24,7 @@ const Actions = ({actions}) => {
     return (
         <div>
             <h2>Actions</h2>
+            <hr/>
             {actions
                 .map(function (value) {
                     return (

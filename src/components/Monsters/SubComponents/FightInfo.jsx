@@ -1,13 +1,14 @@
+/* Utils */
 import React from 'react'
 
 
 const FightInfo = ({monster}) => {
     return (
         <div>
-            <h2>Fight Info</h2>
-            <span>Armor Class: {monster.armorClass}</span><br/>
-            <span>Hit Points: {monster.hitPoints} ({monster.hitDice})</span><br/>
-            <span>Speed: {monster.speed}</span><br/>
+            <hr/>
+            <span><b>Armor Class:</b> {monster.armorClass}</span><br/>
+            <span><b>Hit Points:</b> {monster.hitPoints} ({monster.hitDice})</span><br/>
+            <span><b>Speed:</b> {monster.speed}</span><br/>
         </div>
     );
 

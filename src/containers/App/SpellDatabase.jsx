@@ -1,5 +1,7 @@
+/* Utils */
 import React, { Component } from 'react';
 
+/* Components */
 import SpellsList from '../../components/Spells/SpellsList'
 import SearchBar from '../../components/Utils/SearchBar'
 

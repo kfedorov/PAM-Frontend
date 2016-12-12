@@ -1,8 +1,12 @@
+/* Utils */
 import React, { Component } from 'react';
-import MonsterInfo from './MonsterInfo'
-
 import LazyLoad, {forceCheck} from 'react-lazyload';
 
+/* Components */
+import MonsterInfo from './MonsterInfo'
+
+/* Style */
+import '../common/style/List.css';
 
 class MonstersList extends Component {
 
@@ -13,7 +17,7 @@ class MonstersList extends Component {
   render() {
 
     return (
-        <div>
+        <div className="list">
           { this.props.monstersToRender
                 .map(function(value) {
                     return (

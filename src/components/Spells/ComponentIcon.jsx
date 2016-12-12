@@ -1,6 +1,7 @@
+/* Utils */
 import React from 'react'
 
-// Import spell style
+/* Style */
 import './style/Component.css';
 
 function isComponentEnabled(component, requiredComponent) {

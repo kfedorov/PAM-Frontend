@@ -1,19 +1,21 @@
 /***
 TABLE OF CONTENTS
 
-CONTAINER - item
+HEADER - h1, h2
+
+Small adjustement for the monster information box
 
 ***/
 
-/* ************ CONTAINER ************ */
-/*TODO: REMOVE DUPLICATION WITH SPELL*/
 
-.monster-item {
-    border-style: solid;
-    border-color: #A00;
-    margin: 1em;
-    max-width: 50em;
+/* ************ HEADER ************ */
+
+.monster-info h1 {
+    margin-top: 0;
 }
 
+.monster-info h2{
+    margin-bottom: 0;
+}
 
 

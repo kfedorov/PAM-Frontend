@@ -1,40 +1,28 @@
 /***
 TABLE OF CONTENTS
 
-CONTAINER - item
 HEADER - title, components
-QUICK INFO -
-DESCRIPTION - 
+
+Adjustement for spell information box
 
 ***/
-
-/* ************ CONTAINER ************ */
-
-.spell-item {
-    border-style: solid;
-    border-color: #A00;
-    margin: 1em;
-    max-width: 50em;
-}
 
 
 /* ************ HEADER ************ */
 
+/*To make the title and components on the same line*/
 .spell-title {
     display: inline;
 }
 
-.spell-components{
+.spell-components {
     float: right;
 }
 
-
-/* ************ QUICK INFO ************ */
-
-
-
-/* ************ QUICK INFO ************ */
-
-
-
+/*If small screen put components below*/
+@media (max-width: 550px) {
+    .spell-components {
+        float: none;
+    }
+}
 

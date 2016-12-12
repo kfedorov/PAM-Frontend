@@ -1,6 +1,8 @@
+/* Utils */
 import React from 'react';
 import {Router, Route} from 'react-router';
 
+/* Components (possible routes) */
 import App from './containers/App';
 import About from './containers/About';
 import NotFound from './containers/NotFound';
