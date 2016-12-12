@@ -20,24 +20,24 @@ const SpellInfo = ({spellToRender}) => {
 
   return (
     <div className="information-box">
-      <h1 className="spell-title">{ spellToRender.Name }</h1>
+      <h1 className="spell-title">{ spellToRender.name }</h1>
       <div className="spell-components">
-        <Components spellToRender={ spellToRender } />
+        <Components components={ spellToRender.components } />
       </div>
       <div className="spell-quick-info">
         <p>
           <b>Range:</b>
-          { spellToRender.Range }
+          { spellToRender.range }
           <br/>
           <b>Duration:</b>
-          { spellToRender.Duration }
+          { spellToRender.duration }
           <br/>
           <b>Casting time:</b>
-          { spellToRender.CastingTime }
+          { spellToRender.castingTime }
           <br/>
         </p>
       </div>
-      <p className="spell-description" dangerouslySetInnerHTML={ createMarkup(spellToRender.Description) } />
+      <p className="spell-description" dangerouslySetInnerHTML={ createMarkup(spellToRender.description) } />
     </div>
     );
 
@@ -46,15 +46,15 @@ const SpellInfo = ({spellToRender}) => {
 
 SpellInfo.propType = {
   spellToRender: React.PropTypes.shape({
-    Level: React.PropTypes.number.isRequired,
-    Name: React.PropTypes.string.isRequired,
-    Type: React.PropTypes.string.isRequired,
-    CastingTime: React.PropTypes.string.isRequired,
-    Range: React.PropTypes.string.isRequired,
-    Components: React.PropTypes.string.isRequired,
-    Duration: React.PropTypes.string.isRequired,
-    Description: React.PropTypes.string.isRequired,
-    Class: React.PropTypes.arrayOf(React.PropTypes.string).isRequired
+    level: React.PropTypes.number.isRequired,
+    name: React.PropTypes.string.isRequired,
+    type: React.PropTypes.string.isRequired,
+    castingTime: React.PropTypes.string.isRequired,
+    range: React.PropTypes.string.isRequired,
+    components: React.PropTypes.string.isRequired,
+    duration: React.PropTypes.string.isRequired,
+    description: React.PropTypes.string.isRequired,
+    class: React.PropTypes.arrayOf(React.PropTypes.string).isRequired
   }).isRequired
 };
 

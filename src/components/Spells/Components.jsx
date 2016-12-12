@@ -13,15 +13,15 @@ import verbal from './icon/verbal.svg';
 import somatic from './icon/somatic.svg';
 import material from './icon/material.svg';
 
-const Components = ({spellToRender}) => {
+const Components = ({components}) => {
 
     return (
         <div>
           <div className="component-list">
-            <ComponentIcon valueToCheck="concentration" requiredValue={ spellToRender.Duration } icon={ concentration } alternative="Concentration" />
-            <ComponentIcon valueToCheck="v" requiredValue={ spellToRender.Components } icon={ verbal } alternative="Verbal" />
-            <ComponentIcon valueToCheck="s" requiredValue={ spellToRender.Components } icon={ somatic } alternative="Somatic" />
-            <ComponentIcon valueToCheck="m" requiredValue={ spellToRender.Components } icon={ material } alternative="Meterial" />
+            <ComponentIcon isRequired={ components.concentration } icon={ concentration } alternative="Concentration" />
+            <ComponentIcon isRequired={ components.verbal } icon={ verbal } alternative="Verbal" />
+            <ComponentIcon isRequired={ components.somatic } icon={ somatic } alternative="Somatic" />
+            <ComponentIcon isRequired={ components.material }icon={ material } alternative="Meterial" />
           </div>
         </div>
         );
@@ -29,12 +29,12 @@ const Components = ({spellToRender}) => {
 }
 
 Components.propTypes = {
-    spellToRender: React
-        .PropTypes
-        .shape({
-            Duration: React.PropTypes.string.isRequired,
-            Components: React.PropTypes.string.isRequired
-        })
+    components: React.PropTypes.shape({
+        concentration: React.PropTypes.bool.isRequired,
+        somatic: React.PropTypes.bool.isRequired,
+        verbal: React.PropTypes.bool.isRequired,
+        material: React.PropTypes.bool.isRequired,
+    })
 };
 
 export default Components;
