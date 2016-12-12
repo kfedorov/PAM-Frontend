@@ -20,8 +20,7 @@ class App extends Component {
 
       <div className="App">
         <div className="App-header">
-          <img src={ logo } className="App-logo" alt="logo" />
-          <h2>Dnd Encounter Helper!</h2>
+          <h1>Encounter Helper</h1>
         </div>
         <Tabs>
           <TabList>
