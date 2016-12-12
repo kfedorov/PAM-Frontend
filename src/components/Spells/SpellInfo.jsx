@@ -21,9 +21,9 @@ const SpellInfo = ({spellToRender}) => {
 
   return (
     <div className="information-box">
-      <Grid className="grid">
-        <Row className="show-grid">
-          <Col xs={ 12 } md={ 8 }>
+      <Grid bsClass="grid">
+        <Row>
+          <Col xs={ 12 } sm={ 8 }>
           <h1 className="spell-title">{ spellToRender.name }</h1>
           <div className="spell-type">Level:
             { spellToRender.level }, School:
@@ -31,7 +31,7 @@ const SpellInfo = ({spellToRender}) => {
             { spellToRender.canBeRitual && ", (ritual)" }
           </div>
           </Col>
-          <Col xs={ 12 } md={ 4 }>
+          <Col xs={ 12 } sm={ 4 }>
           <div className="spell-components">
             <Components components={ spellToRender.components } />
           </div>
