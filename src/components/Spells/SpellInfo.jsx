@@ -1,5 +1,6 @@
 /* Utils */
 import React from 'react';
+import { Grid, Row, Col } from 'react-bootstrap';
 
 /* Components */
 import Components from './Components'
@@ -20,10 +21,23 @@ const SpellInfo = ({spellToRender}) => {
 
   return (
     <div className="information-box">
-      <h1 className="spell-title">{ spellToRender.name }</h1>
-      <div className="spell-components">
-        <Components components={ spellToRender.components } />
-      </div>
+      <Grid className="grid">
+        <Row className="show-grid">
+          <Col xs={ 12 } md={ 8 }>
+          <h1 className="spell-title">{ spellToRender.name }</h1>
+          <div className="spell-type">Level:
+            { spellToRender.level }, School:
+            { spellToRender.school }
+            { spellToRender.canBeRitual && ", (ritual)" }
+          </div>
+          </Col>
+          <Col xs={ 12 } md={ 4 }>
+          <div className="spell-components">
+            <Components components={ spellToRender.components } />
+          </div>
+          </Col>
+        </Row>
+      </Grid>
       <div className="spell-quick-info">
         <p>
           <b>Range:</b>

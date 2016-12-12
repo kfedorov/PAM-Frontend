@@ -12,17 +12,19 @@ Adjustement for spell information box
 
 /*To make the title and components on the same line*/
 .spell-title {
-    display: inline;
+    display: inline
+}
+
+.grid {
+    max-width: inherit;
+}
+
+/*Make the little description under title in italic*/
+.spell-type{
+    font-style: italic;
 }
 
 .spell-components {
-    float: right;
-}
 
-/*If small screen put components below*/
-@media (max-width: 550px) {
-    .spell-components {
-        float: none;
-    }
 }
 
