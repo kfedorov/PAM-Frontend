@@ -15,14 +15,9 @@ Adjustement for spell information box
     display: inline;
 }
 
-.spell-components {
-    float: right;
-}
-
-/*If small screen put components below*/
-@media (max-width: 550px) {
-    .spell-components {
-        float: none;
-    }
+/*Make the little description under title in italic*/
+.spell-type{
+    font-style: italic;
+    margin-bottom: 10px;
 }
 
