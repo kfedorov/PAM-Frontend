@@ -1,6 +1,7 @@
 [{
     "level": 0,
     "name": "Blade Ward",
+    "type": "Abjuration cantrip",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -19,6 +20,7 @@
 }, {
     "level": 0,
     "name": "Dancing Lights",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -37,6 +39,7 @@
 }, {
     "level": 0,
     "name": "Friends",
+    "type": "Enchantment  cantrip",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "Self",
@@ -55,6 +58,7 @@
 }, {
     "level": 0,
     "name": "Light",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -73,6 +77,7 @@
 }, {
     "level": 0,
     "name": "Mage Hand",
+    "type": "Conjuration cantrip",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -91,6 +96,7 @@
 }, {
     "level": 0,
     "name": "Mending",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 minute",
     "range": "Touch",
@@ -109,6 +115,7 @@
 }, {
     "level": 0,
     "name": "Message",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -127,6 +134,7 @@
 }, {
     "level": 0,
     "name": "Minor Illusion",
+    "type": "Illusion cantrip",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -145,6 +153,7 @@
 }, {
     "level": 0,
     "name": "Prestidigitation",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "10 feet",
@@ -163,6 +172,7 @@
 }, {
     "level": 0,
     "name": "True Strike",
+    "type": "Divination cantrip",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -181,6 +191,7 @@
 }, {
     "level": 0,
     "name": "Vicious Mockery",
+    "type": "Enchantment  cantrip",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -199,6 +210,7 @@
 }, {
     "level": 0,
     "name": "Thunderclap",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (5-foot radius)",
@@ -217,6 +229,7 @@
 }, {
     "level": 1,
     "name": "Animal Friendship",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -235,6 +248,7 @@
 }, {
     "level": 1,
     "name": "Bane",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -253,6 +267,7 @@
 }, {
     "level": 1,
     "name": "Charm Person",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -271,6 +286,7 @@
 }, {
     "level": 1,
     "name": "Comprehend Languages ",
+    "type": "1st level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -289,6 +305,7 @@
 }, {
     "level": 1,
     "name": "Cure Wounds",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -307,6 +324,7 @@
 }, {
     "level": 1,
     "name": "Detect Magic ",
+    "type": "1st level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -325,6 +343,7 @@
 }, {
     "level": 1,
     "name": "Disguise Self",
+    "type": "1st level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "Self",
@@ -343,6 +362,7 @@
 }, {
     "level": 1,
     "name": "Dissonant Whispers",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -361,6 +381,7 @@
 }, {
     "level": 1,
     "name": "Faerie Fire",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -379,6 +400,7 @@
 }, {
     "level": 1,
     "name": "Feather Fall",
+    "type": "1st level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 reaction",
     "range": "60 feet",
@@ -397,6 +419,7 @@
 }, {
     "level": 1,
     "name": "Healing Word",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "60 feet",
@@ -415,6 +438,7 @@
 }, {
     "level": 1,
     "name": "Heroism",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "Touch",
@@ -433,6 +457,7 @@
 }, {
     "level": 1,
     "name": "Identify ",
+    "type": "1st level Divination",
     "school": "Divination",
     "castingTime": "1 minute",
     "range": "Touch",
@@ -451,6 +476,7 @@
 }, {
     "level": 1,
     "name": "Illusory Script ",
+    "type": "1st level Illusion",
     "school": "Illusion",
     "castingTime": "1 minute",
     "range": "Touch",
@@ -469,6 +495,7 @@
 }, {
     "level": 1,
     "name": "Longstrider",
+    "type": "1st level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -487,6 +514,7 @@
 }, {
     "level": 1,
     "name": "Silent Image",
+    "type": "1st level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -505,6 +533,7 @@
 }, {
     "level": 1,
     "name": "Sleep",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -523,6 +552,7 @@
 }, {
     "level": 1,
     "name": "Speak with Animals ",
+    "type": "1st level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -541,6 +571,7 @@
 }, {
     "level": 1,
     "name": "Tasha's Hideous Laughter",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -559,6 +590,7 @@
 }, {
     "level": 1,
     "name": "Thunderwave",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (15-foot cube)",
@@ -577,6 +609,7 @@
 }, {
     "level": 1,
     "name": "Unseen Servant ",
+    "type": "1st level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -595,6 +628,7 @@
 }, {
     "level": 1,
     "name": "Earth Tremor",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (10-foot radius)",
@@ -613,6 +647,7 @@
 }, {
     "level": 2,
     "name": "Animal Messenger ",
+    "type": "2nd level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -631,6 +666,7 @@
 }, {
     "level": 2,
     "name": "Blindness/Deafness",
+    "type": "2nd level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -649,6 +685,7 @@
 }, {
     "level": 2,
     "name": "Calm Emotions",
+    "type": "2nd level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -667,6 +704,7 @@
 }, {
     "level": 2,
     "name": "Cloud of Daggers",
+    "type": "2nd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -685,6 +723,7 @@
 }, {
     "level": 2,
     "name": "Crown of Madness",
+    "type": "2nd level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -703,6 +742,7 @@
 }, {
     "level": 2,
     "name": "Detect Thoughts",
+    "type": "2nd level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -721,6 +761,7 @@
 }, {
     "level": 2,
     "name": "Enhance Ability",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -739,6 +780,7 @@
 }, {
     "level": 2,
     "name": "Enthrall",
+    "type": "2nd level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -757,6 +799,7 @@
 }, {
     "level": 2,
     "name": "Heat Metal",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -775,6 +818,7 @@
 }, {
     "level": 2,
     "name": "Hold Person",
+    "type": "2nd level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -793,6 +837,7 @@
 }, {
     "level": 2,
     "name": "Invisibility",
+    "type": "2nd level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "Touch",
@@ -811,6 +856,7 @@
 }, {
     "level": 2,
     "name": "Knock",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -829,6 +875,7 @@
 }, {
     "level": 2,
     "name": "Lesser Restoration",
+    "type": "2nd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -847,6 +894,7 @@
 }, {
     "level": 2,
     "name": "Locate Animals or Plants ",
+    "type": "2nd level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -865,6 +913,7 @@
 }, {
     "level": 2,
     "name": "Locate Object",
+    "type": "2nd level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -883,6 +932,7 @@
 }, {
     "level": 2,
     "name": "Magic Mouth ",
+    "type": "2nd level Illusion",
     "school": "Illusion",
     "castingTime": "1 minute",
     "range": "30 feet",
@@ -901,6 +951,7 @@
 }, {
     "level": 2,
     "name": "Phantasmal Force",
+    "type": "2nd level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -919,6 +970,7 @@
 }, {
     "level": 2,
     "name": "See Invisibility",
+    "type": "2nd level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -937,6 +989,7 @@
 }, {
     "level": 2,
     "name": "Shatter",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -955,6 +1008,7 @@
 }, {
     "level": 2,
     "name": "Silence ",
+    "type": "2nd level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -973,6 +1027,7 @@
 }, {
     "level": 2,
     "name": "Suggestion",
+    "type": "2nd level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -991,6 +1046,7 @@
 }, {
     "level": 2,
     "name": "Zone of Truth",
+    "type": "2nd level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1009,6 +1065,7 @@
 }, {
     "level": 2,
     "name": "Pyrotechnics",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1027,6 +1084,7 @@
 }, {
     "level": 2,
     "name": "Skywrite ",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Sight",
@@ -1045,6 +1103,7 @@
 }, {
     "level": 2,
     "name": "Warding Wind",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self",
@@ -1063,6 +1122,7 @@
 }, {
     "level": 3,
     "name": "Bestow Curse",
+    "type": "3rd level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1081,6 +1141,7 @@
 }, {
     "level": 3,
     "name": "Clairvoyance",
+    "type": "3rd level Divination",
     "school": "Divination",
     "castingTime": "10 minutes",
     "range": "1 mile",
@@ -1099,6 +1160,7 @@
 }, {
     "level": 3,
     "name": "Dispel Magic",
+    "type": "3rd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -1117,6 +1179,7 @@
 }, {
     "level": 3,
     "name": "Fear",
+    "type": "3rd level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "Self (30-foot cone)",
@@ -1135,6 +1198,7 @@
 }, {
     "level": 3,
     "name": "Feign Death ",
+    "type": "3rd level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1153,6 +1217,7 @@
 }, {
     "level": 3,
     "name": "Glyph of Warding",
+    "type": "3rd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 hour",
     "range": "Touch",
@@ -1171,6 +1236,7 @@
 }, {
     "level": 3,
     "name": "Hypnotic Pattern",
+    "type": "3rd level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -1189,6 +1255,7 @@
 }, {
     "level": 3,
     "name": "Leomund's Tiny Hut ",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 minute",
     "range": "Self (10-foot-radius hemisphere)",
@@ -1207,6 +1274,7 @@
 }, {
     "level": 3,
     "name": "Major Image",
+    "type": "3rd level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -1225,6 +1293,7 @@
 }, {
     "level": 3,
     "name": "Nondetection",
+    "type": "3rd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1243,6 +1312,7 @@
 }, {
     "level": 3,
     "name": "Speak with Dead",
+    "type": "3rd level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "10 feet",
@@ -1261,6 +1331,7 @@
 }, {
     "level": 3,
     "name": "Speak with Plants",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self (30-foot radius)",
@@ -1279,6 +1350,7 @@
 }, {
     "level": 3,
     "name": "Stinking Cloud",
+    "type": "3rd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -1297,6 +1369,7 @@
 }, {
     "level": 3,
     "name": "Tongues",
+    "type": "3rd level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1315,6 +1388,7 @@
 }, {
     "level": 4,
     "name": "Compulsion",
+    "type": "4th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1333,6 +1407,7 @@
 }, {
     "level": 4,
     "name": "Confusion",
+    "type": "4th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -1351,6 +1426,7 @@
 }, {
     "level": 4,
     "name": "Dimension Door",
+    "type": "4th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "500 feet",
@@ -1369,6 +1445,7 @@
 }, {
     "level": 4,
     "name": "Freedom of Movement",
+    "type": "4th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1387,6 +1464,7 @@
 }, {
     "level": 4,
     "name": "Greater Invisibility",
+    "type": "4th level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1405,6 +1483,7 @@
 }, {
     "level": 4,
     "name": "Hallucinatory Terrain",
+    "type": "4th level Illusion",
     "school": "Illusion",
     "castingTime": "10 minutes",
     "range": "300 feet",
@@ -1423,6 +1502,7 @@
 }, {
     "level": 4,
     "name": "Locate Creature",
+    "type": "4th level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -1441,6 +1521,7 @@
 }, {
     "level": 4,
     "name": "Polymorph",
+    "type": "4th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1459,6 +1540,7 @@
 }, {
     "level": 5,
     "name": "Animate Objects",
+    "type": "5th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -1477,6 +1559,7 @@
 }, {
     "level": 5,
     "name": "Awaken",
+    "type": "5th level Transmutation",
     "school": "Transmutation",
     "castingTime": "8 hours",
     "range": "Touch",
@@ -1495,6 +1578,7 @@
 }, {
     "level": 5,
     "name": "Dominate Person",
+    "type": "5th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1513,6 +1597,7 @@
 }, {
     "level": 5,
     "name": "Dream",
+    "type": "5th level Illusion",
     "school": "Illusion",
     "castingTime": "1 minute",
     "range": "Special",
@@ -1531,6 +1616,7 @@
 }, {
     "level": 5,
     "name": "Geas",
+    "type": "5th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 minute",
     "range": "60 feet",
@@ -1549,6 +1635,7 @@
 }, {
     "level": 5,
     "name": "Greater Restoration",
+    "type": "5th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1567,6 +1654,7 @@
 }, {
     "level": 5,
     "name": "Hold Monster",
+    "type": "5th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -1585,6 +1673,7 @@
 }, {
     "level": 5,
     "name": "Legend Lore",
+    "type": "5th level Divination",
     "school": "Divination",
     "castingTime": "10 minutes",
     "range": "Self",
@@ -1603,6 +1692,7 @@
 }, {
     "level": 5,
     "name": "Mass Cure Wounds",
+    "type": "5th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1621,6 +1711,7 @@
 }, {
     "level": 5,
     "name": "Mislead",
+    "type": "5th level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "Self",
@@ -1639,6 +1730,7 @@
 }, {
     "level": 5,
     "name": "Modify Memory",
+    "type": "5th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1657,6 +1749,7 @@
 }, {
     "level": 5,
     "name": "Planar Binding",
+    "type": "5th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 hour",
     "range": "60 feet",
@@ -1675,6 +1768,7 @@
 }, {
     "level": 5,
     "name": "Raise Dead",
+    "type": "5th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 hour",
     "range": "Touch",
@@ -1693,6 +1787,7 @@
 }, {
     "level": 5,
     "name": "Scrying",
+    "type": "5th level Divination",
     "school": "Divination",
     "castingTime": "10 minutes",
     "range": "Self",
@@ -1711,6 +1806,7 @@
 }, {
     "level": 5,
     "name": "Seeming",
+    "type": "5th level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1729,6 +1825,7 @@
 }, {
     "level": 5,
     "name": "Teleportation Circle",
+    "type": "5th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 minute",
     "range": "10 feet",
@@ -1747,6 +1844,7 @@
 }, {
     "level": 6,
     "name": "Eyebite",
+    "type": "6th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "Self",
@@ -1765,6 +1863,7 @@
 }, {
     "level": 6,
     "name": "Find the Path",
+    "type": "6th level Divination",
     "school": "Divination",
     "castingTime": "1 minute",
     "range": "Self",
@@ -1783,6 +1882,7 @@
 }, {
     "level": 6,
     "name": "Guards and Wards",
+    "type": "6th level Abjuration",
     "school": "Abjuration",
     "castingTime": "10 minutes",
     "range": "Touch",
@@ -1801,6 +1901,7 @@
 }, {
     "level": 6,
     "name": "Mass Suggestion",
+    "type": "6th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1819,6 +1920,7 @@
 }, {
     "level": 6,
     "name": "Otto's Irresistible Dance",
+    "type": "6th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1837,6 +1939,7 @@
 }, {
     "level": 6,
     "name": "Programmed Illusion",
+    "type": "6th level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -1855,6 +1958,7 @@
 }, {
     "level": 6,
     "name": "True Seeing",
+    "type": "6th level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1873,6 +1977,7 @@
 }, {
     "level": 7,
     "name": "Etherealness",
+    "type": "7th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -1891,6 +1996,7 @@
 }, {
     "level": 7,
     "name": "Forcecage",
+    "type": "7th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "100 feet",
@@ -1909,6 +2015,7 @@
 }, {
     "level": 7,
     "name": "Mirage Arcane",
+    "type": "7th level Illusion",
     "school": "Illusion",
     "castingTime": "10 minutes",
     "range": "Sight",
@@ -1927,6 +2034,7 @@
 }, {
     "level": 7,
     "name": "Mordenkainen's Magnificent Mansion",
+    "type": "7th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 minute",
     "range": "300 feet",
@@ -1945,6 +2053,7 @@
 }, {
     "level": 7,
     "name": "Mordenkainen's Sword",
+    "type": "7th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1963,6 +2072,7 @@
 }, {
     "level": 7,
     "name": "Project Image",
+    "type": "7th level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "500 miles",
@@ -1981,6 +2091,7 @@
 }, {
     "level": 7,
     "name": "Regenerate",
+    "type": "7th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 minute",
     "range": "Touch",
@@ -1999,6 +2110,7 @@
 }, {
     "level": 7,
     "name": "Resurrection",
+    "type": "7th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 hour",
     "range": "Touch",
@@ -2017,6 +2129,7 @@
 }, {
     "level": 7,
     "name": "Symbol",
+    "type": "7th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 minute",
     "range": "Touch",
@@ -2035,6 +2148,7 @@
 }, {
     "level": 7,
     "name": "Teleport",
+    "type": "7th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "10 feet",
@@ -2053,6 +2167,7 @@
 }, {
     "level": 8,
     "name": "Dominate Monster",
+    "type": "8th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2071,6 +2186,7 @@
 }, {
     "level": 8,
     "name": "Feeblemind",
+    "type": "8th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -2089,6 +2205,7 @@
 }, {
     "level": 8,
     "name": "Glibness",
+    "type": "8th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -2107,6 +2224,7 @@
 }, {
     "level": 8,
     "name": "Mind Blank",
+    "type": "8th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2125,6 +2243,7 @@
 }, {
     "level": 8,
     "name": "Power Word Stun",
+    "type": "8th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2143,6 +2262,7 @@
 }, {
     "level": 9,
     "name": "Foresight",
+    "type": "9th level Divination",
     "school": "Divination",
     "castingTime": "1 minute",
     "range": "Touch",
@@ -2161,6 +2281,7 @@
 }, {
     "level": 9,
     "name": "Power Word Heal",
+    "type": "9th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2179,6 +2300,7 @@
 }, {
     "level": 9,
     "name": "Power Word Kill",
+    "type": "9th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2197,6 +2319,7 @@
 }, {
     "level": 9,
     "name": "True Polymorph",
+    "type": "9th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -2215,6 +2338,7 @@
 }, {
     "level": 0,
     "name": "Guidance",
+    "type": "Divination cantrip",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2233,6 +2357,7 @@
 }, {
     "level": 0,
     "name": "Resistance",
+    "type": "Abjuration cantrip",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2251,6 +2376,7 @@
 }, {
     "level": 0,
     "name": "Sacred Flame",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2269,6 +2395,7 @@
 }, {
     "level": 0,
     "name": "Spare the Dying",
+    "type": "Necromancy cantrip",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2287,6 +2414,7 @@
 }, {
     "level": 0,
     "name": "Thaumaturgy",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -2305,6 +2433,7 @@
 }, {
     "level": 1,
     "name": "Bless",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -2323,6 +2452,7 @@
 }, {
     "level": 1,
     "name": "Burning Hands",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (15-foot cone)",
@@ -2341,6 +2471,7 @@
 }, {
     "level": 1,
     "name": "Command",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2359,6 +2490,7 @@
 }, {
     "level": 1,
     "name": "Create or Destroy Water",
+    "type": "1st level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -2377,6 +2509,7 @@
 }, {
     "level": 1,
     "name": "Detect Evil and Good",
+    "type": "1st level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -2395,6 +2528,7 @@
 }, {
     "level": 1,
     "name": "Detect Poison and Disease",
+    "type": "1st level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -2413,6 +2547,7 @@
 }, {
     "level": 1,
     "name": "Divine Favor",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -2431,6 +2566,7 @@
 }, {
     "level": 1,
     "name": "False Life",
+    "type": "1st level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "Self",
@@ -2449,6 +2585,7 @@
 }, {
     "level": 1,
     "name": "Fog Cloud",
+    "type": "1st level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -2467,6 +2604,7 @@
 }, {
     "level": 1,
     "name": "Guiding Bolt",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -2485,6 +2623,7 @@
 }, {
     "level": 1,
     "name": "Inflict Wounds",
+    "type": "1st level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2503,6 +2642,7 @@
 }, {
     "level": 1,
     "name": "Magic Missile",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -2521,6 +2661,7 @@
 }, {
     "level": 1,
     "name": "Protection from Evil and Good",
+    "type": "1st level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2539,6 +2680,7 @@
 }, {
     "level": 1,
     "name": "Purify Food and Drink ",
+    "type": "1st level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "10 feet",
@@ -2557,6 +2699,7 @@
 }, {
     "level": 1,
     "name": "Ray of Sickness",
+    "type": "1st level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2575,6 +2718,7 @@
 }, {
     "level": 1,
     "name": "Sanctuary",
+    "type": "1st level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 bonus action",
     "range": "30 feet",
@@ -2593,6 +2737,7 @@
 }, {
     "level": 1,
     "name": "Shield of Faith",
+    "type": "1st level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 bonus action",
     "range": "60 feet",
@@ -2611,6 +2756,7 @@
 }, {
     "level": 2,
     "name": "Aid",
+    "type": "2nd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -2629,6 +2775,7 @@
 }, {
     "level": 2,
     "name": "Augury ",
+    "type": "2nd level Divination",
     "school": "Divination",
     "castingTime": "1 minute",
     "range": "Self",
@@ -2647,6 +2794,7 @@
 }, {
     "level": 2,
     "name": "Barkskin",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2665,6 +2813,7 @@
 }, {
     "level": 2,
     "name": "Continual Flame",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2683,6 +2832,7 @@
 }, {
     "level": 2,
     "name": "Find Traps",
+    "type": "2nd level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -2701,6 +2851,7 @@
 }, {
     "level": 2,
     "name": "Flaming Sphere",
+    "type": "2nd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2719,6 +2870,7 @@
 }, {
     "level": 2,
     "name": "Gentle Repose ",
+    "type": "2nd level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2737,6 +2889,7 @@
 }, {
     "level": 2,
     "name": "Gust of Wind",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (60-foot line)",
@@ -2755,6 +2908,7 @@
 }, {
     "level": 2,
     "name": "Magic Weapon",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 bonus action",
     "range": "Touch",
@@ -2773,6 +2927,7 @@
 }, {
     "level": 2,
     "name": "Mirror Image",
+    "type": "2nd level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "Self",
@@ -2791,6 +2946,7 @@
 }, {
     "level": 2,
     "name": "Nystul's Magic Aura",
+    "type": "2nd level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2809,6 +2965,7 @@
 }, {
     "level": 2,
     "name": "Pass Without Trace",
+    "type": "2nd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -2827,6 +2984,7 @@
 }, {
     "level": 2,
     "name": "Prayer of Healing",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "10 minutes",
     "range": "30 feet",
@@ -2845,6 +3003,7 @@
 }, {
     "level": 2,
     "name": "Protection from Poison",
+    "type": "2nd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2863,6 +3022,7 @@
 }, {
     "level": 2,
     "name": "Ray of Enfeeblement",
+    "type": "2nd level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2881,6 +3041,7 @@
 }, {
     "level": 2,
     "name": "Scorching Ray",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -2899,6 +3060,7 @@
 }, {
     "level": 2,
     "name": "Spike Growth",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -2917,6 +3079,7 @@
 }, {
     "level": 2,
     "name": "Spiritual Weapon",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "60 feet",
@@ -2935,6 +3098,7 @@
 }, {
     "level": 2,
     "name": "Warding Bond",
+    "type": "2nd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -2953,6 +3117,7 @@
 }, {
     "level": 3,
     "name": "Animate Dead",
+    "type": "3rd level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 minute",
     "range": "10 feet",
@@ -2971,6 +3136,7 @@
 }, {
     "level": 3,
     "name": "Beacon of Hope",
+    "type": "3rd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -2989,6 +3155,7 @@
 }, {
     "level": 3,
     "name": "Blink",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -3007,6 +3174,7 @@
 }, {
     "level": 3,
     "name": "Call Lightning",
+    "type": "3rd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -3025,6 +3193,7 @@
 }, {
     "level": 3,
     "name": "Create Food and Water",
+    "type": "3rd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -3043,6 +3212,7 @@
 }, {
     "level": 3,
     "name": "Crusader's Mantle",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self",
@@ -3061,6 +3231,7 @@
 }, {
     "level": 3,
     "name": "Daylight",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -3079,6 +3250,7 @@
 }, {
     "level": 3,
     "name": "Fireball",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -3097,6 +3269,7 @@
 }, {
     "level": 3,
     "name": "Magic Circle",
+    "type": "3rd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 minute",
     "range": "10 feet",
@@ -3115,6 +3288,7 @@
 }, {
     "level": 3,
     "name": "Mass Healing Word",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "60 feet",
@@ -3133,6 +3307,7 @@
 }, {
     "level": 3,
     "name": "Meld into Stone ",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -3151,6 +3326,7 @@
 }, {
     "level": 3,
     "name": "Plant Growth",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action or 8 hours",
     "range": "150 feet",
@@ -3169,6 +3345,7 @@
 }, {
     "level": 3,
     "name": "Protection from Energy",
+    "type": "3rd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -3187,6 +3364,7 @@
 }, {
     "level": 3,
     "name": "Remove Curse",
+    "type": "3rd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -3205,6 +3383,7 @@
 }, {
     "level": 3,
     "name": "Revivify",
+    "type": "3rd level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "Touch",
@@ -3223,6 +3402,7 @@
 }, {
     "level": 3,
     "name": "Sending",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Unlimited",
@@ -3241,6 +3421,7 @@
 }, {
     "level": 3,
     "name": "Sleet Storm",
+    "type": "3rd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -3259,6 +3440,7 @@
 }, {
     "level": 3,
     "name": "Spirit Guardians",
+    "type": "3rd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "Self (15-foot-radius)",
@@ -3277,6 +3459,7 @@
 }, {
     "level": 3,
     "name": "Vampiric Touch",
+    "type": "3rd level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "Self",
@@ -3295,6 +3478,7 @@
 }, {
     "level": 3,
     "name": "Water Walk ",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -3313,6 +3497,7 @@
 }, {
     "level": 3,
     "name": "Wind Wall",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -3331,6 +3516,7 @@
 }, {
     "level": 4,
     "name": "Arcane Eye",
+    "type": "4th level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -3349,6 +3535,7 @@
 }, {
     "level": 4,
     "name": "Banishment",
+    "type": "4th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -3367,6 +3554,7 @@
 }, {
     "level": 4,
     "name": "Blight",
+    "type": "4th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -3385,6 +3573,7 @@
 }, {
     "level": 4,
     "name": "Control Water",
+    "type": "4th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "300 feet",
@@ -3403,6 +3592,7 @@
 }, {
     "level": 4,
     "name": "Death Ward",
+    "type": "4th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -3421,6 +3611,7 @@
 }, {
     "level": 4,
     "name": "Divination ",
+    "type": "4th level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -3439,6 +3630,7 @@
 }, {
     "level": 4,
     "name": "Dominate Beast",
+    "type": "4th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -3457,6 +3649,7 @@
 }, {
     "level": 4,
     "name": "Grasping Vine",
+    "type": "4th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 bonus action",
     "range": "30 feet",
@@ -3475,6 +3668,7 @@
 }, {
     "level": 4,
     "name": "Guardian of Faith",
+    "type": "4th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -3493,6 +3687,7 @@
 }, {
     "level": 4,
     "name": "Ice Storm",
+    "type": "4th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "300 feet",
@@ -3511,6 +3706,7 @@
 }, {
     "level": 4,
     "name": "Leomund's Secret Chest",
+    "type": "4th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -3529,6 +3725,7 @@
 }, {
     "level": 4,
     "name": "Stone Shape",
+    "type": "4th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -3547,6 +3744,7 @@
 }, {
     "level": 4,
     "name": "Stoneskin",
+    "type": "4th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -3565,6 +3763,7 @@
 }, {
     "level": 4,
     "name": "Wall of Fire",
+    "type": "4th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -3583,6 +3782,7 @@
 }, {
     "level": 5,
     "name": "Antilife Shell",
+    "type": "5th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self (10-foot radius)",
@@ -3601,6 +3801,7 @@
 }, {
     "level": 5,
     "name": "Cloudkill",
+    "type": "5th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -3619,6 +3820,7 @@
 }, {
     "level": 5,
     "name": "Commune ",
+    "type": "5th level Divination",
     "school": "Divination",
     "castingTime": "1 minute",
     "range": "Self",
@@ -3637,6 +3839,7 @@
 }, {
     "level": 5,
     "name": "Contagion",
+    "type": "5th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "Touch",
@@ -3655,6 +3858,7 @@
 }, {
     "level": 5,
     "name": "Destructive Wave",
+    "type": "5th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (30-foot radius)",
@@ -3673,6 +3877,7 @@
 }, {
     "level": 5,
     "name": "Dispel Evil and Good",
+    "type": "5th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -3691,6 +3896,7 @@
 }, {
     "level": 5,
     "name": "Flame Strike",
+    "type": "5th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -3709,6 +3915,7 @@
 }, {
     "level": 5,
     "name": "Hallow",
+    "type": "5th level Evocation",
     "school": "Evocation",
     "castingTime": "24 hours",
     "range": "Touch",
@@ -3727,6 +3934,7 @@
 }, {
     "level": 5,
     "name": "Insect Plague",
+    "type": "5th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "300 feet",
@@ -3745,6 +3953,7 @@
 }, {
     "level": 5,
     "name": "Tree Stride",
+    "type": "5th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -3763,6 +3972,7 @@
 }, {
     "level": 6,
     "name": "Blade Barrier",
+    "type": "6th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -3781,6 +3991,7 @@
 }, {
     "level": 6,
     "name": "Create Undead",
+    "type": "6th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 minute",
     "range": "10 feet",
@@ -3799,6 +4010,7 @@
 }, {
     "level": 6,
     "name": "Forbiddance ",
+    "type": "6th level Abjuration",
     "school": "Abjuration",
     "castingTime": "10 minutes",
     "range": "Touch",
@@ -3817,6 +4029,7 @@
 }, {
     "level": 6,
     "name": "Harm",
+    "type": "6th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -3835,6 +4048,7 @@
 }, {
     "level": 6,
     "name": "Heal",
+    "type": "6th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -3853,6 +4067,7 @@
 }, {
     "level": 6,
     "name": "Heroes' Feast",
+    "type": "6th level Conjuration",
     "school": "Conjuration",
     "castingTime": "10 minutes",
     "range": "30 feet",
@@ -3871,6 +4086,7 @@
 }, {
     "level": 6,
     "name": "Planar Ally",
+    "type": "6th level Conjuration",
     "school": "Conjuration",
     "castingTime": "10 minutes",
     "range": "60 feet",
@@ -3889,6 +4105,7 @@
 }, {
     "level": 6,
     "name": "Word of Recall",
+    "type": "6th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "5 feet",
@@ -3907,6 +4124,7 @@
 }, {
     "level": 7,
     "name": "Conjure Celestial",
+    "type": "7th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 minute",
     "range": "90 feet",
@@ -3925,6 +4143,7 @@
 }, {
     "level": 7,
     "name": "Divine Word",
+    "type": "7th level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "30 feet",
@@ -3943,6 +4162,7 @@
 }, {
     "level": 7,
     "name": "Fire Storm",
+    "type": "7th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -3961,6 +4181,7 @@
 }, {
     "level": 7,
     "name": "Plane Shift",
+    "type": "7th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -3979,6 +4200,7 @@
 }, {
     "level": 8,
     "name": "Antimagic Field",
+    "type": "8th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self (10-foot-radius sphere)",
@@ -3997,6 +4219,7 @@
 }, {
     "level": 8,
     "name": "Control Weather",
+    "type": "8th level Transmutation",
     "school": "Transmutation",
     "castingTime": "10 minutes",
     "range": "Self (5-mile radius)",
@@ -4015,6 +4238,7 @@
 }, {
     "level": 8,
     "name": "Earthquake",
+    "type": "8th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "500 feet",
@@ -4033,6 +4257,7 @@
 }, {
     "level": 8,
     "name": "Holy Aura",
+    "type": "8th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -4051,6 +4276,7 @@
 }, {
     "level": 9,
     "name": "Astral Projection",
+    "type": "9th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 hour",
     "range": "10 feet",
@@ -4069,6 +4295,7 @@
 }, {
     "level": 9,
     "name": "Gate",
+    "type": "9th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4087,6 +4314,7 @@
 }, {
     "level": 9,
     "name": "Mass Heal",
+    "type": "9th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4105,6 +4333,7 @@
 }, {
     "level": 9,
     "name": "True Resurrection",
+    "type": "9th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 hour",
     "range": "Touch",
@@ -4123,6 +4352,7 @@
 }, {
     "level": 0,
     "name": "Druidcraft",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -4141,6 +4371,7 @@
 }, {
     "level": 0,
     "name": "Poison Spray",
+    "type": "Conjuration cantrip",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "10 feet",
@@ -4159,6 +4390,7 @@
 }, {
     "level": 0,
     "name": "Produce Flame",
+    "type": "Conjuration cantrip",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -4177,6 +4409,7 @@
 }, {
     "level": 0,
     "name": "Shillelagh",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 bonus action",
     "range": "Touch",
@@ -4195,6 +4428,7 @@
 }, {
     "level": 0,
     "name": "Thorn Whip",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -4213,6 +4447,7 @@
 }, {
     "level": 0,
     "name": "Control Flames",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4231,6 +4466,7 @@
 }, {
     "level": 0,
     "name": "Create Bonfire",
+    "type": "Conjuration cantrip",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4249,6 +4485,7 @@
 }, {
     "level": 0,
     "name": "Frostbite",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4267,6 +4504,7 @@
 }, {
     "level": 0,
     "name": "Gust",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -4285,6 +4523,7 @@
 }, {
     "level": 0,
     "name": "Magic Stone",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 bonus action",
     "range": "Touch",
@@ -4303,6 +4542,7 @@
 }, {
     "level": 0,
     "name": "Mold Earth",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -4321,6 +4561,7 @@
 }, {
     "level": 0,
     "name": "Shape Water",
+    "type": "Transmutation cantrip",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -4339,6 +4580,7 @@
 }, {
     "level": 1,
     "name": "Entangle",
+    "type": "1st level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -4357,6 +4599,7 @@
 }, {
     "level": 1,
     "name": "Goodberry",
+    "type": "1st level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -4375,6 +4618,7 @@
 }, {
     "level": 1,
     "name": "Jump",
+    "type": "1st level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -4393,6 +4637,7 @@
 }, {
     "level": 1,
     "name": "Absorb Elements",
+    "type": "1st level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 reaction",
     "range": "Self",
@@ -4411,6 +4656,7 @@
 }, {
     "level": 1,
     "name": "Beast Bond",
+    "type": "1st level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Touch",
@@ -4429,6 +4675,7 @@
 }, {
     "level": 1,
     "name": "Ice Knife",
+    "type": "1st level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4447,6 +4694,7 @@
 }, {
     "level": 2,
     "name": "Beast Sense ",
+    "type": "2nd level Divination",
     "school": "Divination",
     "castingTime": "1 action",
     "range": "Touch",
@@ -4465,6 +4713,7 @@
 }, {
     "level": 2,
     "name": "Blur",
+    "type": "2nd level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "Self",
@@ -4483,6 +4732,7 @@
 }, {
     "level": 2,
     "name": "Darkness",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4501,6 +4751,7 @@
 }, {
     "level": 2,
     "name": "Darkvision",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -4519,6 +4770,7 @@
 }, {
     "level": 2,
     "name": "Flame Blade",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -4537,6 +4789,7 @@
 }, {
     "level": 2,
     "name": "Melf's Acid Arrow",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -4555,6 +4808,7 @@
 }, {
     "level": 2,
     "name": "Misty Step",
+    "type": "2nd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -4573,6 +4827,7 @@
 }, {
     "level": 2,
     "name": "Moonbeam",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -4591,6 +4846,7 @@
 }, {
     "level": 2,
     "name": "Spider Climb",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -4609,6 +4865,7 @@
 }, {
     "level": 2,
     "name": "Web",
+    "type": "2nd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4627,6 +4884,7 @@
 }, {
     "level": 2,
     "name": "Dust Devil",
+    "type": "2nd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4645,6 +4903,7 @@
 }, {
     "level": 2,
     "name": "Earthbind",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "300 feet",
@@ -4663,6 +4922,7 @@
 }, {
     "level": 3,
     "name": "Conjure Animals",
+    "type": "3rd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4681,6 +4941,7 @@
 }, {
     "level": 3,
     "name": "Gaseous Form",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -4699,6 +4960,7 @@
 }, {
     "level": 3,
     "name": "Haste",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -4717,6 +4979,7 @@
 }, {
     "level": 3,
     "name": "Lightning Bolt",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (100-foot line)",
@@ -4735,6 +4998,7 @@
 }, {
     "level": 3,
     "name": "Slow",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -4753,6 +5017,7 @@
 }, {
     "level": 3,
     "name": "Water Breathing ",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -4771,6 +5036,7 @@
 }, {
     "level": 3,
     "name": "Erupting Earth",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -4789,6 +5055,7 @@
 }, {
     "level": 3,
     "name": "Flame Arrows",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -4807,6 +5074,7 @@
 }, {
     "level": 3,
     "name": "Tidal Wave",
+    "type": "3rd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -4825,6 +5093,7 @@
 }, {
     "level": 3,
     "name": "Wall of Water",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4843,6 +5112,7 @@
 }, {
     "level": 4,
     "name": "Conjure Minor Elementals",
+    "type": "4th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 minute",
     "range": "90 feet",
@@ -4861,6 +5131,7 @@
 }, {
     "level": 4,
     "name": "Conjure Woodland Beings",
+    "type": "4th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -4879,6 +5150,7 @@
 }, {
     "level": 4,
     "name": "Giant Insect",
+    "type": "4th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -4897,6 +5169,7 @@
 }, {
     "level": 4,
     "name": "Elemental Bane",
+    "type": "4th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -4915,6 +5188,7 @@
 }, {
     "level": 4,
     "name": "Watery Sphere",
+    "type": "4th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -4933,6 +5207,7 @@
 }, {
     "level": 5,
     "name": "Commune with Nature ",
+    "type": "5th level Divination",
     "school": "Divination",
     "castingTime": "1 minute",
     "range": "Self",
@@ -4951,6 +5226,7 @@
 }, {
     "level": 5,
     "name": "Cone of Cold",
+    "type": "5th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (60-foot cone)",
@@ -4969,6 +5245,7 @@
 }, {
     "level": 5,
     "name": "Conjure Elemental",
+    "type": "5th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 minute",
     "range": "90 feet",
@@ -4987,6 +5264,7 @@
 }, {
     "level": 5,
     "name": "Passwall",
+    "type": "5th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -5005,6 +5283,7 @@
 }, {
     "level": 5,
     "name": "Reincarnate",
+    "type": "5th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 hour",
     "range": "Touch",
@@ -5023,6 +5302,7 @@
 }, {
     "level": 5,
     "name": "Wall of Stone",
+    "type": "5th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -5041,6 +5321,7 @@
 }, {
     "level": 5,
     "name": "Control Winds",
+    "type": "5th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "300 feet",
@@ -5059,6 +5340,7 @@
 }, {
     "level": 5,
     "name": "Maelstrom",
+    "type": "5th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -5077,6 +5359,7 @@
 }, {
     "level": 5,
     "name": "Transmute Rock",
+    "type": "5th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -5095,6 +5378,7 @@
 }, {
     "level": 6,
     "name": "Conjure Fey",
+    "type": "6th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 minute",
     "range": "90 feet",
@@ -5113,6 +5397,7 @@
 }, {
     "level": 6,
     "name": "Move Earth",
+    "type": "6th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -5131,6 +5416,7 @@
 }, {
     "level": 6,
     "name": "Sunbeam",
+    "type": "6th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (60-foot line)",
@@ -5149,6 +5435,7 @@
 }, {
     "level": 6,
     "name": "Transport via Plants",
+    "type": "6th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "10 feet",
@@ -5167,6 +5454,7 @@
 }, {
     "level": 6,
     "name": "Wall of Thorns",
+    "type": "6th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -5185,6 +5473,7 @@
 }, {
     "level": 6,
     "name": "Wind Walk",
+    "type": "6th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -5203,6 +5492,7 @@
 }, {
     "level": 6,
     "name": "Bones of the Earth",
+    "type": "6th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -5221,6 +5511,7 @@
 }, {
     "level": 6,
     "name": "Investiture of Flame",
+    "type": "6th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -5239,6 +5530,7 @@
 }, {
     "level": 6,
     "name": "Investiture of Ice",
+    "type": "6th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -5257,6 +5549,7 @@
 }, {
     "level": 6,
     "name": "Investiture of Stone",
+    "type": "6th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -5275,6 +5568,7 @@
 }, {
     "level": 6,
     "name": "Investiture of Wind",
+    "type": "6th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -5293,6 +5587,7 @@
 }, {
     "level": 6,
     "name": "Primordial Ward",
+    "type": "6th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -5311,6 +5606,7 @@
 }, {
     "level": 7,
     "name": "Reverse Gravity",
+    "type": "7th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "100 feet",
@@ -5329,6 +5625,7 @@
 }, {
     "level": 7,
     "name": "Whirlwind",
+    "type": "7th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "300 feet",
@@ -5347,6 +5644,7 @@
 }, {
     "level": 8,
     "name": "Animal Shapes",
+    "type": "8th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -5365,6 +5663,7 @@
 }, {
     "level": 8,
     "name": "Antipathy/Sympathy",
+    "type": "8th level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 hour",
     "range": "60 feet",
@@ -5383,6 +5682,7 @@
 }, {
     "level": 8,
     "name": "Sunburst",
+    "type": "8th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -5401,6 +5701,7 @@
 }, {
     "level": 8,
     "name": "Tsunami",
+    "type": "8th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 minute",
     "range": "Sight",
@@ -5419,6 +5720,7 @@
 }, {
     "level": 9,
     "name": "Shapechange",
+    "type": "9th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -5437,6 +5739,7 @@
 }, {
     "level": 9,
     "name": "Storm of Vengeance",
+    "type": "9th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "Sight",
@@ -5455,6 +5758,7 @@
 }, {
     "level": 4,
     "name": "Aura of Life",
+    "type": "4th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self (30-foot radius)",
@@ -5473,6 +5777,7 @@
 }, {
     "level": 4,
     "name": "Aura of Purity",
+    "type": "4th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self (30-foot radius)",
@@ -5491,6 +5796,7 @@
 }, {
     "level": 1,
     "name": "Compelled Duel",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 bonus action",
     "range": "30 feet",
@@ -5509,6 +5815,7 @@
 }, {
     "level": 1,
     "name": "Ensnaring Strike",
+    "type": "1st level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -5527,6 +5834,7 @@
 }, {
     "level": 1,
     "name": "Hellish Rebuke",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 reaction",
     "range": "60 feet",
@@ -5545,6 +5853,7 @@
 }, {
     "level": 1,
     "name": "Hunter's Mark",
+    "type": "1st level Divination",
     "school": "Divination",
     "castingTime": "1 bonus action",
     "range": "90 feet",
@@ -5563,6 +5872,7 @@
 }, {
     "level": 1,
     "name": "Searing Smite",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -5581,6 +5891,7 @@
 }, {
     "level": 1,
     "name": "Thunderous Smite",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -5599,6 +5910,7 @@
 }, {
     "level": 1,
     "name": "Wrathful Smite",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -5617,6 +5929,7 @@
 }, {
     "level": 2,
     "name": "Branding Smite",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -5635,6 +5948,7 @@
 }, {
     "level": 2,
     "name": "Find Steed",
+    "type": "2nd level Conjuration",
     "school": "Conjuration",
     "castingTime": "10 minutes",
     "range": "30 feet",
@@ -5653,6 +5967,7 @@
 }, {
     "level": 3,
     "name": "Aura of Vitality",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (30-foot radius)",
@@ -5671,6 +5986,7 @@
 }, {
     "level": 3,
     "name": "Blinding Smite",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -5689,6 +6005,7 @@
 }, {
     "level": 3,
     "name": "Elemental Weapon",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -5707,6 +6024,7 @@
 }, {
     "level": 4,
     "name": "Staggering Smite",
+    "type": "4th level Evocation",
     "school": "Evocation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -5725,6 +6043,7 @@
 }, {
     "level": 5,
     "name": "Banishing Smite",
+    "type": "5th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -5743,6 +6062,7 @@
 }, {
     "level": 5,
     "name": "Circle of Power",
+    "type": "5th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self (30-foot radius)",
@@ -5761,6 +6081,7 @@
 }, {
     "level": 1,
     "name": "Alarm ",
+    "type": "1st level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 minute",
     "range": "30 feet",
@@ -5779,6 +6100,7 @@
 }, {
     "level": 1,
     "name": "Hail of Thorns",
+    "type": "1st level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -5797,6 +6119,7 @@
 }, {
     "level": 2,
     "name": "Cordon of Arrows",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "5 feet",
@@ -5815,6 +6138,7 @@
 }, {
     "level": 3,
     "name": "Conjure Barrage",
+    "type": "3rd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "Self (60-foot cone)",
@@ -5833,6 +6157,7 @@
 }, {
     "level": 3,
     "name": "Lightning Arrow",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -5851,6 +6176,7 @@
 }, {
     "level": 5,
     "name": "Conjure Volley",
+    "type": "5th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -5869,6 +6195,7 @@
 }, {
     "level": 5,
     "name": "Swift Quiver",
+    "type": "5th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 bonus action",
     "range": "Touch",
@@ -5887,6 +6214,7 @@
 }, {
     "level": 0,
     "name": "Acid Splash",
+    "type": "Conjuration cantrip",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -5905,6 +6233,7 @@
 }, {
     "level": 0,
     "name": "Chill Touch",
+    "type": "Necromancy cantrip",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -5923,6 +6252,7 @@
 }, {
     "level": 0,
     "name": "Fire Bolt",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -5941,6 +6271,7 @@
 }, {
     "level": 0,
     "name": "Ray of Frost",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -5959,6 +6290,7 @@
 }, {
     "level": 0,
     "name": "Shocking Grasp",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -5977,6 +6309,7 @@
 }, {
     "level": 0,
     "name": "Booming Blade",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "5 feet",
@@ -5995,6 +6328,7 @@
 }, {
     "level": 0,
     "name": "Green-Flame Blade",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "5 feet",
@@ -6013,6 +6347,7 @@
 }, {
     "level": 0,
     "name": "Lightning Lure",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "15 feet",
@@ -6031,6 +6366,7 @@
 }, {
     "level": 0,
     "name": "Sword Burst",
+    "type": "Conjuration cantrip",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "5 feet",
@@ -6049,6 +6385,7 @@
 }, {
     "level": 1,
     "name": "Chromatic Orb",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -6067,6 +6404,7 @@
 }, {
     "level": 1,
     "name": "Color Spray",
+    "type": "1st level Illusion",
     "school": "Illusion",
     "castingTime": "1 action",
     "range": "Self (15-foot cone)",
@@ -6085,6 +6423,7 @@
 }, {
     "level": 1,
     "name": "Expeditious Retreat",
+    "type": "1st level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -6103,6 +6442,7 @@
 }, {
     "level": 1,
     "name": "Mage Armor",
+    "type": "1st level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -6121,6 +6461,7 @@
 }, {
     "level": 1,
     "name": "Shield",
+    "type": "1st level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 reaction",
     "range": "Self",
@@ -6139,6 +6480,7 @@
 }, {
     "level": 1,
     "name": "Witch Bolt",
+    "type": "1st level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -6157,6 +6499,7 @@
 }, {
     "level": 1,
     "name": "Catapult",
+    "type": "1st level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -6175,6 +6518,7 @@
 }, {
     "level": 2,
     "name": "Alter Self",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -6193,6 +6537,7 @@
 }, {
     "level": 2,
     "name": "Enlarge/Reduce",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -6211,6 +6556,7 @@
 }, {
     "level": 2,
     "name": "Levitate",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -6229,6 +6575,7 @@
 }, {
     "level": 2,
     "name": "Aganazzar's Scorcher",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -6247,6 +6594,7 @@
 }, {
     "level": 2,
     "name": "Maximilian's Earthen Grasp",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -6265,6 +6613,7 @@
 }, {
     "level": 2,
     "name": "Snilloc's Snowball Swarm",
+    "type": "2nd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -6283,6 +6632,7 @@
 }, {
     "level": 3,
     "name": "Counterspell",
+    "type": "3rd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 reaction",
     "range": "60 feet",
@@ -6301,6 +6651,7 @@
 }, {
     "level": 3,
     "name": "Fly",
+    "type": "3rd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -6319,6 +6670,7 @@
 }, {
     "level": 3,
     "name": "Melf's Minute Meteors",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self",
@@ -6337,6 +6689,7 @@
 }, {
     "level": 4,
     "name": "Storm Sphere",
+    "type": "4th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -6355,6 +6708,7 @@
 }, {
     "level": 4,
     "name": "Vitriolic Sphere",
+    "type": "4th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -6373,6 +6727,7 @@
 }, {
     "level": 5,
     "name": "Creation",
+    "type": "5th level Illusion",
     "school": "Illusion",
     "castingTime": "1 minute",
     "range": "30 feet",
@@ -6391,6 +6746,7 @@
 }, {
     "level": 5,
     "name": "Telekinesis",
+    "type": "5th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -6409,6 +6765,7 @@
 }, {
     "level": 5,
     "name": "Immolation",
+    "type": "5th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -6427,6 +6784,7 @@
 }, {
     "level": 6,
     "name": "Arcane Gate",
+    "type": "6th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "500 feet",
@@ -6445,6 +6803,7 @@
 }, {
     "level": 6,
     "name": "Chain Lightning",
+    "type": "6th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -6463,6 +6822,7 @@
 }, {
     "level": 6,
     "name": "Circle of Death",
+    "type": "6th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -6481,6 +6841,7 @@
 }, {
     "level": 6,
     "name": "Disintegrate",
+    "type": "6th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -6499,6 +6860,7 @@
 }, {
     "level": 6,
     "name": "Globe of Invulnerability",
+    "type": "6th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self (10-foot radius)",
@@ -6517,6 +6879,7 @@
 }, {
     "level": 7,
     "name": "Delayed Blast Fireball",
+    "type": "7th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -6535,6 +6898,7 @@
 }, {
     "level": 7,
     "name": "Finger of Death",
+    "type": "7th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -6553,6 +6917,7 @@
 }, {
     "level": 7,
     "name": "Prismatic Spray",
+    "type": "7th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self (60 foot cone)",
@@ -6571,6 +6936,7 @@
 }, {
     "level": 8,
     "name": "Incendiary Cloud",
+    "type": "8th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -6589,6 +6955,7 @@
 }, {
     "level": 8,
     "name": "Abi-Dalzim's Horrid Wilting",
+    "type": "8th level Necromancy",
     "school": "Necromancy",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -6607,6 +6974,7 @@
 }, {
     "level": 9,
     "name": "Meteor Swarm",
+    "type": "9th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "1 mile",
@@ -6625,6 +6993,7 @@
 }, {
     "level": 9,
     "name": "Time Stop",
+    "type": "9th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -6643,6 +7012,7 @@
 }, {
     "level": 9,
     "name": "Wish",
+    "type": "9th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -6661,6 +7031,7 @@
 }, {
     "level": 0,
     "name": "Eldritch Blast",
+    "type": "Evocation cantrip",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -6679,6 +7050,7 @@
 }, {
     "level": 1,
     "name": "Armor of Agathys",
+    "type": "1st level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -6697,6 +7069,7 @@
 }, {
     "level": 1,
     "name": "Arms of Hadar",
+    "type": "1st level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "Self (10-foot radius)",
@@ -6715,6 +7088,7 @@
 }, {
     "level": 1,
     "name": "Hex",
+    "type": "1st level Enchantment",
     "school": "Enchantment",
     "castingTime": "1 bonus action",
     "range": "90 feet",
@@ -6733,6 +7107,7 @@
 }, {
     "level": 3,
     "name": "Hunger of Hadar",
+    "type": "3rd level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -6751,6 +7126,7 @@
 }, {
     "level": 4,
     "name": "Evard's Black Tentacles",
+    "type": "4th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -6769,6 +7145,7 @@
 }, {
     "level": 4,
     "name": "Fire Shield",
+    "type": "4th level Evocation",
     "school": "Evocation",
     "castingTime": "1 action",
     "range": "Self",
@@ -6787,6 +7164,7 @@
 }, {
     "level": 5,
     "name": "Contact Other Plane ",
+    "type": "5th level Divination",
     "school": "Divination",
     "castingTime": "1 minute",
     "range": "Self",
@@ -6805,6 +7183,7 @@
 }, {
     "level": 6,
     "name": "Flesh to Stone",
+    "type": "6th level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -6823,6 +7202,7 @@
 }, {
     "level": 8,
     "name": "Demiplane",
+    "type": "8th level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -6841,6 +7221,7 @@
 }, {
     "level": 9,
     "name": "Imprisonment",
+    "type": "9th level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 minute",
     "range": "30 feet",
@@ -6859,6 +7240,7 @@
 }, {
     "level": 1,
     "name": "Find Familiar ",
+    "type": "1st level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 hour",
     "range": "10 feet",
@@ -6877,6 +7259,7 @@
 }, {
     "level": 1,
     "name": "Grease",
+    "type": "1st level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -6895,6 +7278,7 @@
 }, {
     "level": 1,
     "name": "Tenser's Floating Disk ",
+    "type": "1st level Conjuration",
     "school": "Conjuration",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -6913,6 +7297,7 @@
 }, {
     "level": 2,
     "name": "Arcane Lock",
+    "type": "2nd level Abjuration",
     "school": "Abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -6931,6 +7316,7 @@
 }, {
     "level": 2,
     "name": "Rope Trick",
+    "type": "2nd level Transmutation",
     "school": "Transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -6949,6 +7335,7 @@
 }, {
     "level": 3,
     "name": "Phantom Steed ",
+    "type": "3rd level Illusion",
     "school": "Illusion",
     "castingTime": "1 minute",
     "range": "30 feet",
@@ -6967,6 +7354,7 @@
 }, {
     "level": 3,
     "name": "Wall of Sand",
+    "type": "3rd level Evocation",
     "school": "Evocation",
     "castingTime": null,
     "range": "90 feet",
@@ -6985,6 +7373,7 @@
 }, {
     "level": 4,
     "name": "Fabricate",
+    "type": "4th level Evocation",
     "school": "Evocation",
     "castingTime": null,
     "range": "120 feet",
@@ -7003,6 +7392,7 @@
 }, {
     "level": 4,
     "name": "Mordenkainen's Faithful Hound",
+    "type": "4th level Conjuration",
     "school": "Conjuration",
     "castingTime": null,
     "range": "30 feet",
@@ -7021,6 +7411,7 @@
 }, {
     "level": 4,
     "name": "Mordenkainen's Private Sanctum",
+    "type": "4th level Abjuration",
     "school": "Abjuration",
     "castingTime": null,
     "range": "120 feet",
@@ -7039,6 +7430,7 @@
 }, {
     "level": 4,
     "name": "Otiluke's Resilient Sphere",
+    "type": "4th level Evocation",
     "school": "Evocation",
     "castingTime": null,
     "range": "30 feet",
@@ -7057,6 +7449,7 @@
 }, {
     "level": 4,
     "name": "Phantasmal Killer",
+    "type": "4th level Illusion",
     "school": "Illusion",
     "castingTime": null,
     "range": "120 feet",
@@ -7075,6 +7468,7 @@
 }, {
     "level": 5,
     "name": "Bigby's Hand",
+    "type": "5th level Evocation",
     "school": "Evocation",
     "castingTime": null,
     "range": "120 feet",
@@ -7093,6 +7487,7 @@
 }, {
     "level": 5,
     "name": "Rary's Telepathic Bond ",
+    "type": "5th level Divination",
     "school": "Divination",
     "castingTime": null,
     "range": "30 feet",
@@ -7111,6 +7506,7 @@
 }, {
     "level": 5,
     "name": "Wall of Force",
+    "type": "5th level Evocation",
     "school": "Evocation",
     "castingTime": null,
     "range": "120 feet",
@@ -7129,6 +7525,7 @@
 }, {
     "level": 6,
     "name": "Contingency",
+    "type": "6th level Evocation",
     "school": "Evocation",
     "castingTime": null,
     "range": "Self",
@@ -7147,6 +7544,7 @@
 }, {
     "level": 6,
     "name": "Drawmij's Instant Summon ",
+    "type": "6th level Conjuration",
     "school": "Conjuration",
     "castingTime": null,
     "range": "Touch",
@@ -7165,6 +7563,7 @@
 }, {
     "level": 6,
     "name": "Magic Jar",
+    "type": "6th level Necromancy",
     "school": "Necromancy",
     "castingTime": null,
     "range": "Self",
@@ -7183,6 +7582,7 @@
 }, {
     "level": 6,
     "name": "Otiluke's Freezing Sphere",
+    "type": "6th level Evocation",
     "school": "Evocation",
     "castingTime": null,
     "range": "300 feet",
@@ -7201,6 +7601,7 @@
 }, {
     "level": 6,
     "name": "Wall of Ice",
+    "type": "6th level Evocation",
     "school": "Evocation",
     "castingTime": null,
     "range": "120 feet",
@@ -7219,6 +7620,7 @@
 }, {
     "level": 7,
     "name": "Sequester",
+    "type": "7th level Transmutation",
     "school": "Transmutation",
     "castingTime": null,
     "range": "Touch",
@@ -7237,6 +7639,7 @@
 }, {
     "level": 7,
     "name": "Simulacrum",
+    "type": "7th level Illusion",
     "school": "Illusion",
     "castingTime": null,
     "range": "Touch",
@@ -7255,6 +7658,7 @@
 }, {
     "level": 8,
     "name": "Clone",
+    "type": "8th level Necromancy",
     "school": "Necromancy",
     "castingTime": null,
     "range": "Touch",
@@ -7273,6 +7677,7 @@
 }, {
     "level": 8,
     "name": "Maze",
+    "type": "8th level Conjuration",
     "school": "Conjuration",
     "castingTime": null,
     "range": "60 feet",
@@ -7291,6 +7696,7 @@
 }, {
     "level": 8,
     "name": "Telepathy",
+    "type": "8th level Evocation",
     "school": "Evocation",
     "castingTime": null,
     "range": "Unlimited",
@@ -7309,6 +7715,7 @@
 }, {
     "level": 9,
     "name": "Prismatic Wall",
+    "type": "9th level Abjuration",
     "school": "Abjuration",
     "castingTime": null,
     "range": "60 feet",
@@ -7327,6 +7734,7 @@
 }, {
     "level": 9,
     "name": "Weird",
+    "type": "9th level Illusion",
     "school": "Illusion",
     "castingTime": null,
     "range": "120 feet",

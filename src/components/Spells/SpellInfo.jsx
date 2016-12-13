@@ -25,10 +25,9 @@ const SpellInfo = ({spellToRender}) => {
         <Row>
           <Col xs={ 12 } sm={ 8 }>
           <h1 className="spell-title">{ spellToRender.name }</h1>
-          <div className="spell-type">Level:
-            { spellToRender.level }, School:
-            { spellToRender.school }
-            { spellToRender.canBeRitual && ", (ritual)" }
+          <div className="spell-type">
+            <span>{ spellToRender.type }</span>
+            <span>{ spellToRender.canBeRitual && " (ritual)" } </span>
           </div>
           </Col>
           <Col xs={ 12 } sm={ 4 }>
