@@ -39,13 +39,13 @@ const SpellInfo = ({spellToRender}) => {
       </Grid>
       <div className="spell-quick-info">
         <p>
-          <b>Range:</b>
+          <b>Range: </b>
           { spellToRender.range }
           <br/>
-          <b>Duration:</b>
+          <b>Duration: </b>
           { spellToRender.duration }
           <br/>
-          <b>Casting time:</b>
+          <b>Casting time: </b>
           { spellToRender.castingTime }
           <br/>
         </p>
