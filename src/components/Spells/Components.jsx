@@ -23,6 +23,7 @@ const Components = ({components}) => {
             <ComponentIcon isRequired={ components.somatic } icon={ somatic } alternative="Somatic" />
             <ComponentIcon isRequired={ components.material }icon={ material } alternative="Meterial" />
           </div>
+          <ComponentIcon isRequired={ components.material } icon={ components.requiredGold > 0 ? material_money : material } alternative="Meterial" />
         </div>
         );
 
