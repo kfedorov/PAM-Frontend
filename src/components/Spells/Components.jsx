@@ -1,6 +1,6 @@
 /* Utils */
 import React from 'react';
-import { Button, Popover, OverlayTrigger } from 'react-bootstrap';
+import { Popover, OverlayTrigger } from 'react-bootstrap';
 
 /* Style */
 import './style/Component.css';
