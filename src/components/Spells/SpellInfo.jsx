@@ -50,9 +50,8 @@ const SpellInfo = ({spellToRender}) => {
           <br/>
         </p>
       </div>
-      <p className="spell-description" dangerouslySetInnerHTML={ createMarkup(spellToRender.description) } />
-      
-      {spellToRender.higherLevel && (<p className="spell-higherLevel"><b>At higher level. </b>{spellToRender.higherLevel}</p>)}
+      <p dangerouslySetInnerHTML={ createMarkup(spellToRender.description) } />
+      {spellToRender.higherLevel && (<p ><b>At higher level. </b>{spellToRender.higherLevel}</p>)}
       <p><b>Class:</b> {spellToRender.class.join(", ")}</p>
     </div>
     );
