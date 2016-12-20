@@ -18,8 +18,7 @@ const ComponentIcon = (prop) => {
 }
 
 ComponentIcon.propTypes = {
-    valueToCheck: React.PropTypes.string.isRequired,
-    requiredValue: React.PropTypes.string.isRequired,
+    isRequired: React.PropTypes.bool.isRequired,
     icon: React.PropTypes.string.isRequired,
     alternative: React.PropTypes.string.isRequired
 };

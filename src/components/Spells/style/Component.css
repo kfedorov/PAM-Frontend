@@ -13,6 +13,14 @@ To style the spells components (vocal, somatic...)
 
 .component-list {
     display: flex;
+    padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+  .component-list {
+    padding-left: 0px;
+    padding-bottom: 10px
+  }
 }
 
 

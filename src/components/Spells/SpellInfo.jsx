@@ -50,7 +50,9 @@ const SpellInfo = ({spellToRender}) => {
           <br/>
         </p>
       </div>
-      <p className="spell-description" dangerouslySetInnerHTML={ createMarkup(spellToRender.description) } />
+      <p dangerouslySetInnerHTML={ createMarkup(spellToRender.description) } />
+      {spellToRender.higherLevel && (<p ><b>At higher level. </b>{spellToRender.higherLevel}</p>)}
+      <p><b>Class:</b> {spellToRender.class.join(", ")}</p>
     </div>
     );
 
@@ -67,6 +69,7 @@ SpellInfo.propType = {
     components: React.PropTypes.string.isRequired,
     duration: React.PropTypes.string.isRequired,
     description: React.PropTypes.string.isRequired,
+    higherLevel: React.PropTypes.string.isRequired,
     class: React.PropTypes.arrayOf(React.PropTypes.string).isRequired
   }).isRequired
 };
