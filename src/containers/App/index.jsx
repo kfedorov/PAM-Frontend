@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 
 /* Load data */
-import {spells, monsters} from '../../data/database';
+import { getSpells, getMonsters } from '../../data/database';
 
 /* Components */
 import SpellDatabase from './SpellDatabase'
@@ -15,7 +15,32 @@ import './App.css';
 
 class App extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      spells: [],
+      monsters: []
+    };
+  }
+
+  componentDidMount() {
+    const loadedMonsters = getMonsters()
+    const loadedSpells = getSpells()
+
+    Promise.all([loadedMonsters]).then(results => {
+      this.setState({
+        spells: loadedSpells,
+        monsters: results[0]
+      })
+
+    }).catch(error => {
+      console.log("Error in promise all. " + error)
+    })
+  }
+
   render() {
+    const {spells, monsters} = this.state
+
     return (
 
       <div className="App">

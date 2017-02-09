@@ -15,7 +15,15 @@ class SpellDatabase extends Component {
     };
 
     this.updateSpells = this.updateSpells.bind(this);
+  }
 
+  componentWillReceiveProps = (nextProps) => {
+
+    const {all_spells} = nextProps;
+
+    this.setState({
+      showed_spells : all_spells
+    });
   }
 
   updateSpells(updatedSpells) {
@@ -25,9 +33,12 @@ class SpellDatabase extends Component {
   }
 
   render() {
+
+    const {all_spells} = this.props;
+
     return (
       <div>
-        <SearchBar searchables={ this.props.all_spells } callback={ this.updateSpells } />
+        <SearchBar searchables={ all_spells } callback={ this.updateSpells } />
         <SpellsList spellsToRender={ this.state.showed_spells } />
       </div>
       );
