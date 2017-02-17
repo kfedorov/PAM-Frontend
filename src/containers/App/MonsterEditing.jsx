@@ -17,7 +17,18 @@ class MonsterEditing extends Component {
 
     handleSubmission = (form) => {
         const {formData} = form
-        console.log(JSON.stringify(formData));
+        fetch('/monster', {
+            method: 'post',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({monster: formData})
+        }).then(function(response) {
+            console.log(response)
+        }).catch(function(err) {
+            console.log(err)
+        });
     }
 
     handleChange = (form) => {
