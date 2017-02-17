@@ -49,9 +49,9 @@ class MonsterEditing extends Component {
 export default MonsterEditing;
 
 const defaultMonster = {
-    "challengeRating": "",
+    "challengeRating": 0,
     "name": "",
-    "size": "",
+    "size": "Medium",
     "type": "",
     "subtype": "",
     "alignment": "",
