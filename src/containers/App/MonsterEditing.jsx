@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Form from 'react-jsonschema-form'
+import { StickyContainer, Sticky } from 'react-sticky';
 
 import MonsterInfo from '../../components/Monsters/MonsterInfo'
 
@@ -23,7 +24,9 @@ class MonsterEditing extends Component {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({monster: formData})
+            body: JSON.stringify({
+                monster: formData
+            })
         }).then(function(response) {
             console.log(response)
         }).catch(function(err) {
@@ -50,7 +53,11 @@ class MonsterEditing extends Component {
             <div className="Form-Container">
               <Form className="Form" schema={ schema } onSubmit={ this.handleSubmission } onChange={ this.handleChange } onError={ this.handleError } formData={ monster }
               />
-              <MonsterInfo monsterToRender={ monster } />
+              <StickyContainer className="sticky-box">
+                <Sticky>
+                  <MonsterInfo monsterToRender={ monster } />
+                </Sticky>
+              </StickyContainer>
             </div>
         )
     }
