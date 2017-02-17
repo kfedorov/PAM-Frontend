@@ -1,12 +1,28 @@
 const uiMonster = {
-  "ui:order": ["name", "size", "type", "subtype", "alignment", "armorClass", "hitPoints", "hitDice", "speed", "abilities", "skills", "saves", "resistances",  "senses", "languages", "challengeRating", "specialAbilities", "actions", "legendaryAbilities"],
+  "ui:order": ["name", "size", "type", "subtype", "alignment", "armorClass", "hitPoints", "hitDice", "speed", "abilities", "skills", "saves", "resistances", "senses", "languages", "challengeRating", "specialAbilities", "actions", "legendaryAbilities"],
   name: {
     "ui:autofocus": true
+  },
+  skills: {
+    items: {
+      baseAbility: {
+        "ui:widget": "hidden"
+      }
+    }
   },
   actions: {
     items: {
       desc: {
         "ui:widget": "textarea"
+      },
+      attackBonus: {
+        "ui:widget": "hidden"
+      },
+      damageDice: {
+        "ui:widget": "hidden"
+      },
+      damageBonus: {
+        "ui:widget": "hidden"
       }
     }
   },
