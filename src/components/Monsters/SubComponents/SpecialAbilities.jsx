@@ -10,7 +10,6 @@ const SpecialAbility = ({specialAbility}) => {
           <p><span className="element-name">{ specialAbility.name }. </span>
             { specialAbility.desc }
           </p>
-          { specialAbility.attackBonus !== "0" ? <span>lololAttack bonus:{ specialAbility.attackBonus }</span> : <div /> }
         </div>
         );
 
@@ -42,17 +41,9 @@ const SpecialAbilities = ({title, specialAbilities}) => {
 SpecialAbility.propType = {
     specialAbility: React.PropTypes.shape({
         name: React.PropTypes.string.isRequired,
-        desc: React.PropTypes.string.isRequired,
-        specialAbility: React.PropTypes.string.isRequired,
+        desc: React.PropTypes.string,
     }).isRequired
 };
 
-SpecialAbilities.propType = {
-    specialAbilities: React.PropTypes.arrayOf(
-        React.PropTypes.shape({
-            name: React.PropTypes.string.isRequired,
-        })
-    ).isRequired
-};
 
 export default SpecialAbilities;
