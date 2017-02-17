@@ -46,12 +46,12 @@ class MonsterEditing extends Component {
     }
 
     render() {
-        const {schema} = this.props
+        const {schema, uiSchema} = this.props
         const {monster} = this.state
 
         return (
             <div className="Form-Container">
-              <Form className="Form" schema={ schema } onSubmit={ this.handleSubmission } onChange={ this.handleChange } onError={ this.handleError } formData={ monster }
+              <Form className="Form" schema={ schema }  uiSchema={uiSchema} onSubmit={ this.handleSubmission } onChange={ this.handleChange } onError={ this.handleError } formData={ monster }
               />
               <StickyContainer className="sticky-box">
                 <Sticky>

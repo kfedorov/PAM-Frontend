@@ -1,3 +1,31 @@
+const uiMonster = {
+  "ui:order": ["name", "size", "type", "subtype", "alignment", "armorClass", "hitPoints", "hitDice", "speed", "abilities", "skills", "saves", "resistances",  "senses", "languages", "challengeRating", "specialAbilities", "actions", "legendaryAbilities"],
+  name: {
+    "ui:autofocus": true
+  },
+  actions: {
+    items: {
+      desc: {
+        "ui:widget": "textarea"
+      }
+    }
+  },
+  specialAbilities: {
+    items: {
+      desc: {
+        "ui:widget": "textarea"
+      }
+    }
+  },
+  legendaryAbilities: {
+    items: {
+      desc: {
+        "ui:widget": "textarea"
+      }
+    }
+  }
+}
+
 const monster = {
   title: "A monster form",
   type: "object",
@@ -237,5 +265,6 @@ const monster = {
 
 
 module.exports = {
-  monster
+  monster,
+  uiMonster
 }

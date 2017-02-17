@@ -64,7 +64,7 @@ class App extends Component {
             <MonsterDatabase all_monsters={ monsters } />
           </TabPanel>
           <TabPanel>
-            <MonsterEditing schema={ schema.monster }/>
+            <MonsterEditing schema={ schema.monster } uiSchema={schema.uiMonster}/>
           </TabPanel>
         </Tabs>
       </div>
