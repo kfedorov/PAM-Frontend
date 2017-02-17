@@ -2,7 +2,7 @@ var spells = require('./spells.json')
 //var monsters = require('./monsters.json')
 
 function getMonsters() {
-    return fetch('/monster', )
+    return fetch('/api/monster', )
         .then(response => response.json())
         .then(response => {
             return response

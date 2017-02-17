@@ -26,5 +26,5 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build"
   },
-  "proxy": "https://pam-server.appspot-preview.com/"
+  "proxy": "http://localhost:8081/"
 }

@@ -18,7 +18,7 @@ class MonsterEditing extends Component {
 
     handleSubmission = (form) => {
         const {formData} = form
-        fetch('/monster', {
+        fetch('/api/monster', {
             method: 'post',
             headers: {
                 'Accept': 'application/json',
