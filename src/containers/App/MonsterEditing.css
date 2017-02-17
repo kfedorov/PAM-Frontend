@@ -1,0 +1,16 @@
+.Form-Container {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap-reverse;
+ justify-content: center;
+}
+
+.Form {
+  width: 500px;
+  padding: auto;
+}
+
+.sticky-box{
+  min-width: 400px;
+  width: 600px;
+}

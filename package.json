@@ -12,9 +12,11 @@
     "react": "^15.3.2",
     "react-bootstrap": "^0.30.7",
     "react-dom": "^15.3.2",
+    "react-jsonschema-form": "^0.42.0",
     "react-lazyload": "^2.2.0",
     "react-router": "^3.0.0",
     "react-select": "^1.0.0-rc.2",
+    "react-sticky": "^5.0.5",
     "react-tabs": "^0.8.2"
   },
   "scripts": {
@@ -23,5 +25,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build"
-  }
+  },
+  "proxy": "https://pam-server.appspot-preview.com/"
 }
