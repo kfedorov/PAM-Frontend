@@ -1,6 +1,7 @@
 .Form-Container {
  display: flex;
  flex-direction: row;
+ flex-wrap: wrap-reverse;
  justify-content: center;
 }
 
@@ -10,5 +11,6 @@
 }
 
 .sticky-box{
-  min-width: 600px;
+  min-width: 400px;
+  width: 600px;
 }
