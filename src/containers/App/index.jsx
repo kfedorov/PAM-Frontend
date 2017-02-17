@@ -41,6 +41,19 @@ class App extends Component {
     })
   }
 
+  // Little hack to refresh monster
+  handleMonsterSelect = (index) => {
+    if (index == 1) {
+      getMonsters().then(loadedMonster => {
+        this.setState({
+          monsters: loadedMonster
+        })
+      }).catch(error => {
+        console.log("Error in refresh monster. " + error)
+      })
+    }
+  }
+
   render() {
     const {spells, monsters} = this.state
 
@@ -51,7 +64,7 @@ class App extends Component {
           <h1>P.A.M</h1>
           <h4>Personal Assistant Minion</h4>
         </div>
-        <Tabs>
+        <Tabs onSelect={ this.handleMonsterSelect }>
           <TabList>
             <Tab>Spells</Tab>
             <Tab>Monsters</Tab>
@@ -64,7 +77,7 @@ class App extends Component {
             <MonsterDatabase all_monsters={ monsters } />
           </TabPanel>
           <TabPanel>
-            <MonsterEditing schema={ schema.monster } uiSchema={schema.uiMonster}/>
+            <MonsterEditing schema={ schema.monster } uiSchema={ schema.uiMonster } />
           </TabPanel>
         </Tabs>
       </div>
