@@ -1,0 +1,10 @@
+.Form-Container {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.Form {
+  width: 500px;
+  padding: auto;
+}

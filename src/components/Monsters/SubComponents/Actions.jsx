@@ -8,7 +8,7 @@ const Action = ({action}) => {
             { action.desc }
           </p>
         </div>
-    );
+        );
 }
 
 // Move in tool tip?
@@ -23,35 +23,30 @@ const Actions = ({actions}) => {
 
     return (
         <div>
-            <h2>Actions</h2>
-            <hr/>
-            {actions
-                .map(function (value) {
+          <h2>Actions</h2>
+          <hr/>
+          { actions
+                .map(function(value) {
                     return (
-                        <div key={value.name}>
-                            <Action action={value} />
+                        <div key={ value.name }>
+                          <Action action={ value } />
                         </div>
-                    );
-                })}
+                        );
+                }) }
         </div>
-    );
+        );
 
 }
 
-Action.propType = {
-    action: React.PropTypes.shape({
-        bame: React.PropTypes.string.isRequired,
-        desc: React.PropTypes.string.isRequired,
-        attackBonus: React.PropTypes.string.isRequired,
-        damageDice: React.PropTypes.string.isRequired,
-        damageBonus: React.PropTypes.string.isRequired,
-    }).isRequired
-};
 
 Actions.propType = {
     actions: React.PropTypes.arrayOf(
         React.PropTypes.shape({
             name: React.PropTypes.string.isRequired,
+            desc: React.PropTypes.string.isRequired,
+            attackBonus: React.PropTypes.number,
+            damageDice: React.PropTypes.string,
+            damageBonus: React.PropTypes.number,
         })
     ).isRequired
 };
