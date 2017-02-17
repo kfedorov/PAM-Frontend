@@ -1,0 +1,21 @@
+/***
+TABLE OF CONTENTS
+
+HEADER - h1, h2
+
+Small adjustement for the monster information box
+
+***/
+
+
+/* ************ HEADER ************ */
+
+.monster-info h1 {
+    margin-top: 0;
+}
+
+.monster-info h2{
+    margin-bottom: 0;
+}
+
+
