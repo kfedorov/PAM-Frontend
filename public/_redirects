@@ -1,2 +1,2 @@
-/api/*  https://pam-server.appspot.com/api/:splat  200
+/api/*  https://pam-server.appspot-preview.com/api/:splat  200
 /*  /index.html  200
