@@ -1,87 +1,95 @@
 /* Utils */
-import React, { Component } from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import React, { Component } from "react";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 /* Load data */
-import { getSpells, getMonsters } from '../../data/database';
+import { getSpells, getMonsters } from "../../data/database";
 
-import schema from '../../data/schemas'
+import schema from "../../data/schemas";
 
 /* Components */
-import SpellDatabase from './SpellDatabase'
-import MonsterDatabase from './MonsterDatabase'
-import MonsterEditing from './MonsterEditing'
+import SpellDatabase from "./SpellDatabase";
+import MonsterDatabase from "./MonsterDatabase";
+import MonsterEditing from "./MonsterEditing";
+import EncounterPlayer from "./EncounterPlayer";
 
 /* Style and assets */
-import './App.css';
-
+import "./App.css";
 
 class App extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
       spells: [],
-      monsters: []
+      monsters: [],
     };
   }
 
   componentDidMount() {
-    const loadedMonsters = getMonsters()
-    const loadedSpells = getSpells()
+    const loadedMonsters = getMonsters();
+    const loadedSpells = getSpells();
 
-    Promise.all([loadedMonsters]).then(results => {
-      this.setState({
-        spells: loadedSpells,
-        monsters: results[0]
+    Promise.all([loadedMonsters])
+      .then(results => {
+        this.setState({
+          spells: loadedSpells,
+          monsters: results[0],
+        });
       })
-
-    }).catch(error => {
-      console.log("Error in promise all. " + error)
-    })
+      .catch(error => {
+        console.log("Error in promise all. " + error);
+      });
   }
 
   // Little hack to refresh monster
-  handleMonsterSelect = (index) => {
-    if (index == 1) {
-      getMonsters().then(loadedMonster => {
-        this.setState({
-          monsters: loadedMonster
+  handleMonsterSelect = index => {
+    if (index === 1) {
+      getMonsters()
+        .then(loadedMonster => {
+          this.setState({
+            monsters: loadedMonster,
+          });
         })
-      }).catch(error => {
-        console.log("Error in refresh monster. " + error)
-      })
+        .catch(error => {
+          console.log("Error in refresh monster. " + error);
+        });
     }
-  }
+  };
 
   render() {
-    const {spells, monsters} = this.state
+    const { spells, monsters } = this.state;
 
     return (
-
       <div className="App">
         <div className="App-header">
           <h1>P.A.M</h1>
           <h4>Personal Assistant Minion</h4>
         </div>
-        <Tabs onSelect={ this.handleMonsterSelect }>
+        <Tabs onSelect={this.handleMonsterSelect}>
           <TabList>
             <Tab>Spells</Tab>
             <Tab>Monsters</Tab>
             <Tab>Monsters Edit</Tab>
+            <Tab>Encounter Player</Tab>
           </TabList>
           <TabPanel>
-            <SpellDatabase all_spells={ spells } />
+            <SpellDatabase all_spells={spells} />
           </TabPanel>
           <TabPanel>
-            <MonsterDatabase all_monsters={ monsters } />
+            <MonsterDatabase all_monsters={monsters} />
           </TabPanel>
           <TabPanel>
-            <MonsterEditing schema={ schema.monster } uiSchema={ schema.uiMonster } />
+            <MonsterEditing
+              schema={schema.monster}
+              uiSchema={schema.uiMonster}
+            />
+          </TabPanel>
+          <TabPanel>
+            <EncounterPlayer all_monsters={monsters} />
           </TabPanel>
         </Tabs>
       </div>
-      );
+    );
   }
 }
 
