@@ -10,37 +10,37 @@ class EncounterPlayer extends Component {
     super(props);
 
     this.state = {
-      monsters: defaultMonsters,
-      players: defaultPlayers,
+      monsters: [],
+      players: [],
     };
   }
+
+  onStart = () => {
+    console.log("On click!");
+    this.setState({
+      monsters: this._monsterSelector.getSelectedMonsters(),
+      players: defaultPlayers,
+    });
+  };
 
   render() {
     const { all_monsters } = this.props;
     const { monsters, players } = this.state;
     const orders = shuffle(monsters, players);
-
+    console.log(JSON.stringify(orders));
     return (
       <div>
         <h1>Encounter player</h1>
-        <MonsterSelector all_monsters={all_monsters} />
+        <MonsterSelector
+          all_monsters={all_monsters}
+          ref={c => (this._monsterSelector = c)}
+        />
+        <button onClick={this.onStart}>Start the encounter!</button>
         <TurnManager orders={orders} />
       </div>
     );
   }
 }
-
-const defaultMonsters = [
-  {
-    name: "Aboleth",
-  },
-  {
-    name: "Acolyte",
-  },
-  {
-    name: "Acolyte",
-  },
-];
 
 const defaultPlayers = [
   {

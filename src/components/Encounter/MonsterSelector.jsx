@@ -18,11 +18,20 @@ class MonsterSelector extends Component {
     });
   };
 
+  getSelectedMonsters = () => {
+    return this.state.selectedMonsters.map(x => {
+      return {
+        name: x.value,
+      };
+    });
+  };
+
   render() {
     const { monstersToSelect, selectedMonsters } = this.state;
 
     return (
       <div>
+        <h3>Select your monsters...</h3>
         <Select options={monstersToSelect} onChange={this.onMonsterSelected} />
         <p>
           {JSON.stringify(selectedMonsters)}
