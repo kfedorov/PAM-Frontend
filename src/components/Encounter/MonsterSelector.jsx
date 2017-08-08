@@ -14,7 +14,10 @@ class MonsterSelector extends Component {
 
   onMonsterSelected = monsterValue => {
     this.setState({
-      selectedMonsters: [...this.state.selectedMonsters, monsterValue],
+      selectedMonsters: [
+        ...this.state.selectedMonsters,
+        { ...monsterValue, id: Math.floor(Math.random() * 9999999999) },
+      ],
     });
   };
 
@@ -26,6 +29,26 @@ class MonsterSelector extends Component {
     });
   };
 
+  renderMonsters = currentMonster => {
+    const deleteMonster = () => {
+      this.setState({
+        selectedMonsters: this.state.selectedMonsters.filter(
+          monster => monster.id !== currentMonster.id
+        ),
+      });
+    };
+
+    return (
+      <div key={currentMonster.id}>
+        <p>
+          {currentMonster.label}
+        </p>
+
+        <button onClick={deleteMonster}>Delete</button>
+      </div>
+    );
+  };
+
   render() {
     const { monstersToSelect, selectedMonsters } = this.state;
 
@@ -33,9 +56,9 @@ class MonsterSelector extends Component {
       <div>
         <h3>Select your monsters...</h3>
         <Select options={monstersToSelect} onChange={this.onMonsterSelected} />
-        <p>
-          {JSON.stringify(selectedMonsters)}
-        </p>
+        <div>
+          {selectedMonsters.map(this.renderMonsters)}
+        </div>
       </div>
     );
   }
