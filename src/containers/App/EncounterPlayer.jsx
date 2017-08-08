@@ -4,6 +4,7 @@ import { Select } from "react-select";
 
 import TurnManager from "../../components/Encounter/TurnManager";
 import MonsterSelector from "../../components/Encounter/MonsterSelector";
+import PlayersSelector from "../../components/Encounter/PlayersSelector";
 
 class EncounterPlayer extends Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class EncounterPlayer extends Component {
     console.log("On click!");
     this.setState({
       monsters: this._monsterSelector.getSelectedMonsters(),
-      players: defaultPlayers,
+      players: this._playerSelector.getSelectedPlayers(),
     });
   };
 
@@ -35,6 +36,7 @@ class EncounterPlayer extends Component {
           all_monsters={all_monsters}
           ref={c => (this._monsterSelector = c)}
         />
+        <PlayersSelector ref={c => (this._playerSelector = c)} />
         <button onClick={this.onStart}>Start the encounter!</button>
         <TurnManager orders={orders} />
       </div>
