@@ -26,19 +26,14 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const loadedMonsters = getMonsters();
     const loadedSpells = getSpells();
 
-    Promise.all([loadedMonsters])
-      .then(results => {
-        this.setState({
-          spells: loadedSpells,
-          monsters: results[0],
-        });
-      })
-      .catch(error => {
-        console.log("Error in promise all. " + error);
-      });
+    this.setState({
+      spells: loadedSpells,
+    });
+
+    // Hack!
+    this.handleMonsterSelect(1);
   }
 
   // Little hack to refresh monster

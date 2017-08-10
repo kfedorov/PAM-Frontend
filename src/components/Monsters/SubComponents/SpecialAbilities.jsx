@@ -31,7 +31,7 @@ const SpecialAbilities = ({ title, specialAbilities }) => {
       <hr />
       {specialAbilities.map(function(value) {
         return (
-          <div key={value.Name}>
+          <div key={value.name}>
             <SpecialAbility specialAbility={value} />
           </div>
         );

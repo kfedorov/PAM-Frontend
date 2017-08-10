@@ -7,7 +7,7 @@ import "./Style/MonsterInfoElement.css";
 
 const savingThrow = (savingThrow, element) => {
   return (
-    <span>
+    <span key={savingThrow.ability}>
       {element !== 0 ? "," : ""} {savingThrow.ability.substring(0, 3)} +{savingThrow.modifier}
     </span>
   );
@@ -15,7 +15,7 @@ const savingThrow = (savingThrow, element) => {
 
 const enumeration = (value, element) => {
   return (
-    <span>
+    <span key={value}>
       {element !== 0 ? "," : ""} {value}
     </span>
   );
@@ -23,7 +23,7 @@ const enumeration = (value, element) => {
 
 const skill = (skill, element) => {
   return (
-    <span>
+    <span key={skill.name}>
       {element !== 0 ? "," : ""} {skill.name} +{skill.modifier}
     </span>
   );
