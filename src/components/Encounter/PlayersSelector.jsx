@@ -67,7 +67,11 @@ class PlayersSelector extends Component {
     this.setState({
       selectedPlayers: [
         ...this.state.selectedPlayers,
-        { id: this.state.selectedPlayers.length, name: "", initiative: 0 },
+        {
+          id: this.state.selectedPlayers.length,
+          name: "",
+          initiative: 0,
+        },
       ],
     });
   };

@@ -1,46 +1,66 @@
 const uiMonster = {
-  "ui:order": ["name", "size", "type", "subtype", "alignment", "armorClass", "hitPoints", "hitDice", "speed", "abilities", "skills", "saves", "resistances", "senses", "languages", "challengeRating", "specialAbilities", "actions", "legendaryAbilities"],
+  "ui:order": [
+    "name",
+    "size",
+    "type",
+    "subtype",
+    "alignment",
+    "armorClass",
+    "hitPoints",
+    "hitDice",
+    "speed",
+    "abilities",
+    "skills",
+    "saves",
+    "resistances",
+    "senses",
+    "languages",
+    "challengeRating",
+    "specialAbilities",
+    "actions",
+    "legendaryAbilities",
+  ],
   name: {
-    "ui:autofocus": true
+    "ui:autofocus": true,
   },
   skills: {
     items: {
       baseAbility: {
-        "ui:widget": "hidden"
-      }
-    }
+        "ui:widget": "hidden",
+      },
+    },
   },
   actions: {
     items: {
       desc: {
-        "ui:widget": "textarea"
+        "ui:widget": "textarea",
       },
       attackBonus: {
-        "ui:widget": "hidden"
+        "ui:widget": "hidden",
       },
       damageDice: {
-        "ui:widget": "hidden"
+        "ui:widget": "hidden",
       },
       damageBonus: {
-        "ui:widget": "hidden"
-      }
-    }
+        "ui:widget": "hidden",
+      },
+    },
   },
   specialAbilities: {
     items: {
       desc: {
-        "ui:widget": "textarea"
-      }
-    }
+        "ui:widget": "textarea",
+      },
+    },
   },
   legendaryAbilities: {
     items: {
       desc: {
-        "ui:widget": "textarea"
-      }
-    }
-  }
-}
+        "ui:widget": "textarea",
+      },
+    },
+  },
+};
 
 const monster = {
   title: "A monster form",
@@ -49,59 +69,53 @@ const monster = {
   properties: {
     name: {
       type: "string",
-      title: "Name"
+      title: "Name",
     },
     challengeRating: {
       type: "integer",
-      title: "Challenge Rating"
+      title: "Challenge Rating",
     },
     size: {
       type: "string",
       title: "Monster Size",
-      enum: [
-        "Tiny",
-        "Small",
-        "Medium",
-        "Large",
-        "Huge",
-        "Gargantuan"
-      ]
+      enum: ["Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan"],
     },
-    type: { //todo
+    type: {
+      //todo
       type: "string",
-      title: "Type"
+      title: "Type",
     },
     subtype: {
       type: "string",
-      title: "Subtype"
+      title: "Subtype",
     },
     alignment: {
       type: "string",
-      title: "Alignment"
+      title: "Alignment",
     },
     armorClass: {
       type: "integer",
-      title: "Armor Class"
+      title: "Armor Class",
     },
     hitPoints: {
       type: "integer",
-      title: "HP"
+      title: "HP",
     },
     hitDice: {
       type: "string",
-      title: "Hit dice"
+      title: "Hit dice",
     },
     speed: {
       type: "string",
-      title: "Speed"
+      title: "Speed",
     },
     languages: {
       type: "string",
-      title: "Languages"
+      title: "Languages",
     },
     senses: {
       type: "string",
-      title: "Senses"
+      title: "Senses",
     },
     abilities: {
       type: "object",
@@ -109,29 +123,29 @@ const monster = {
       properties: {
         strength: {
           type: "integer",
-          title: "Strength"
+          title: "Strength",
         },
         dexterity: {
           type: "integer",
-          title: "Dexterity"
+          title: "Dexterity",
         },
         constitution: {
           type: "integer",
-          title: "Constitution"
+          title: "Constitution",
         },
         intelligence: {
           type: "integer",
-          title: "Intelligence"
+          title: "Intelligence",
         },
         wisdom: {
           type: "integer",
-          title: "Wisdom"
+          title: "Wisdom",
         },
         charisma: {
           type: "integer",
-          title: "Charisma"
-        }
-      }
+          title: "Charisma",
+        },
+      },
     },
     saves: {
       type: "array",
@@ -142,14 +156,14 @@ const monster = {
         properties: {
           ability: {
             type: "string",
-            title: "Ability"
+            title: "Ability",
           },
           modifier: {
             type: "integer",
-            title: "Modifier"
-          }
-        }
-      }
+            title: "Modifier",
+          },
+        },
+      },
     },
     skills: {
       type: "array",
@@ -160,18 +174,18 @@ const monster = {
         properties: {
           name: {
             type: "string",
-            title: "Name"
+            title: "Name",
           },
           baseAbility: {
             type: "string",
-            title: "Base Modifier"
+            title: "Base Modifier",
           },
           modifier: {
             type: "integer",
-            title: "Modifier"
+            title: "Modifier",
           },
-        }
-      }
+        },
+      },
     },
     resistances: {
       type: "object",
@@ -181,31 +195,31 @@ const monster = {
           type: "array",
           title: "Damage Vulnerabilities",
           items: {
-            "type": "string",
-          }
+            type: "string",
+          },
         },
         damageResistance: {
           type: "array",
           title: "Damage Resistance",
           items: {
-            "type": "string",
-          }
+            type: "string",
+          },
         },
         damageImmunities: {
           type: "array",
           title: "Damage Immunities",
           items: {
-            "type": "string",
-          }
+            type: "string",
+          },
         },
         conditionImmunities: {
           type: "array",
           title: "Condition Immunities",
           items: {
-            "type": "string",
-          }
+            type: "string",
+          },
         },
-      }
+      },
     },
     specialAbilities: {
       type: "array",
@@ -216,14 +230,14 @@ const monster = {
         properties: {
           name: {
             type: "string",
-            title: "Name"
+            title: "Name",
           },
           desc: {
             type: "string",
-            title: "Description"
-          }
-        }
-      }
+            title: "Description",
+          },
+        },
+      },
     },
     actions: {
       type: "array",
@@ -234,16 +248,16 @@ const monster = {
         properties: {
           name: {
             type: "string",
-            title: "Name"
+            title: "Name",
           },
           desc: {
             type: "string",
-            title: "Description"
+            title: "Description",
           },
           attackBonus: {
             type: "integer",
             title: "Attack Bonus",
-            default: 0
+            default: 0,
           },
           damageDice: {
             type: "string",
@@ -252,10 +266,10 @@ const monster = {
           damageBonus: {
             type: "integer",
             title: "Damage Bonus",
-            default: 0
+            default: 0,
           },
-        }
-      }
+        },
+      },
     },
     legendaryAbilities: {
       type: "array",
@@ -266,21 +280,19 @@ const monster = {
         properties: {
           name: {
             type: "string",
-            title: "Name"
+            title: "Name",
           },
           desc: {
             type: "string",
-            title: "Description"
-          }
-        }
-      }
+            title: "Description",
+          },
+        },
+      },
     },
-
-  }
+  },
 };
-
 
 module.exports = {
   monster,
-  uiMonster
-}
+  uiMonster,
+};

@@ -1,6 +1,5 @@
 /* Utils */
 import React, { Component } from "react";
-import { Select } from "react-select";
 
 import TurnManager from "../../components/Encounter/TurnManager";
 import MonsterSelector from "../../components/Encounter/MonsterSelector";
