@@ -43,29 +43,6 @@ class EncounterPlayer extends Component {
   }
 }
 
-const defaultPlayers = [
-  {
-    name: "Telmag",
-    initiative: 12,
-  },
-  {
-    name: "Raistlin",
-    initiative: 8,
-  },
-  {
-    name: "Algo",
-    initiative: 15,
-  },
-  {
-    name: "Paur",
-    initiative: 5,
-  },
-  {
-    name: "Kato",
-    initiative: 18,
-  },
-];
-
 function shuffle(monsters, players) {
   monsters = monsters.map(monster => {
     const initiative = Math.ceil(Math.random() * 20);

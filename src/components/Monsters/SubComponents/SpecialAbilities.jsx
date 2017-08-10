@@ -3,6 +3,7 @@ import React from "react";
 
 /* Style */
 import "./Style/MonsterInfoElement.css";
+import PropTypes from "prop-types";
 
 const SpecialAbility = ({ specialAbility }) => {
   return (
@@ -40,9 +41,9 @@ const SpecialAbilities = ({ title, specialAbilities }) => {
 };
 
 SpecialAbility.propType = {
-  specialAbility: React.PropTypes.shape({
-    name: React.PropTypes.string.isRequired,
-    desc: React.PropTypes.string,
+  specialAbility: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    desc: PropTypes.string,
   }).isRequired,
 };
 

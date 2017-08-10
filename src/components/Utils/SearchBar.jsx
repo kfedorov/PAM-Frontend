@@ -1,5 +1,6 @@
 /* Utils */
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 /* Style */
 import "./Style/SearchBar.css";
@@ -43,9 +44,9 @@ class SearchBar extends Component {
 }
 
 SearchBar.propType = {
-  searchables: React.PropTypes.arrayOf(
-    React.PropTypes.shape({
-      Name: React.PropTypes.string.isRequired,
+  searchables: PropTypes.arrayOf(
+    PropTypes.shape({
+      Name: PropTypes.string.isRequired,
     })
   ).isRequired,
 };

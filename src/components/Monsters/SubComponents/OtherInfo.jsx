@@ -1,5 +1,6 @@
 /* Utils */
 import React from "react";
+import PropTypes from "prop-types";
 
 /* Style */
 import "./Style/MonsterInfoElement.css";
@@ -81,7 +82,7 @@ const Info = ({ monster }) => {
 };
 
 Info.propType = {
-  monster: React.PropTypes.shape({}).isRequired,
+  monster: PropTypes.shape({}).isRequired,
 };
 
 export default Info;

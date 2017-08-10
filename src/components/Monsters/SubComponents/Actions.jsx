@@ -1,5 +1,6 @@
 /* Utils */
 import React from "react";
+import PropTypes from "prop-types";
 
 const Action = ({ action }) => {
   return (
@@ -40,13 +41,13 @@ const Actions = ({ actions }) => {
 };
 
 Actions.propType = {
-  actions: React.PropTypes.arrayOf(
-    React.PropTypes.shape({
-      name: React.PropTypes.string.isRequired,
-      desc: React.PropTypes.string.isRequired,
-      attackBonus: React.PropTypes.number,
-      damageDice: React.PropTypes.string,
-      damageBonus: React.PropTypes.number,
+  actions: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      desc: PropTypes.string.isRequired,
+      attackBonus: PropTypes.number,
+      damageDice: PropTypes.string,
+      damageBonus: PropTypes.number,
     })
   ).isRequired,
 };

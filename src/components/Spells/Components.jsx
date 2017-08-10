@@ -1,5 +1,6 @@
 /* Utils */
 import React from "react";
+import PropTypes from "prop-types";
 import { Popover, OverlayTrigger } from "react-bootstrap";
 
 /* Style */
@@ -63,11 +64,11 @@ const Components = ({ components }) => {
 };
 
 Components.propTypes = {
-  components: React.PropTypes.shape({
-    concentration: React.PropTypes.bool.isRequired,
-    somatic: React.PropTypes.bool.isRequired,
-    verbal: React.PropTypes.bool.isRequired,
-    material: React.PropTypes.bool.isRequired,
+  components: PropTypes.shape({
+    concentration: PropTypes.bool.isRequired,
+    somatic: PropTypes.bool.isRequired,
+    verbal: PropTypes.bool.isRequired,
+    material: PropTypes.bool.isRequired,
   }),
 };
 

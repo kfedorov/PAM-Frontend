@@ -1,6 +1,7 @@
 /* Utils */
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 /* Components */
 import Components from "./Components";
@@ -69,17 +70,17 @@ const SpellInfo = ({ spellToRender }) => {
 };
 
 SpellInfo.propType = {
-  spellToRender: React.PropTypes.shape({
-    level: React.PropTypes.number.isRequired,
-    name: React.PropTypes.string.isRequired,
-    type: React.PropTypes.string.isRequired,
-    castingTime: React.PropTypes.string.isRequired,
-    range: React.PropTypes.string.isRequired,
-    components: React.PropTypes.string.isRequired,
-    duration: React.PropTypes.string.isRequired,
-    description: React.PropTypes.string.isRequired,
-    higherLevel: React.PropTypes.string.isRequired,
-    class: React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
+  spellToRender: PropTypes.shape({
+    level: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+    castingTime: PropTypes.string.isRequired,
+    range: PropTypes.string.isRequired,
+    components: PropTypes.string.isRequired,
+    duration: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    higherLevel: PropTypes.string.isRequired,
+    class: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
 };
 

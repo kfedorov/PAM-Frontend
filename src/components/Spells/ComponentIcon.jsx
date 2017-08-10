@@ -1,5 +1,6 @@
 /* Utils */
 import React from "react";
+import PropTypes from "prop-types";
 
 /* Style */
 import "./style/Component.css";
@@ -20,9 +21,9 @@ const ComponentIcon = prop => {
 };
 
 ComponentIcon.propTypes = {
-  isRequired: React.PropTypes.bool.isRequired,
-  icon: React.PropTypes.string.isRequired,
-  alternative: React.PropTypes.string.isRequired,
+  isRequired: PropTypes.bool.isRequired,
+  icon: PropTypes.string.isRequired,
+  alternative: PropTypes.string.isRequired,
 };
 
 export default ComponentIcon;

@@ -1,5 +1,6 @@
 /* Utils */
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import LazyLoad, { forceCheck } from "react-lazyload";
 
 /* Components */
@@ -29,9 +30,9 @@ class MonstersList extends Component {
 }
 
 MonstersList.propType = {
-  monstersToRender: React.PropTypes.arrayOf(
-    React.PropTypes.shape({
-      name: React.PropTypes.string.isRequired,
+  monstersToRender: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
     })
   ).isRequired,
 };

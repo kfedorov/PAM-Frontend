@@ -1,5 +1,6 @@
 /* Utils */
 import React from "react";
+import PropTypes from "prop-types";
 
 const FightInfo = ({ monster }) => {
   return (
@@ -22,11 +23,11 @@ const FightInfo = ({ monster }) => {
 };
 
 FightInfo.propType = {
-  monster: React.PropTypes.shape({
-    armorClass: React.PropTypes.number.isRequired,
-    hitPoints: React.PropTypes.number.isRequired,
-    hitDice: React.PropTypes.string.isRequired,
-    speed: React.PropTypes.string.isRequired,
+  monster: PropTypes.shape({
+    armorClass: PropTypes.number.isRequired,
+    hitPoints: PropTypes.number.isRequired,
+    hitDice: PropTypes.string.isRequired,
+    speed: PropTypes.string.isRequired,
   }).isRequired,
 };
 

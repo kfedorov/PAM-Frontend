@@ -1,5 +1,6 @@
 /* Utils */
 import React from "react";
+import PropTypes from "prop-types";
 
 function modifierCalculator(value) {
   var modifier;
@@ -48,13 +49,13 @@ const Abilities = ({ abilities }) => {
 };
 
 Abilities.propType = {
-  spellToRender: React.PropTypes.shape({
-    strength: React.PropTypes.number.isRequired,
-    dexterity: React.PropTypes.number.isRequired,
-    constitution: React.PropTypes.number.isRequired,
-    intelligence: React.PropTypes.number.isRequired,
-    wisdom: React.PropTypes.number.isRequired,
-    charisma: React.PropTypes.number.isRequired,
+  spellToRender: PropTypes.shape({
+    strength: PropTypes.number.isRequired,
+    dexterity: PropTypes.number.isRequired,
+    constitution: PropTypes.number.isRequired,
+    intelligence: PropTypes.number.isRequired,
+    wisdom: PropTypes.number.isRequired,
+    charisma: PropTypes.number.isRequired,
   }).isRequired,
 };
 
