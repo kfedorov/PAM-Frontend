@@ -63,7 +63,13 @@ class MonsterEditing extends Component {
         />
         <StickyContainer className="sticky-box">
           <Sticky>
-            <MonsterInfo monsterToRender={monster} />
+            {({ style }) => {
+              return (
+                <header style={style}>
+                  <MonsterInfo monsterToRender={monster} />
+                </header>
+              );
+            }}
           </Sticky>
         </StickyContainer>
       </div>
