@@ -8,13 +8,13 @@ Styling for the search bar
 ***/
 
 .search-bar {
-    display: flex;
-    margin: 20px;
-    justify-content: center;
+  display: flex;
+  margin: 20px;
+  justify-content: center;
 }
 
 .search-bar input {
-    font-size: 18pt;
-    padding: 10px;
-    border: solid 2px #dcdcdc;
+  font-size: 18pt;
+  padding: 10px;
+  border: solid 2px #dcdcdc;
 }

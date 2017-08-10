@@ -1,8 +1,8 @@
 .Form-Container {
- display: flex;
- flex-direction: row;
- flex-wrap: wrap-reverse;
- justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
 }
 
 .Form {
@@ -10,7 +10,7 @@
   padding: auto;
 }
 
-.sticky-box{
+.sticky-box {
   min-width: 400px;
   width: 600px;
 }

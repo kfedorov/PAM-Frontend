@@ -16,7 +16,7 @@ Styling the main header
   background-color: #222;
   height: 125px;
   padding: 30px;
-  color: #8E2F1A;
+  color: #8e2f1a;
 }
 
 .App-header h1 {
@@ -24,4 +24,3 @@ Styling the main header
   font-size: 50pt;
   text-decoration: underline;
 }
-
