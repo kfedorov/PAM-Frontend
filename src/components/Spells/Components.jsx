@@ -19,7 +19,7 @@ import material_money from "./icon/material_money.svg";
 const PopOver = components => {
   return components.material === false
     ? <div />
-    : <Popover title="Required Materials">
+    : <Popover id="Required Materials" title="Required Materials">
         {components.requiredGold > 0 &&
           <div>
             <strong>Cost: </strong> {components.requiredGold} golds
