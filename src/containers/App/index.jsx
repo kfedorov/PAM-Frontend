@@ -26,30 +26,11 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const loadedSpells = getSpells();
-
     this.setState({
-      spells: loadedSpells,
+      spells: getSpells(),
+      monsters: getMonsters(),
     });
-
-    // Hack!
-    this.handleMonsterSelect(1);
   }
-
-  // Little hack to refresh monster
-  handleMonsterSelect = index => {
-    if (index === 1) {
-      getMonsters()
-        .then(loadedMonster => {
-          this.setState({
-            monsters: loadedMonster,
-          });
-        })
-        .catch(error => {
-          console.log("Error in refresh monster. " + error);
-        });
-    }
-  };
 
   render() {
     const { spells, monsters } = this.state;
@@ -64,7 +45,7 @@ class App extends Component {
           <TabList>
             <Tab>Spells</Tab>
             <Tab>Monsters</Tab>
-            <Tab>Monsters Edit</Tab>
+            {/* <Tab>Monsters Edit</Tab> */}
             <Tab>Encounter Player</Tab>
           </TabList>
           <TabPanel>
@@ -73,12 +54,12 @@ class App extends Component {
           <TabPanel>
             <MonsterDatabase all_monsters={monsters} />
           </TabPanel>
-          <TabPanel>
+          {/* <TabPanel>
             <MonsterEditing
               schema={schema.monster}
               uiSchema={schema.uiMonster}
             />
-          </TabPanel>
+          </TabPanel> */}
           <TabPanel>
             <EncounterPlayer all_monsters={monsters} />
           </TabPanel>
