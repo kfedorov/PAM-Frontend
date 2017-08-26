@@ -13,4 +13,17 @@ import "react-tabs/style/react-tabs.css";
 import "./index.css";
 import "react-select/dist/react-select.css";
 
-ReactDOM.render(<Routes />, document.getElementById("root"));
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import pamApp from "./redux/reducers";
+
+let store = createStore(pamApp);
+
+console.log(store.getState());
+
+ReactDOM.render(
+  <Provider store={store}>
+    <Routes />
+  </Provider>,
+  document.getElementById("root")
+);

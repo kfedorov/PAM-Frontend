@@ -21,14 +21,12 @@ class App extends Component {
     super(props);
     this.state = {
       spells: [],
-      monsters: [],
     };
   }
 
   componentDidMount() {
     this.setState({
       spells: getSpells(),
-      monsters: getMonsters(),
     });
   }
 
@@ -52,7 +50,7 @@ class App extends Component {
             <SpellDatabase all_spells={spells} />
           </TabPanel>
           <TabPanel>
-            <MonsterDatabase all_monsters={monsters} />
+            <MonsterDatabase />
           </TabPanel>
           {/* <TabPanel>
             <MonsterEditing

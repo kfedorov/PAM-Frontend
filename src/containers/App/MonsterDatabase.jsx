@@ -1,11 +1,15 @@
 /* Utils */
 import React, { Component } from "react";
 
+import { connect } from "react-redux";
+
+import { addMonster } from "../../redux/reducers";
+
 /* Components */
 import SearchBar from "../../components/Utils/SearchBar";
 import MonstersList from "../../components/Monsters/MonstersList";
 
-class SpellDatabase extends Component {
+class MonsterDatabase extends Component {
   constructor(props) {
     super(props);
 
@@ -44,4 +48,20 @@ class SpellDatabase extends Component {
   }
 }
 
-export default SpellDatabase;
+const mapStateToProps = state => {
+  return {
+    all_monsters: state.monsters,
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    addMonster: monster => {
+      dispatch(addMonster(monster));
+    },
+  };
+};
+
+const Database = connect(mapStateToProps, mapDispatchToProps)(MonsterDatabase);
+
+export default Database;
