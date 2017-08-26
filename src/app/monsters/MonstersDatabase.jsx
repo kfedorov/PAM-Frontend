@@ -3,17 +3,16 @@ import React, { Component } from "react";
 
 import { connect } from "react-redux";
 
-import { addMonster } from "../../redux/reducers";
-
 /* Components */
-import SearchBar from "../../components/Utils/SearchBar";
-import MonstersList from "../../components/Monsters/MonstersList";
+import { SearchBar } from "../common";
+import { MonstersList } from "./components";
 
-class MonsterDatabase extends Component {
+// Store actions
+import store from "./";
+
+class MonstersDatabase extends Component {
   constructor(props) {
     super(props);
-
-    console.log("Monster Constructor");
 
     this.state = {
       showed_monsters: props.all_monsters.slice(),
@@ -50,18 +49,18 @@ class MonsterDatabase extends Component {
 
 const mapStateToProps = state => {
   return {
-    all_monsters: state.monsters,
+    all_monsters: state[store.constants.NAME],
   };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
     addMonster: monster => {
-      dispatch(addMonster(monster));
+      dispatch(store.actions.add(monster));
     },
   };
 };
 
-const Database = connect(mapStateToProps, mapDispatchToProps)(MonsterDatabase);
+const Database = connect(mapStateToProps, mapDispatchToProps)(MonstersDatabase);
 
 export default Database;

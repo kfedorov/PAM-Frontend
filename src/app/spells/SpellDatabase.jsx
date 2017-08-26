@@ -1,9 +1,13 @@
 /* Utils */
 import React, { Component } from "react";
 
+import { connect } from "react-redux";
+
 /* Components */
-import SpellsList from "../../components/Spells/SpellsList";
-import SearchBar from "../../components/Utils/SearchBar";
+import { SearchBar } from "../common";
+import { SpellsList } from "./components";
+
+import store from "./";
 
 class SpellDatabase extends Component {
   constructor(props) {
@@ -42,4 +46,12 @@ class SpellDatabase extends Component {
   }
 }
 
-export default SpellDatabase;
+const mapStateToProps = state => {
+  return {
+    all_spells: state[store.constants.NAME],
+  };
+};
+
+const Database = connect(mapStateToProps)(SpellDatabase);
+
+export default Database;

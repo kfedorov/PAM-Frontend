@@ -4,12 +4,12 @@ import PropTypes from "prop-types";
 import LazyLoad, { forceCheck } from "react-lazyload";
 
 /* Components */
-import SpellInfo from "./SpellInfo";
+import MonsterInfo from "./MonsterInfo";
 
 /* Style */
-import "../common/style/List.css";
+import "../../common/style/List.css";
 
-class SpellsList extends Component {
+class MonstersList extends Component {
   componentDidUpdate() {
     forceCheck();
   }
@@ -17,10 +17,10 @@ class SpellsList extends Component {
   render() {
     return (
       <div className="list">
-        {this.props.spellsToRender.map(function(value) {
+        {this.props.monstersToRender.map(function(value) {
           return (
-            <LazyLoad key={value.name} height={200} offset={500}>
-              <SpellInfo spellToRender={value} />
+            <LazyLoad key={value.name} height={1000} offset={500}>
+              <MonsterInfo monsterToRender={value} />
             </LazyLoad>
           );
         })}
@@ -29,12 +29,12 @@ class SpellsList extends Component {
   }
 }
 
-SpellsList.propType = {
-  spellsToRender: PropTypes.arrayOf(
+MonstersList.propType = {
+  monstersToRender: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
     })
   ).isRequired,
 };
 
-export default SpellsList;
+export default MonstersList;

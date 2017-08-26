@@ -15,9 +15,9 @@ import "react-select/dist/react-select.css";
 
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-import pamApp from "./redux/reducers";
+import rootReducer from "./app/rootReducer";
 
-let store = createStore(pamApp);
+let store = createStore(rootReducer);
 
 console.log(store.getState());
 

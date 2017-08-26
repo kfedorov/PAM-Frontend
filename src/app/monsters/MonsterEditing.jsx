@@ -2,10 +2,14 @@ import React, { Component } from "react";
 import Form from "react-jsonschema-form";
 import { StickyContainer, Sticky } from "react-sticky";
 
-import MonsterInfo from "../../components/Monsters/MonsterInfo";
+import { connect } from "react-redux";
+
+import { MonsterInfo } from "./components";
+
+import monsterModule from "./";
 
 /* Style and assets */
-import "./MonsterEditing.css";
+import "./style/MonsterEditing.css";
 
 class MonsterEditing extends Component {
   constructor(props) {
@@ -17,22 +21,7 @@ class MonsterEditing extends Component {
 
   handleSubmission = form => {
     const { formData } = form;
-    fetch("/api/monster", {
-      method: "post",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        monster: formData,
-      }),
-    })
-      .then(function(response) {
-        console.log(response);
-      })
-      .catch(function(err) {
-        console.log(err);
-      });
+    this.props.addMonster(formData);
   };
 
   handleChange = form => {
@@ -77,7 +66,17 @@ class MonsterEditing extends Component {
   }
 }
 
-export default MonsterEditing;
+const mapDispatchToProps = dispatch => {
+  return {
+    addMonster: monster => {
+      dispatch(monsterModule.actions.add(monster));
+    },
+  };
+};
+
+const editor = connect(null, mapDispatchToProps)(MonsterEditing);
+
+export default editor;
 
 const defaultMonster = {
   challengeRating: 0,

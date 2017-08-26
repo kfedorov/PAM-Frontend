@@ -1,9 +1,12 @@
 /* Utils */
 import React, { Component } from "react";
 
-import TurnManager from "../../components/Encounter/TurnManager";
-import MonsterSelector from "../../components/Encounter/MonsterSelector";
-import PlayersSelector from "../../components/Encounter/PlayersSelector";
+import { connect } from "react-redux";
+
+import { TurnManager, MonsterSelector, PlayersSelector } from "./components";
+
+// Store actions
+import monsterModule from "../monsters";
 
 class EncounterPlayer extends Component {
   constructor(props) {
@@ -27,7 +30,6 @@ class EncounterPlayer extends Component {
     const { all_monsters } = this.props;
     const { monsters, players } = this.state;
     const orders = shuffle(monsters, players);
-    console.log(JSON.stringify(orders));
     return (
       <div>
         <h1>Encounter player</h1>
@@ -55,4 +57,12 @@ function shuffle(monsters, players) {
   return order;
 }
 
-export default EncounterPlayer;
+const mapStateToProps = state => {
+  return {
+    all_monsters: state[monsterModule.constants.NAME],
+  };
+};
+
+const Player = connect(mapStateToProps)(EncounterPlayer);
+
+export default Player;

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 /* Style */
-import "./Style/SearchBar.css";
+import "./style/SearchBar.css";
 
 class SearchBar extends Component {
   constructor(props) {

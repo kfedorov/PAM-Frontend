@@ -10,7 +10,7 @@ import OtherInfo from "./SubComponents/OtherInfo";
 
 /* Style */
 import "./style/Monster.css";
-import "../common/style/ManualStyle.css";
+import "../../common/style/ManualStyle.css";
 
 const MonsterInfo = ({ monsterToRender }) => {
   return (

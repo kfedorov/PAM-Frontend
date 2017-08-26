@@ -2,10 +2,10 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-/* Components (possible routes) */
-import App from "./containers/App";
-import About from "./containers/About";
-import NotFound from "./containers/NotFound";
+/* Components */
+import App from "./app";
+import About from "./about";
+import NotFound from "./404";
 
 const Routes = props =>
   <Router>

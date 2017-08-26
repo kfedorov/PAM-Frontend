@@ -2,37 +2,18 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-/* Load data */
-import { getSpells, getMonsters } from "../../data/database";
+import schema from "./schemas";
 
-import schema from "../../data/schemas";
-
-/* Components */
-import SpellDatabase from "./SpellDatabase";
-import MonsterDatabase from "./MonsterDatabase";
-import MonsterEditing from "./MonsterEditing";
-import EncounterPlayer from "./EncounterPlayer";
+/* Modules */
+import Spells from "./spells";
+import Monsters from "./monsters";
+import Encounter from "./encounter";
 
 /* Style and assets */
 import "./App.css";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      spells: [],
-    };
-  }
-
-  componentDidMount() {
-    this.setState({
-      spells: getSpells(),
-    });
-  }
-
   render() {
-    const { spells, monsters } = this.state;
-
     return (
       <div className="App">
         <div className="App-header">
@@ -43,23 +24,23 @@ class App extends Component {
           <TabList>
             <Tab>Spells</Tab>
             <Tab>Monsters</Tab>
-            {/* <Tab>Monsters Edit</Tab> */}
+            <Tab>Monsters Edit</Tab>
             <Tab>Encounter Player</Tab>
           </TabList>
           <TabPanel>
-            <SpellDatabase all_spells={spells} />
+            <Spells.Database />
           </TabPanel>
           <TabPanel>
-            <MonsterDatabase />
+            <Monsters.Database />
           </TabPanel>
-          {/* <TabPanel>
-            <MonsterEditing
+          <TabPanel>
+            <Monsters.Manage
               schema={schema.monster}
               uiSchema={schema.uiMonster}
             />
-          </TabPanel> */}
+          </TabPanel>
           <TabPanel>
-            <EncounterPlayer all_monsters={monsters} />
+            <Encounter.Manager />
           </TabPanel>
         </Tabs>
       </div>
