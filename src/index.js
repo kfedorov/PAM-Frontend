@@ -13,11 +13,15 @@ import "react-tabs/style/react-tabs.css";
 import "./index.css";
 import "react-select/dist/react-select.css";
 
-import { createStore } from "redux";
+import { createStore, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
+import { persistStore, autoRehydrate } from "redux-persist";
+
 import rootReducer from "./app/rootReducer";
 
-let store = createStore(rootReducer);
+const store = createStore(rootReducer, undefined, autoRehydrate());
+
+persistStore(store);
 
 console.log(store.getState());
 
