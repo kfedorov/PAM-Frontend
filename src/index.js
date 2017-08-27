@@ -1,6 +1,7 @@
 /* Utils */
 import React from "react";
 import ReactDOM from "react-dom";
+import registerServiceWorker from "./registerServiceWorker";
 
 /* Components */
 import Routes from "./routes";
@@ -13,7 +14,7 @@ import "react-tabs/style/react-tabs.css";
 import "./index.css";
 import "react-select/dist/react-select.css";
 
-import { createStore, applyMiddleware } from "redux";
+import { createStore } from "redux";
 import { Provider } from "react-redux";
 import { persistStore, autoRehydrate } from "redux-persist";
 
@@ -31,3 +32,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root")
 );
+
+registerServiceWorker();
