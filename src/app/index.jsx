@@ -8,6 +8,7 @@ import schema from "./schemas";
 import Spells from "./spells";
 import Monsters from "./monsters";
 import Encounter from "./encounter";
+import Master from "./master";
 
 /* Style and assets */
 import "./App.css";
@@ -25,6 +26,7 @@ class App extends Component {
             <Tab>Spells</Tab>
             <Tab>Monsters</Tab>
             <Tab>Monsters Edit</Tab>
+            <Tab>Dungeon Master Manager</Tab>
             <Tab>Encounter Player</Tab>
           </TabList>
           <TabPanel>
@@ -38,6 +40,9 @@ class App extends Component {
               schema={schema.monster}
               uiSchema={schema.uiMonster}
             />
+          </TabPanel>
+          <TabPanel>
+            <Master.Manager />
           </TabPanel>
           <TabPanel>
             <Encounter.Manager />

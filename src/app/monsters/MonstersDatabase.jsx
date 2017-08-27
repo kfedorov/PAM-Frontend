@@ -7,7 +7,6 @@ import { connect } from "react-redux";
 import { SearchBar } from "../common";
 import { MonstersList } from "./components";
 
-// Store actions
 import store from "./";
 
 class MonstersDatabase extends Component {
