@@ -1,17 +1,21 @@
 /* Utils */
 import React, { Component } from "react";
 
+import PartyMetaForm from "./PartyMetaForm";
 import EditablePlayerList from "./EditablePlayerList";
 
-class PartyBuilder extends Component {
+class PartyForm extends Component {
   state = {
-    name: "",
-    players: [],
+    name: this.props.group.name,
+    players: this.props.group.players,
+  };
+
+  handleMetaChange = meta => {
+    this.setState({ name: meta.name });
   };
 
   handleAddPlayer = () => {
     const newPlayer = generatePlayer();
-    console.log("Generated player: " + JSON.stringify(newPlayer));
     this.setState({
       players: this.state.players.concat(newPlayer),
     });
@@ -22,7 +26,6 @@ class PartyBuilder extends Component {
   };
 
   updatePlayer = updatedPlayer => {
-    console.log("Updated player: " + JSON.stringify(updatedPlayer));
     this.setState({
       players: this.state.players.map(player => {
         if (updatedPlayer.id === player.id) {
@@ -34,15 +37,30 @@ class PartyBuilder extends Component {
     });
   };
 
+  handleCompleteParty = () => {
+    const party = this.state;
+    this.props.onCompleteParty(party.name, party.players);
+    this.clear();
+  };
+
+  handleCancel = () => {
+    this.props.onCancel();
+  };
+
   render() {
     return (
       <div>
-        <h1>Party Builder</h1>
+        <PartyMetaForm
+          name={this.state.name}
+          onMetaChange={this.handleMetaChange}
+        />
         <EditablePlayerList
           players={this.state.players}
           onPlayerUpdate={this.handlePlayerUpdate}
         />
-        <button onClick={this.handleAddPlayer}>+</button>
+        <button onClick={this.handleAddPlayer}>Add Player</button>
+        <button onClick={this.handleCompleteParty}>Complete party</button>
+        <button onClick={this.handleCancel}>Cancel</button>
       </div>
     );
   }
@@ -55,4 +73,4 @@ function generatePlayer() {
   };
 }
 
-export default PartyBuilder;
+export default PartyForm;

@@ -20,7 +20,11 @@ import { persistStore, autoRehydrate } from "redux-persist";
 
 import rootReducer from "./app/rootReducer";
 
-const store = createStore(rootReducer, undefined, autoRehydrate());
+const store = createStore(
+  rootReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+  autoRehydrate()
+);
 
 persistStore(store);
 

@@ -8,7 +8,7 @@ import schema from "./schemas";
 import Spells from "./spells";
 import Monsters from "./monsters";
 import Encounter from "./encounter";
-import Master from "./master";
+import Party from "./party";
 
 /* Style and assets */
 import "./App.css";
@@ -42,7 +42,7 @@ class App extends Component {
             />
           </TabPanel>
           <TabPanel>
-            <Master.Manager />
+            <Party.Planner />
           </TabPanel>
           <TabPanel>
             <Encounter.Manager />
