@@ -1,7 +1,13 @@
 /* Utils */
 import React, { Component } from "react";
 
+import { playerType } from "../../type";
+
 class PlayerForm extends Component {
+  static propTypes = {
+    player: playerType,
+  };
+
   state = {
     name: this.props.player.name,
   };

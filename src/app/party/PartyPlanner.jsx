@@ -5,20 +5,15 @@ import { connect } from "react-redux";
 
 import partyModule from "./";
 
-import EditablePartyList from "./components/EditablePartyList";
-import ToggleableParty from "./components/ToggleableParty";
+import EditablePartyList from "./components/Party/EditablePartyList";
+import ToggleableParty from "./components/Party/ToggleableParty";
 
 class MasterManager extends Component {
-  handleCreateParty = () => {
-    const generatedParty = generateParty();
-    this.props.createParty(generatedParty);
-  };
-
   render() {
     return (
       <div>
         <h1>Tavern</h1>
-        <EditablePartyList groups={this.props.party.groups} />
+        <EditablePartyList parties={this.props.party.groups} />
         <ToggleableParty createParty={this.props.createParty} />
       </div>
     );
@@ -39,13 +34,5 @@ const mapDispatchToProps = dispatch => {
     },
   };
 };
-
-function generateParty() {
-  return {
-    id: Math.floor(Math.random() * 9999999999),
-    name: "",
-    players: [],
-  };
-}
 
 export default connect(mapStateToProps, mapDispatchToProps)(MasterManager);

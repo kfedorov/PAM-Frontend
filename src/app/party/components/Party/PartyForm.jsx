@@ -1,13 +1,18 @@
 /* Utils */
 import React, { Component } from "react";
 
+import { partyType } from "../../type";
 import PartyMetaForm from "./PartyMetaForm";
-import EditablePlayerList from "./EditablePlayerList";
+import EditablePlayerList from "../Player/EditablePlayerList";
 
 class PartyForm extends Component {
+  static propTypes = {
+    party: partyType.isRequired,
+  };
+
   state = {
-    name: this.props.group.name,
-    players: this.props.group.players,
+    name: this.props.party.name,
+    players: this.props.party.players,
   };
 
   handleMetaChange = meta => {
@@ -39,8 +44,11 @@ class PartyForm extends Component {
 
   handleCompleteParty = () => {
     const party = this.state;
-    this.props.onCompleteParty(party.name, party.players);
-    this.clear();
+    this.props.onCompleteParty({
+      id: this.props.party.id,
+      name: party.name,
+      players: party.players,
+    });
   };
 
   handleCancel = () => {

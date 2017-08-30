@@ -1,9 +1,13 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
-import Party from "./Party";
 import PartyForm from "./PartyForm";
 
 class EditableParty extends Component {
+  static propTypes = {
+    createParty: PropTypes.func.isRequired,
+  };
+
   state = {
     isOpen: false,
     party: {},
@@ -26,7 +30,7 @@ class EditableParty extends Component {
     if (this.state.isOpen) {
       return (
         <PartyForm
-          group={this.state.party}
+          party={this.state.party}
           onCompleteParty={this.handleFormSubmit}
           onCancel={this.handleCancel}
         />

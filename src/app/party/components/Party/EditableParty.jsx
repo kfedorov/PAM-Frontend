@@ -1,15 +1,20 @@
 import React, { Component } from "react";
 
+import { partyType } from "../../type";
 import Party from "./Party";
 import PartyForm from "./PartyForm";
 
 class EditableParty extends Component {
+  static propTypes = {
+    party: partyType.isRequired,
+  };
+
   state = {
-    isEditing: this.props.group.id === 0,
+    isEditing: this.props.party.id === 0,
   };
 
   handlePartyUpdate = party => {
-    if (this.props.group.id === 0) {
+    if (this.props.party.id === 0) {
       this.props.createParty(party);
     } else {
       this.props.updateParty(party);
@@ -22,15 +27,18 @@ class EditableParty extends Component {
     if (this.state.isEditing) {
       return (
         <PartyForm
-          group={this.props.group}
+          party={this.props.party}
           onCompleteParty={this.handlePartyUpdate}
         />
       );
     } else {
       return (
         <Party
-          group={this.props.group}
-          onEdit={this.setState({ isEditing: true })}
+          party={this.props.party}
+          onEdit={() =>
+            this.setState({
+              isEditing: true,
+            })}
         />
       );
     }

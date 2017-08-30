@@ -1,9 +1,16 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
+import { playerType } from "../../type";
 import Player from "./Player";
 import PlayerForm from "./PlayerForm";
 
 class EditablePlayer extends Component {
+  static propTypes = {
+    player: playerType.isRequired,
+    onPlayerUpdate: PropTypes.func.isRequired,
+  };
+
   state = {
     isEditing: this.props.player.name === "" ? true : false,
   };

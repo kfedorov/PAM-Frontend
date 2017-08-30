@@ -1,6 +1,12 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class PartyMetaForm extends Component {
+  static propTypes = {
+    name: PropTypes.string.isRequired,
+    onMetaChange: PropTypes.func.isRequired,
+  };
+
   handleNameChange = e => {
     this.props.onMetaChange({
       name: e.target.value,
