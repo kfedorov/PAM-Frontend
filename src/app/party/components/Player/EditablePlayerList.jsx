@@ -9,6 +9,7 @@ class EditablePlayerList extends Component {
   static propType = {
     players: playerType.isRequired,
     onPlayerUpdate: PropTypes.func.isRequired,
+    onPlayerDelete: PropTypes.func.isRequired,
   };
 
   render() {
@@ -16,7 +17,8 @@ class EditablePlayerList extends Component {
       <EditablePlayer
         key={player.id}
         player={player}
-        onPlayerUpdate={this.props.onPlayerUpdate}
+        onUpdate={this.props.onPlayerUpdate}
+        onDelete={this.props.onPlayerDelete}
       />
     );
 

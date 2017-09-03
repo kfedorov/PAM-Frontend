@@ -1,13 +1,14 @@
 /* Utils */
 import React from "react";
 
-const Player = ({ player, onEdit }) => {
+const Player = ({ player, onEdit, onDelete }) => {
   return (
     <div>
-      <h3>
+      <h4 style={{ display: "inline" }}>
         {player.name}
-      </h3>
+      </h4>
       <button onClick={onEdit}>Edit</button>
+      <button onClick={onDelete}>Delete</button>
     </div>
   );
 };

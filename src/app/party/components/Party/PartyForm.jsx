@@ -2,6 +2,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
+import uuidv4 from "uuid/v4";
+
 import { partyType } from "../../type";
 import PartyMetaForm from "./PartyMetaForm";
 import EditablePlayerList from "../Player/EditablePlayerList";
@@ -47,6 +49,12 @@ class PartyForm extends Component {
     });
   };
 
+  handleDeletePlayer = id => {
+    this.setState({
+      players: this.state.players.filter(player => player.id !== id),
+    });
+  };
+
   handleCompleteParty = () => {
     const party = this.state;
     this.props.onCompleteParty({
@@ -70,6 +78,7 @@ class PartyForm extends Component {
         <EditablePlayerList
           players={this.state.players}
           onPlayerUpdate={this.handlePlayerUpdate}
+          onPlayerDelete={this.handleDeletePlayer}
         />
         <div>
           <button onClick={this.handleAddPlayer}>Add Player</button>
@@ -86,10 +95,7 @@ class PartyForm extends Component {
 }
 
 function generatePlayer() {
-  return {
-    id: Math.floor(Math.random() * 9999999999),
-    name: "",
-  };
+  return { id: uuidv4(), name: "" };
 }
 
 export default PartyForm;

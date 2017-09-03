@@ -30,7 +30,7 @@ class Party extends Component {
           </ul>
         </div>
         <div>
-          <button onClick={() => this.props.onEdit()}>Update</button>
+          <button onClick={() => this.props.onEdit()}>Edit</button>
           <button onClick={() => this.props.onDelete(party.id)}>Delete</button>
         </div>
       </div>

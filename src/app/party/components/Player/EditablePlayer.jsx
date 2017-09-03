@@ -8,7 +8,8 @@ import PlayerForm from "./PlayerForm";
 class EditablePlayer extends Component {
   static propTypes = {
     player: playerType.isRequired,
-    onPlayerUpdate: PropTypes.func.isRequired,
+    onUpdate: PropTypes.func.isRequired,
+    onDelete: PropTypes.func.isRequired,
   };
 
   state = {
@@ -16,8 +17,12 @@ class EditablePlayer extends Component {
   };
 
   handleUpdate = player => {
-    this.props.onPlayerUpdate(player);
+    this.props.onUpdate(player);
     this.setState({ isEditing: false });
+  };
+
+  handleDelete = () => {
+    this.props.onDelete(this.props.player.id);
   };
 
   handleFormClose = () => {
@@ -38,6 +43,7 @@ class EditablePlayer extends Component {
         <Player
           player={this.props.player}
           onEdit={() => this.setState({ isEditing: true })}
+          onDelete={this.handleDelete}
         />
       );
     }

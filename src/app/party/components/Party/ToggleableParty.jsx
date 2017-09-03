@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
+import uuidv4 from "uuid/v4";
+
 import PartyForm from "./PartyForm";
 
 class EditableParty extends Component {
@@ -46,11 +48,7 @@ class EditableParty extends Component {
 }
 
 function generateParty() {
-  return {
-    id: Math.floor(Math.random() * 9999999999),
-    name: "",
-    players: [],
-  };
+  return { id: uuidv4(), name: "", players: [] };
 }
 
 export default EditableParty;
