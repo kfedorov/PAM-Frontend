@@ -1,9 +1,12 @@
 /* Utils */
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 import { partyType } from "../../type";
 import PartyMetaForm from "./PartyMetaForm";
 import EditablePlayerList from "../Player/EditablePlayerList";
+
+import "./Style/Party.css";
 
 class PartyForm extends Component {
   static propTypes = {
@@ -13,6 +16,8 @@ class PartyForm extends Component {
   state = {
     name: this.props.party.name,
     players: this.props.party.players,
+    onCompleteParty: PropTypes.func.isRequired,
+    onCancel: PropTypes.func.isRequired,
   };
 
   handleMetaChange = meta => {
@@ -57,7 +62,7 @@ class PartyForm extends Component {
 
   render() {
     return (
-      <div>
+      <div className="party-box">
         <PartyMetaForm
           name={this.state.name}
           onMetaChange={this.handleMetaChange}
@@ -66,9 +71,15 @@ class PartyForm extends Component {
           players={this.state.players}
           onPlayerUpdate={this.handlePlayerUpdate}
         />
-        <button onClick={this.handleAddPlayer}>Add Player</button>
-        <button onClick={this.handleCompleteParty}>Complete party</button>
-        <button onClick={this.handleCancel}>Cancel</button>
+        <div>
+          <button onClick={this.handleAddPlayer}>Add Player</button>
+        </div>
+        <div>
+          {" "}<button onClick={this.handleCompleteParty}>
+            Complete party
+          </button>
+          <button onClick={this.handleCancel}>Cancel</button>
+        </div>
       </div>
     );
   }

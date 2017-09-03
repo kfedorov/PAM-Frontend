@@ -13,7 +13,11 @@ class MasterManager extends Component {
     return (
       <div>
         <h1>Tavern</h1>
-        <EditablePartyList parties={this.props.party.groups} />
+        <EditablePartyList
+          parties={this.props.party.groups}
+          onUpdate={this.props.updateParty}
+          onDelete={this.props.deleteParty}
+        />
         <ToggleableParty createParty={this.props.createParty} />
       </div>
     );
@@ -29,8 +33,11 @@ const mapDispatchToProps = dispatch => {
     createParty: party => {
       dispatch(partyModule.store.createParty(party));
     },
-    updateParty: party => {
-      dispatch(partyModule.store.createParty(party));
+    updateParty: (id, party) => {
+      dispatch(partyModule.store.updateParty(id, party));
+    },
+    deleteParty: id => {
+      dispatch(partyModule.store.deleteParty(id));
     },
   };
 };

@@ -26,12 +26,16 @@ class PlayerForm extends Component {
   render() {
     return (
       <div>
-        <input
-          type="text"
-          name="name"
-          value={this.state.name}
-          onChange={this.handleNameChange}
-        />
+        <label>
+          Player name:
+          <input
+            type="text"
+            name="name"
+            value={this.state.name}
+            onChange={this.handleNameChange}
+          />
+        </label>
+
         <button onClick={this.handleSubmit}>Update</button>
         <button onClick={this.props.onFormClose}>Cancel</button>
       </div>

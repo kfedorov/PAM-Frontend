@@ -16,12 +16,15 @@ class PartyMetaForm extends Component {
   render() {
     return (
       <div>
-        <input
-          type="text"
-          name="name"
-          value={this.props.name}
-          onChange={this.handleNameChange}
-        />
+        <label>
+          Party Name:
+          <input
+            type="text"
+            name="name"
+            value={this.props.name}
+            onChange={this.handleNameChange}
+          />
+        </label>
       </div>
     );
   }
