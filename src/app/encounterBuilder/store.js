@@ -1,9 +1,11 @@
+import uuidv4 from "uuid/v4";
+
 export const NAME = "encounters";
 
 /* Action types */
-export const CREATE = "party/create";
-export const DELETE = "party/delete";
-export const UPDATE = "party/update";
+export const CREATE = "encounter/create";
+export const DELETE = "encounter/delete";
+export const UPDATE = "encounter/update";
 
 /* Action creator */
 export function createEncounter(encounter) {
@@ -21,11 +23,21 @@ export function updateEncounter(id, encounter) {
 /* Reducer */
 
 const initialState = {
-  encounters: [],
+  encounters: [
+    {
+      id: "test",
+      name: "Test encounter",
+      description: "bla bla bla",
+      monsters: [
+        { monsterId: "Aboleth", count: 2 },
+        { monsterId: "Acolyte", count: 1 },
+      ],
+    },
+  ],
 };
 
 function create(encounters, action) {
-  return [...encounters, action.encounter];
+  return [...encounters, { ...action.encounter, id: uuidv4() }];
 }
 
 function remove(encounters, action) {

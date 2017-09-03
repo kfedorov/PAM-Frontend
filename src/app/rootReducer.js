@@ -10,5 +10,5 @@ export default combineReducers({
   [monsters.constants.NAME]: monsters.reducer,
   [spells.constants.NAME]: spells.reducer,
   [party.store.NAME]: party.store.reducer,
-  [encounters.store.NAME]: party.store.reducer,
+  [encounters.store.NAME]: encounters.store.reducer,
 });
