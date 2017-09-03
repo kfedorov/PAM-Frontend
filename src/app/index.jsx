@@ -7,8 +7,9 @@ import schema from "./schemas";
 /* Modules */
 import Spells from "./spells";
 import Monsters from "./monsters";
-import Encounter from "./encounter";
+import Encounter from "./encounterPlayer";
 import Party from "./party";
+import EncounterBuilder from "./encounterBuilder";
 
 /* Style and assets */
 import "./App.css";
@@ -26,7 +27,8 @@ class App extends Component {
             <Tab>Spells</Tab>
             <Tab>Monsters</Tab>
             <Tab>Monsters Edit</Tab>
-            <Tab>Dungeon Master Manager</Tab>
+            <Tab>Tavern (party builder)</Tab>
+            <Tab>Enconters Dashboard</Tab>
             <Tab>Encounter Player</Tab>
           </TabList>
           <TabPanel>
@@ -43,6 +45,9 @@ class App extends Component {
           </TabPanel>
           <TabPanel>
             <Party.Planner />
+          </TabPanel>
+          <TabPanel>
+            <EncounterBuilder.Dashboard />
           </TabPanel>
           <TabPanel>
             <Encounter.Manager />
