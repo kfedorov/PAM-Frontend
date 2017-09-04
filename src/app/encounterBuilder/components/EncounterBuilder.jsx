@@ -20,6 +20,7 @@ class EncounterBuilder extends Component {
 
   handleOnComplete = () => {
     const encounter = {
+      id: this.props.encounter.id,
       name: this.state.name,
       description: this.state.description,
       monsters: this.state.monsters,
