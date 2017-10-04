@@ -76,7 +76,7 @@ class EncountersDashboard extends Component {
 }
 
 const mapStateToProps = state => {
-  return { encounters: state[encounterBuilderModule.store.NAME].encounters };
+  return { encounters: state[encounterBuilderModule.store.NAME] };
 };
 
 const mapDispatchToProps = dispatch => {

@@ -22,19 +22,17 @@ export function updateEncounter(id, encounter) {
 
 /* Reducer */
 
-const initialState = {
-  encounters: [
-    {
-      id: "test",
-      name: "Test encounter",
-      description: "bla bla bla",
-      monsters: [
-        { monsterId: "Aboleth", count: 2 },
-        { monsterId: "Acolyte", count: 1 },
-      ],
-    },
-  ],
-};
+const initialState = [
+  {
+    id: "test",
+    name: "Test encounter",
+    description: "bla bla bla",
+    monsters: [
+      { monsterId: "Aboleth", count: 2 },
+      { monsterId: "Acolyte", count: 1 },
+    ],
+  },
+];
 
 function create(encounters, action) {
   return [...encounters, { ...action.encounter, id: uuidv4() }];
@@ -57,13 +55,13 @@ function update(encounters, action) {
 export function reducer(state = initialState, action) {
   switch (action.type) {
     case CREATE:
-      return { encounters: create(state.encounters, action) };
+      return create(state, action);
 
     case DELETE:
-      return { encounters: remove(state.encounters, action) };
+      return remove(state, action);
 
     case UPDATE:
-      return { encounters: update(state.encounters, action) };
+      return update(state, action);
 
     default:
       return state;
