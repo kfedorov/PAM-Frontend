@@ -73,7 +73,7 @@ class EncounterBuilder extends Component {
   };
 
   handleDeleteMonster = id => {
-    const updatedMonsters = this.state.monsters.filter(x => x.monsterId === id);
+    const updatedMonsters = this.state.monsters.filter(x => x.monsterId !== id);
 
     this.setState({ monsters: updatedMonsters });
   };
