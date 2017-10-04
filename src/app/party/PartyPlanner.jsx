@@ -14,7 +14,7 @@ class MasterManager extends Component {
       <div>
         <h1>Tavern</h1>
         <EditablePartyList
-          parties={this.props.party.groups}
+          parties={this.props.parties}
           onUpdate={this.props.updateParty}
           onDelete={this.props.deleteParty}
         />
@@ -25,7 +25,7 @@ class MasterManager extends Component {
 }
 
 const mapStateToProps = state => {
-  return { party: state[partyModule.store.NAME] };
+  return { parties: state[partyModule.store.NAME] };
 };
 
 const mapDispatchToProps = dispatch => {

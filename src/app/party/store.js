@@ -20,9 +20,7 @@ export function updateParty(id, party) {
 
 /* Reducer */
 
-const initialState = {
-  groups: [],
-};
+const initialState = [];
 
 function create(parties, action) {
   return [
@@ -52,17 +50,13 @@ function update(parties, action) {
 export function reducer(state = initialState, action) {
   switch (action.type) {
     case CREATE:
-      return {
-        groups: create(state.groups, action),
-      };
+      return create(state, action);
 
     case DELETE:
-      return { groups: remove(state.groups, action) };
+      return remove(state, action);
 
     case UPDATE:
-      return {
-        groups: update(state.groups, action),
-      };
+      return update(state, action);
 
     default:
       return state;
