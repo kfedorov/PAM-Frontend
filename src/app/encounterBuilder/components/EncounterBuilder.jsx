@@ -32,6 +32,10 @@ class EncounterBuilder extends Component {
     this.props.onCancel();
   };
 
+  onInputChange = evt => {
+    this.setState({ [evt.target.name]: evt.target.value });
+  };
+
   handleUpdateName = name => {
     this.setState({
       name: name,
@@ -86,8 +90,7 @@ class EncounterBuilder extends Component {
           <EncounterMetaForm
             name={this.state.name}
             description={this.state.description}
-            onNameChange={this.handleUpdateName}
-            onDescriptionChange={this.handleUpdateDescription}
+            onInputChange={this.onInputChange}
           />
           <MonsterSelector
             selectedMonsters={this.state.monsters}

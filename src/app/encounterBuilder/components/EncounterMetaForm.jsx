@@ -9,14 +9,6 @@ class EncounterMetaForm extends Component {
     onDescriptionChange: PropTypes.func.isRequired,
   };
 
-  handleNameChange = e => {
-    this.props.onNameChange(e.target.value);
-  };
-
-  handleDescriptionChange = e => {
-    this.props.onDescriptionChange(e.target.value);
-  };
-
   render() {
     return (
       <div>
@@ -25,8 +17,9 @@ class EncounterMetaForm extends Component {
             Encounter Name:
             <input
               type="text"
+              name="name"
               value={this.props.name}
-              onChange={this.handleNameChange}
+              onChange={this.props.onInputChange}
             />
           </label>
         </div>
@@ -34,8 +27,9 @@ class EncounterMetaForm extends Component {
           <label>
             Description:
             <textarea
+              name="description"
               value={this.props.description}
-              onChange={this.handleDescriptionChange}
+              onChange={this.props.onInputChange}
             />
           </label>
         </div>
