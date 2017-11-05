@@ -1,12 +1,12 @@
 /* Utils */
 import React, { Component } from "react";
-
 import { connect } from "react-redux";
 
-import { TurnManager, MonsterSelector, PlayersSelector } from "./components";
+import { TurnManager, MonsterSelector, PartiesSelector } from "./components";
 
 // Store actions
 import monsterModule from "../monsters";
+import partyModule from "../party"
 
 class EncounterPlayer extends Component {
   constructor(props) {
@@ -37,7 +37,7 @@ class EncounterPlayer extends Component {
           all_monsters={all_monsters}
           ref={c => (this._monsterSelector = c)}
         />
-        <PlayersSelector ref={c => (this._playerSelector = c)} />
+        <PartiesSelector ref={c => (this._playerSelector = c)} parties={this.props.parties.groups}/>
         <button onClick={this.onStart}>Start the encounter!</button>
         <TurnManager orders={orders} />
       </div>
@@ -60,6 +60,7 @@ function shuffle(monsters, players) {
 const mapStateToProps = state => {
   return {
     all_monsters: state[monsterModule.constants.NAME],
+    parties: state[partyModule.store.NAME]
   };
 };
 
