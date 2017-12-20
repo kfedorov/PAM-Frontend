@@ -1,4 +1,4 @@
-import Manager from "./EncounterPlayer";
+import Manager from "./EncounterManager";
 
 export default {
   Manager,

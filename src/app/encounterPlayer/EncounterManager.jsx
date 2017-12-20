@@ -8,7 +8,7 @@ import { TurnManager, MonsterSelector, PlayersSelector } from "./components";
 // Store actions
 import monsterModule from "../monsters";
 
-class EncounterPlayer extends Component {
+class EncounterManager extends Component {
   constructor(props) {
     super(props);
 
@@ -63,6 +63,6 @@ const mapStateToProps = state => {
   };
 };
 
-const Player = connect(mapStateToProps)(EncounterPlayer);
+const Manager = connect(mapStateToProps)(EncounterManager);
 
-export default Player;
+export default Manager;
