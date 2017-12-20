@@ -1,7 +1,7 @@
 /* Utils */
 import React, { Component } from "react";
 
-class PlayersSelector extends Component {
+class PartiesSelector extends Component {
   state = {
     selectedPlayers: [],
   };
@@ -89,4 +89,4 @@ class PlayersSelector extends Component {
   }
 }
 
-export default PlayersSelector;
+export default PartiesSelector;
