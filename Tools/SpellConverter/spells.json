@@ -1,1382 +1,3682 @@
 [
   {
-    "Name": "Acid Splash"
+    "level": 0,
+    "type": "Conjuration cantrip",
+    "name": "Acid Splash",
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
+  },
+  {
+    "level": 1,
+    "type": "1st-level abjuration (ritual)",
+    "name": "Alarm",
+    "school": "abjuration",
+    "castingTime": "1 minute",
+    "range": "30 feet"
+  },
+  {
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Animal Friendship",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
+  },
+  {
+    "level": 1,
+    "type": "1st-level abjuration",
+    "name": "Armor of Agathys",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self"
+  },
+  {
+    "level": 1,
+    "type": "1st-level conjuration",
+    "name": "Arms of Hadar",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Self (10-foot radius)"
+  },
+  {
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Bane",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
+  },
+  {
+    "level": 0,
+    "type": "Abjuration cantrip",
+    "name": "Blade Ward",
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "range": "Self"
+  },
+  {
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Bless",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
+  },
+  {
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Burning Hands",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self (15-foot cone)"
+  },
+  {
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Charm Person",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
+  },
+  {
+    "level": 0,
+    "type": "Necromancy cantrip",
+    "name": "Chill Touch",
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "range": "120 feet"
+  },
+  {
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Chromatic Orb",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "90 feet"
+  },
+  {
+    "level": 1,
+    "type": "1st-level illusion",
+    "name": "Color Spray",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "Self (15-foot cone)"
   },
   {
-    "Name": "Alarm"
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Command",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Animal Friendship"
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Compelled Duel",
+    "school": "enchantment",
+    "castingTime": "1 bonus action",
+    "range": "30 feet"
   },
   {
-    "Name": "Armor of Agathys"
+    "level": 1,
+    "type": "1st-level divination (ritual)",
+    "name": "Comprehend Languages",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Arms of Hadar"
+    "level": 1,
+    "type": "1st-level transmutation",
+    "name": "Create or Destroy Water",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Bane"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Cure Wounds",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Blade Ward"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Dancing Lights",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Bless"
+    "level": 1,
+    "type": "1st-level divination",
+    "name": "Detect Evil and Good",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Burning Hands"
+    "level": 1,
+    "type": "1st-level divination (ritual)",
+    "name": "Detect Magic",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Charm Person"
+    "level": 1,
+    "type": "1st-level divination (ritual)",
+    "name": "Detect Poison and Disease",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Chill Touch"
+    "level": 1,
+    "type": "1st-level illusion",
+    "name": "Disguise Self",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Chromatic Orb"
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Dissonant Whispers",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Color Spray"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Divine Favor",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Command"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Druidcraft",
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Compelled Duel"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Eldritch Blast",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Comprehend Languages"
+    "level": 1,
+    "type": "1st-level conjuration",
+    "name": "Ensnaring Strike",
+    "school": "conjuration",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Create or Destroy Water"
+    "level": 1,
+    "type": "1st-level conjuration",
+    "name": "Entangle",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Cure Wounds"
+    "level": 1,
+    "type": "1st-level transmutation",
+    "name": "Expeditious Retreat",
+    "school": "transmutation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Dancing Lights"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Faerie Fire",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Detect Evil and Good"
+    "level": 1,
+    "type": "1st-level necromancy",
+    "name": "False Life",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Detect Magic"
+    "level": 1,
+    "type": "1st-level transmutation",
+    "name": "Feather Fall",
+    "school": "transmutation",
+    "castingTime": "1 reaction, which you take when you or a creature within 60 feet of you falls",
+    "range": "60 feet"
   },
   {
-    "Name": "Detect Poison and Disease"
+    "level": 1,
+    "type": "1st-level conjuration (ritual)",
+    "name": "Find Familiar",
+    "school": "conjuration",
+    "castingTime": "1 hour",
+    "range": "10 feet"
   },
   {
-    "Name": "Disguise Self"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Fire Bolt",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Dissonant Whispers"
+    "level": 1,
+    "type": "1st-level conjuration",
+    "name": "Fog Cloud",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Divine Favor"
+    "level": 0,
+    "type": "Enchantment cantrip",
+    "name": "Friends",
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Druidcraft"
+    "level": 1,
+    "type": "1st-level transmutation",
+    "name": "Goodberry",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Eldritch Blast"
+    "level": 1,
+    "type": "1st-level conjuration",
+    "name": "Grease",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Ensnaring Strike"
+    "level": 0,
+    "type": "Divination cantrip",
+    "name": "Guidance",
+    "school": "Divination",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Entangle"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Guiding Bolt",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Expeditious Retreat"
+    "level": 1,
+    "type": "1st-level conjuration",
+    "name": "Hail of Thorns",
+    "school": "conjuration",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Faerie Fire"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Healing Word",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "60 feet"
   },
   {
-    "Name": "False Life"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Hellish Rebuke",
+    "school": "evocation",
+    "castingTime": "1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see.",
+    "range": "60 feet"
   },
   {
-    "Name": "Feather Fall"
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Heroism",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Find Familiar"
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Hex",
+    "school": "enchantment",
+    "castingTime": "1 bonus action",
+    "range": "90 feet"
   },
   {
-    "Name": "Fire Bolt"
+    "level": 1,
+    "type": "1st-level divination",
+    "name": "Hunter’s Mark",
+    "school": "divination",
+    "castingTime": "1 bonus action",
+    "range": "90 feet"
   },
   {
-    "Name": "Fog Cloud"
+    "level": 1,
+    "type": "1st-level divination (ritual)",
+    "name": "Identify",
+    "school": "divination",
+    "castingTime": "1 minute",
+    "range": "Touch"
   },
   {
-    "Name": "Friends"
+    "level": 1,
+    "type": "1st-level illusion (ritual)",
+    "name": "Illusory Script",
+    "school": "illusion",
+    "castingTime": "1 minute",
+    "range": "Touch"
   },
   {
-    "Name": "Goodberry"
+    "level": 1,
+    "type": "1st-level necromancy",
+    "name": "Inflict Wounds",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Grease"
+    "level": 1,
+    "type": "1st-level transmutation",
+    "name": "Jump",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Guidance"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Light",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Guiding Bolt"
+    "level": 1,
+    "type": "1st-level transmutation",
+    "name": "Longstrider",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Hail of Thorns"
+    "level": 1,
+    "type": "1st-level abjuration",
+    "name": "Mage Armor",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Healing Word"
+    "level": 0,
+    "type": "Conjuration cantrip",
+    "name": "Mage Hand",
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Hellish Rebuke"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Magic Missile",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Heroism"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Mending",
+    "school": "Transmutation",
+    "castingTime": "1 minute",
+    "range": "Touch"
   },
   {
-    "Name": "Hex"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Message",
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Hunter’s Mark"
+    "level": 0,
+    "type": "Illusion cantrip",
+    "name": "Minor Illusion",
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Identify"
+    "level": 0,
+    "type": "Conjuration cantrip",
+    "name": "Poison Spray",
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "range": "10 feet"
   },
   {
-    "Name": "Illusory Script"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Prestidigitation",
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "range": "10 feet"
   },
   {
-    "Name": "Inflict Wounds"
+    "level": 0,
+    "type": "Conjuration cantrip",
+    "name": "Produce Flame",
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Jump"
+    "level": 1,
+    "type": "1st-level abjuration",
+    "name": "Protection from Evil and Good",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Light"
+    "level": 1,
+    "type": "1st-level transmutation (ritual)",
+    "name": "Purify Food and Drink",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "10 feet"
   },
   {
-    "Name": "Longstrider"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Ray of Frost",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Mage Armor"
+    "level": 1,
+    "type": "1st-level necromancy",
+    "name": "Ray of Sickness",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Mage Hand"
+    "level": 3,
+    "type": "3rd-level abjuration",
+    "name": "Remove Curse",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Magic Missile"
+    "level": 0,
+    "type": "Abjuration cantrip",
+    "name": "Resistance",
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Mending"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Sacred Flame",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Message"
+    "level": 1,
+    "type": "1st-level abjuration",
+    "name": "Sanctuary",
+    "school": "abjuration",
+    "castingTime": "1 bonus action",
+    "range": "30 feet"
   },
   {
-    "Name": "Minor Illusion"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Searing Smite",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Poison Spray"
+    "level": 1,
+    "type": "1st-level abjuration",
+    "name": "Shield of Faith",
+    "school": "abjuration",
+    "castingTime": "1 bonus action",
+    "range": "60 feet"
   },
   {
-    "Name": "Prestidigitation"
+    "level": 1,
+    "type": "1st-level abjuration",
+    "name": "Shield",
+    "school": "abjuration",
+    "castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell",
+    "range": "Self"
   },
   {
-    "Name": "Produce Flame"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Shillelagh",
+    "school": "Transmutation",
+    "castingTime": "1 bonus action",
+    "range": "Touch"
   },
   {
-    "Name": "Protection from Evil and Good"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Shocking Grasp",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Purify Food and Drink"
+    "level": 1,
+    "type": "1st-level illusion",
+    "name": "Silent Image",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Ray of Frost"
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Sleep",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Ray of Sickness"
+    "level": 0,
+    "type": "Necromancy cantrip",
+    "name": "Spare the Dying",
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Remove Curse"
+    "level": 1,
+    "type": "1st-level divination (ritual)",
+    "name": "Speak with Animals",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Resistance"
+    "level": 1,
+    "type": "1st-level enchantment",
+    "name": "Tasha’s Hideous Laughter",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Sacred Flame"
+    "level": 1,
+    "type": "1st-level conjuration (ritual)",
+    "name": "Tenser’s Floating Disk",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Sanctuary"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Thaumaturgy",
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Searing Smite"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Thorn Whip",
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Shield of Faith"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Thunderous Smite",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Shield"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Thunderwave",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self (15-foot cube)"
   },
   {
-    "Name": "Shillelagh"
+    "level": 0,
+    "type": "Divination cantrip",
+    "name": "True Strike",
+    "school": "Divination",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Shocking Grasp"
+    "level": 1,
+    "type": "1st-level conjuration (ritual)",
+    "name": "Unseen Servant",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Silent Image"
+    "level": 0,
+    "type": "Enchantment cantrip",
+    "name": "Vicious Mockery",
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Sleep"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Witch Bolt",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Spare the Dying"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Wrathful Smite",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Speak with Animals"
+    "level": 2,
+    "type": "2nd-level abjuration",
+    "name": "Aid",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Tasha’s Hideous Laughter"
+    "level": 2,
+    "type": "2nd-level enchantment (ritual)",
+    "name": "Animal Messenger",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Tenser’s Floating Disk"
+    "level": 2,
+    "type": "2nd-level divination (ritual)",
+    "name": "Augury",
+    "school": "divination",
+    "castingTime": "1 minute",
+    "range": "Self"
   },
   {
-    "Name": "Thaumaturgy"
+    "level": 2,
+    "type": "2nd-level necromancy",
+    "name": "Blindness/Deafness",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Thorn Whip"
+    "level": 2,
+    "type": "2nd-level enchantment",
+    "name": "Calm Emotions",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Thunderous Smite"
+    "level": 2,
+    "type": "2nd-level enchantment",
+    "name": "Hold Person",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Thunderwave"
+    "level": 2,
+    "type": "2nd-level abjuration",
+    "name": "Lesser Restoration",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "True Strike"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Prayer of Healing",
+    "school": "evocation",
+    "castingTime": "10 minutes",
+    "range": "30 feet"
   },
   {
-    "Name": "Unseen Servant"
+    "level": 2,
+    "type": "2nd-level illusion (ritual)",
+    "name": "Silence",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Vicious Mockery"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Spiritual Weapon",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "60 feet"
   },
   {
-    "Name": "Witch Bolt"
+    "level": 2,
+    "type": "2nd-level abjuration",
+    "name": "Warding Bond",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Wrathful Smite"
+    "level": 3,
+    "type": "3rd-level necromancy",
+    "name": "Animate Dead",
+    "school": "necromancy",
+    "castingTime": "1 minute",
+    "range": "10 feet"
   },
   {
-    "Name": "Aid"
+    "level": 4,
+    "type": "4th-level divination",
+    "name": "Arcane Eye",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Animal Messenger"
+    "level": 4,
+    "type": "4th-level abjuration",
+    "name": "Aura of Life",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self (30-foot radius)"
   },
   {
-    "Name": "Augury"
+    "level": 4,
+    "type": "4th-level abjuration",
+    "name": "Aura of Purity",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self (30-foot radius)"
   },
   {
-    "Name": "Blindness/Deafness"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Aura Of Vitality",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self (30-foot radius)"
   },
   {
-    "Name": "Calm Emotions"
+    "level": 4,
+    "type": "4th-level abjuration",
+    "name": "Banishment",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Hold Person"
+    "level": 3,
+    "type": "3rd-level abjuration",
+    "name": "Beacon of Hope",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Lesser Restoration"
+    "level": 3,
+    "type": "3rd-level necromancy",
+    "name": "Bestow Curse",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Prayer of Healing"
+    "level": 4,
+    "type": "4th-level necromancy",
+    "name": "Blight",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Silence"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Blinding Smite",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Spiritual Weapon"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Blink",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Warding Bond"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Call Lightning",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Animate Dead"
+    "level": 3,
+    "type": "3rd-level divination",
+    "name": "Clairvoyance",
+    "school": "divination",
+    "castingTime": "10 minutes",
+    "range": "1 mile"
   },
   {
-    "Name": "Arcane Eye"
+    "level": 2,
+    "type": "2nd-level conjuration",
+    "name": "Cloud of Daggers",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Aura of Life"
+    "level": 4,
+    "type": "4th-level enchantment",
+    "name": "Compulsion",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Aura of Purity"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Conjure Animals",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Aura Of Vitality"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Conjure Barrage",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Self (60-foot cone)"
   },
   {
-    "Name": "Banishment"
+    "level": 3,
+    "type": "3rd-level abjuration",
+    "name": "Counterspell",
+    "school": "abjuration",
+    "castingTime": "1 reaction, which you take when you see a creature within 60 feet of you casting a spell.",
+    "range": "60 feet"
   },
   {
-    "Name": "Beacon of Hope"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Create Food and Water",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Bestow Curse"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Crusader’s Mantle",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Blight"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Daylight",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Blinding Smite"
+    "level": 3,
+    "type": "3rd-level abjuration",
+    "name": "Dispel Magic",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Blink"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Elemental Weapon",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Call Lightning"
+    "level": 3,
+    "type": "3rd-level illusion",
+    "name": "Fear",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "Self (30-foot cone)"
   },
   {
-    "Name": "Clairvoyance"
+    "level": 3,
+    "type": "3rd-level necromancy (ritual)",
+    "name": "Feign Death",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Cloud of Daggers"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Fireball",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Compulsion"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Fly",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Conjure Animals"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Gaseous Form",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Conjure Barrage"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Haste",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Counterspell"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Hunger of Hadar",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Create Food and Water"
+    "level": 3,
+    "type": "3rd-level illusion",
+    "name": "Hypnotic Pattern",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Crusader’s Mantle"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Lightning Arrow",
+    "school": "transmutation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Daylight"
+    "level": 3,
+    "type": "3rd-level abjuration",
+    "name": "Magic Circle",
+    "school": "abjuration",
+    "castingTime": "1 minute",
+    "range": "10 feet"
   },
   {
-    "Name": "Dispel Magic"
+    "level": 3,
+    "type": "3rd-level illusion",
+    "name": "Major Image",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Elemental Weapon"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Mass Healing Word",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "60 feet"
   },
   {
-    "Name": "Fear"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Alter Self",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Feign Death"
+    "level": 2,
+    "type": "2nd-level abjuration",
+    "name": "Arcane Lock",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Fireball"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Barkskin",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Fly"
+    "level": 3,
+    "type": "3rd-level evocation (ritual)",
+    "name": "Leomund’s Tiny Hut",
+    "school": "evocation",
+    "castingTime": "1 minute",
+    "range": "Self (10-foot-radius hemisphere)"
   },
   {
-    "Name": "Gaseous Form"
+    "level": 3,
+    "type": "3rd-level transmutation (ritual)",
+    "name": "Meld Into Stone",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Haste"
+    "level": 3,
+    "type": "3rd-level abjuration",
+    "name": "Nondetection",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Hunger of Hadar"
+    "level": 3,
+    "type": "3rd-level illusion (ritual)",
+    "name": "Phantom Steed",
+    "school": "illusion",
+    "castingTime": "1 minute",
+    "range": "30 feet"
   },
   {
-    "Name": "Hypnotic Pattern"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Plant Growth",
+    "school": "transmutation",
+    "castingTime": "1 action or 8 hours",
+    "range": "150 feet"
   },
   {
-    "Name": "Lightning Arrow"
+    "level": 3,
+    "type": "3rd-level abjuration",
+    "name": "Protection from Energy",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Magic Circle"
+    "level": 3,
+    "type": "3rd-level necromancy",
+    "name": "Revivify",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Major Image"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Sending",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Unlimited"
   },
   {
-    "Name": "Mass Healing Word"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Sleet Storm",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Alter Self"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Slow",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Arcane Lock"
+    "level": 3,
+    "type": "3rd-level necromancy",
+    "name": "Speak with Dead",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "10 feet"
   },
   {
-    "Name": "Barkskin"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Speak with Plants",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self (30-foot radius)"
   },
   {
-    "Name": "Leomund’s Tiny Hut"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Spirit Guardians",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Self (15-foot radius)"
   },
   {
-    "Name": "Meld Into Stone"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Stinking Cloud",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Nondetection"
+    "level": 4,
+    "type": "4th-level enchantment",
+    "name": "Confusion",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Phantom Steed"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Conjure Minor Elementals",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "90 feet"
   },
   {
-    "Name": "Plant Growth"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Conjure Woodland Beings",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Protection from Energy"
+    "level": 4,
+    "type": "4th-level transmutation",
+    "name": "Control Water",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "300 feet"
   },
   {
-    "Name": "Revivify"
+    "level": 4,
+    "type": "4th-level abjuration",
+    "name": "Death Ward",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Sending"
+    "level": 3,
+    "type": "3rd-level divination",
+    "name": "Tongues",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Sleet Storm"
+    "level": 2,
+    "type": "2nd-level divination (ritual)",
+    "name": "Beast Sense",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Slow"
+    "level": 2,
+    "type": "2nd-level illusion",
+    "name": "Blur",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Speak with Dead"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Branding Smite",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Speak with Plants"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Cordon Of Arrows",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "5 feet"
   },
   {
-    "Name": "Spirit Guardians"
+    "level": 2,
+    "type": "2nd-level enchantment",
+    "name": "Crown of Madness",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Stinking Cloud"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Darkness",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Confusion"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Darkvision",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Conjure Minor Elementals"
+    "level": 2,
+    "type": "2nd-level divination",
+    "name": "Detect Thoughts",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Conjure Woodland Beings"
+    "level": 8,
+    "type": "8th-level transmutation",
+    "name": "Animal Shapes",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Control Water"
+    "level": 8,
+    "type": "8th-level abjuration",
+    "name": "Antimagic Field",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self (10-foot-radius sphere)"
   },
   {
-    "Name": "Death Ward"
+    "level": 8,
+    "type": "8th-level enchantment",
+    "name": "Antipathy/Sympathy",
+    "school": "enchantment",
+    "castingTime": "1 hour",
+    "range": "60 feet"
   },
   {
-    "Name": "Tongues"
+    "level": 9,
+    "type": "9th-level necromancy",
+    "name": "Astral Projection",
+    "school": "necromancy",
+    "castingTime": "1 hour",
+    "range": "10 feet"
   },
   {
-    "Name": "Beast Sense"
+    "level": 8,
+    "type": "8th-level necromancy",
+    "name": "Clone",
+    "school": "necromancy",
+    "castingTime": "1 hour",
+    "range": "Touch"
   },
   {
-    "Name": "Blur"
+    "level": 8,
+    "type": "8th-level transmutation",
+    "name": "Control Weather",
+    "school": "transmutation",
+    "castingTime": "10 minutes",
+    "range": "Self (5-mile radius)"
   },
   {
-    "Name": "Branding Smite"
+    "level": 8,
+    "type": "8th-level conjuration",
+    "name": "Demiplane",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Cordon Of Arrows"
+    "level": 8,
+    "type": "8th-level enchantment",
+    "name": "Dominate Monster",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Crown of Madness"
+    "level": 8,
+    "type": "8th-level evocation",
+    "name": "Earthquake",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "500 feet"
   },
   {
-    "Name": "Darkness"
+    "level": 8,
+    "type": "8th-level enchantment",
+    "name": "Feeblemind",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Darkvision"
+    "level": 9,
+    "type": "9th-level divination",
+    "name": "Foresight",
+    "school": "divination",
+    "castingTime": "1 minute",
+    "range": "Touch"
   },
   {
-    "Name": "Detect Thoughts"
+    "level": 9,
+    "type": "9th-level conjuration",
+    "name": "Gate",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Animal Shapes"
+    "level": 8,
+    "type": "8th-level transmutation",
+    "name": "Glibness",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Antimagic Field"
+    "level": 8,
+    "type": "8th-level abjuration",
+    "name": "Holy Aura",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Antipathy/Sympathy"
+    "level": 9,
+    "type": "9th-level abjuration",
+    "name": "Imprisonment",
+    "school": "abjuration",
+    "castingTime": "1 minute",
+    "range": "30 feet"
   },
   {
-    "Name": "Astral Projection"
+    "level": 8,
+    "type": "8th-level conjuration",
+    "name": "Incendiary Cloud",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Clone"
+    "level": 9,
+    "type": "9th-level evocation",
+    "name": "Mass Heal",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Control Weather"
+    "level": 8,
+    "type": "8th-level conjuration",
+    "name": "Maze",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Demiplane"
+    "level": 9,
+    "type": "9th-level evocation",
+    "name": "Meteor Swarm",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "1 mile"
   },
   {
-    "Name": "Dominate Monster"
+    "level": 8,
+    "type": "8th-level abjuration",
+    "name": "Mind Blank",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Earthquake"
+    "level": 9,
+    "type": "9th-level evocation",
+    "name": "Power Word Heal",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Feeblemind"
+    "level": 9,
+    "type": "9th-level enchantment",
+    "name": "Power Word Kill",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Foresight"
+    "level": 8,
+    "type": "8th-level enchantment",
+    "name": "Power Word Stun",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Gate"
+    "level": 9,
+    "type": "9th-level abjuration",
+    "name": "Prismatic Wall",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Glibness"
+    "level": 9,
+    "type": "9th-level transmutation",
+    "name": "Shapechange",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Holy Aura"
+    "level": 9,
+    "type": "9th-level conjuration",
+    "name": "Storm of Vengeance",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Sight"
   },
   {
-    "Name": "Imprisonment"
+    "level": 8,
+    "type": "8th-level evocation",
+    "name": "Sunburst",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Incendiary Cloud"
+    "level": 8,
+    "type": "8th-level evocation",
+    "name": "Telepathy",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Unlimited"
   },
   {
-    "Name": "Mass Heal"
+    "level": 9,
+    "type": "9th-level transmutation",
+    "name": "Time Stop",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Maze"
+    "level": 9,
+    "type": "9th-level transmutation",
+    "name": "True Polymorph",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Meteor Swarm"
+    "level": 9,
+    "type": "9th-level necromancy",
+    "name": "True Resurrection",
+    "school": "necromancy",
+    "castingTime": "1 hour",
+    "range": "Touch"
   },
   {
-    "Name": "Mind Blank"
+    "level": 8,
+    "type": "8th-level conjuration",
+    "name": "Tsunami",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "Sight"
   },
   {
-    "Name": "Power Word Heal"
+    "level": 9,
+    "type": "9th-level illusion",
+    "name": "Weird",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Power Word Kill"
+    "level": 9,
+    "type": "9th-level conjuration",
+    "name": "Wish",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Power Word Stun"
+    "level": 7,
+    "type": "7th-level conjuration",
+    "name": "Conjure Celestial",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "90 feet"
   },
   {
-    "Name": "Prismatic Wall"
+    "level": 7,
+    "type": "7th-level evocation",
+    "name": "Delayed Blast Fireball",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Shapechange"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Dimension Door",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "500 feet"
   },
   {
-    "Name": "Storm of Vengeance"
+    "level": 7,
+    "type": "7th-level evocation",
+    "name": "Divine Word",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "30 feet"
   },
   {
-    "Name": "Sunburst"
+    "level": 7,
+    "type": "7th-level transmutation",
+    "name": "Etherealness",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Telepathy"
+    "level": 7,
+    "type": "7th-level necromancy",
+    "name": "Finger of Death",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Time Stop"
+    "level": 7,
+    "type": "7th-level evocation",
+    "name": "Fire Storm",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "True Polymorph"
+    "level": 7,
+    "type": "7th-level evocation",
+    "name": "Forcecage",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "100 feet"
   },
   {
-    "Name": "True Resurrection"
+    "level": 7,
+    "type": "7th-level illusion",
+    "name": "Mirage Arcane",
+    "school": "illusion",
+    "castingTime": "10 minutes",
+    "range": "Sight"
   },
   {
-    "Name": "Tsunami"
+    "level": 7,
+    "type": "7th-level conjuration",
+    "name": "Mordenkainen’s Magnificent Mansion",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "300 feet"
   },
   {
-    "Name": "Weird"
+    "level": 7,
+    "type": "7th-level evocation",
+    "name": "Mordenkainen’s Sword",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Wish"
+    "level": 7,
+    "type": "7th-level conjuration",
+    "name": "Plane Shift",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Conjure Celestial"
+    "level": 7,
+    "type": "7th-level evocation",
+    "name": "Prismatic Spray",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self (60-foot cone)"
   },
   {
-    "Name": "Delayed Blast Fireball"
+    "level": 7,
+    "type": "7th-level illusion",
+    "name": "Project Image",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "500 miles"
   },
   {
-    "Name": "Dimension Door"
+    "level": 7,
+    "type": "7th-level transmutation",
+    "name": "Regenerate",
+    "school": "transmutation",
+    "castingTime": "1 minute",
+    "range": "Touch"
   },
   {
-    "Name": "Divine Word"
+    "level": 7,
+    "type": "7th-level necromancy",
+    "name": "Resurrection",
+    "school": "necromancy",
+    "castingTime": "1 hour",
+    "range": "Touch"
   },
   {
-    "Name": "Etherealness"
+    "level": 7,
+    "type": "7th-level transmutation",
+    "name": "Reverse Gravity",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "100 feet"
   },
   {
-    "Name": "Finger of Death"
+    "level": 7,
+    "type": "7th-level transmutation",
+    "name": "Sequester",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Fire Storm"
+    "level": 7,
+    "type": "7th-level illusion",
+    "name": "Simulacrum",
+    "school": "illusion",
+    "castingTime": "12 hours",
+    "range": "Touch"
   },
   {
-    "Name": "Forcecage"
+    "level": 7,
+    "type": "7th-level abjuration",
+    "name": "Symbol",
+    "school": "abjuration",
+    "castingTime": "1 minute",
+    "range": "Touch"
   },
   {
-    "Name": "Mirage Arcane"
+    "level": 7,
+    "type": "7th-level conjuration",
+    "name": "Teleport",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "10 feet"
   },
   {
-    "Name": "Mordenkainen’s Magnificent Mansion"
+    "level": 2,
+    "type": "2nd-level enchantment",
+    "name": "Suggestion",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Mordenkainen’s Sword"
+    "level": 2,
+    "type": "2nd-level illusion",
+    "name": "Invisibility",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Plane Shift"
+    "level": 5,
+    "type": "5th-level transmutation",
+    "name": "Animate Objects",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Prismatic Spray"
+    "level": 5,
+    "type": "5th-level abjuration",
+    "name": "Antilife Shell",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self (10-foot radius)"
   },
   {
-    "Name": "Project Image"
+    "level": 6,
+    "type": "6th-level conjuration",
+    "name": "Arcane Gate",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "500 feet"
   },
   {
-    "Name": "Regenerate"
+    "level": 5,
+    "type": "5th-level transmutation",
+    "name": "Awaken",
+    "school": "transmutation",
+    "castingTime": "8 hours",
+    "range": "Touch"
   },
   {
-    "Name": "Resurrection"
+    "level": 5,
+    "type": "5th-level abjuration",
+    "name": "Banishing Smite",
+    "school": "abjuration",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Reverse Gravity"
+    "level": 6,
+    "type": "6th-level evocation",
+    "name": "Blade Barrier",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Sequester"
+    "level": 6,
+    "type": "6th-level evocation",
+    "name": "Chain Lightning",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Simulacrum"
+    "level": 6,
+    "type": "6th-level necromancy",
+    "name": "Circle of Death",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Symbol"
+    "level": 5,
+    "type": "5th-level abjuration",
+    "name": "Circle of Power",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self (30-foot radius)"
   },
   {
-    "Name": "Teleport"
+    "level": 5,
+    "type": "5th-level conjuration",
+    "name": "Cloudkill",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Suggestion"
+    "level": 5,
+    "type": "5th-level divination (ritual)",
+    "name": "Commune with Nature",
+    "school": "divination",
+    "castingTime": "1 minute",
+    "range": "Self"
   },
   {
-    "Name": "Invisibility"
+    "level": 5,
+    "type": "5th-level divination (ritual)",
+    "name": "Commune",
+    "school": "divination",
+    "castingTime": "1 minute",
+    "range": "Self"
   },
   {
-    "Name": "Animate Objects"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Cone of Cold",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self (60-foot cone)"
   },
   {
-    "Name": "Antilife Shell"
+    "level": 5,
+    "type": "5th-level conjuration",
+    "name": "Conjure Elemental",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "90 feet"
   },
   {
-    "Name": "Arcane Gate"
+    "level": 6,
+    "type": "6th-level conjuration",
+    "name": "Conjure Fey",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "90 feet"
   },
   {
-    "Name": "Awaken"
+    "level": 5,
+    "type": "5th-level conjuration",
+    "name": "Conjure Volley",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Banishing Smite"
+    "level": 5,
+    "type": "5th-level divination (ritual)",
+    "name": "Contact Other Plane",
+    "school": "divination",
+    "castingTime": "1 minute",
+    "range": "Self"
   },
   {
-    "Name": "Blade Barrier"
+    "level": 5,
+    "type": "5th-level necromancy",
+    "name": "Contagion",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Chain Lightning"
+    "level": 6,
+    "type": "6th-level evocation",
+    "name": "Contingency",
+    "school": "evocation",
+    "castingTime": "10 minutes",
+    "range": "Self"
   },
   {
-    "Name": "Circle of Death"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Continual Flame",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Circle of Power"
+    "level": 6,
+    "type": "6th-level necromancy",
+    "name": "Create Undead",
+    "school": "necromancy",
+    "castingTime": "1 minute",
+    "range": "10 feet"
   },
   {
-    "Name": "Cloudkill"
+    "level": 5,
+    "type": "5th-level illusion",
+    "name": "Creation",
+    "school": "illusion",
+    "castingTime": "1 minute",
+    "range": "30 feet"
   },
   {
-    "Name": "Commune with Nature"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Destructive Wave",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self (30-foot radius)"
   },
   {
-    "Name": "Commune"
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Disintegrate",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Cone of Cold"
+    "level": 5,
+    "type": "5th-level abjuration",
+    "name": "Dispel Evil and Good",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Conjure Elemental"
+    "level": 4,
+    "type": "4th-level divination (ritual)",
+    "name": "Divination",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Conjure Fey"
+    "level": 4,
+    "type": "4th-level enchantment",
+    "name": "Dominate Beast",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Conjure Volley"
+    "level": 5,
+    "type": "5th-level enchantment",
+    "name": "Dominate Person",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Contact Other Plane"
+    "level": 6,
+    "type": "6th-level conjuration (ritual)",
+    "name": "Drawmij’s Instant Summons",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "Touch"
   },
   {
-    "Name": "Contagion"
+    "level": 5,
+    "type": "5th-level illusion",
+    "name": "Dream",
+    "school": "illusion",
+    "castingTime": "1 minute",
+    "range": "Special"
   },
   {
-    "Name": "Contingency"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Enhance Ability",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Continual Flame"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Enlarge/Reduce",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Create Undead"
+    "level": 2,
+    "type": "2nd-level enchantment",
+    "name": "Enthrall",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Creation"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Evard’s Black Tentacles",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Destructive Wave"
+    "level": 6,
+    "type": "6th-level necromancy",
+    "name": "Eyebite",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Disintegrate"
+    "level": 4,
+    "type": "4th-level transmutation",
+    "name": "Fabricate",
+    "school": "transmutation",
+    "castingTime": "10 minutes",
+    "range": "120 feet"
   },
   {
-    "Name": "Dispel Evil and Good"
+    "level": 2,
+    "type": "2nd-level conjuration",
+    "name": "Find Steed",
+    "school": "conjuration",
+    "castingTime": "10 minutes",
+    "range": "30 feet"
   },
   {
-    "Name": "Divination"
+    "level": 6,
+    "type": "6th-level divination",
+    "name": "Find the Path",
+    "school": "divination",
+    "castingTime": "1 minutes",
+    "range": "Self"
   },
   {
-    "Name": "Dominate Beast"
+    "level": 2,
+    "type": "2nd-level divination",
+    "name": "Find Traps",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Dominate Person"
+    "level": 4,
+    "type": "4th-level evocation",
+    "name": "Fire Shield",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Drawmij’s Instant Summons"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Flame Blade",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Dream"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Flame Strike",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Enhance Ability"
+    "level": 2,
+    "type": "2nd-level conjuration",
+    "name": "Flaming Sphere",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Enlarge/Reduce"
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Flesh to Stone",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Enthrall"
+    "level": 6,
+    "type": "6th-level abjuration (ritual)",
+    "name": "Forbiddance",
+    "school": "abjuration",
+    "castingTime": "10 minutes",
+    "range": "Touch"
   },
   {
-    "Name": "Evard’s Black Tentacles"
+    "level": 4,
+    "type": "4th-level abjuration",
+    "name": "Freedom of Movement",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Eyebite"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Bigby’s Hand",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Fabricate"
+    "level": 5,
+    "type": "5th-level enchantment",
+    "name": "Geas",
+    "school": "enchantment",
+    "castingTime": "1 minute",
+    "range": "60 feet"
   },
   {
-    "Name": "Find Steed"
+    "level": 2,
+    "type": "2nd-level necromancy (ritual)",
+    "name": "Gentle Repose",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Find the Path"
+    "level": 4,
+    "type": "4th-level transmutation",
+    "name": "Giant Insect",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Find Traps"
+    "level": 6,
+    "type": "6th-level abjuration",
+    "name": "Globe of Invulnerability",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Fire Shield"
+    "level": 3,
+    "type": "3rd-level abjuration",
+    "name": "Glyph of Warding",
+    "school": "abjuration",
+    "castingTime": "1 hour",
+    "range": "Touch"
   },
   {
-    "Name": "Flame Blade"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Grasping Vine",
+    "school": "conjuration",
+    "castingTime": "1 bonus action",
+    "range": "30 feet"
   },
   {
-    "Name": "Flame Strike"
+    "level": 4,
+    "type": "4th-level illusion",
+    "name": "Greater Invisibility",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Flaming Sphere"
+    "level": 5,
+    "type": "5th-level abjuration",
+    "name": "Greater Restoration",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Flesh to Stone"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Guardian of Faith",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Forbiddance"
+    "level": 6,
+    "type": "6th-level abjuration",
+    "name": "Guards and Wards",
+    "school": "abjuration",
+    "castingTime": "10 minutes",
+    "range": "Touch"
   },
   {
-    "Name": "Freedom of Movement"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Gust of Wind",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self (60-foot line)"
   },
   {
-    "Name": "Bigby’s Hand"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Hallow",
+    "school": "evocation",
+    "castingTime": "24 hours",
+    "range": "Touch"
   },
   {
-    "Name": "Geas"
+    "level": 4,
+    "type": "4th-level illusion",
+    "name": "Hallucinatory Terrain",
+    "school": "illusion",
+    "castingTime": "10 minutes",
+    "range": "300 feet"
   },
   {
-    "Name": "Gentle Repose"
+    "level": 6,
+    "type": "6th-level necromancy",
+    "name": "Harm",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Giant Insect"
+    "level": 6,
+    "type": "6th-level evocation",
+    "name": "Heal",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Globe of Invulnerability"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Heat Metal",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Glyph of Warding"
+    "level": 6,
+    "type": "6th-level conjuration",
+    "name": "Heroes’ Feast",
+    "school": "conjuration",
+    "castingTime": "10 minutes",
+    "range": "30 feet"
   },
   {
-    "Name": "Grasping Vine"
+    "level": 5,
+    "type": "5th-level enchantment",
+    "name": "Hold Monster",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Greater Invisibility"
+    "level": 4,
+    "type": "4th-level evocation",
+    "name": "Ice Storm",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "300 feet"
   },
   {
-    "Name": "Greater Restoration"
+    "level": 5,
+    "type": "5th-level conjuration",
+    "name": "Insect Plague",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "300 feet"
   },
   {
-    "Name": "Guardian of Faith"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Knock",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Guards and Wards"
+    "level": 5,
+    "type": "5th-level divination",
+    "name": "Legend Lore",
+    "school": "divination",
+    "castingTime": "10 minutes",
+    "range": "Self"
   },
   {
-    "Name": "Gust of Wind"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Leomund’s Secret Chest",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Hallow"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Levitate",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Hallucinatory Terrain"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Lightning Bolt",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self (100-foot line)"
   },
   {
-    "Name": "Harm"
+    "level": 2,
+    "type": "2nd-level divination (ritual)",
+    "name": "Locate Animals or Plants",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Heal"
+    "level": 4,
+    "type": "4th-level divination",
+    "name": "Locate Creature",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Heat Metal"
+    "level": 2,
+    "type": "2nd-level divination",
+    "name": "Locate Object",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Heroes’ Feast"
+    "level": 6,
+    "type": "6th-level necromancy",
+    "name": "Magic Jar",
+    "school": "necromancy",
+    "castingTime": "1 minute",
+    "range": "Self"
   },
   {
-    "Name": "Hold Monster"
+    "level": 2,
+    "type": "2nd-level illusion (ritual)",
+    "name": "Magic Mouth",
+    "school": "illusion",
+    "castingTime": "1 minute",
+    "range": "30 feet"
   },
   {
-    "Name": "Ice Storm"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Magic Weapon",
+    "school": "transmutation",
+    "castingTime": "1 bonus action",
+    "range": "Touch"
   },
   {
-    "Name": "Insect Plague"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Mass Cure Wounds",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Knock"
+    "level": 6,
+    "type": "6th-level enchantment",
+    "name": "Mass Suggestion",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Legend Lore"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Melf’s Acid Arrow",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Leomund’s Secret Chest"
+    "level": 2,
+    "type": "2nd-level illusion",
+    "name": "Mirror Image",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Levitate"
+    "level": 5,
+    "type": "5th-level illusion",
+    "name": "Mislead",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Lightning Bolt"
+    "level": 2,
+    "type": "2nd-level conjuration",
+    "name": "Misty Step",
+    "school": "conjuration",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Locate Animals or Plants"
+    "level": 5,
+    "type": "5th-level enchantment",
+    "name": "Modify Memory",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Locate Creature"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Moonbeam",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Locate Object"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Mordenkainen’s Faithful Hound",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Magic Jar"
+    "level": 4,
+    "type": "4th-level abjuration",
+    "name": "Mordenkainen’s Private Sanctum",
+    "school": "abjuration",
+    "castingTime": "10 minutes",
+    "range": "120 feet"
   },
   {
-    "Name": "Magic Mouth"
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Move Earth",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Magic Weapon"
+    "level": 2,
+    "type": "2nd-level illusion",
+    "name": "Nystul’s Magic Aura",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Mass Cure Wounds"
+    "level": 6,
+    "type": "6th-level evocation",
+    "name": "Otiluke’s Freezing Sphere",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "300 feet"
   },
   {
-    "Name": "Mass Suggestion"
+    "level": 4,
+    "type": "4th-level evocation",
+    "name": "Otiluke’s Resilient Sphere",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Melf’s Acid Arrow"
+    "level": 6,
+    "type": "6th-level enchantment",
+    "name": "Otto’s Irresistible Dance",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Mirror Image"
+    "level": 2,
+    "type": "2nd-level abjuration",
+    "name": "Pass Without Trace",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Mislead"
+    "level": 5,
+    "type": "5th-level transmutation",
+    "name": "Passwall",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Misty Step"
+    "level": 2,
+    "type": "2nd-level illusion",
+    "name": "Phantasmal Force",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Modify Memory"
+    "level": 4,
+    "type": "4th-level illusion",
+    "name": "Phantasmal Killer",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Moonbeam"
+    "level": 6,
+    "type": "6th-level conjuration",
+    "name": "Planar Ally",
+    "school": "conjuration",
+    "castingTime": "10 minutes",
+    "range": "60 feet"
   },
   {
-    "Name": "Mordenkainen’s Faithful Hound"
+    "level": 5,
+    "type": "5th-level abjuration",
+    "name": "Planar Binding",
+    "school": "abjuration",
+    "castingTime": "1 hour",
+    "range": "60 feet"
   },
   {
-    "Name": "Mordenkainen’s Private Sanctum"
+    "level": 4,
+    "type": "4th-level transmutation",
+    "name": "Polymorph",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Move Earth"
+    "level": 6,
+    "type": "6th-level illusion",
+    "name": "Programmed Illusion",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Nystul’s Magic Aura"
+    "level": 2,
+    "type": "2nd-level abjuration",
+    "name": "Protection from Poison",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Otiluke’s Freezing Sphere"
+    "level": 5,
+    "type": "5th-level necromancy",
+    "name": "Raise Dead",
+    "school": "necromancy",
+    "castingTime": "1 hour",
+    "range": "Touch"
   },
   {
-    "Name": "Otiluke’s Resilient Sphere"
+    "level": 5,
+    "type": "5th-level divination (ritual)",
+    "name": "Rary’s Telepathic Bond",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Otto’s Irresistible Dance"
+    "level": 2,
+    "type": "2nd-level necromancy",
+    "name": "Ray of Enfeeblement",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Pass Without Trace"
+    "level": 5,
+    "type": "5th-level transmutation",
+    "name": "Reincarnate",
+    "school": "transmutation",
+    "castingTime": "1 hour",
+    "range": "Touch"
   },
   {
-    "Name": "Passwall"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Rope Trick",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Phantasmal Force"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Scorching Ray",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Phantasmal Killer"
+    "level": 5,
+    "type": "5th-level divination",
+    "name": "Scrying",
+    "school": "divination",
+    "castingTime": "10 minutes",
+    "range": "Self"
   },
   {
-    "Name": "Planar Ally"
+    "level": 2,
+    "type": "2nd-level divination",
+    "name": "See Invisibility",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Planar Binding"
+    "level": 5,
+    "type": "5th-level illusion",
+    "name": "Seeming",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Polymorph"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Shatter",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Programmed Illusion"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Spider Climb",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Protection from Poison"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Spike Growth",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Raise Dead"
+    "level": 4,
+    "type": "4th-level evocation",
+    "name": "Staggering Smite",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Rary’s Telepathic Bond"
+    "level": 4,
+    "type": "4th-level transmutation",
+    "name": "Stone Shape",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Ray of Enfeeblement"
+    "level": 4,
+    "type": "4th-level abjuration",
+    "name": "Stoneskin",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Reincarnate"
+    "level": 6,
+    "type": "6th-level evocation",
+    "name": "Sunbeam",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self (60-foot line)"
   },
   {
-    "Name": "Rope Trick"
+    "level": 5,
+    "type": "5th-level transmutation",
+    "name": "Swift Quiver",
+    "school": "transmutation",
+    "castingTime": "1 bonus action",
+    "range": "Touch"
   },
   {
-    "Name": "Scorching Ray"
+    "level": 5,
+    "type": "5th-level transmutation",
+    "name": "Telekinesis",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Scrying"
+    "level": 5,
+    "type": "5th-level conjuration",
+    "name": "Teleportation Circle",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "10 feet"
   },
   {
-    "Name": "See Invisibility"
+    "level": 6,
+    "type": "6th-level conjuration",
+    "name": "Transport via Plants",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "10 feet"
   },
   {
-    "Name": "Seeming"
+    "level": 5,
+    "type": "5th-level conjuration",
+    "name": "Tree Stride",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Shatter"
+    "level": 6,
+    "type": "6th-level divination",
+    "name": "True Seeing",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Spider Climb"
+    "level": 3,
+    "type": "3rd-level necromancy",
+    "name": "Vampiric Touch",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Spike Growth"
+    "level": 4,
+    "type": "4th-level evocation",
+    "name": "Wall of Fire",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Staggering Smite"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Wall of Force",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Stone Shape"
+    "level": 6,
+    "type": "6th-level evocation",
+    "name": "Wall of Ice",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Stoneskin"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Wall of Stone",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Sunbeam"
+    "level": 6,
+    "type": "6th-level conjuration",
+    "name": "Wall of Thorns",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Swift Quiver"
+    "level": 3,
+    "type": "3rd-level transmutation (ritual)",
+    "name": "Water Breathing",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Telekinesis"
+    "level": 3,
+    "type": "3rd-level transmutation (ritual)",
+    "name": "Water Walk",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Teleportation Circle"
+    "level": 2,
+    "type": "2nd-level conjuration",
+    "name": "Web",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Transport via Plants"
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Wind Walk",
+    "school": "transmutation",
+    "castingTime": "1 minute",
+    "range": "30 feet"
   },
   {
-    "Name": "Tree Stride"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Wind Wall",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "True Seeing"
+    "level": 6,
+    "type": "6th-level conjuration",
+    "name": "Word of Recall",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "5 feet"
   },
   {
-    "Name": "Vampiric Touch"
+    "level": 2,
+    "type": "2nd-level enchantment",
+    "name": "Zone of Truth",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Wall of Fire"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Earth Tremor",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "10 feet"
   },
   {
-    "Name": "Wall of Force"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Pyrotechnics",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Wall of Ice"
+    "level": 2,
+    "type": "2nd-level transmutation (ritual)",
+    "name": "Skywrite",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Sight"
   },
   {
-    "Name": "Wall of Stone"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Thunderclap",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "5 feet"
   },
   {
-    "Name": "Wall of Thorns"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Warding Wind",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Water Breathing"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Control Flames",
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Water Walk"
+    "level": 0,
+    "type": "Conjuration cantrip",
+    "name": "Create Bonfire",
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Web"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Frostbite",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Wind Walk"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Gust",
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Wind Wall"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Magic Stone",
+    "school": "Transmutation",
+    "castingTime": "1 bonus action",
+    "range": "Touch"
   },
   {
-    "Name": "Word of Recall"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Mold Earth",
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Zone of Truth"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Shape Water",
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Earth Tremor"
+    "level": 1,
+    "type": "1st-level abjuration",
+    "name": "Absorb Elements",
+    "school": "abjuration",
+    "castingTime": "1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage",
+    "range": "Self"
   },
   {
-    "Name": "Pyrotechnics"
+    "level": 1,
+    "type": "1st-level divination",
+    "name": "Beast Bond",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Skywrite"
+    "level": 1,
+    "type": "1st-level conjuration",
+    "name": "Ice Knife",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Thunderclap"
+    "level": 2,
+    "type": "2nd-level conjuration",
+    "name": "Dust Devil",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Warding Wind"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Earthbind",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "300 feet"
   },
   {
-    "Name": "Control Flames"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Aganazzar’s Scorcher",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Create Bonfire"
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Bones of the Earth",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Frostbite"
+    "level": 1,
+    "type": "1st-level transmutation",
+    "name": "Catapult",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Gust"
+    "level": 5,
+    "type": "5th-level transmutation",
+    "name": "Control Winds",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "300 feet"
   },
   {
-    "Name": "Magic Stone"
+    "level": 4,
+    "type": "4th-level transmutation",
+    "name": "Elemental Bane",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Mold Earth"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Erupting Earth",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Shape Water"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Flame Arrows",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
   },
   {
-    "Name": "Absorb Elements"
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Investiture of Flame",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Beast Bond"
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Investiture of Ice",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Ice Knife"
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Investiture of Stone",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Dust Devil"
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Investiture of Wind",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Earthbind"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Maelstrom",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Aganazzar’s Scorcher"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Maximilian’s Earthen Grasp",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Bones of the Earth"
+    "level": 6,
+    "type": "6th-level abjuration",
+    "name": "Primordial Ward",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Catapult"
+    "level": 2,
+    "type": "2nd-level evocation",
+    "name": "Snilloc’s Snowball Swarm",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Control Winds"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Tidal Wave",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Elemental Bane"
+    "level": 5,
+    "type": "5th-level transmutation",
+    "name": "Transmute Rock",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Erupting Earth"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Wall of Water",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Flame Arrows"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Watery Sphere",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Investiture of Flame"
+    "level": 7,
+    "type": "7th-level evocation",
+    "name": "Whirlwind",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "300 feet"
   },
   {
-    "Name": "Investiture of Ice"
+    "level": 8,
+    "type": "8th-level necromancy",
+    "name": "Abi-Dalzim’s Horrid Wilting",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Investiture of Stone"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Immolation",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Investiture of Wind"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Melf’s Minute Meteors",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Maelstrom"
+    "level": 4,
+    "type": "4th-level evocation",
+    "name": "Storm Sphere",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Maximilian’s Earthen Grasp"
+    "level": 4,
+    "type": "4th-level evocation",
+    "name": "Vitriolic Sphere",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "150 feet"
   },
   {
-    "Name": "Primordial Ward"
+    "level": 3,
+    "type": "3rd-level evocation",
+    "name": "Wall of Sand",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Snilloc’s Snowball Swarm"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Booming Blade",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "5 feet"
   },
   {
-    "Name": "Tidal Wave"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Green-Flame Blade",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "5 feet"
   },
   {
-    "Name": "Transmute Rock"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Lightning Lure",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "15 feet"
   },
   {
-    "Name": "Wall of Water"
+    "level": 0,
+    "type": "Conjuration cantrip",
+    "name": "Sword Burst",
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "range": "5 feet"
   },
   {
-    "Name": "Watery Sphere"
+    "level": 3,
+    "type": "3rd-level enchantment",
+    "name": "Catnap",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Whirlwind"
+    "level": 1,
+    "type": "1st-level necromancy",
+    "name": "Cause Fear",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Abi-Dalzim’s Horrid Wilting"
+    "level": 2,
+    "type": "2nd-level transmutation",
+    "name": "Dragon’s Breath",
+    "school": "transmutation",
+    "castingTime": "1 bonus action",
+    "range": "Touch"
   },
   {
-    "Name": "Immolation"
+    "level": 3,
+    "type": "3rd-level enchantment",
+    "name": "Enemies Abound",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Melf’s Minute Meteors"
+    "level": 0,
+    "type": "Conjuration cantrip",
+    "name": "Infestation",
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Storm Sphere"
+    "level": 3,
+    "type": "3rd-level necromancy",
+    "name": "Life Transference",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Vitriolic Sphere"
+    "level": 2,
+    "type": "2nd-level divination",
+    "name": "Mind Spike",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Wall of Sand"
+    "level": 2,
+    "type": "2nd-level illusion",
+    "name": "Shadow Blade",
+    "school": "illusion",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Booming Blade"
+    "level": 1,
+    "type": "1st-level abjuration",
+    "name": "Snare",
+    "school": "abjuration",
+    "castingTime": "1 minute",
+    "range": "Touch"
   },
   {
-    "Name": "Green-Flame Blade"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Summon Lesser Demons",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Lightning Lure"
+    "level": 3,
+    "type": "3rd-level conjuration",
+    "name": "Thunder Step",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Sword Burst"
+    "level": 0,
+    "type": "Necromancy cantrip",
+    "name": "Toll the Dead",
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Catnap"
+    "level": 1,
+    "type": "1st-level abjuration (ritual)",
+    "name": "Ceremony",
+    "school": "abjuration",
+    "castingTime": "1 hour",
+    "range": "Touch"
   },
   {
-    "Name": "Cause Fear"
+    "level": 1,
+    "type": "1st-level evocation",
+    "name": "Chaos Bolt",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Dragon’s Breath"
+    "level": 4,
+    "type": "4th-level enchantment",
+    "name": "Charm Monster",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "30 feet"
   },
   {
-    "Name": "Enemies Abound"
+    "level": 6,
+    "type": "6th-level abjuration",
+    "name": "Druid Grove",
+    "school": "abjuration",
+    "castingTime": "10 minutes",
+    "range": "Touch"
   },
   {
-    "Name": "Infestation"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Find Greater Steed",
+    "school": "conjuration",
+    "castingTime": "10 minutes",
+    "range": "30 feet"
   },
   {
-    "Name": "Life Transference"
+    "level": 4,
+    "type": "4th-level transmutation",
+    "name": "Guardian of Nature",
+    "school": "transmutation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Mind Spike"
+    "level": 2,
+    "type": "2nd-level conjuration",
+    "name": "Healing Spirit",
+    "school": "conjuration",
+    "castingTime": "1 bonus action",
+    "range": "60 feet"
   },
   {
-    "Name": "Shadow Blade"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Holy Weapon",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Touch"
   },
   {
-    "Name": "Snare"
+    "level": 9,
+    "type": "9th-level abjuration",
+    "name": "Invulnerability",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Summon Lesser Demons"
+    "level": 9,
+    "type": "9th-level transmutation",
+    "name": "Mass Polymorph",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Thunder Step"
+    "level": 8,
+    "type": "8th-level conjuration",
+    "name": "Mighty Fortress",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "1 mile"
   },
   {
-    "Name": "Toll the Dead"
+    "level": 0,
+    "type": "Transmutation cantrip",
+    "name": "Primal Savagery",
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Ceremony"
+    "level": 9,
+    "type": "9th-level enchantment",
+    "name": "Psychic Scream",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "90 feet"
   },
   {
-    "Name": "Chaos Bolt"
+    "level": 4,
+    "type": "4th-level necromancy",
+    "name": "Shadow of Moil",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "Self"
   },
   {
-    "Name": "Charm Monster"
+    "level": 4,
+    "type": "4th-level evocation",
+    "name": "Sickening Radiance",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Druid Grove"
+    "level": 6,
+    "type": "6th-level necromancy",
+    "name": "Soul Cage",
+    "school": "necromancy",
+    "castingTime": "1 reaction, which you take when a humanoid you can see within 60 feet of you dies",
+    "range": "60 feet"
   },
   {
-    "Name": "Find Greater Steed"
+    "level": 4,
+    "type": "4th-level conjuration",
+    "name": "Summon Greater Demon",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Guardian of Nature"
+    "level": 7,
+    "type": "7th-level conjuration",
+    "name": "Temple of the Gods",
+    "school": "conjuration",
+    "castingTime": "1 hour",
+    "range": "120 feet"
   },
   {
-    "Name": "Healing Spirit"
+    "level": 3,
+    "type": "3rd-level transmutation",
+    "name": "Tiny Servant",
+    "school": "transmutation",
+    "castingTime": "1 minute",
+    "range": "Touch"
   },
   {
-    "Name": "Holy Weapon"
+    "level": 0,
+    "type": "Evocation cantrip",
+    "name": "Word of Radiance",
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "5 feet"
   },
   {
-    "Name": "Invulnerability"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Wrath of Nature",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
   },
   {
-    "Name": "Mass Polymorph"
+    "level": 1,
+    "type": "1st-level transmutation",
+    "name": "Zephyr Strike",
+    "school": "transmutation",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Mighty Fortress"
+    "level": 5,
+    "type": "5th-level necromancy",
+    "name": "Danse Macabre",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Primal Savagery"
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Dawn",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Psychic Scream"
+    "level": 5,
+    "type": "5th-level necromancy",
+    "name": "Enervation",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "60 feet"
   },
   {
-    "Name": "Shadow of Moil"
+    "level": 5,
+    "type": "5th-level conjuration",
+    "name": "Far Step",
+    "school": "conjuration",
+    "castingTime": "1 bonus action",
+    "range": "Self"
   },
   {
-    "Name": "Sickening Radiance"
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Create Homunculus",
+    "school": "transmutation",
+    "castingTime": "1 hour",
+    "range": "Touch"
   },
   {
-    "Name": "Soul Cage"
-  },
-  {
-    "Name": "Summon Greater Demon"
-  },
-  {
-    "Name": "Temple of the Gods"
-  },
-  {
-    "Name": "Tiny Servant"
-  },
-  {
-    "Name": "Word of Radiance"
-  },
-  {
-    "Name": "Wrath of Nature"
-  },
-  {
-    "Name": "Zephyr Strike"
-  },
-  {
-    "Name": "Danse Macabre"
-  },
-  {
-    "Name": "Dawn"
-  },
-  {
-    "Name": "Enervation"
-  },
-  {
-    "Name": "Far Step"
-  },
-  {
-    "Name": "Create Homunculus"
-  },
-  {
-    "Name": "Crown of Stars"
-  },
-  {
-    "Name": "Illusory Dragon"
-  },
-  {
-    "Name": "Infernal Calling"
-  },
-  {
-    "Name": "Mental Prison"
-  },
-  {
-    "Name": "Negative Energy Flood"
-  },
-  {
-    "Name": "Power Word Pain"
-  },
-  {
-    "Name": "Scatter"
-  },
-  {
-    "Name": "Skill Empowerment"
-  },
-  {
-    "Name": "Steel Wind Strike"
-  },
-  {
-    "Name": "Synaptic Static"
-  },
-  {
-    "Name": "Tenser’s Transformation"
-  },
-  {
-    "Name": "Wall of Light"
-  },
-  {
-    "Name": "Maddening Darkness"
+    "level": 7,
+    "type": "7th-level evocation",
+    "name": "Crown of Stars",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "Self"
+  },
+  {
+    "level": 8,
+    "type": "8th-level illusion",
+    "name": "Illusory Dragon",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "120 feet"
+  },
+  {
+    "level": 5,
+    "type": "5th-level conjuration",
+    "name": "Infernal Calling",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "90 feet"
+  },
+  {
+    "level": 6,
+    "type": "6th-level illusion",
+    "name": "Mental Prison",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "60 feet"
+  },
+  {
+    "level": 5,
+    "type": "5th-level necromancy",
+    "name": "Negative Energy Flood",
+    "school": "necromancy",
+    "castingTime": "1 action",
+    "range": "60 feet"
+  },
+  {
+    "level": 7,
+    "type": "7th-level enchantment",
+    "name": "Power Word Pain",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet"
+  },
+  {
+    "level": 6,
+    "type": "6th-level conjuration",
+    "name": "Scatter",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "30 feet"
+  },
+  {
+    "level": 5,
+    "type": "5th-level transmutation",
+    "name": "Skill Empowerment",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch"
+  },
+  {
+    "level": 5,
+    "type": "5th-level conjuration",
+    "name": "Steel Wind Strike",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "30 feet"
+  },
+  {
+    "level": 5,
+    "type": "5th-level enchantment",
+    "name": "Synaptic Static",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "120 feet"
+  },
+  {
+    "level": 6,
+    "type": "6th-level transmutation",
+    "name": "Tenser’s Transformation",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Self"
+  },
+  {
+    "level": 5,
+    "type": "5th-level evocation",
+    "name": "Wall of Light",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "120 feet"
+  },
+  {
+    "level": 8,
+    "type": "8th-level evocation",
+    "name": "Maddening Darkness",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "150 feet"
   }
 ]
