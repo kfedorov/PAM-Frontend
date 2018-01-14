@@ -15,17 +15,40 @@ CASTING_TIME_RULE = r'Casting Time\*\*:\s(.*)'
 
 RANGE_RULE = r'Range\*\*:\s(.*)'
 
+CAN_BE_RITUAL_RULE = r'ritual'
 
+DURATION_RULE = r'Duration\*\*:\s(.*)'
 
-def simple_parser(path, text, spell, name, rule):
+DESCRIPTION_OVER_RULE = r'Duration\*\*.*\n\n(.*\n*)*'
+
+HIGHER_LEVEL_RULE = r'Higher\sLevels\.\*\*\s(.*)'
+
+CONCENTRATION_RULE = r'Concentration'
+SOMATIC_RULE = r'Components\*\*:.*S'
+VERBAL_RULE = r'Components\*\*:.*V'
+MATERIAL_RULE = r'Components\*\*:.*M'
+REQUIRED_GOLD = r'(\d*,?\d+)\s*gp'
+
+current_path = ""
+
+def get_value(text, rule, match_group = 1, isOptional = False,):
     match = re.search(rule, text, re.M | re.I | re.M)
     if match:
-        spell[name] = match.group(1)
+        return match.group(match_group)
+    elif not isOptional:
+        print("Can't parse " + current_path + " with rule " + rule)
+
+def contain(text, rule):
+    match = re.search(rule, text, re.M | re.I | re.M)
+    if match:
+        return True
     else:
-        print("Can't parse level in " + path)
+        return False
 
 
 def parse_spell(path):
+    global current_path
+    current_path = path
     spell = {}
 
     with open(path, "r", encoding="utf8") as file_input:
@@ -43,10 +66,10 @@ def parse_spell(path):
                 print("Can't parse level in " + path)
 
         # Type
-        simple_parser(path, all_text, spell, "type", TYPE_RULE)
+        spell["type"] = get_value(all_text, TYPE_RULE)
 
         # Name
-        simple_parser(path, all_text, spell, "name", TITLE_RULE)
+        spell["name"] = get_value(all_text, TITLE_RULE)
 
         # School
         school_cantrip_match = re.search(
@@ -61,10 +84,46 @@ def parse_spell(path):
                 print("Can't parse school in " + path)
 
         # Casting Time
-        simple_parser(path, all_text, spell, "castingTime", CASTING_TIME_RULE)
+        spell["castingTime"] = get_value(all_text, CASTING_TIME_RULE)
 
         # Range
-        simple_parser(path, all_text, spell, "range", RANGE_RULE)
+        spell["range"] = get_value(all_text, RANGE_RULE)
+
+        # Can Be Ritual
+        spell["canBeRitual"] = contain(all_text, CAN_BE_RITUAL_RULE)
+
+        # Duration
+        spell["duration"] = get_value(all_text, DURATION_RULE)
+
+        # Description
+        over_description = get_value(all_text, DESCRIPTION_OVER_RULE, match_group = 0)
+        duration_to_trim = get_value(all_text, DURATION_RULE, match_group = 0)
+        trimmed_description = over_description.replace(duration_to_trim, "")
+
+        higher_spell_to_trim = get_value(all_text, HIGHER_LEVEL_RULE, match_group = 0, isOptional = True)
+        if higher_spell_to_trim:
+            trimmed_description = trimmed_description.replace(higher_spell_to_trim, "")
+
+        spell["description"] = trimmed_description.strip()
+
+        # Higher Level
+        spell["higherLevel"] = get_value(all_text, HIGHER_LEVEL_RULE, isOptional = True)
+        
+        # Components
+        component = {}
+        component["concentration"] = contain(all_text, CONCENTRATION_RULE)
+        component["somatic"] = contain(all_text, SOMATIC_RULE)
+        component["verbal"] = contain(all_text, VERBAL_RULE)
+        component["material"] = contain(all_text, MATERIAL_RULE)
+        goldValue = get_value(all_text, REQUIRED_GOLD, isOptional = True)
+        if goldValue:
+            component["requiredGold"] = (int)(goldValue.replace(",", ""))
+        else:
+            component["requiredGold"] = 0
+        spell["components"] = component
+
+        # Class
+
 
     return spell
 
