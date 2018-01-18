@@ -21,13 +21,15 @@ DURATION_RULE = r'Duration\*\*:\s(.*)'
 
 DESCRIPTION_OVER_RULE = r'Duration\*\*.*\n\n(.*\n*)*'
 
-HIGHER_LEVEL_RULE = r'Higher\sLevels\.\*\*\s(.*)'
+HIGHER_LEVEL_RULE = r'\*\*At Higher\sLevels\.\*\*\s(.*)'
 
 CONCENTRATION_RULE = r'Concentration'
 SOMATIC_RULE = r'Components\*\*:.*S'
 VERBAL_RULE = r'Components\*\*:.*V'
 MATERIAL_RULE = r'Components\*\*:.*M'
 REQUIRED_GOLD = r'(\d*,?\d+)\s*gp'
+
+TAGS_EXTRACTOR = r'tags:\s*\[(.*)\]'
 
 current_path = ""
 
@@ -65,11 +67,11 @@ def parse_spell(path):
             else:
                 print("Can't parse level in " + path)
 
-        # Type
-        spell["type"] = get_value(all_text, TYPE_RULE)
-
         # Name
         spell["name"] = get_value(all_text, TITLE_RULE)
+
+        # Type
+        spell["type"] = get_value(all_text, TYPE_RULE)
 
         # School
         school_cantrip_match = re.search(
@@ -95,6 +97,19 @@ def parse_spell(path):
         # Duration
         spell["duration"] = get_value(all_text, DURATION_RULE)
 
+        # Components
+        component = {}
+        component["concentration"] = contain(all_text, CONCENTRATION_RULE)
+        component["somatic"] = contain(all_text, SOMATIC_RULE)
+        component["verbal"] = contain(all_text, VERBAL_RULE)
+        component["material"] = contain(all_text, MATERIAL_RULE)
+        goldValue = get_value(all_text, REQUIRED_GOLD, isOptional = True)
+        if goldValue:
+            component["requiredGold"] = (int)(goldValue.replace(",", ""))
+        else:
+            component["requiredGold"] = 0
+        spell["components"] = component
+
         # Description
         over_description = get_value(all_text, DESCRIPTION_OVER_RULE, match_group = 0)
         duration_to_trim = get_value(all_text, DURATION_RULE, match_group = 0)
@@ -109,25 +124,19 @@ def parse_spell(path):
         # Higher Level
         spell["higherLevel"] = get_value(all_text, HIGHER_LEVEL_RULE, isOptional = True)
         
-        # Components
-        component = {}
-        component["concentration"] = contain(all_text, CONCENTRATION_RULE)
-        component["somatic"] = contain(all_text, SOMATIC_RULE)
-        component["verbal"] = contain(all_text, VERBAL_RULE)
-        component["material"] = contain(all_text, MATERIAL_RULE)
-        goldValue = get_value(all_text, REQUIRED_GOLD, isOptional = True)
-        if goldValue:
-            component["requiredGold"] = (int)(goldValue.replace(",", ""))
-        else:
-            component["requiredGold"] = 0
-        spell["components"] = component
-
         # Class
-
+        existing_classes = ["bard, cleric", "druid", "ranger", "sorcerer", "warlock", "wizard", "paladin"]
+        tags = (get_value(all_text, TAGS_EXTRACTOR)).split(",")
+        classes = []
+        for tag in tags:
+            for existing_class in existing_classes:
+                if existing_class in tag:
+                    classes.append(tag)
+        spell["class"] = classes
 
     return spell
 
 
-spell_path=os.path.join(
-    os.getcwd(), r"grimoire_temp\_posts\2015-05-11-suggestion.markdown")
-parse_spell(spell_path)
+# spell_path=os.path.join(
+#     os.getcwd(), r"grimoire_temp\_posts\2015-07-30-web.markdown")
+# parse_spell(spell_path)
