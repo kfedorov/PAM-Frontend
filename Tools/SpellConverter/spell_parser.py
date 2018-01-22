@@ -68,10 +68,10 @@ def parse_spell(path):
                 print("Can't parse level in " + path)
 
         # Name
-        spell["name"] = get_value(all_text, TITLE_RULE)
+        spell["name"] = get_value(all_text, TITLE_RULE).title()
 
         # Type
-        spell["type"] = get_value(all_text, TYPE_RULE)
+        spell["type"] = get_value(all_text, TYPE_RULE).title()
 
         # School
         school_cantrip_match = re.search(
