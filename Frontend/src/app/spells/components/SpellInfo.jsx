@@ -10,11 +10,17 @@ import Components from "./Components";
 import "./style/Spell.css";
 import "../../common/style/ManualStyle.css";
 
+const showdown  = require('showdown');
+const converter = new showdown.Converter();
+
 // To support markup in the description (like <br>)
 // Todo: find less dangerous alternative
 function createMarkup(text) {
+
+
+
   return {
-    __html: text,
+    __html: converter.makeHtml(text),
   };
 }
 
