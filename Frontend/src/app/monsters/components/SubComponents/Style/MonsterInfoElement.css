@@ -17,6 +17,10 @@ Adjustement for the different module of monster information
   margin-bottom: 0;
 }
 
+.element-description-container {
+  display: inherit;
+}
+
 .element-description {
   margin-top: 0;
 }

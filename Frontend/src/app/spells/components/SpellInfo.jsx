@@ -17,8 +17,6 @@ const converter = new showdown.Converter();
 // Todo: find less dangerous alternative
 function createMarkup(text) {
 
-
-
   return {
     __html: converter.makeHtml(text),
   };

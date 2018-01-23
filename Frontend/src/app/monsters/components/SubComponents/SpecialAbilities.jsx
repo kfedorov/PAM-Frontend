@@ -5,21 +5,30 @@ import React from "react";
 import "./Style/MonsterInfoElement.css";
 import PropTypes from "prop-types";
 
+const showdown  = require('showdown');
+const converter = new showdown.Converter();
+
+// To support markup in the description (like <br>)
+// Todo: find less dangerous alternative
+function createMarkup(text) {
+
+  return {
+    __html: converter.makeHtml(text),
+  };
+}
+
 const SpecialAbility = ({ specialAbility }) => {
+  const fullText = `***${specialAbility.name}*** ${specialAbility.desc}`
+
   return (
     <div>
-      <p>
-        <span className="element-name">
-          {specialAbility.name}.{" "}
-        </span>
-        {specialAbility.desc}
-      </p>
+        <p dangerouslySetInnerHTML={createMarkup(fullText)} />
     </div>
   );
 };
 
 const SpecialAbilities = ({ title, specialAbilities }) => {
-  if (specialAbilities == null) {
+  if (specialAbilities == null || specialAbilities.length == 0) {
     return <div />;
   }
 

@@ -16,9 +16,9 @@ const uiMonster = {
     "senses",
     "languages",
     "challengeRating",
-    "specialAbilities",
+    "features",
     "actions",
-    "legendaryAbilities",
+    "legendaryActions",
   ],
   name: {
     "ui:autofocus": true,
@@ -221,9 +221,9 @@ const monster = {
         },
       },
     },
-    specialAbilities: {
+    features: {
       type: "array",
-      title: "Special Abilities",
+      title: "Features",
       items: {
         type: "object",
         required: ["name", "desc"],
@@ -271,9 +271,9 @@ const monster = {
         },
       },
     },
-    legendaryAbilities: {
+    legendaryActions: {
       type: "array",
-      title: "Legendary Abilities",
+      title: "Legendary Actions",
       items: {
         type: "object",
         required: ["name", "desc"],

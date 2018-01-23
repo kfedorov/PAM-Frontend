@@ -22,13 +22,13 @@ const MonsterInfo = ({ monsterToRender }) => {
       <Abilities abilities={monsterToRender.abilities} />
       <OtherInfo monster={monsterToRender} />
       <SpecialAbilities
-        title="Special Abilities"
-        specialAbilities={monsterToRender.specialAbilities}
+        title="Features"
+        specialAbilities={monsterToRender.features}
       />
       <Actions actions={monsterToRender.actions} />
       <SpecialAbilities
         title="Legendaries Actions"
-        specialAbilities={monsterToRender.legendaryAbilities}
+        specialAbilities={monsterToRender.legendaryActions}
       />
     </div>
   );
