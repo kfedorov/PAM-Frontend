@@ -1,7 +1,7 @@
-var spells = require("./spells.json");
-var monsters = require("./monsters.json");
+var spells = require('./spells.json')
+var monsters = require('./monsters.json')
 
-function getMonsters() {
+function getMonsters () {
   // return fetch("/api/monster")
   //   .then(response => response.json())
   //   .then(response => {
@@ -10,11 +10,11 @@ function getMonsters() {
   //   .catch(function(error) {
   //     console.log("Error in getting monster" + error);
   //   });
-  return monsters;
+  return monsters
 }
 
-function getSpells() {
-  return spells;
+function getSpells () {
+  return spells
 }
 
-export { getSpells, getMonsters };
+export { getSpells, getMonsters }

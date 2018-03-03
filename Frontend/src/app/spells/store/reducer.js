@@ -1,7 +1,7 @@
-const defaultSpells = require("./data/spells.json");
+const defaultSpells = require('./data/spells.json')
 
-const initialState = defaultSpells;
+const initialState = defaultSpells
 
 export default (state = initialState, action) => {
-  return state;
-};
+  return state
+}

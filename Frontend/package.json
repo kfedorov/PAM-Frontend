@@ -10,6 +10,7 @@
     "prettier": "^1.5.2"
   },
   "dependencies": {
+    "babel-eslint": "^8.2.1",
     "bootstrap": "^3.3.7",
     "create-react-app": "^1.4.0",
     "global": "^4.3.2",
@@ -19,6 +20,7 @@
     "react-dom": "^15.6.1",
     "react-jsonschema-form": "^0.49.0",
     "react-lazyload": "^2.2.7",
+    "react-markdown": "^3.2.0",
     "react-redux": "^5.0.6",
     "react-router": "^4.1.2",
     "react-router-dom": "^4.1.2",
@@ -29,16 +31,20 @@
     "redux": "^3.7.2",
     "redux-persist": "^4.9.1",
     "showdown": "^1.8.6",
+    "standard": "^10.0.3",
     "uuid": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "fix": "standard --fix",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build",
-    "format":
-      "prettier --trailing-comma es5 --tab-width 2 --write 'src/**/*.{js,jsx,json,css}'"
+    "format": "prettier --trailing-comma es5 --tab-width 2 --write 'src/**/*.{js,jsx,json,css}'"
+  },
+  "standard": {
+    "parser": "babel-eslint"
   },
   "proxy": "http://localhost:8081/"
 }

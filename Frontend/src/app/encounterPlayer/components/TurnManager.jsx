@@ -1,5 +1,5 @@
 /* Utils */
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 class TurnManager extends Component {
   renderParticipant = info => {
@@ -12,17 +12,17 @@ class TurnManager extends Component {
           {info.initiative}
         </p>
       </div>
-    );
+    )
   };
 
-  render() {
+  render () {
     return (
       <div>
         <h2>Turn Manager</h2>
         {this.props.orders.map(this.renderParticipant)}
       </div>
-    );
+    )
   }
 }
 
-export default TurnManager;
+export default TurnManager

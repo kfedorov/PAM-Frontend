@@ -1,6 +1,6 @@
 /* Utils */
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const FightInfo = ({ monster }) => {
   return (
@@ -19,16 +19,16 @@ const FightInfo = ({ monster }) => {
       </span>
       <br />
     </div>
-  );
-};
+  )
+}
 
 FightInfo.propType = {
   monster: PropTypes.shape({
     armorClass: PropTypes.number.isRequired,
     hitPoints: PropTypes.number.isRequired,
     hitDice: PropTypes.string.isRequired,
-    speed: PropTypes.string.isRequired,
-  }).isRequired,
-};
+    speed: PropTypes.string.isRequired
+  }).isRequired
+}
 
-export default FightInfo;
+export default FightInfo

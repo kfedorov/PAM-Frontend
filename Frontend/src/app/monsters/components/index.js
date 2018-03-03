@@ -1,4 +1,4 @@
-import MonsterInfo from "./MonsterInfo";
-import MonstersList from "./MonstersList";
+import MonsterInfo from './MonsterInfo'
+import MonstersList from './MonstersList'
 
-export { MonsterInfo, MonstersList };
+export { MonsterInfo, MonstersList }

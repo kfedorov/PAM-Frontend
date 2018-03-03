@@ -1,15 +1,15 @@
-import * as t from "./actionTypes";
+import * as t from './actionTypes'
 
-const defaultMonsters = require("./data/monsters.json");
+const defaultMonsters = require('./data/monsters.json')
 
-const initialState = defaultMonsters;
+const initialState = defaultMonsters
 
 export default (state = initialState, action) => {
   switch (action.type) {
     case t.ADD:
-      return [...state, action.monster];
+      return [...state, action.monster]
 
     default:
-      return state;
+      return state
   }
-};
+}

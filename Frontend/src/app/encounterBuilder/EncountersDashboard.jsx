@@ -1,54 +1,54 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
 
-import encounterBuilderModule from "./";
+import encounterBuilderModule from './'
 
-import EncounterBuilder from "./components/EncounterBuilder";
-import EncounterDatabase from "./components/EncounterDatabase";
+import EncounterBuilder from './components/EncounterBuilder'
+import EncounterDatabase from './components/EncounterDatabase'
 
 class EncountersDashboard extends Component {
   state = {
     isEditing: false,
-    editingEncounter: {},
+    editingEncounter: {}
   };
 
   handleOnAdd = () => {
     this.setState({
       isEditing: true,
-      editingEncounter: generateEncounter(),
-    });
+      editingEncounter: generateEncounter()
+    })
   };
 
   handleOnEdit = id => {
-    const encounter = this.props.encounters.find(x => x.id === id);
-    this.setState({ isEditing: true, editingEncounter: encounter });
+    const encounter = this.props.encounters.find(x => x.id === id)
+    this.setState({ isEditing: true, editingEncounter: encounter })
   };
 
   handleOnEditComplete = encounter => {
-    if (!!encounter.id) {
-      this.props.updateEncounter(encounter.id, encounter);
+    if (encounter.id) {
+      this.props.updateEncounter(encounter.id, encounter)
     } else {
-      this.props.createEncounter(encounter);
+      this.props.createEncounter(encounter)
     }
 
     this.setState({
       isEditing: false,
-      editingEncounter: {},
-    });
+      editingEncounter: {}
+    })
   };
 
   handleOnEditCancel = () => {
     this.setState({
       isEditing: false,
-      editingEncounter: {},
-    });
+      editingEncounter: {}
+    })
   };
 
   handleOnDelete = id => {
-    this.props.deleteEncounter(id);
+    this.props.deleteEncounter(id)
   };
 
-  render() {
+  render () {
     if (this.state.isEditing) {
       return (
         <div>
@@ -58,7 +58,7 @@ class EncountersDashboard extends Component {
             onCancel={this.handleOnEditCancel}
           />
         </div>
-      );
+      )
     } else {
       return (
         <div>
@@ -70,38 +70,38 @@ class EncountersDashboard extends Component {
             onDelete={this.handleOnDelete}
           />
         </div>
-      );
+      )
     }
   }
 }
 
 const mapStateToProps = state => {
-  return { encounters: state[encounterBuilderModule.store.NAME] };
-};
+  return { encounters: state[encounterBuilderModule.store.NAME] }
+}
 
 const mapDispatchToProps = dispatch => {
   return {
     createEncounter: encounter => {
-      dispatch(encounterBuilderModule.store.createEncounter(encounter));
+      dispatch(encounterBuilderModule.store.createEncounter(encounter))
     },
     updateEncounter: (id, encounter) => {
-      dispatch(encounterBuilderModule.store.updateEncounter(id, encounter));
+      dispatch(encounterBuilderModule.store.updateEncounter(id, encounter))
     },
     deleteEncounter: id => {
-      dispatch(encounterBuilderModule.store.deleteEncounter(id));
-    },
-  };
-};
+      dispatch(encounterBuilderModule.store.deleteEncounter(id))
+    }
+  }
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(
   EncountersDashboard
-);
+)
 
-function generateEncounter() {
+function generateEncounter () {
   return {
-    id: "",
-    name: "",
-    description: "",
-    monsters: [],
-  };
+    id: '',
+    name: '',
+    description: '',
+    monsters: []
+  }
 }

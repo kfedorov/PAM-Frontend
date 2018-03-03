@@ -101,7 +101,7 @@
     "features": [
       {
         "name": "Spellcasting.",
-        "desc": "The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:\n\nCantrips (at will): blade ward. dancing lights, mending, message, ray of frost\n\n1st level (4 slots): alarm*, mage armor, magic missile, shield*\n\n2nd level (3 slots): arcane lock*, invisibility\n\n3rd level (3 slots): counterspell*, dispel magic*, fireball\n\n4th level (3 slots): banishment*, stoneskin*\n\n5th level (2 slots): cone of cold, wall of force\n\n6th level (1 slot): flesh to stone, globe of invulnerability*\n\n7th level (1 slot): symbol* teleport\n\n*Abjuration spell of 1st level or higher"
+        "desc": "The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:\n\nCantrips (at will): <span onClick={handleClick}>blade ward</span>. dancing lights, mending, message, ray of frost\n\n1st level (4 slots): alarm*, mage armor, magic missile, shield*\n\n2nd level (3 slots): arcane lock*, invisibility\n\n3rd level (3 slots): counterspell*, dispel magic*, fireball\n\n4th level (3 slots): banishment*, stoneskin*\n\n5th level (2 slots): cone of cold, wall of force\n\n6th level (1 slot): flesh to stone, globe of invulnerability*\n\n7th level (1 slot): symbol* teleport\n\n*Abjuration spell of 1st level or higher"
       },
       {
         "name": "Arcane Ward.",

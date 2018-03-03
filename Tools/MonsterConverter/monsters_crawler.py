@@ -5,6 +5,7 @@ from monster_parser import parse_monster
 OUTPUT_SPELLS_PATH = "monsters.json"
 
 def crawl_files(spells_path):
+    print("Start crawling files")
     spell_list = []
     for filename in os.listdir(spells_path):
         spell_path = os.path.join(spells_path, filename)
@@ -13,5 +14,8 @@ def crawl_files(spells_path):
 
     json_dump = json.dumps(spell_list, indent=2, ensure_ascii=False)
 
+    print("Writing parsed monster on file")
     with open(OUTPUT_SPELLS_PATH, "w", encoding="utf8") as spells_file:
         spells_file.write(json_dump)
+    print("Completed!")
+        

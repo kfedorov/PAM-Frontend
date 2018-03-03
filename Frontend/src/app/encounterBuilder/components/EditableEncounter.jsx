@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-import { encounterType } from "../type";
+import { encounterType } from '../type'
 
 class EditableEncounter extends Component {
   static propTypes = {
     encounter: encounterType.isRequired,
     onEdit: PropTypes.func.isRequired,
-    onDelete: PropTypes.func.isRequired,
+    onDelete: PropTypes.func.isRequired
   };
 
   renderEncounterMonster = encounterMonster => {
@@ -15,19 +15,19 @@ class EditableEncounter extends Component {
       <div>
         {encounterMonster.monsterId} {encounterMonster.count}
       </div>
-    );
+    )
   };
 
   handleEdit = () => {
-    this.props.onEdit(this.props.encounter.id);
+    this.props.onEdit(this.props.encounter.id)
   };
 
   handleDelete = () => {
-    this.props.onDelete(this.props.encounter.id);
+    this.props.onDelete(this.props.encounter.id)
   };
 
-  render() {
-    const { encounter } = this.props;
+  render () {
+    const { encounter } = this.props
     return (
       <div>
         <h3>
@@ -39,8 +39,8 @@ class EditableEncounter extends Component {
         <button onClick={this.handleEdit}>Edit encounter</button>
         <button onClick={this.handleDelete}>Delete encounter</button>
       </div>
-    );
+    )
   }
 }
 
-export default EditableEncounter;
+export default EditableEncounter

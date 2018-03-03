@@ -1,36 +1,36 @@
 /* Utils */
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
-import { playerType } from "../../type";
+import { playerType } from '../../type'
 
 class PlayerForm extends Component {
   static propTypes = {
-    player: playerType,
+    player: playerType
   };
 
   state = {
-    name: this.props.player.name,
+    name: this.props.player.name
   };
 
   handleSubmit = () => {
     this.props.onFormSubmit({
       id: this.props.player.id,
-      name: this.state.name,
-    });
+      name: this.state.name
+    })
   };
 
   handleNameChange = e => {
-    this.setState({ name: e.target.value });
+    this.setState({ name: e.target.value })
   };
 
-  render() {
+  render () {
     return (
       <div>
         <label>
           Player name:
           <input
-            type="text"
-            name="name"
+            type='text'
+            name='name'
             value={this.state.name}
             onChange={this.handleNameChange}
           />
@@ -39,8 +39,8 @@ class PlayerForm extends Component {
         <button onClick={this.handleSubmit}>Update</button>
         <button onClick={this.props.onFormClose}>Cancel</button>
       </div>
-    );
+    )
   }
 }
 
-export default PlayerForm;
+export default PlayerForm

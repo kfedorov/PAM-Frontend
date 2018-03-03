@@ -1,32 +1,32 @@
 /* Utils */
-import React, { Component } from "react";
-import Select from "react-select";
+import React, { Component } from 'react'
+import Select from 'react-select'
 
 class MonsterSelector extends Component {
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
 
     this.state = {
       selectedMonsters: [],
-      monstersToSelect: transformMonster(props.all_monsters),
-    };
+      monstersToSelect: transformMonster(props.all_monsters)
+    }
   }
 
   onMonsterSelected = monsterValue => {
     this.setState({
       selectedMonsters: [
         ...this.state.selectedMonsters,
-        { ...monsterValue, id: Math.floor(Math.random() * 9999999999) },
-      ],
-    });
+        { ...monsterValue, id: Math.floor(Math.random() * 9999999999) }
+      ]
+    })
   };
 
   getSelectedMonsters = () => {
     return this.state.selectedMonsters.map(x => {
       return {
-        name: x.value,
-      };
-    });
+        name: x.value
+      }
+    })
   };
 
   renderMonsters = currentMonster => {
@@ -34,9 +34,9 @@ class MonsterSelector extends Component {
       this.setState({
         selectedMonsters: this.state.selectedMonsters.filter(
           monster => monster.id !== currentMonster.id
-        ),
-      });
-    };
+        )
+      })
+    }
 
     return (
       <div key={currentMonster.id}>
@@ -46,11 +46,11 @@ class MonsterSelector extends Component {
 
         <button onClick={deleteMonster}>Delete</button>
       </div>
-    );
+    )
   };
 
-  render() {
-    const { monstersToSelect, selectedMonsters } = this.state;
+  render () {
+    const { monstersToSelect, selectedMonsters } = this.state
 
     return (
       <div>
@@ -60,19 +60,19 @@ class MonsterSelector extends Component {
           {selectedMonsters.map(this.renderMonsters)}
         </div>
       </div>
-    );
+    )
   }
 }
 
-function transformMonster(monsters) {
+function transformMonster (monsters) {
   const selectableMonsters = monsters.map(monster => {
     return {
       value: monster.name,
-      label: monster.name,
-    };
-  });
+      label: monster.name
+    }
+  })
 
-  return selectableMonsters;
+  return selectableMonsters
 }
 
-export default MonsterSelector;
+export default MonsterSelector

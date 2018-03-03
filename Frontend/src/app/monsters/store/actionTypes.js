@@ -1,1 +1,1 @@
-export const ADD = "monsters/ADD";
+export const ADD = 'monsters/ADD'

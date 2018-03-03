@@ -1,4 +1,4 @@
-import SpellInfo from "./SpellInfo";
-import SpellsList from "./SpellsList";
+import SpellInfo from './SpellInfo'
+import SpellsList from './SpellsList'
 
-export { SpellInfo, SpellsList };
+export { SpellInfo, SpellsList }

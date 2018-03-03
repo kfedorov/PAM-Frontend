@@ -1,5 +1,5 @@
-import Dashboard from "./EncountersDashboard";
+import Dashboard from './EncountersDashboard'
 
-import * as store from "./store";
+import * as store from './store'
 
-export default { Dashboard, store };
+export default { Dashboard, store }

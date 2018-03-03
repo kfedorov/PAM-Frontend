@@ -1,19 +1,19 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-import { encounterType } from "../type";
+import { encounterType } from '../type'
 
-import EditableEncounter from "./EditableEncounter";
+import EditableEncounter from './EditableEncounter'
 
 class EncounterDatabase extends Component {
   static propTypes = {
     encounters: PropTypes.arrayOf(encounterType).isRequired,
     onAdd: PropTypes.func.isRequired,
     onEdit: PropTypes.func.isRequired,
-    onDelete: PropTypes.func.isRequired,
+    onDelete: PropTypes.func.isRequired
   };
 
-  render() {
+  render () {
     return (
       <div>
         <h2>Encounter database</h2>
@@ -28,8 +28,8 @@ class EncounterDatabase extends Component {
         </div>
         <button onClick={this.props.onAdd}>Add encounter</button>
       </div>
-    );
+    )
   }
 }
 
-export default EncounterDatabase;
+export default EncounterDatabase

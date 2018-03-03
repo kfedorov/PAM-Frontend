@@ -6,6 +6,7 @@ from monsters_crawler import crawl_files
 TEMP_PATH = "bestiary_temp"
 
 if os.path.exists(TEMP_PATH):
+    print("Pulling repo:")
     subprocess.check_call(
         "git pull", cwd=TEMP_PATH)
 else:

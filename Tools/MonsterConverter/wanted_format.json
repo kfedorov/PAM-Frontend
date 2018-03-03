@@ -44,7 +44,7 @@
       "damageImmunities": [],
       "conditionImmunities": []
     },
-    "specialAbilities": [
+    "features": [
       {
         "name": "Amphibious",
         "desc": "The aboleth can breathe air and water.",
@@ -61,6 +61,19 @@
         "attackBonus": "0"
       }
     ],
+    "spellCasting": {
+      "desc": "This caster has DC 12, +12 to hit...",
+      "details": [
+        {
+          "details": "Cantrips (at will)",
+          "spells": ["mage hand", "prestidigitation"]
+        },
+        {
+          "details": "2nd level (3 slots)",
+          "spells": ["detect magic", "magic missile"]
+        }
+      ]
+    },
     "actions": [
       {
         "name": "Multiattack",
@@ -110,4 +123,4 @@
     ],
     "senses": "darkvision 120 ft., passive Perception 20",
     "languages": "Deep Speech, telepathy 120 ft."
-  },
+  }

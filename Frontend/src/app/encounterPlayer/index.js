@@ -1,5 +1,5 @@
-import Manager from "./EncounterManager";
+import Manager from './EncounterManager'
 
 export default {
-  Manager,
-};
+  Manager
+}

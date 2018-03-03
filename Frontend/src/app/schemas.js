@@ -1,298 +1,298 @@
 const uiMonster = {
-  "ui:order": [
-    "name",
-    "size",
-    "type",
-    "subtype",
-    "alignment",
-    "armorClass",
-    "hitPoints",
-    "hitDice",
-    "speed",
-    "abilities",
-    "skills",
-    "saves",
-    "resistances",
-    "senses",
-    "languages",
-    "challengeRating",
-    "features",
-    "actions",
-    "legendaryActions",
+  'ui:order': [
+    'name',
+    'size',
+    'type',
+    'subtype',
+    'alignment',
+    'armorClass',
+    'hitPoints',
+    'hitDice',
+    'speed',
+    'abilities',
+    'skills',
+    'saves',
+    'resistances',
+    'senses',
+    'languages',
+    'challengeRating',
+    'features',
+    'actions',
+    'legendaryActions'
   ],
   name: {
-    "ui:autofocus": true,
+    'ui:autofocus': true
   },
   skills: {
     items: {
       baseAbility: {
-        "ui:widget": "hidden",
-      },
-    },
+        'ui:widget': 'hidden'
+      }
+    }
   },
   actions: {
     items: {
       desc: {
-        "ui:widget": "textarea",
+        'ui:widget': 'textarea'
       },
       attackBonus: {
-        "ui:widget": "hidden",
+        'ui:widget': 'hidden'
       },
       damageDice: {
-        "ui:widget": "hidden",
+        'ui:widget': 'hidden'
       },
       damageBonus: {
-        "ui:widget": "hidden",
-      },
-    },
+        'ui:widget': 'hidden'
+      }
+    }
   },
   specialAbilities: {
     items: {
       desc: {
-        "ui:widget": "textarea",
-      },
-    },
+        'ui:widget': 'textarea'
+      }
+    }
   },
   legendaryAbilities: {
     items: {
       desc: {
-        "ui:widget": "textarea",
-      },
-    },
-  },
-};
+        'ui:widget': 'textarea'
+      }
+    }
+  }
+}
 
 const monster = {
-  title: "A monster form",
-  type: "object",
-  required: ["name"],
+  title: 'A monster form',
+  type: 'object',
+  required: ['name'],
   properties: {
     name: {
-      type: "string",
-      title: "Name",
+      type: 'string',
+      title: 'Name'
     },
     challengeRating: {
-      type: "integer",
-      title: "Challenge Rating",
+      type: 'integer',
+      title: 'Challenge Rating'
     },
     size: {
-      type: "string",
-      title: "Monster Size",
-      enum: ["Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan"],
+      type: 'string',
+      title: 'Monster Size',
+      enum: ['Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Gargantuan']
     },
     type: {
-      //todo
-      type: "string",
-      title: "Type",
+      // todo
+      type: 'string',
+      title: 'Type'
     },
     subtype: {
-      type: "string",
-      title: "Subtype",
+      type: 'string',
+      title: 'Subtype'
     },
     alignment: {
-      type: "string",
-      title: "Alignment",
+      type: 'string',
+      title: 'Alignment'
     },
     armorClass: {
-      type: "integer",
-      title: "Armor Class",
+      type: 'integer',
+      title: 'Armor Class'
     },
     hitPoints: {
-      type: "integer",
-      title: "HP",
+      type: 'integer',
+      title: 'HP'
     },
     hitDice: {
-      type: "string",
-      title: "Hit dice",
+      type: 'string',
+      title: 'Hit dice'
     },
     speed: {
-      type: "string",
-      title: "Speed",
+      type: 'string',
+      title: 'Speed'
     },
     languages: {
-      type: "string",
-      title: "Languages",
+      type: 'string',
+      title: 'Languages'
     },
     senses: {
-      type: "string",
-      title: "Senses",
+      type: 'string',
+      title: 'Senses'
     },
     abilities: {
-      type: "object",
-      title: "Abilities",
+      type: 'object',
+      title: 'Abilities',
       properties: {
         strength: {
-          type: "integer",
-          title: "Strength",
+          type: 'integer',
+          title: 'Strength'
         },
         dexterity: {
-          type: "integer",
-          title: "Dexterity",
+          type: 'integer',
+          title: 'Dexterity'
         },
         constitution: {
-          type: "integer",
-          title: "Constitution",
+          type: 'integer',
+          title: 'Constitution'
         },
         intelligence: {
-          type: "integer",
-          title: "Intelligence",
+          type: 'integer',
+          title: 'Intelligence'
         },
         wisdom: {
-          type: "integer",
-          title: "Wisdom",
+          type: 'integer',
+          title: 'Wisdom'
         },
         charisma: {
-          type: "integer",
-          title: "Charisma",
-        },
-      },
+          type: 'integer',
+          title: 'Charisma'
+        }
+      }
     },
     saves: {
-      type: "array",
-      title: "Saves",
+      type: 'array',
+      title: 'Saves',
       items: {
-        type: "object",
-        required: ["ability", "modifier"],
+        type: 'object',
+        required: ['ability', 'modifier'],
         properties: {
           ability: {
-            type: "string",
-            title: "Ability",
+            type: 'string',
+            title: 'Ability'
           },
           modifier: {
-            type: "integer",
-            title: "Modifier",
-          },
-        },
-      },
+            type: 'integer',
+            title: 'Modifier'
+          }
+        }
+      }
     },
     skills: {
-      type: "array",
-      title: "Skills",
+      type: 'array',
+      title: 'Skills',
       items: {
-        type: "object",
-        required: ["name", "baseAbility", "modifier"],
+        type: 'object',
+        required: ['name', 'baseAbility', 'modifier'],
         properties: {
           name: {
-            type: "string",
-            title: "Name",
+            type: 'string',
+            title: 'Name'
           },
           baseAbility: {
-            type: "string",
-            title: "Base Modifier",
+            type: 'string',
+            title: 'Base Modifier'
           },
           modifier: {
-            type: "integer",
-            title: "Modifier",
-          },
-        },
-      },
+            type: 'integer',
+            title: 'Modifier'
+          }
+        }
+      }
     },
     resistances: {
-      type: "object",
-      title: "Resistances",
+      type: 'object',
+      title: 'Resistances',
       properties: {
         damageVulnerabilities: {
-          type: "array",
-          title: "Damage Vulnerabilities",
+          type: 'array',
+          title: 'Damage Vulnerabilities',
           items: {
-            type: "string",
-          },
+            type: 'string'
+          }
         },
         damageResistance: {
-          type: "array",
-          title: "Damage Resistance",
+          type: 'array',
+          title: 'Damage Resistance',
           items: {
-            type: "string",
-          },
+            type: 'string'
+          }
         },
         damageImmunities: {
-          type: "array",
-          title: "Damage Immunities",
+          type: 'array',
+          title: 'Damage Immunities',
           items: {
-            type: "string",
-          },
+            type: 'string'
+          }
         },
         conditionImmunities: {
-          type: "array",
-          title: "Condition Immunities",
+          type: 'array',
+          title: 'Condition Immunities',
           items: {
-            type: "string",
-          },
-        },
-      },
+            type: 'string'
+          }
+        }
+      }
     },
     features: {
-      type: "array",
-      title: "Features",
+      type: 'array',
+      title: 'Features',
       items: {
-        type: "object",
-        required: ["name", "desc"],
+        type: 'object',
+        required: ['name', 'desc'],
         properties: {
           name: {
-            type: "string",
-            title: "Name",
+            type: 'string',
+            title: 'Name'
           },
           desc: {
-            type: "string",
-            title: "Description",
-          },
-        },
-      },
+            type: 'string',
+            title: 'Description'
+          }
+        }
+      }
     },
     actions: {
-      type: "array",
-      title: "Actions",
+      type: 'array',
+      title: 'Actions',
       items: {
-        type: "object",
-        required: ["name", "desc"],
+        type: 'object',
+        required: ['name', 'desc'],
         properties: {
           name: {
-            type: "string",
-            title: "Name",
+            type: 'string',
+            title: 'Name'
           },
           desc: {
-            type: "string",
-            title: "Description",
+            type: 'string',
+            title: 'Description'
           },
           attackBonus: {
-            type: "integer",
-            title: "Attack Bonus",
-            default: 0,
+            type: 'integer',
+            title: 'Attack Bonus',
+            default: 0
           },
           damageDice: {
-            type: "string",
-            title: "Damage Dice",
+            type: 'string',
+            title: 'Damage Dice'
           },
           damageBonus: {
-            type: "integer",
-            title: "Damage Bonus",
-            default: 0,
-          },
-        },
-      },
+            type: 'integer',
+            title: 'Damage Bonus',
+            default: 0
+          }
+        }
+      }
     },
     legendaryActions: {
-      type: "array",
-      title: "Legendary Actions",
+      type: 'array',
+      title: 'Legendary Actions',
       items: {
-        type: "object",
-        required: ["name", "desc"],
+        type: 'object',
+        required: ['name', 'desc'],
         properties: {
           name: {
-            type: "string",
-            title: "Name",
+            type: 'string',
+            title: 'Name'
           },
           desc: {
-            type: "string",
-            title: "Description",
-          },
-        },
-      },
-    },
-  },
-};
+            type: 'string',
+            title: 'Description'
+          }
+        }
+      }
+    }
+  }
+}
 
 module.exports = {
   monster,
-  uiMonster,
-};
+  uiMonster
+}

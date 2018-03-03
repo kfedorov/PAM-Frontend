@@ -1,53 +1,52 @@
 /* Utils */
-import React from "react";
-import { Grid, Row, Col } from "react-bootstrap";
-import PropTypes from "prop-types";
+import React from 'react'
+import { Grid, Row, Col } from 'react-bootstrap'
+import PropTypes from 'prop-types'
 
 /* Components */
-import Components from "./Components";
+import Components from './Components'
 
 /* Style */
-import "./style/Spell.css";
-import "../../common/style/ManualStyle.css";
+import './style/Spell.css'
+import '../../common/style/ManualStyle.css'
 
-const showdown  = require('showdown');
-const converter = new showdown.Converter();
+const showdown = require('showdown')
+const converter = new showdown.Converter()
 
 // To support markup in the description (like <br>)
 // Todo: find less dangerous alternative
-function createMarkup(text) {
-
+function createMarkup (text) {
   return {
-    __html: converter.makeHtml(text),
-  };
+    __html: converter.makeHtml(text)
+  }
 }
 
 const SpellInfo = ({ spellToRender }) => {
   return (
-    <div className="information-box">
-      <Grid bsClass="grid">
+    <div className='information-box'>
+      <Grid bsClass='grid'>
         <Row>
           <Col xs={12} sm={8}>
-            <h1 className="spell-title">
+            <h1 className='spell-title'>
               {spellToRender.name}
             </h1>
-            <div className="spell-type">
+            <div className='spell-type'>
               <span>
                 {spellToRender.type}
               </span>
               <span>
-                {spellToRender.canBeRitual && " (ritual)"}{" "}
+                {spellToRender.canBeRitual && ' (ritual)'}{' '}
               </span>
             </div>
           </Col>
           <Col xs={12} sm={4}>
-            <div className="spell-components">
+            <div className='spell-components'>
               <Components components={spellToRender.components} />
             </div>
           </Col>
         </Row>
       </Grid>
-      <div className="spell-quick-info">
+      <div className='spell-quick-info'>
         <p>
           <b>Range: </b>
           {spellToRender.range}
@@ -67,11 +66,11 @@ const SpellInfo = ({ spellToRender }) => {
           {spellToRender.higherLevel}
         </p>}
       <p>
-        <b>Class:</b> {spellToRender.class.join(", ")}
+        <b>Class:</b> {spellToRender.class.join(', ')}
       </p>
     </div>
-  );
-};
+  )
+}
 
 SpellInfo.propType = {
   spellToRender: PropTypes.shape({
@@ -84,8 +83,8 @@ SpellInfo.propType = {
     duration: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     higherLevel: PropTypes.string.isRequired,
-    class: PropTypes.arrayOf(PropTypes.string).isRequired,
-  }).isRequired,
-};
+    class: PropTypes.arrayOf(PropTypes.string).isRequired
+  }).isRequired
+}
 
-export default SpellInfo;
+export default SpellInfo

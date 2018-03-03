@@ -1,22 +1,22 @@
 /* Utils */
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-import { partyType } from "../../type";
+import { partyType } from '../../type'
 
-import "./Style/Party.css";
+import './Style/Party.css'
 
 class Party extends Component {
   static propTypes = {
     party: partyType.isRequired,
     onEdit: PropTypes.func.isRequired,
-    onDelete: PropTypes.func.isRequired,
+    onDelete: PropTypes.func.isRequired
   };
 
-  render() {
-    const { party } = this.props;
+  render () {
+    const { party } = this.props
     return (
-      <div className="party-box">
+      <div className='party-box'>
         <h3>
           {party.name}
         </h3>
@@ -34,8 +34,8 @@ class Party extends Component {
           <button onClick={() => this.props.onDelete(party.id)}>Delete</button>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Party;
+export default Party

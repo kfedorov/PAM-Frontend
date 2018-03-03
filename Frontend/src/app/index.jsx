@@ -1,24 +1,24 @@
 /* Utils */
-import React, { Component } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import React, { Component } from 'react'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 
-import schema from "./schemas";
+import schema from './schemas'
 
 /* Modules */
-import Spells from "./spells";
-import Monsters from "./monsters";
-import Encounter from "./encounterPlayer";
-import Party from "./party";
-import EncounterBuilder from "./encounterBuilder";
+import Spells from './spells'
+import Monsters from './monsters'
+import Encounter from './encounterPlayer'
+import Party from './party'
+import EncounterBuilder from './encounterBuilder'
 
 /* Style and assets */
-import "./App.css";
+import './App.css'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
-        <div className="App-header">
+      <div className='App'>
+        <div className='App-header'>
           <h1>P.A.M</h1>
           <h4>Personal Assistant Minion</h4>
         </div>
@@ -54,8 +54,8 @@ class App extends Component {
           </TabPanel>
         </Tabs>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

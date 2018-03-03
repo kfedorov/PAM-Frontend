@@ -1,35 +1,35 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-import { playerType } from "../../type";
-import Player from "./Player";
-import PlayerForm from "./PlayerForm";
+import { playerType } from '../../type'
+import Player from './Player'
+import PlayerForm from './PlayerForm'
 
 class EditablePlayer extends Component {
   static propTypes = {
     player: playerType.isRequired,
     onUpdate: PropTypes.func.isRequired,
-    onDelete: PropTypes.func.isRequired,
+    onDelete: PropTypes.func.isRequired
   };
 
   state = {
-    isEditing: this.props.player.name === "" ? true : false,
+    isEditing: this.props.player.name === ''
   };
 
   handleUpdate = player => {
-    this.props.onUpdate(player);
-    this.setState({ isEditing: false });
+    this.props.onUpdate(player)
+    this.setState({ isEditing: false })
   };
 
   handleDelete = () => {
-    this.props.onDelete(this.props.player.id);
+    this.props.onDelete(this.props.player.id)
   };
 
   handleFormClose = () => {
-    this.setState({ isEditing: false });
+    this.setState({ isEditing: false })
   };
 
-  render() {
+  render () {
     if (this.state.isEditing) {
       return (
         <PlayerForm
@@ -37,7 +37,7 @@ class EditablePlayer extends Component {
           onFormSubmit={this.handleUpdate}
           onFormClose={this.handleFormClose}
         />
-      );
+      )
     } else {
       return (
         <Player
@@ -45,9 +45,9 @@ class EditablePlayer extends Component {
           onEdit={() => this.setState({ isEditing: true })}
           onDelete={this.handleDelete}
         />
-      );
+      )
     }
   }
 }
 
-export default EditablePlayer;
+export default EditablePlayer

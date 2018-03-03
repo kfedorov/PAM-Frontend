@@ -1,23 +1,23 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 class EncounterMetaForm extends Component {
   static propTypes = {
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     onNameChange: PropTypes.func.isRequired,
-    onDescriptionChange: PropTypes.func.isRequired,
+    onDescriptionChange: PropTypes.func.isRequired
   };
 
-  render() {
+  render () {
     return (
       <div>
         <div>
           <label>
             Encounter Name:
             <input
-              type="text"
-              name="name"
+              type='text'
+              name='name'
               value={this.props.name}
               onChange={this.props.onInputChange}
             />
@@ -27,15 +27,15 @@ class EncounterMetaForm extends Component {
           <label>
             Description:
             <textarea
-              name="description"
+              name='description'
               value={this.props.description}
               onChange={this.props.onInputChange}
             />
           </label>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default EncounterMetaForm;
+export default EncounterMetaForm

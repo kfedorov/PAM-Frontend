@@ -1,48 +1,48 @@
-import React, { Component } from "react";
-import Form from "react-jsonschema-form";
-import { StickyContainer, Sticky } from "react-sticky";
+import React, { Component } from 'react'
+import Form from 'react-jsonschema-form'
+import { StickyContainer, Sticky } from 'react-sticky'
 
-import { connect } from "react-redux";
+import { connect } from 'react-redux'
 
-import { MonsterInfo } from "./components";
+import { MonsterInfo } from './components'
 
-import monsterModule from "./";
+import monsterModule from './'
 
 /* Style and assets */
-import "./style/MonsterEditing.css";
+import './style/MonsterEditing.css'
 
 class MonsterEditing extends Component {
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
     this.state = {
-      monster: defaultMonster,
-    };
+      monster: defaultMonster
+    }
   }
 
   handleSubmission = form => {
-    const { formData } = form;
-    this.props.addMonster(formData);
+    const { formData } = form
+    this.props.addMonster(formData)
   };
 
   handleChange = form => {
-    const { formData } = form;
+    const { formData } = form
     this.setState({
-      monster: formData,
-    });
+      monster: formData
+    })
   };
 
   handleError = err => {
-    console.log(err);
+    console.log(err)
   };
 
-  render() {
-    const { schema, uiSchema } = this.props;
-    const { monster } = this.state;
+  render () {
+    const { schema, uiSchema } = this.props
+    const { monster } = this.state
 
     return (
-      <div className="Form-Container">
+      <div className='Form-Container'>
         <Form
-          className="Form"
+          className='Form'
           schema={schema}
           uiSchema={uiSchema}
           onSubmit={this.handleSubmission}
@@ -50,52 +50,52 @@ class MonsterEditing extends Component {
           onError={this.handleError}
           formData={monster}
         />
-        <StickyContainer className="sticky-box">
+        <StickyContainer className='sticky-box'>
           <Sticky>
             {({ style }) => {
               return (
                 <header style={style}>
                   <MonsterInfo monsterToRender={monster} />
                 </header>
-              );
+              )
             }}
           </Sticky>
         </StickyContainer>
       </div>
-    );
+    )
   }
 }
 
 const mapDispatchToProps = dispatch => {
   return {
     addMonster: monster => {
-      dispatch(monsterModule.actions.add(monster));
-    },
-  };
-};
+      dispatch(monsterModule.actions.add(monster))
+    }
+  }
+}
 
-const editor = connect(null, mapDispatchToProps)(MonsterEditing);
+const editor = connect(null, mapDispatchToProps)(MonsterEditing)
 
-export default editor;
+export default editor
 
 const defaultMonster = {
   challengeRating: 0,
-  name: "",
-  size: "Medium",
-  type: "",
-  subtype: "",
-  alignment: "",
+  name: '',
+  size: 'Medium',
+  type: '',
+  subtype: '',
+  alignment: '',
   armorClass: 10,
   hitPoints: 0,
-  hitDice: "",
-  speed: "",
+  hitDice: '',
+  speed: '',
   abilities: {
     strength: 10,
     dexterity: 10,
     constitution: 10,
     intelligence: 10,
     wisdom: 10,
-    charisma: 10,
+    charisma: 10
   },
   saves: [],
   skills: [],
@@ -103,11 +103,11 @@ const defaultMonster = {
     damageVulnerabilities: [],
     damageResistance: [],
     damageImmunities: [],
-    conditionImmunities: [],
+    conditionImmunities: []
   },
   specialAbilities: [],
   actions: [],
   legendaryAbilities: [],
-  senses: "",
-  languages: "",
-};
+  senses: '',
+  languages: ''
+}

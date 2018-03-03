@@ -28,6 +28,10 @@ ACTIONS_AND_LEGENDARY_ACTIONS_SECTIONS_RULE = r"\*\*Actions\*\*.*\n\n(?:.*\n*)*"
 LEGENDARY_ACTIONS_SECTIONS_RULE = r"\*\*Legendary Actions\*\*.*\n\n(?:.*\n*)*"
 NAME_DESCRIPTION_EXTRACTOR_RULE = r"\*\*\*(.*)\*\*\*(.*\n*.*)"
 
+SPELLS_DESC_RULE = r"^(.*)"
+CANTRIP_DETAILS_RULE = r"Cantrips.*:(.*)"
+SPELL_DETAILS_RULE = r"(\d[a-z]{2}\slevel.*):(.*)"
+
 current_path = ""
 
 def get_value(text, rule, match_group=1, is_optional=False,):
@@ -201,7 +205,49 @@ def parse_monster(path):
     feature_section = all_text.replace(action_and_legendary_section, "")
 
     # Features
-    monster["features"] = name_description_extractor_tricks(feature_section)
+    features = name_description_extractor_tricks(feature_section)
+
+    # Todo remove spellcasting features
+    monster["features"] = [value for value in features if value["name"] != "Spellcasting."]
+
+    ## Spell casting
+    spellCastingFeatureFilter = filter(lambda x: x["name"].lower().startswith("spellcasting"), features)
+    spellCastingFeature = next(spellCastingFeatureFilter, None)
+    if spellCastingFeature:
+        spellDetails = spellCastingFeature["desc"]
+
+        spellDesc = get_value(spellDetails, SPELLS_DESC_RULE)
+
+        spells = []
+
+        cantrip = get_value(spellDetails, CANTRIP_DETAILS_RULE, is_optional = True)
+        if cantrip:
+            spell = {
+                "details" : "Cantrip (at will)",
+                "spells": [x.strip() for x in cantrip.split(",")]
+            }
+
+            spells.append(spell)
+
+        upperSpellMatches = get_all_values(spellDetails, SPELL_DETAILS_RULE)
+        for spellMatch in upperSpellMatches:
+            details = spellMatch[0]
+            spellsName = [x.strip() for x in spellMatch[1].split(",")]
+
+            spell = {
+                "details" : details,
+                "spells": spellsName
+            }
+
+            spells.append(spell)
+        
+        monster["spellCasting"] = {
+            "desc" : spellDesc,
+            "details" : spells
+        }
+            
+    else:
+        monster["spellCasting"] = None
 
     # Actions
     monster["actions"] = name_description_extractor_tricks(action_section)
@@ -226,6 +272,6 @@ def parse_monster(path):
     return monster
 
 
-monster_path=os.path.join(
-    os.getcwd(), r"bestiary_temp\_posts\2017-09-10-lich.markdown")
-parse_monster(monster_path)
+# monster_path=os.path.join(
+#     os.getcwd(), r"MonsterConverter\bestiary_temp\_posts\2017-09-10-abjurer.markdown")
+# parse_monster(monster_path)

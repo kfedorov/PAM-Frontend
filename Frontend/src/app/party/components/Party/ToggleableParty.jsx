@@ -1,34 +1,34 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-import uuidv4 from "uuid/v4";
+import uuidv4 from 'uuid/v4'
 
-import PartyForm from "./PartyForm";
+import PartyForm from './PartyForm'
 
 class EditableParty extends Component {
   static propTypes = {
-    createParty: PropTypes.func.isRequired,
+    createParty: PropTypes.func.isRequired
   };
 
   state = {
     isOpen: false,
-    party: {},
+    party: {}
   };
 
   handleFormSubmit = party => {
-    this.props.createParty(party);
-    this.setState({ isOpen: false });
+    this.props.createParty(party)
+    this.setState({ isOpen: false })
   };
 
   handleCreateParty = () => {
-    this.setState({ party: generateParty(), isOpen: true });
+    this.setState({ party: generateParty(), isOpen: true })
   };
 
   handleCancel = () => {
-    this.setState({ isOpen: false });
+    this.setState({ isOpen: false })
   };
 
-  render() {
+  render () {
     if (this.state.isOpen) {
       return (
         <PartyForm
@@ -36,19 +36,19 @@ class EditableParty extends Component {
           onCompleteParty={this.handleFormSubmit}
           onCancel={this.handleCancel}
         />
-      );
+      )
     } else {
       return (
         <div>
           <button onClick={this.handleCreateParty}>Create Party</button>
         </div>
-      );
+      )
     }
   }
 }
 
-function generateParty() {
-  return { id: uuidv4(), name: "", players: [] };
+function generateParty () {
+  return { id: uuidv4(), name: '', players: [] }
 }
 
-export default EditableParty;
+export default EditableParty

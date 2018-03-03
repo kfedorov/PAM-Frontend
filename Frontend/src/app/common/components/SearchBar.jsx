@@ -1,54 +1,54 @@
 /* Utils */
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 /* Style */
-import "./style/SearchBar.css";
+import './style/SearchBar.css'
 
 class SearchBar extends Component {
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
 
-    this.filtered = this.filtered.bind(this);
-    this.handleNameChange = this.handleNameChange.bind(this);
+    this.filtered = this.filtered.bind(this)
+    this.handleNameChange = this.handleNameChange.bind(this)
   }
 
-  filtered(name) {
-    function contains(value) {
+  filtered (name) {
+    function contains (value) {
       // OMG FIX THIS!!!!
-      var bigTempHack = value.name != null ? value.name : value.Name;
-      return bigTempHack.toLowerCase().includes(name.toLowerCase());
+      var bigTempHack = value.name != null ? value.name : value.Name
+      return bigTempHack.toLowerCase().includes(name.toLowerCase())
     }
 
-    var filteredList = this.props.searchables.filter(contains);
+    var filteredList = this.props.searchables.filter(contains)
 
-    this.props.callback(filteredList);
+    this.props.callback(filteredList)
   }
 
-  handleNameChange(event) {
-    this.filtered(event.target.value);
+  handleNameChange (event) {
+    this.filtered(event.target.value)
   }
 
-  render() {
+  render () {
     return (
-      <div className="search-bar">
+      <div className='search-bar'>
         <input
-          type="text"
+          type='text'
           onChange={this.handleNameChange}
           autoFocus
-          placeholder="Search by name: "
+          placeholder='Search by name: '
         />
       </div>
-    );
+    )
   }
 }
 
 SearchBar.propType = {
   searchables: PropTypes.arrayOf(
     PropTypes.shape({
-      Name: PropTypes.string.isRequired,
+      Name: PropTypes.string.isRequired
     })
-  ).isRequired,
-};
+  ).isRequired
+}
 
-export default SearchBar;
+export default SearchBar

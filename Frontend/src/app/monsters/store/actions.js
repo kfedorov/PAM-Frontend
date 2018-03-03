@@ -1,8 +1,8 @@
-import * as t from "./actionTypes";
+import * as t from './actionTypes'
 
-export function add(monster) {
+export function add (monster) {
   return {
     type: t.ADD,
-    monster,
-  };
+    monster
+  }
 }

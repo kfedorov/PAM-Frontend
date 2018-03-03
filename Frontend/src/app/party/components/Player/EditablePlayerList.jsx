@@ -6,7 +6,7 @@ import { playerType } from "../../type";
 import EditablePlayer from "./EditablePlayer";
 
 class EditablePlayerList extends Component {
-  static propType = {
+  static PropTypestyggggggggZ = {
     players: playerType.isRequired,
     onPlayerUpdate: PropTypes.func.isRequired,
     onPlayerDelete: PropTypes.func.isRequired,
