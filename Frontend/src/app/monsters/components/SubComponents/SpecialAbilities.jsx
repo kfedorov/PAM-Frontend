@@ -27,7 +27,7 @@ const SpecialAbility = ({ specialAbility }) => {
 }
 
 const SpecialAbilities = ({ title, specialAbilities }) => {
-  if (specialAbilities == null || specialAbilities.length == 0) {
+  if (specialAbilities == null || specialAbilities.length === 0) {
     return <div />
   }
 
