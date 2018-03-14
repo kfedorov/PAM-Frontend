@@ -8,7 +8,7 @@
     "armorClass": 12,
     "hitPoints": 13,
     "hitDice": "3d8",
-    "speed": 12,
+    "speed": " 20 ft., fly 50 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -64,7 +64,7 @@
     "armorClass": 12,
     "hitPoints": 84,
     "hitDice": "13d8+26",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -189,7 +189,7 @@
     "armorClass": 17,
     "hitPoints": 135,
     "hitDice": "18d10+36",
-    "speed": 17,
+    "speed": " 10 ft., swim 40 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 9,
@@ -287,7 +287,7 @@
     "armorClass": 15,
     "hitPoints": 137,
     "hitDice": "11d12+66",
-    "speed": 15,
+    "speed": " 40 ft., climb 40 ft.",
     "abilities": {
       "strength": 24,
       "dexterity": 10,
@@ -361,7 +361,7 @@
     "armorClass": 10,
     "hitPoints": 9,
     "hitDice": "2d8",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 10,
@@ -428,7 +428,7 @@
     "armorClass": 19,
     "hitPoints": 195,
     "hitDice": "17d12+85",
-    "speed": 19,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 14,
@@ -536,7 +536,7 @@
     "armorClass": 19,
     "hitPoints": 225,
     "hitDice": "18d12+108",
-    "speed": 19,
+    "speed": " 40 ft., burrow 30 ft., fly 80 ft.",
     "abilities": {
       "strength": 25,
       "dexterity": 10,
@@ -653,7 +653,7 @@
     "armorClass": 19,
     "hitPoints": 225,
     "hitDice": "18d12+108",
-    "speed": 19,
+    "speed": " 40 ft., burrow 30 ft., fly 80 ft.",
     "abilities": {
       "strength": 25,
       "dexterity": 10,
@@ -757,7 +757,7 @@
     "armorClass": 18,
     "hitPoints": 172,
     "hitDice": "15d12+75",
-    "speed": 18,
+    "speed": " 40 ft., burrow 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 10,
@@ -856,7 +856,7 @@
     "armorClass": 19,
     "hitPoints": 212,
     "hitDice": "17d12+102",
-    "speed": 19,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 25,
       "dexterity": 10,
@@ -968,7 +968,7 @@
     "armorClass": 18,
     "hitPoints": 184,
     "hitDice": "16d12+80",
-    "speed": 18,
+    "speed": " 40 ft., climb 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 12,
@@ -1076,7 +1076,7 @@
     "armorClass": 19,
     "hitPoints": 256,
     "hitDice": "19d12+133",
-    "speed": 19,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 14,
@@ -1192,7 +1192,7 @@
     "armorClass": 19,
     "hitPoints": 207,
     "hitDice": "18d12+90",
-    "speed": 19,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 12,
@@ -1314,7 +1314,7 @@
     "armorClass": 19,
     "hitPoints": 256,
     "hitDice": "19d12+133",
-    "speed": 19,
+    "speed": " 40 ft., climb 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 10,
@@ -1422,7 +1422,7 @@
     "armorClass": 19,
     "hitPoints": 243,
     "hitDice": "18d12+126",
-    "speed": 19,
+    "speed": " 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 10,
@@ -1534,7 +1534,7 @@
     "armorClass": 18,
     "hitPoints": 200,
     "hitDice": "16d12+96",
-    "speed": 18,
+    "speed": " 40 ft., burrow 30 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 10,
@@ -1642,7 +1642,7 @@
     "armorClass": 13,
     "hitPoints": 66,
     "hitDice": "12d8+12",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 16,
@@ -1768,7 +1768,7 @@
     "armorClass": 18,
     "hitPoints": 117,
     "hitDice": "18d8+36",
-    "speed": 18,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -1830,7 +1830,7 @@
     "armorClass": 15,
     "hitPoints": 90,
     "hitDice": "12d10+24",
-    "speed": 15,
+    "speed": " fly 90 ft. (hover)",
     "abilities": {
       "strength": 14,
       "dexterity": 20,
@@ -1896,7 +1896,7 @@
     "armorClass": 15,
     "hitPoints": 120,
     "hitDice": "16d8+48",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 12,
@@ -2067,7 +2067,7 @@
     "armorClass": 15,
     "hitPoints": 60,
     "hitDice": "6d10+18",
-    "speed": 15,
+    "speed": " 60 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 13,
@@ -2119,7 +2119,7 @@
     "armorClass": 13,
     "hitPoints": 22,
     "hitDice": "4d6+8",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 15,
@@ -2177,7 +2177,7 @@
     "armorClass": 22,
     "hitPoints": 367,
     "hitDice": "21d20+147",
-    "speed": 22,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 14,
@@ -2285,7 +2285,7 @@
     "armorClass": 22,
     "hitPoints": 481,
     "hitDice": "26d20+208",
-    "speed": 22,
+    "speed": " 40 ft., burrow 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 29,
       "dexterity": 10,
@@ -2384,7 +2384,7 @@
     "armorClass": 20,
     "hitPoints": 297,
     "hitDice": "17d20+119",
-    "speed": 20,
+    "speed": " 40 ft., burrow 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 10,
@@ -2500,7 +2500,7 @@
     "armorClass": 22,
     "hitPoints": 444,
     "hitDice": "24d20+192",
-    "speed": 22,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 29,
       "dexterity": 10,
@@ -2616,7 +2616,7 @@
     "armorClass": 21,
     "hitPoints": 350,
     "hitDice": "20d20+140",
-    "speed": 21,
+    "speed": " 40 ft., climb 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 12,
@@ -2728,7 +2728,7 @@
     "armorClass": 22,
     "hitPoints": 546,
     "hitDice": "28d20+252",
-    "speed": 22,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 30,
       "dexterity": 14,
@@ -2848,7 +2848,7 @@
     "armorClass": 21,
     "hitPoints": 385,
     "hitDice": "22d20+154",
-    "speed": 21,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 12,
@@ -2970,7 +2970,7 @@
     "armorClass": 22,
     "hitPoints": 546,
     "hitDice": "28d20+252",
-    "speed": 22,
+    "speed": " 40 ft., climb 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 30,
       "dexterity": 10,
@@ -3074,7 +3074,7 @@
     "armorClass": 22,
     "hitPoints": 487,
     "hitDice": "25d20+225",
-    "speed": 22,
+    "speed": " 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 30,
       "dexterity": 10,
@@ -3190,7 +3190,7 @@
     "armorClass": 20,
     "hitPoints": 333,
     "hitDice": "18d20+144",
-    "speed": 20,
+    "speed": " 40 ft., burrow 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 26,
       "dexterity": 10,
@@ -3285,7 +3285,7 @@
     "armorClass": 17,
     "hitPoints": 199,
     "hitDice": "19d10+95",
-    "speed": 17,
+    "speed": " 40 ft., fly 60 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 10,
@@ -3443,7 +3443,7 @@
     "armorClass": 18,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 18,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 11,
@@ -3506,7 +3506,7 @@
     "armorClass": 15,
     "hitPoints": 39,
     "hitDice": "6d10+6",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 8,
@@ -3577,7 +3577,7 @@
     "armorClass": 14,
     "hitPoints": 39,
     "hitDice": "6d10+6",
-    "speed": 14,
+    "speed": " 30 ft., burrow 10 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 11,
@@ -3619,7 +3619,7 @@
     "armorClass": 15,
     "hitPoints": 68,
     "hitDice": "8d12+16",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 11,
@@ -3657,7 +3657,7 @@
     "armorClass": 17,
     "hitPoints": 75,
     "hitDice": "10d10+20",
-    "speed": 17,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 12,
@@ -3753,7 +3753,7 @@
     "armorClass": 12,
     "hitPoints": 19,
     "hitDice": "3d8+6",
-    "speed": 12,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -3808,7 +3808,7 @@
     "armorClass": 10,
     "hitPoints": 9,
     "hitDice": "2d8",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 10,
@@ -3875,7 +3875,7 @@
     "armorClass": 17,
     "hitPoints": 104,
     "hitDice": "16d8+32",
-    "speed": 17,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 12,
@@ -4050,7 +4050,7 @@
     "armorClass": 16,
     "hitPoints": 132,
     "hitDice": "24d8+24",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -4195,7 +4195,7 @@
     "armorClass": 16,
     "hitPoints": 75,
     "hitDice": "10d8+30",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 18,
@@ -4255,7 +4255,7 @@
     "armorClass": 12,
     "hitPoints": 99,
     "hitDice": "18d8+18",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -4398,7 +4398,7 @@
     "armorClass": 15,
     "hitPoints": 78,
     "hitDice": "12d8+24",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -4485,7 +4485,7 @@
     "armorClass": 15,
     "hitPoints": 13,
     "hitDice": "2d8+4",
-    "speed": 15,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 11,
@@ -4547,7 +4547,7 @@
     "armorClass": 11,
     "hitPoints": 38,
     "hitDice": "4d10+16",
-    "speed": 11,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 10,
@@ -4590,7 +4590,7 @@
     "armorClass": 20,
     "hitPoints": 0,
     "hitDice": null,
-    "speed": 20,
+    "speed": " 60 ft., fly 60 ft. (hover)",
     "abilities": {
       "strength": 16,
       "dexterity": 16,
@@ -4651,7 +4651,7 @@
     "armorClass": 9,
     "hitPoints": 10,
     "hitDice": "3d6",
-    "speed": 9,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 8,
@@ -4698,7 +4698,7 @@
     "armorClass": 13,
     "hitPoints": 59,
     "hitDice": "7d12+14",
-    "speed": 13,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 6,
@@ -4746,7 +4746,7 @@
     "armorClass": 13,
     "hitPoints": 59,
     "hitDice": "7d12+14",
-    "speed": 13,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 6,
@@ -4798,7 +4798,7 @@
     "armorClass": 11,
     "hitPoints": 19,
     "hitDice": "3d10+3",
-    "speed": 11,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 12,
@@ -4836,7 +4836,7 @@
     "armorClass": 13,
     "hitPoints": 39,
     "hitDice": "6d8+12",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 16,
@@ -4951,7 +4951,7 @@
     "armorClass": 17,
     "hitPoints": 39,
     "hitDice": "6d8+12",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 12,
@@ -5012,7 +5012,7 @@
     "armorClass": 15,
     "hitPoints": 120,
     "hitDice": "16d8+48",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -5156,7 +5156,7 @@
     "armorClass": 16,
     "hitPoints": 263,
     "hitDice": "17d10+85",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 26,
       "dexterity": 7,
@@ -5240,7 +5240,7 @@
     "armorClass": 16,
     "hitPoints": 82,
     "hitDice": "11d8+33",
-    "speed": 16,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 16,
@@ -5313,7 +5313,7 @@
     "armorClass": 12,
     "hitPoints": 3,
     "hitDice": "1d6",
-    "speed": 12,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 14,
@@ -5356,7 +5356,7 @@
     "armorClass": 10,
     "hitPoints": 3,
     "hitDice": "1d4+1",
-    "speed": 10,
+    "speed": " 20 ft., burrow 5 ft.",
     "abilities": {
       "strength": 4,
       "dexterity": 11,
@@ -5399,7 +5399,7 @@
     "armorClass": 19,
     "hitPoints": 262,
     "hitDice": "21d12+126",
-    "speed": 19,
+    "speed": " 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 26,
       "dexterity": 15,
@@ -5496,7 +5496,7 @@
     "armorClass": 15,
     "hitPoints": 84,
     "hitDice": "8d10+40",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 12,
@@ -5567,7 +5567,7 @@
     "armorClass": 15,
     "hitPoints": 65,
     "hitDice": "10d8+20",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 16,
@@ -5639,7 +5639,7 @@
     "armorClass": 12,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 12,
@@ -5681,7 +5681,7 @@
     "armorClass": 12,
     "hitPoints": 58,
     "hitDice": "13d8",
-    "speed": 12,
+    "speed": " 0 ft., fly 40 ft. (hover)",
     "abilities": {
       "strength": 1,
       "dexterity": 14,
@@ -5765,7 +5765,7 @@
     "armorClass": 22,
     "hitPoints": 333,
     "hitDice": "23d12+184",
-    "speed": 22,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 30,
       "dexterity": 14,
@@ -5891,7 +5891,7 @@
     "armorClass": 15,
     "hitPoints": 110,
     "hitDice": "13d8+52",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 17,
@@ -5992,7 +5992,7 @@
     "armorClass": 15,
     "hitPoints": 44,
     "hitDice": "8d8+8",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 14,
@@ -6094,7 +6094,7 @@
     "armorClass": 17,
     "hitPoints": 90,
     "hitDice": "12d10+24",
-    "speed": 17,
+    "speed": " 60 ft. (30 ft.in goblin form)",
     "abilities": {
       "strength": 19,
       "dexterity": 15,
@@ -6184,7 +6184,7 @@
     "armorClass": 15,
     "hitPoints": 68,
     "hitDice": "8d10+24",
-    "speed": 15,
+    "speed": " 40 ft., climb 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -6273,7 +6273,7 @@
     "armorClass": 10,
     "hitPoints": 16,
     "hitDice": "3d8+3",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 11,
@@ -6351,7 +6351,7 @@
     "armorClass": 12,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 12,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 8,
@@ -6394,7 +6394,7 @@
     "armorClass": 12,
     "hitPoints": 78,
     "hitDice": "12d8+24",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 14,
@@ -6497,7 +6497,7 @@
     "armorClass": 12,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 12,
+    "speed": " 5 ft., fly 30 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 15,
@@ -6544,7 +6544,7 @@
     "armorClass": 13,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 15,
@@ -6624,7 +6624,7 @@
     "armorClass": 17,
     "hitPoints": 168,
     "hitDice": "16d12+64",
-    "speed": 17,
+    "speed": " 50 ft., climb 40 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 16,
@@ -6689,7 +6689,7 @@
     "armorClass": 15,
     "hitPoints": 93,
     "hitDice": "11d10+33",
-    "speed": 15,
+    "speed": " 0 ft., fly 20 ft. (hover)",
     "abilities": {
       "strength": 10,
       "dexterity": 8,
@@ -6746,7 +6746,7 @@
     "armorClass": 18,
     "hitPoints": 189,
     "hitDice": "19d10+76",
-    "speed": 18,
+    "speed": " 0 ft., fly 20 ft. (hover)",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -6818,7 +6818,7 @@
     "armorClass": 12,
     "hitPoints": 18,
     "hitDice": "4d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -6890,7 +6890,7 @@
     "armorClass": 13,
     "hitPoints": 67,
     "hitDice": "9d8+27",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 12,
@@ -6933,7 +6933,7 @@
     "armorClass": 17,
     "hitPoints": 91,
     "hitDice": "14d8+28",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 16,
@@ -7036,7 +7036,7 @@
     "armorClass": 11,
     "hitPoints": 19,
     "hitDice": "3d8+6",
-    "speed": 11,
+    "speed": " 40 ft., climb 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 10,
@@ -7087,7 +7087,7 @@
     "armorClass": 17,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 17,
+    "speed": " 30 ft., fly 60 ft., swim 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -7162,7 +7162,7 @@
     "armorClass": 18,
     "hitPoints": 39,
     "hitDice": "6d8+12",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 11,
@@ -7217,7 +7217,7 @@
     "armorClass": 17,
     "hitPoints": 45,
     "hitDice": "7d8+14",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 11,
@@ -7311,7 +7311,7 @@
     "armorClass": 14,
     "hitPoints": 52,
     "hitDice": "7d8+21",
-    "speed": 14,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -7369,7 +7369,7 @@
     "armorClass": 7,
     "hitPoints": 85,
     "hitDice": "10d10+30",
-    "speed": 7,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 5,
@@ -7436,7 +7436,7 @@
     "armorClass": 18,
     "hitPoints": 153,
     "hitDice": "18d8+72",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 11,
@@ -7534,7 +7534,7 @@
     "armorClass": 17,
     "hitPoints": 138,
     "hitDice": "12d12+60",
-    "speed": 17,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 26,
       "dexterity": 13,
@@ -7651,7 +7651,7 @@
     "armorClass": 13,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 17,
@@ -7707,7 +7707,7 @@
     "armorClass": 12,
     "hitPoints": 7,
     "hitDice": "2d6",
-    "speed": 12,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 14,
@@ -7759,7 +7759,7 @@
     "armorClass": 17,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 17,
+    "speed": " 30 ft., burrow 15 ft., fly 60 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 10,
@@ -7829,7 +7829,7 @@
     "armorClass": 14,
     "hitPoints": 52,
     "hitDice": "7d8+21",
-    "speed": 14,
+    "speed": " 30 ft., burrow 20 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -7882,7 +7882,7 @@
     "armorClass": 15,
     "hitPoints": 123,
     "hitDice": "13d10+52",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 15,
@@ -7952,7 +7952,7 @@
     "armorClass": 11,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 11,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 11,
@@ -7999,7 +7999,7 @@
     "armorClass": 15,
     "hitPoints": 58,
     "hitDice": "9d8+18",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 16,
@@ -8075,7 +8075,7 @@
     "armorClass": 14,
     "hitPoints": 18,
     "hitDice": "4d6+4",
-    "speed": 14,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 18,
@@ -8145,7 +8145,7 @@
     "armorClass": 19,
     "hitPoints": 142,
     "hitDice": "15d10+60",
-    "speed": 19,
+    "speed": " 40 ft., fly 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 16,
@@ -8234,7 +8234,7 @@
     "armorClass": 19,
     "hitPoints": 142,
     "hitDice": "15d10+60",
-    "speed": 19,
+    "speed": " 40 ft., fly 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 16,
@@ -8319,7 +8319,7 @@
     "armorClass": 15,
     "hitPoints": 58,
     "hitDice": "9d10+9",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 16,
@@ -8396,7 +8396,7 @@
     "armorClass": 15,
     "hitPoints": 58,
     "hitDice": "9d10+9",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 16,
@@ -8473,7 +8473,7 @@
     "armorClass": 16,
     "hitPoints": 16,
     "hitDice": "3d8+3",
-    "speed": 16,
+    "speed": " 30 ft., burrow 15 ft., fly 60 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 10,
@@ -8543,7 +8543,7 @@
     "armorClass": 13,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 13,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 11,
@@ -8590,7 +8590,7 @@
     "armorClass": 15,
     "hitPoints": 121,
     "hitDice": "9d20+27",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 9,
@@ -8637,7 +8637,7 @@
     "armorClass": 17,
     "hitPoints": 32,
     "hitDice": "5d8+10",
-    "speed": 17,
+    "speed": " 30 ft., fly 60 ft., swim 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 10,
@@ -8712,7 +8712,7 @@
     "armorClass": 15,
     "hitPoints": 17,
     "hitDice": "5d6",
-    "speed": 15,
+    "speed": " 0 ft., fly 50 ft. (hover)",
     "abilities": {
       "strength": 10,
       "dexterity": 17,
@@ -8784,7 +8784,7 @@
     "armorClass": 11,
     "hitPoints": 34,
     "hitDice": "4d10+12",
-    "speed": 11,
+    "speed": " 40 ft., climb 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -8840,7 +8840,7 @@
     "armorClass": 17,
     "hitPoints": 65,
     "hitDice": "10d8+20",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 14,
@@ -8912,7 +8912,7 @@
     "armorClass": 16,
     "hitPoints": 27,
     "hitDice": "5d8+5",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -8972,7 +8972,7 @@
     "armorClass": 17,
     "hitPoints": 94,
     "hitDice": "9d10+45",
-    "speed": 17,
+    "speed": " 40 ft., burrow 40 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 11,
@@ -9024,7 +9024,7 @@
     "armorClass": 15,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 15,
+    "speed": " 20 ft., swim 40 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 12,
@@ -9092,7 +9092,7 @@
     "armorClass": 18,
     "hitPoints": 82,
     "hitDice": "11d8+33",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 12,
@@ -9160,7 +9160,7 @@
     "armorClass": 19,
     "hitPoints": 82,
     "hitDice": "11d8+33",
-    "speed": 19,
+    "speed": " 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 18,
@@ -9259,7 +9259,7 @@
     "armorClass": 9,
     "hitPoints": 15,
     "hitDice": "2d10+4",
-    "speed": 9,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 8,
@@ -9297,7 +9297,7 @@
     "armorClass": 19,
     "hitPoints": 93,
     "hitDice": "11d10+33",
-    "speed": 19,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -9378,7 +9378,7 @@
     "armorClass": 13,
     "hitPoints": 51,
     "hitDice": "6d10+18",
-    "speed": 13,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 13,
@@ -9438,7 +9438,7 @@
     "armorClass": 12,
     "hitPoints": 2,
     "hitDice": "1d4",
-    "speed": 12,
+    "speed": " 40 ft., climb 30 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 15,
@@ -9490,7 +9490,7 @@
     "armorClass": 14,
     "hitPoints": 84,
     "hitDice": "8d10+40",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 12,
@@ -9541,7 +9541,7 @@
     "armorClass": 12,
     "hitPoints": 42,
     "hitDice": "5d10+15",
-    "speed": 12,
+    "speed": " 40 ft., swim 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 10,
@@ -9597,7 +9597,7 @@
     "armorClass": 16,
     "hitPoints": 58,
     "hitDice": "9d8+18",
-    "speed": 16,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 13,
@@ -9665,7 +9665,7 @@
     "armorClass": 13,
     "hitPoints": 85,
     "hitDice": "10d10+30",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 12,
@@ -9746,7 +9746,7 @@
     "armorClass": 12,
     "hitPoints": 45,
     "hitDice": "6d10+12",
-    "speed": 12,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -9814,7 +9814,7 @@
     "armorClass": 16,
     "hitPoints": 85,
     "hitDice": "10d8+40",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -9894,7 +9894,7 @@
     "armorClass": 13,
     "hitPoints": 45,
     "hitDice": "6d10+12",
-    "speed": 13,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 7,
@@ -9956,7 +9956,7 @@
     "armorClass": 18,
     "hitPoints": 143,
     "hitDice": "22d8+44",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 15,
@@ -10033,7 +10033,7 @@
     "armorClass": 15,
     "hitPoints": 84,
     "hitDice": "13d10+13",
-    "speed": 15,
+    "speed": " 20 ft., fly 60 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 15,
@@ -10110,7 +10110,7 @@
     "armorClass": 14,
     "hitPoints": 114,
     "hitDice": "12d10+48",
-    "speed": 14,
+    "speed": " 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 11,
@@ -10169,7 +10169,7 @@
     "armorClass": 14,
     "hitPoints": 18,
     "hitDice": "4d6+4",
-    "speed": 14,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -10237,7 +10237,7 @@
     "armorClass": 15,
     "hitPoints": 15,
     "hitDice": "12d8+12",
-    "speed": 15,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 16,
@@ -10342,7 +10342,7 @@
     "armorClass": 16,
     "hitPoints": 93,
     "hitDice": "11d10+33",
-    "speed": 16,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -10392,7 +10392,7 @@
     "armorClass": 16,
     "hitPoints": 93,
     "hitDice": "11d10+33",
-    "speed": 16,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -10456,7 +10456,7 @@
     "armorClass": 14,
     "hitPoints": 133,
     "hitDice": "14d10+56",
-    "speed": 14,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 9,
@@ -10535,7 +10535,7 @@
     "armorClass": 14,
     "hitPoints": 78,
     "hitDice": "12d10+12",
-    "speed": 14,
+    "speed": " 10 ft., fly 40 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 15,
@@ -10607,7 +10607,7 @@
     "armorClass": 15,
     "hitPoints": 262,
     "hitDice": "21d12+128",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 26,
       "dexterity": 12,
@@ -10731,7 +10731,7 @@
     "armorClass": 14,
     "hitPoints": 200,
     "hitDice": "16d12+96",
-    "speed": 14,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 10,
@@ -10816,7 +10816,7 @@
     "armorClass": 11,
     "hitPoints": 27,
     "hitDice": "6d6+6",
-    "speed": 11,
+    "speed": " 20 ft., fly 40 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 12,
@@ -10854,7 +10854,7 @@
     "armorClass": 10,
     "hitPoints": 4,
     "hitDice": "1d8",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 10,
@@ -10892,7 +10892,7 @@
     "armorClass": 12,
     "hitPoints": 40,
     "hitDice": "9d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -11003,7 +11003,7 @@
     "armorClass": 12,
     "hitPoints": 13,
     "hitDice": "2d10+2",
-    "speed": 12,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -11045,7 +11045,7 @@
     "armorClass": 16,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 16,
+    "speed": " 30 ft., climb 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 12,
@@ -11115,7 +11115,7 @@
     "armorClass": 19,
     "hitPoints": 97,
     "hitDice": "13d8+39",
-    "speed": 19,
+    "speed": " 30 ft., fly 90 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 20,
@@ -11192,7 +11192,7 @@
     "armorClass": 10,
     "hitPoints": 15,
     "hitDice": "2d10+4",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -11235,7 +11235,7 @@
     "armorClass": 11,
     "hitPoints": 2,
     "hitDice": "1d4",
-    "speed": 11,
+    "speed": " 20 ft., swim 20 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 11,
@@ -11283,7 +11283,7 @@
     "armorClass": 13,
     "hitPoints": 34,
     "hitDice": "4d10+12",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 17,
@@ -11343,7 +11343,7 @@
     "armorClass": 12,
     "hitPoints": 2,
     "hitDice": "1d4",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 14,
@@ -11390,7 +11390,7 @@
     "armorClass": 12,
     "hitPoints": 2,
     "hitDice": "1d4",
-    "speed": 12,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 14,
@@ -11437,7 +11437,7 @@
     "armorClass": 12,
     "hitPoints": 19,
     "hitDice": "3d10+3",
-    "speed": 12,
+    "speed": " 20 ft., swim 20 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 10,
@@ -11485,7 +11485,7 @@
     "armorClass": 13,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 11,
@@ -11572,7 +11572,7 @@
     "armorClass": 14,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -11623,7 +11623,7 @@
     "armorClass": 13,
     "hitPoints": 22,
     "hitDice": "6d8+6",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 14,
@@ -11710,7 +11710,7 @@
     "armorClass": 12,
     "hitPoints": 9,
     "hitDice": "2d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 12,
@@ -11762,7 +11762,7 @@
     "armorClass": 14,
     "hitPoints": 138,
     "hitDice": "12d12+60",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 11,
@@ -11813,7 +11813,7 @@
     "armorClass": 18,
     "hitPoints": 187,
     "hitDice": "15d10+105",
-    "speed": 18,
+    "speed": " 30 ft., burrow 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 12,
@@ -11895,7 +11895,7 @@
     "armorClass": 14,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -11971,7 +11971,7 @@
     "armorClass": 13,
     "hitPoints": 58,
     "hitDice": "9d8+18",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 16,
@@ -12039,7 +12039,7 @@
     "armorClass": 15,
     "hitPoints": 27,
     "hitDice": "5d8+5",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 17,
@@ -12107,7 +12107,7 @@
     "armorClass": 14,
     "hitPoints": 13,
     "hitDice": "3d6+3",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 16,
@@ -12171,7 +12171,7 @@
     "armorClass": 11,
     "hitPoints": 22,
     "hitDice": "5d6+5",
-    "speed": 11,
+    "speed": " 10 ft., fly 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 12,
@@ -12227,7 +12227,7 @@
     "armorClass": 12,
     "hitPoints": 27,
     "hitDice": "5d8+5",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 15,
@@ -12291,7 +12291,7 @@
     "armorClass": 12,
     "hitPoints": 39,
     "hitDice": "6d8+12",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -12347,7 +12347,7 @@
     "armorClass": 16,
     "hitPoints": 161,
     "hitDice": "17d10+68",
-    "speed": 16,
+    "speed": " 0 ft., fly 30 ft. (hover)",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -12416,7 +12416,7 @@
     "armorClass": 20,
     "hitPoints": 180,
     "hitDice": "19d8+95",
-    "speed": 20,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 11,
@@ -12538,7 +12538,7 @@
     "armorClass": 18,
     "hitPoints": 170,
     "hitDice": "20d8+80",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 15,
@@ -12628,7 +12628,7 @@
     "armorClass": 19,
     "hitPoints": 187,
     "hitDice": "25d10+50",
-    "speed": 19,
+    "speed": " 0 ft., fly 20 ft. (hover)",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -12715,7 +12715,7 @@
     "armorClass": 12,
     "hitPoints": 37,
     "hitDice": "5d8+15",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 14,
@@ -12800,7 +12800,7 @@
     "armorClass": 15,
     "hitPoints": 16,
     "hitDice": "3d6+6",
-    "speed": 15,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -12868,7 +12868,7 @@
     "armorClass": 10,
     "hitPoints": 13,
     "hitDice": "2d8+4",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -12915,7 +12915,7 @@
     "armorClass": 11,
     "hitPoints": 67,
     "hitDice": "9d8+27",
-    "speed": 11,
+    "speed": " 30 ft. (20 ft. and swim 40 ft. in hybrid form)",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -13004,7 +13004,7 @@
     "armorClass": 13,
     "hitPoints": 4,
     "hitDice": "1d8",
-    "speed": 13,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -13042,7 +13042,7 @@
     "armorClass": 13,
     "hitPoints": 26,
     "hitDice": "4d8+8",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 15,
@@ -13098,7 +13098,7 @@
     "armorClass": 20,
     "hitPoints": 80,
     "hitDice": "20d4",
-    "speed": 20,
+    "speed": " 0 ft., fly 30 ft. (hover)",
     "abilities": {
       "strength": 1,
       "dexterity": 20,
@@ -13206,7 +13206,7 @@
     "armorClass": 22,
     "hitPoints": 496,
     "hitDice": "34d12+272",
-    "speed": 22,
+    "speed": " 50 ft., swim 50 ft.",
     "abilities": {
       "strength": 29,
       "dexterity": 14,
@@ -13320,7 +13320,7 @@
     "armorClass": 13,
     "hitPoints": 49,
     "hitDice": "11d6+11",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -13416,7 +13416,7 @@
     "armorClass": 13,
     "hitPoints": 13,
     "hitDice": "3d6+3",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -13476,7 +13476,7 @@
     "armorClass": 17,
     "hitPoints": 136,
     "hitDice": "16d8+64",
-    "speed": 17,
+    "speed": " 30 ft., fly 90 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 18,
@@ -13564,7 +13564,7 @@
     "armorClass": 16,
     "hitPoints": 178,
     "hitDice": "17d10+85",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 12,
@@ -13622,7 +13622,7 @@
     "armorClass": 12,
     "hitPoints": 19,
     "hitDice": "3d8+6",
-    "speed": 12,
+    "speed": " 30 ft., swim 20 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 10,
@@ -13670,7 +13670,7 @@
     "armorClass": 14,
     "hitPoints": 37,
     "hitDice": "5d10+10",
-    "speed": 14,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 15,
@@ -13726,7 +13726,7 @@
     "armorClass": 13,
     "hitPoints": 85,
     "hitDice": "10d10+30",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -13777,7 +13777,7 @@
     "armorClass": 12,
     "hitPoints": 67,
     "hitDice": "15d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -13911,7 +13911,7 @@
     "armorClass": 17,
     "hitPoints": 161,
     "hitDice": "14d10+84",
-    "speed": 17,
+    "speed": " 30 ft., fly 90 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 15,
@@ -13986,7 +13986,7 @@
     "armorClass": 12,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 12,
+    "speed": " 0 ft., swim 60 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 13,
@@ -14038,7 +14038,7 @@
     "armorClass": 14,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 18,
@@ -14108,7 +14108,7 @@
     "armorClass": 15,
     "hitPoints": 123,
     "hitDice": "13d10+52",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 15,
@@ -14180,7 +14180,7 @@
     "armorClass": 10,
     "hitPoints": 19,
     "hitDice": "3d10+3",
-    "speed": 10,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -14218,7 +14218,7 @@
     "armorClass": 20,
     "hitPoints": 341,
     "hitDice": "22d20+10",
-    "speed": 20,
+    "speed": " 20 ft., swim 40 ft.",
     "abilities": {
       "strength": 25,
       "dexterity": 10,
@@ -14292,7 +14292,7 @@
     "armorClass": 14,
     "hitPoints": 16,
     "hitDice": "3d8+3",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 16,
@@ -14361,7 +14361,7 @@
     "armorClass": 15,
     "hitPoints": 78,
     "hitDice": "12d8+24",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -14439,7 +14439,7 @@
     "armorClass": 16,
     "hitPoints": 110,
     "hitDice": "17d8+34",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 18,
@@ -14521,7 +14521,7 @@
     "armorClass": 14,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -14600,7 +14600,7 @@
     "armorClass": 16,
     "hitPoints": 52,
     "hitDice": "7d10+14",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -14717,7 +14717,7 @@
     "armorClass": 18,
     "hitPoints": 93,
     "hitDice": "11d8+44",
-    "speed": 18,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -14796,7 +14796,7 @@
     "armorClass": 18,
     "hitPoints": 37,
     "hitDice": "5d8+15",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 11,
@@ -14874,7 +14874,7 @@
     "armorClass": 11,
     "hitPoints": 18,
     "hitDice": "4d6+4",
-    "speed": 11,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 11,
@@ -14932,7 +14932,7 @@
     "armorClass": 19,
     "hitPoints": 123,
     "hitDice": "13d10+52",
-    "speed": 19,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 16,
@@ -15052,7 +15052,7 @@
     "armorClass": 19,
     "hitPoints": 123,
     "hitDice": "13d10+52",
-    "speed": 19,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 16,
@@ -15132,7 +15132,7 @@
     "armorClass": 15,
     "hitPoints": 31,
     "hitDice": "7d6+7",
-    "speed": 15,
+    "speed": " 30 ft. (60 ft. with boots of speed)",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -15208,7 +15208,7 @@
     "armorClass": 18,
     "hitPoints": 71,
     "hitDice": "11d8+22",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 18,
@@ -15293,7 +15293,7 @@
     "armorClass": 12,
     "hitPoints": 45,
     "hitDice": "10d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -15415,7 +15415,7 @@
     "armorClass": 15,
     "hitPoints": 71,
     "hitDice": "13d8+13",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -15556,7 +15556,7 @@
     "armorClass": 15,
     "hitPoints": 13,
     "hitDice": "3d8",
-    "speed": 15,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -15599,7 +15599,7 @@
     "armorClass": 15,
     "hitPoints": 13,
     "hitDice": "3d8",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -15663,7 +15663,7 @@
     "armorClass": 11,
     "hitPoints": 27,
     "hitDice": "5d8+5",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 12,
@@ -15742,7 +15742,7 @@
     "armorClass": 11,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 12,
@@ -15810,7 +15810,7 @@
     "armorClass": 16,
     "hitPoints": 26,
     "hitDice": "4d8+4",
-    "speed": 16,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 11,
@@ -15875,7 +15875,7 @@
     "armorClass": 16,
     "hitPoints": 26,
     "hitDice": "4d8+4",
-    "speed": 16,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 11,
@@ -15948,7 +15948,7 @@
     "armorClass": 16,
     "hitPoints": 26,
     "hitDice": "4d8+4",
-    "speed": 16,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 11,
@@ -16040,7 +16040,7 @@
     "armorClass": 14,
     "hitPoints": 18,
     "hitDice": "4d8",
-    "speed": 14,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -16105,7 +16105,7 @@
     "armorClass": 16,
     "hitPoints": 26,
     "hitDice": "4d8+8",
-    "speed": 16,
+    "speed": " 15 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 11,
@@ -16150,7 +16150,7 @@
     "armorClass": 15,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 15,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 16,
@@ -16256,7 +16256,7 @@
     "armorClass": 18,
     "hitPoints": 39,
     "hitDice": "6d8+12",
-    "speed": 18,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 11,
@@ -16317,7 +16317,7 @@
     "armorClass": 18,
     "hitPoints": 26,
     "hitDice": "4d8+8",
-    "speed": 18,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -16378,7 +16378,7 @@
     "armorClass": 16,
     "hitPoints": 26,
     "hitDice": "4d8+4",
-    "speed": 16,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 11,
@@ -16439,7 +16439,7 @@
     "armorClass": 15,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 13,
@@ -16494,7 +16494,7 @@
     "armorClass": 12,
     "hitPoints": 17,
     "hitDice": "5d6",
-    "speed": 12,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 5,
       "dexterity": 14,
@@ -16564,7 +16564,7 @@
     "armorClass": 10,
     "hitPoints": 9,
     "hitDice": "2d8",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 11,
@@ -16624,7 +16624,7 @@
     "armorClass": 12,
     "hitPoints": 3,
     "hitDice": "1d6",
-    "speed": 12,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 15,
@@ -16672,7 +16672,7 @@
     "armorClass": 18,
     "hitPoints": 127,
     "hitDice": "17d8+51",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -16732,7 +16732,7 @@
     "armorClass": 17,
     "hitPoints": 126,
     "hitDice": "12d10+60",
-    "speed": 17,
+    "speed": " 30 ft., burrow 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 8,
@@ -16795,7 +16795,7 @@
     "armorClass": 17,
     "hitPoints": 200,
     "hitDice": "16d10+112",
-    "speed": 17,
+    "speed": " 40 ft., fly 60 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 12,
@@ -16869,7 +16869,7 @@
     "armorClass": 10,
     "hitPoints": 210,
     "hitDice": "20d10+100",
-    "speed": 10,
+    "speed": " 5ft., swim 10 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 10,
@@ -16991,7 +16991,7 @@
     "armorClass": 12,
     "hitPoints": 76,
     "hitDice": "8d12+24",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 9,
@@ -17038,7 +17038,7 @@
     "armorClass": 14,
     "hitPoints": 71,
     "hitDice": "11d8+22",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 15,
@@ -17134,7 +17134,7 @@
     "armorClass": 10,
     "hitPoints": 13,
     "hitDice": "2d10+2",
-    "speed": 10,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 10,
@@ -17181,7 +17181,7 @@
     "armorClass": 22,
     "hitPoints": 313,
     "hitDice": "19d12+190",
-    "speed": 22,
+    "speed": " 50 ft., fly 50 ft., swim 50 ft.",
     "abilities": {
       "strength": 30,
       "dexterity": 21,
@@ -17281,7 +17281,7 @@
     "armorClass": 12,
     "hitPoints": 40,
     "hitDice": "9d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -17391,7 +17391,7 @@
     "armorClass": 18,
     "hitPoints": 153,
     "hitDice": "18d8+72",
-    "speed": 18,
+    "speed": " 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 16,
@@ -17479,7 +17479,7 @@
     "armorClass": 17,
     "hitPoints": 45,
     "hitDice": "7d8+14",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 13,
@@ -17541,7 +17541,7 @@
     "armorClass": 12,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 15,
@@ -17629,7 +17629,7 @@
     "armorClass": 13,
     "hitPoints": 44,
     "hitDice": "8d8+8",
-    "speed": 13,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 15,
@@ -17709,7 +17709,7 @@
     "armorClass": 12,
     "hitPoints": 85,
     "hitDice": "10d10+30",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 8,
@@ -17769,7 +17769,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -17851,7 +17851,7 @@
     "armorClass": 12,
     "hitPoints": 66,
     "hitDice": "12d8+12",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -17970,7 +17970,7 @@
     "armorClass": 17,
     "hitPoints": 82,
     "hitDice": "11d8+33",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 19,
@@ -18122,7 +18122,7 @@
     "armorClass": 15,
     "hitPoints": 14,
     "hitDice": "4d4+4",
-    "speed": 15,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 20,
@@ -18198,7 +18198,7 @@
     "armorClass": 15,
     "hitPoints": 14,
     "hitDice": "4d4+4",
-    "speed": 15,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 20,
@@ -18274,7 +18274,7 @@
     "armorClass": 15,
     "hitPoints": 14,
     "hitDice": "4d4+4",
-    "speed": 15,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 20,
@@ -18350,7 +18350,7 @@
     "armorClass": 15,
     "hitPoints": 14,
     "hitDice": "4d4+4",
-    "speed": 15,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 20,
@@ -18426,7 +18426,7 @@
     "armorClass": 15,
     "hitPoints": 14,
     "hitDice": "4d4+4",
-    "speed": 15,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 20,
@@ -18502,7 +18502,7 @@
     "armorClass": 15,
     "hitPoints": 14,
     "hitDice": "4d4+4",
-    "speed": 15,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 20,
@@ -18578,7 +18578,7 @@
     "armorClass": 15,
     "hitPoints": 14,
     "hitDice": "4d4+4",
-    "speed": 15,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 20,
@@ -18654,7 +18654,7 @@
     "armorClass": 10,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 11,
@@ -18754,7 +18754,7 @@
     "armorClass": 16,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 14,
@@ -18829,7 +18829,7 @@
     "armorClass": 14,
     "hitPoints": 30,
     "hitDice": "4d10+8",
-    "speed": 14,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 16,
@@ -18885,7 +18885,7 @@
     "armorClass": 18,
     "hitPoints": 117,
     "hitDice": "18d8+36",
-    "speed": 18,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 18,
@@ -18954,7 +18954,7 @@
     "armorClass": 13,
     "hitPoints": 102,
     "hitDice": "12d10+36",
-    "speed": 13,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 17,
@@ -19023,7 +19023,7 @@
     "armorClass": 21,
     "hitPoints": 187,
     "hitDice": "15d12+90",
-    "speed": 21,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 9,
@@ -19102,7 +19102,7 @@
     "armorClass": 18,
     "hitPoints": 162,
     "hitDice": "13d12+78",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 25,
       "dexterity": 9,
@@ -19181,7 +19181,7 @@
     "armorClass": 14,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 14,
@@ -19238,7 +19238,7 @@
     "armorClass": 10,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 11,
@@ -19314,7 +19314,7 @@
     "armorClass": 16,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 13,
@@ -19367,7 +19367,7 @@
     "armorClass": 16,
     "hitPoints": 52,
     "hitDice": "5d10+25",
-    "speed": 16,
+    "speed": " 10 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 5,
@@ -19431,7 +19431,7 @@
     "armorClass": 13,
     "hitPoints": 40,
     "hitDice": "9d4+18",
-    "speed": 13,
+    "speed": " 0 ft., fly 40 ft. It can hover.",
     "abilities": {
       "strength": 1,
       "dexterity": 17,
@@ -19539,7 +19539,7 @@
     "armorClass": 12,
     "hitPoints": 105,
     "hitDice": "14d8+42",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -19635,7 +19635,7 @@
     "armorClass": 9,
     "hitPoints": 93,
     "hitDice": "11d8+44",
-    "speed": 9,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 9,
@@ -19713,7 +19713,7 @@
     "armorClass": 16,
     "hitPoints": 127,
     "hitDice": "15d8+60",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 10,
@@ -19790,7 +19790,7 @@
     "armorClass": 12,
     "hitPoints": 7,
     "hitDice": "2d6",
-    "speed": 12,
+    "speed": " 5 ft., fly 30 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 15,
@@ -19860,7 +19860,7 @@
     "armorClass": 14,
     "hitPoints": 5,
     "hitDice": "2d4",
-    "speed": 14,
+    "speed": " 30 ft., fly 60 ft., swim 30 ft.",
     "abilities": {
       "strength": 4,
       "dexterity": 18,
@@ -19903,7 +19903,7 @@
     "armorClass": 17,
     "hitPoints": 17,
     "hitDice": "5d6",
-    "speed": 17,
+    "speed": " 0 ft., fly 50 ft. It can hover.",
     "abilities": {
       "strength": 12,
       "dexterity": 15,
@@ -19966,7 +19966,7 @@
     "armorClass": 14,
     "hitPoints": 149,
     "hitDice": "13d12+65",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 10,
@@ -20025,7 +20025,7 @@
     "armorClass": 18,
     "hitPoints": 350,
     "hitDice": "28d10+196",
-    "speed": 18,
+    "speed": " 40 ft., fly 40 ft.",
     "abilities": {
       "strength": 29,
       "dexterity": 12,
@@ -20143,7 +20143,7 @@
     "armorClass": 11,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 11,
+    "speed": " 20 ft., swim 20 ft.",
     "abilities": {
       "strength": 1,
       "dexterity": 13,
@@ -20194,7 +20194,7 @@
     "armorClass": 14,
     "hitPoints": 184,
     "hitDice": "16d12+80",
-    "speed": 14,
+    "speed": " 50 ft., swim 30 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 13,
@@ -20274,7 +20274,7 @@
     "armorClass": 15,
     "hitPoints": 189,
     "hitDice": "14d12+98",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 25,
       "dexterity": 9,
@@ -20357,7 +20357,7 @@
     "armorClass": 15,
     "hitPoints": 138,
     "hitDice": "12d12+60",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 9,
@@ -20431,7 +20431,7 @@
     "armorClass": 16,
     "hitPoints": 44,
     "hitDice": "8d8+8",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 10,
@@ -20531,7 +20531,7 @@
     "armorClass": 16,
     "hitPoints": 85,
     "hitDice": "9d8+45",
-    "speed": 16,
+    "speed": " 15 ft. (30 ft. when rolling, 60 ft. rolling downhill)",
     "abilities": {
       "strength": 20,
       "dexterity": 14,
@@ -20591,7 +20591,7 @@
     "armorClass": 16,
     "hitPoints": 30,
     "hitDice": "15d8+45",
-    "speed": 16,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 15,
@@ -20715,7 +20715,7 @@
     "armorClass": 15,
     "hitPoints": 52,
     "hitDice": "7d8+21",
-    "speed": 15,
+    "speed": " 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 11,
@@ -20774,7 +20774,7 @@
     "armorClass": 5,
     "hitPoints": 1,
     "hitDice": "1d10-4",
-    "speed": 5,
+    "speed": " 0 ft., fly 10 ft. (hover)",
     "abilities": {
       "strength": 5,
       "dexterity": 1,
@@ -20830,7 +20830,7 @@
     "armorClass": 15,
     "hitPoints": 67,
     "hitDice": "9d8+27",
-    "speed": 15,
+    "speed": " 0 ft., fly 20 ft. (hover)",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -20901,7 +20901,7 @@
     "armorClass": 13,
     "hitPoints": 13,
     "hitDice": "3d4+6",
-    "speed": 13,
+    "speed": " 0 ft., fly 30 ft. (hover)",
     "abilities": {
       "strength": 3,
       "dexterity": 17,
@@ -20968,7 +20968,7 @@
     "armorClass": 6,
     "hitPoints": 84,
     "hitDice": "8d10+40",
-    "speed": 6,
+    "speed": " 15 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 3,
@@ -21026,7 +21026,7 @@
     "armorClass": 15,
     "hitPoints": 102,
     "hitDice": "12d10+36",
-    "speed": 15,
+    "speed": " 30 ft., swim 50 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 17,
@@ -21119,7 +21119,7 @@
     "armorClass": 13,
     "hitPoints": 36,
     "hitDice": "8d8",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 17,
@@ -21174,7 +21174,7 @@
     "armorClass": 11,
     "hitPoints": 45,
     "hitDice": "10d8",
-    "speed": 11,
+    "speed": " 0 ft., fly 40 ft. It can hover.",
     "abilities": {
       "strength": 7,
       "dexterity": 13,
@@ -21253,7 +21253,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 15,
@@ -21297,7 +21297,7 @@
     "armorClass": 12,
     "hitPoints": 157,
     "hitDice": "15d12+60",
-    "speed": 12,
+    "speed": " 40 ft., climb 40 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 14,
@@ -21352,7 +21352,7 @@
     "armorClass": 10,
     "hitPoints": 13,
     "hitDice": "2d8+4",
-    "speed": 10,
+    "speed": " 30 ft., burrow 10 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 10,
@@ -21403,7 +21403,7 @@
     "armorClass": 13,
     "hitPoints": 22,
     "hitDice": "4d10",
-    "speed": 13,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 16,
@@ -21450,7 +21450,7 @@
     "armorClass": 12,
     "hitPoints": 42,
     "hitDice": "5d10+5",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 10,
@@ -21497,7 +21497,7 @@
     "armorClass": 13,
     "hitPoints": 4,
     "hitDice": "1d6+1",
-    "speed": 13,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 5,
       "dexterity": 14,
@@ -21535,7 +21535,7 @@
     "armorClass": 12,
     "hitPoints": 60,
     "hitDice": "8d12+8",
-    "speed": 12,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 14,
@@ -21582,7 +21582,7 @@
     "armorClass": 15,
     "hitPoints": 13,
     "hitDice": "3d8",
-    "speed": 15,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 15,
@@ -21630,7 +21630,7 @@
     "armorClass": 15,
     "hitPoints": 45,
     "hitDice": "7d10+7",
-    "speed": 15,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 13,
@@ -21686,7 +21686,7 @@
     "armorClass": 14,
     "hitPoints": 85,
     "hitDice": "9d12+27",
-    "speed": 14,
+    "speed": " 30 ft., swim 50 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 9,
@@ -21742,7 +21742,7 @@
     "armorClass": 13,
     "hitPoints": 26,
     "hitDice": "4d10+4",
-    "speed": 13,
+    "speed": " 10 ft., fly 80 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 17,
@@ -21798,7 +21798,7 @@
     "armorClass": 15,
     "hitPoints": 42,
     "hitDice": "5d12+10",
-    "speed": 15,
+    "speed": " 60 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 16,
@@ -21850,7 +21850,7 @@
     "armorClass": 13,
     "hitPoints": 4,
     "hitDice": "1d6+1",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 10,
@@ -21893,7 +21893,7 @@
     "armorClass": 11,
     "hitPoints": 19,
     "hitDice": "3d10+3",
-    "speed": 11,
+    "speed": " 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 13,
@@ -21926,7 +21926,7 @@
     "armorClass": 11,
     "hitPoints": 18,
     "hitDice": "4d8",
-    "speed": 11,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 13,
@@ -21986,7 +21986,7 @@
     "armorClass": 11,
     "hitPoints": 19,
     "hitDice": "3d10+3",
-    "speed": 11,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 11,
@@ -22033,7 +22033,7 @@
     "armorClass": 12,
     "hitPoints": 45,
     "hitDice": "6d10+12",
-    "speed": 12,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -22081,7 +22081,7 @@
     "armorClass": 13,
     "hitPoints": 42,
     "hitDice": "5d10+15",
-    "speed": 13,
+    "speed": " 5 ft., swim 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 17,
@@ -22138,7 +22138,7 @@
     "armorClass": 12,
     "hitPoints": 19,
     "hitDice": "3d10+3",
-    "speed": 12,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 12,
@@ -22185,7 +22185,7 @@
     "armorClass": 11,
     "hitPoints": 52,
     "hitDice": "8d10+8",
-    "speed": 11,
+    "speed": " 10 ft., swim 60 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 13,
@@ -22249,7 +22249,7 @@
     "armorClass": 12,
     "hitPoints": 19,
     "hitDice": "3d10+3",
-    "speed": 12,
+    "speed": " 5 ft., fly 60 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 15,
@@ -22305,7 +22305,7 @@
     "armorClass": 14,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 14,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 18,
@@ -22348,7 +22348,7 @@
     "armorClass": 12,
     "hitPoints": 7,
     "hitDice": "2d6",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 15,
@@ -22386,7 +22386,7 @@
     "armorClass": 12,
     "hitPoints": 7,
     "hitDice": "2d6",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 15,
@@ -22433,7 +22433,7 @@
     "armorClass": 15,
     "hitPoints": 52,
     "hitDice": "7d10+14",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 13,
@@ -22479,7 +22479,7 @@
     "armorClass": 13,
     "hitPoints": 16,
     "hitDice": "3d10",
-    "speed": 13,
+    "speed": " 0 ft., swim 40 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 15,
@@ -22526,7 +22526,7 @@
     "armorClass": 13,
     "hitPoints": 126,
     "hitDice": "11d12+55",
-    "speed": 13,
+    "speed": " swim 50 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 11,
@@ -22578,7 +22578,7 @@
     "armorClass": 14,
     "hitPoints": 26,
     "hitDice": "4d10+4",
-    "speed": 14,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 16,
@@ -22638,7 +22638,7 @@
     "armorClass": 14,
     "hitPoints": 22,
     "hitDice": "3d10+6",
-    "speed": 14,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -22687,7 +22687,7 @@
     "armorClass": 14,
     "hitPoints": 66,
     "hitDice": "7d12+21",
-    "speed": 14,
+    "speed": " 30 ft., swim 50 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 9,
@@ -22747,7 +22747,7 @@
     "armorClass": 11,
     "hitPoints": 39,
     "hitDice": "6d10+6",
-    "speed": 11,
+    "speed": " 20 ft., swim 40 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 13,
@@ -22798,7 +22798,7 @@
     "armorClass": 10,
     "hitPoints": 22,
     "hitDice": "3d10+6",
-    "speed": 10,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 10,
@@ -22858,7 +22858,7 @@
     "armorClass": 12,
     "hitPoints": 13,
     "hitDice": "3d8",
-    "speed": 12,
+    "speed": " 10 ft., fly 50 ft., swim 50 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -22896,7 +22896,7 @@
     "armorClass": 13,
     "hitPoints": 9,
     "hitDice": "2d8",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -22948,7 +22948,7 @@
     "armorClass": 13,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 13,
+    "speed": " 40 ft., climb 40 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 16,
@@ -23008,7 +23008,7 @@
     "armorClass": 9,
     "hitPoints": 67,
     "hitDice": "9d8+27",
-    "speed": 9,
+    "speed": " 10 ft., swim 10 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 8,
@@ -23065,7 +23065,7 @@
     "armorClass": 13,
     "hitPoints": 59,
     "hitDice": "7d10+21",
-    "speed": 13,
+    "speed": " 40 ft., climb 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 16,
@@ -23129,7 +23129,7 @@
     "armorClass": 18,
     "hitPoints": 91,
     "hitDice": "14d8+28",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -23189,7 +23189,7 @@
     "armorClass": 17,
     "hitPoints": 49,
     "hitDice": "9d8+9",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -23249,7 +23249,7 @@
     "armorClass": 14,
     "hitPoints": 38,
     "hitDice": "7d8+7",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 15,
@@ -23326,7 +23326,7 @@
     "armorClass": 17,
     "hitPoints": 84,
     "hitDice": "13d8+26",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 18,
@@ -23407,7 +23407,7 @@
     "armorClass": 17,
     "hitPoints": 157,
     "hitDice": "15d10+75",
-    "speed": 17,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 15,
@@ -23492,7 +23492,7 @@
     "armorClass": 16,
     "hitPoints": 112,
     "hitDice": "15d8+45",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -23573,7 +23573,7 @@
     "armorClass": 14,
     "hitPoints": 65,
     "hitDice": "10d8+20",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 15,
@@ -23637,7 +23637,7 @@
     "armorClass": 14,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 14,
@@ -23697,7 +23697,7 @@
     "armorClass": 13,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 14,
@@ -23761,7 +23761,7 @@
     "armorClass": 15,
     "hitPoints": 49,
     "hitDice": "9d8+9",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -23820,7 +23820,7 @@
     "armorClass": 12,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 8,
@@ -23880,7 +23880,7 @@
     "armorClass": 15,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 12,
@@ -23931,7 +23931,7 @@
     "armorClass": 10,
     "hitPoints": 4,
     "hitDice": "1d8",
-    "speed": 10,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 10,
@@ -23978,7 +23978,7 @@
     "armorClass": 17,
     "hitPoints": 21,
     "hitDice": "6d6",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -24038,7 +24038,7 @@
     "armorClass": 15,
     "hitPoints": 7,
     "hitDice": "2d6",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 14,
@@ -24090,7 +24090,7 @@
     "armorClass": 17,
     "hitPoints": 60,
     "hitDice": "8d8+24",
-    "speed": 17,
+    "speed": " 30 ft., fly 60 ft., swim 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 14,
@@ -24165,7 +24165,7 @@
     "armorClass": 19,
     "hitPoints": 114,
     "hitDice": "12d10+48",
-    "speed": 19,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 11,
@@ -24223,7 +24223,7 @@
     "armorClass": 19,
     "hitPoints": 310,
     "hitDice": "23d12+161",
-    "speed": 19,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 25,
       "dexterity": 11,
@@ -24321,7 +24321,7 @@
     "armorClass": 8,
     "hitPoints": 22,
     "hitDice": "3d8+9",
-    "speed": 8,
+    "speed": " 10 ft., climb 10 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 6,
@@ -24392,7 +24392,7 @@
     "armorClass": 8,
     "hitPoints": 22,
     "hitDice": "3d8+9",
-    "speed": 8,
+    "speed": " 10 ft., climb 10 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 6,
@@ -24459,7 +24459,7 @@
     "armorClass": 18,
     "hitPoints": 127,
     "hitDice": "17d8+51",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 17,
@@ -24549,7 +24549,7 @@
     "armorClass": 20,
     "hitPoints": 378,
     "hitDice": "36d10+180",
-    "speed": 20,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 15,
@@ -24675,7 +24675,7 @@
     "armorClass": 15,
     "hitPoints": 97,
     "hitDice": "13d8+39",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -24750,7 +24750,7 @@
     "armorClass": 17,
     "hitPoints": 38,
     "hitDice": "7d8+7",
-    "speed": 17,
+    "speed": " 30 ft., fly 60 ft., swim 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 12,
@@ -24827,7 +24827,7 @@
     "armorClass": 14,
     "hitPoints": 52,
     "hitDice": "7d8+21",
-    "speed": 14,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -24885,7 +24885,7 @@
     "armorClass": 17,
     "hitPoints": 82,
     "hitDice": "11d8+33",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 12,
@@ -24973,7 +24973,7 @@
     "armorClass": 16,
     "hitPoints": 127,
     "hitDice": "15d10+45",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -25063,7 +25063,7 @@
     "armorClass": 12,
     "hitPoints": 55,
     "hitDice": "10d8+10",
-    "speed": 12,
+    "speed": " 10 ft., fly 30 ft. (hover)",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -25123,7 +25123,7 @@
     "armorClass": 18,
     "hitPoints": 75,
     "hitDice": "10d10+20",
-    "speed": 18,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 16,
@@ -25180,7 +25180,7 @@
     "armorClass": 14,
     "hitPoints": 27,
     "hitDice": "6d8",
-    "speed": 14,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 14,
@@ -25233,7 +25233,7 @@
     "armorClass": 12,
     "hitPoints": 59,
     "hitDice": "7d10+21",
-    "speed": 12,
+    "speed": " 30 ft., fly 80 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -25289,7 +25289,7 @@
     "armorClass": 11,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 12,
@@ -25355,7 +25355,7 @@
     "armorClass": 18,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 12,
@@ -25455,7 +25455,7 @@
     "armorClass": 13,
     "hitPoints": 49,
     "hitDice": "9d6+18",
-    "speed": 13,
+    "speed": " 25 ft., climb 25 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 16,
@@ -25544,7 +25544,7 @@
     "armorClass": 13,
     "hitPoints": 27,
     "hitDice": "5d6+10",
-    "speed": 13,
+    "speed": " 25 ft., climb 25 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 16,
@@ -25653,7 +25653,7 @@
     "armorClass": 12,
     "hitPoints": 11,
     "hitDice": "2d6+4",
-    "speed": 12,
+    "speed": " 25 ft., climb 25 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 14,
@@ -25734,7 +25734,7 @@
     "armorClass": 14,
     "hitPoints": 52,
     "hitDice": "7d8+21",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -25785,7 +25785,7 @@
     "armorClass": 16,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 12,
@@ -25828,7 +25828,7 @@
     "armorClass": 18,
     "hitPoints": 127,
     "hitDice": "15d10+45",
-    "speed": 18,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 18,
@@ -25955,7 +25955,7 @@
     "armorClass": 5,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 5,
+    "speed": " 0 ft.",
     "abilities": {
       "strength": 1,
       "dexterity": 1,
@@ -26017,7 +26017,7 @@
     "armorClass": 17,
     "hitPoints": 136,
     "hitDice": "16d10+48",
-    "speed": 17,
+    "speed": " 40 ft., fly 60 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -26154,7 +26154,7 @@
     "armorClass": 11,
     "hitPoints": 19,
     "hitDice": "3d10+3",
-    "speed": 11,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 10,
@@ -26197,7 +26197,7 @@
     "armorClass": 12,
     "hitPoints": 30,
     "hitDice": "4d10+8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 10,
@@ -26239,7 +26239,7 @@
     "armorClass": 18,
     "hitPoints": 65,
     "hitDice": "10d8+20",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 13,
@@ -26313,7 +26313,7 @@
     "armorClass": 11,
     "hitPoints": 38,
     "hitDice": "7d8+7",
-    "speed": 11,
+    "speed": " 20 ft., fly 40 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 13,
@@ -26363,7 +26363,7 @@
     "armorClass": 13,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 13,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 5,
       "dexterity": 16,
@@ -26411,7 +26411,7 @@
     "armorClass": 15,
     "hitPoints": 45,
     "hitDice": "7d8+14",
-    "speed": 15,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 12,
@@ -26469,7 +26469,7 @@
     "armorClass": 16,
     "hitPoints": 78,
     "hitDice": "12d8+24",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 18,
@@ -26554,7 +26554,7 @@
     "armorClass": 20,
     "hitPoints": 60,
     "hitDice": "8d8+24",
-    "speed": 20,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -26625,7 +26625,7 @@
     "armorClass": 16,
     "hitPoints": 136,
     "hitDice": "13d10+65",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 17,
@@ -26706,7 +26706,7 @@
     "armorClass": 13,
     "hitPoints": 105,
     "hitDice": "10d12+40",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 8,
@@ -26761,7 +26761,7 @@
     "armorClass": 11,
     "hitPoints": 19,
     "hitDice": "3d10+3",
-    "speed": 11,
+    "speed": " 40 ft, fly 60 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 13,
@@ -26817,7 +26817,7 @@
     "armorClass": 17,
     "hitPoints": 39,
     "hitDice": "6d8+12",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -26872,7 +26872,7 @@
     "armorClass": 13,
     "hitPoints": 45,
     "hitDice": "7d8+14",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 12,
@@ -26971,7 +26971,7 @@
     "armorClass": 15,
     "hitPoints": 32,
     "hitDice": "5d8+10",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 16,
@@ -27060,7 +27060,7 @@
     "armorClass": 20,
     "hitPoints": 97,
     "hitDice": "13d8+39",
-    "speed": 20,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -27136,7 +27136,7 @@
     "armorClass": 18,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 12,
@@ -27183,7 +27183,7 @@
     "armorClass": 13,
     "hitPoints": 5,
     "hitDice": "2d4",
-    "speed": 13,
+    "speed": " 20 ft., fly 40 ft.",
     "abilities": {
       "strength": 4,
       "dexterity": 15,
@@ -27231,7 +27231,7 @@
     "armorClass": 15,
     "hitPoints": 75,
     "hitDice": "10d10+10",
-    "speed": 15,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -27280,7 +27280,7 @@
     "armorClass": 15,
     "hitPoints": 75,
     "hitDice": "10d10+20",
-    "speed": 15,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -27336,7 +27336,7 @@
     "armorClass": 18,
     "hitPoints": 178,
     "hitDice": "17d10+85",
-    "speed": 18,
+    "speed": " 20 ft., fly 60 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 17,
@@ -27420,7 +27420,7 @@
     "armorClass": 13,
     "hitPoints": 9,
     "hitDice": "2d8",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 15,
@@ -27480,7 +27480,7 @@
     "armorClass": 15,
     "hitPoints": 45,
     "hitDice": "10d8",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 16,
@@ -27579,7 +27579,7 @@
     "armorClass": 17,
     "hitPoints": 76,
     "hitDice": "8d12+24",
-    "speed": 17,
+    "speed": " 20 ft., swim 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 8,
@@ -27635,7 +27635,7 @@
     "armorClass": 12,
     "hitPoints": 45,
     "hitDice": "6d10+12",
-    "speed": 12,
+    "speed": " swim 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -27687,7 +27687,7 @@
     "armorClass": 14,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 14,
+    "speed": " 45 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 16,
@@ -27774,7 +27774,7 @@
     "armorClass": 15,
     "hitPoints": 172,
     "hitDice": "15d12+75",
-    "speed": 15,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 12,
@@ -27838,7 +27838,7 @@
     "armorClass": 11,
     "hitPoints": 5,
     "hitDice": "1d8+1",
-    "speed": 11,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 13,
@@ -27886,7 +27886,7 @@
     "armorClass": 18,
     "hitPoints": 180,
     "hitDice": "19d10+76",
-    "speed": 18,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 14,
@@ -27977,7 +27977,7 @@
     "armorClass": 18,
     "hitPoints": 180,
     "hitDice": "19d10+76",
-    "speed": 18,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 14,
@@ -28064,7 +28064,7 @@
     "armorClass": 11,
     "hitPoints": 21,
     "hitDice": "6d6",
-    "speed": 11,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 13,
@@ -28140,7 +28140,7 @@
     "armorClass": 12,
     "hitPoints": 32,
     "hitDice": "5d8+10",
-    "speed": 12,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 10,
@@ -28198,7 +28198,7 @@
     "armorClass": 17,
     "hitPoints": 135,
     "hitDice": "18d8+54",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -28409,7 +28409,7 @@
     "armorClass": 12,
     "hitPoints": 38,
     "hitDice": "7d8+7",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -28513,7 +28513,7 @@
     "armorClass": 17,
     "hitPoints": 325,
     "hitDice": "26d12+156",
-    "speed": 17,
+    "speed": " 50 ft., fly 50 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 24,
@@ -28631,7 +28631,7 @@
     "armorClass": 13,
     "hitPoints": 10,
     "hitDice": "3d4+3",
-    "speed": 13,
+    "speed": " 20 ft., fly 40 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 17,
@@ -28715,7 +28715,7 @@
     "armorClass": 12,
     "hitPoints": 21,
     "hitDice": "6d4+6",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 14,
@@ -28783,7 +28783,7 @@
     "armorClass": 14,
     "hitPoints": 104,
     "hitDice": "16d8+32",
-    "speed": 14,
+    "speed": " 50 ft., fly 50 ft. (hover)",
     "abilities": {
       "strength": 16,
       "dexterity": 19,
@@ -28856,7 +28856,7 @@
     "armorClass": 20,
     "hitPoints": 210,
     "hitDice": "20d10+100",
-    "speed": 20,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 24,
       "dexterity": 9,
@@ -28935,7 +28935,7 @@
     "armorClass": 15,
     "hitPoints": 18,
     "hitDice": "4d6+4",
-    "speed": 15,
+    "speed": " 0 ft., swim 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 16,
@@ -29009,7 +29009,7 @@
     "armorClass": 15,
     "hitPoints": 18,
     "hitDice": "4d6+4",
-    "speed": 15,
+    "speed": " 0 ft., swim 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 16,
@@ -29051,7 +29051,7 @@
     "armorClass": 22,
     "hitPoints": 481,
     "hitDice": "26d20+208",
-    "speed": 22,
+    "speed": " 40 ft., burrow 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 29,
       "dexterity": 10,
@@ -29159,7 +29159,7 @@
     "armorClass": 14,
     "hitPoints": 112,
     "hitDice": "15d8+45",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -29219,7 +29219,7 @@
     "armorClass": 12,
     "hitPoints": 3,
     "hitDice": "1d6",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 15,
@@ -29271,7 +29271,7 @@
     "armorClass": 12,
     "hitPoints": 18,
     "hitDice": "4d8",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 15,
@@ -29345,7 +29345,7 @@
     "armorClass": 15,
     "hitPoints": 22,
     "hitDice": "4d6+8",
-    "speed": 15,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 17,
@@ -29452,7 +29452,7 @@
     "armorClass": 18,
     "hitPoints": 350,
     "hitDice": "28d12+168",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 24,
       "dexterity": 10,
@@ -29579,7 +29579,7 @@
     "armorClass": 15,
     "hitPoints": 85,
     "hitDice": "10d10+30",
-    "speed": 15,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 12,
@@ -29651,7 +29651,7 @@
     "armorClass": 14,
     "hitPoints": 67,
     "hitDice": "9d8+27",
-    "speed": 14,
+    "speed": " 10 ft., swim 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 14,
@@ -29731,7 +29731,7 @@
     "armorClass": 13,
     "hitPoints": 13,
     "hitDice": "3d8",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 16,
@@ -29795,7 +29795,7 @@
     "armorClass": 20,
     "hitPoints": 152,
     "hitDice": "16d12+48",
-    "speed": 20,
+    "speed": " 60 ft., fly 120 ft. (hover)",
     "abilities": {
       "strength": 21,
       "dexterity": 16,
@@ -29970,7 +29970,7 @@
     "armorClass": 12,
     "hitPoints": 90,
     "hitDice": "12d12+12",
-    "speed": 12,
+    "speed": " swim 60 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -30026,7 +30026,7 @@
     "armorClass": 18,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -30094,7 +30094,7 @@
     "armorClass": 15,
     "hitPoints": 44,
     "hitDice": "8d6+16",
-    "speed": 15,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 15,
@@ -30158,7 +30158,7 @@
     "armorClass": 12,
     "hitPoints": 13,
     "hitDice": "3d6+3",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 15,
@@ -30209,7 +30209,7 @@
     "armorClass": 15,
     "hitPoints": 27,
     "hitDice": "5d6+10",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 15,
@@ -30296,7 +30296,7 @@
     "armorClass": 12,
     "hitPoints": 5,
     "hitDice": "2d6-2",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 15,
@@ -30347,7 +30347,7 @@
     "armorClass": 17,
     "hitPoints": 102,
     "hitDice": "12d6+60",
-    "speed": 17,
+    "speed": " 30 ft., burrow 30 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 14,
@@ -30425,7 +30425,7 @@
     "armorClass": 10,
     "hitPoints": 75,
     "hitDice": "10d8+30",
-    "speed": 10,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 10,
@@ -30483,7 +30483,7 @@
     "armorClass": 18,
     "hitPoints": 472,
     "hitDice": "27d20+189",
-    "speed": 18,
+    "speed": " 20 ft., swim 60 ft.",
     "abilities": {
       "strength": 30,
       "dexterity": 11,
@@ -30590,7 +30590,7 @@
     "armorClass": 13,
     "hitPoints": 97,
     "hitDice": "13d8+39",
-    "speed": 13,
+    "speed": " 31 ft., swim 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -30710,7 +30710,7 @@
     "armorClass": 13,
     "hitPoints": 65,
     "hitDice": "10d8+20",
-    "speed": 13,
+    "speed": " 33 ft., swim 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 10,
@@ -30786,7 +30786,7 @@
     "armorClass": 11,
     "hitPoints": 65,
     "hitDice": "10d8+20",
-    "speed": 11,
+    "speed": " 32 ft., swim 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 10,
@@ -30876,7 +30876,7 @@
     "armorClass": 13,
     "hitPoints": 18,
     "hitDice": "4d8",
-    "speed": 13,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 10,
@@ -30948,7 +30948,7 @@
     "armorClass": 13,
     "hitPoints": 97,
     "hitDice": "13d10+26",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 13,
@@ -31016,7 +31016,7 @@
     "armorClass": 17,
     "hitPoints": 57,
     "hitDice": "6d12+18",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 13,
@@ -31099,7 +31099,7 @@
     "armorClass": 7,
     "hitPoints": 13,
     "hitDice": "3d8",
-    "speed": 7,
+    "speed": " 15 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 5,
@@ -31155,7 +31155,7 @@
     "armorClass": 14,
     "hitPoints": 67,
     "hitDice": "9d10+18",
-    "speed": 14,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -31227,7 +31227,7 @@
     "armorClass": 17,
     "hitPoints": 135,
     "hitDice": "18d8+54",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -31418,7 +31418,7 @@
     "armorClass": 13,
     "hitPoints": 59,
     "hitDice": "7d12+14",
-    "speed": 13,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 6,
@@ -31474,7 +31474,7 @@
     "armorClass": 12,
     "hitPoints": 26,
     "hitDice": "4d10+4",
-    "speed": 12,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 15,
@@ -31542,7 +31542,7 @@
     "armorClass": 15,
     "hitPoints": 78,
     "hitDice": "12d8+24",
-    "speed": 15,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 12,
@@ -31625,7 +31625,7 @@
     "armorClass": 10,
     "hitPoints": 2,
     "hitDice": "1d4",
-    "speed": 10,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 11,
@@ -31663,7 +31663,7 @@
     "armorClass": 13,
     "hitPoints": 27,
     "hitDice": "5d8+5",
-    "speed": 13,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 10,
@@ -31768,7 +31768,7 @@
     "armorClass": 15,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 15,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 10,
@@ -31840,7 +31840,7 @@
     "armorClass": 10,
     "hitPoints": 88,
     "hitDice": "16d8+16",
-    "speed": 10,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 11,
@@ -31990,7 +31990,7 @@
     "armorClass": 16,
     "hitPoints": 341,
     "hitDice": "22d20+110",
-    "speed": 16,
+    "speed": " 50 ft..",
     "abilities": {
       "strength": 21,
       "dexterity": 22,
@@ -32097,7 +32097,7 @@
     "armorClass": 12,
     "hitPoints": 40,
     "hitDice": "9d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -32203,7 +32203,7 @@
     "armorClass": 11,
     "hitPoints": 22,
     "hitDice": "5d6+5",
-    "speed": 11,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 12,
@@ -32274,7 +32274,7 @@
     "armorClass": 14,
     "hitPoints": 9,
     "hitDice": "2d6+2",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 15,
@@ -32325,7 +32325,7 @@
     "armorClass": 12,
     "hitPoints": 13,
     "hitDice": "2d8+4",
-    "speed": 12,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 12,
@@ -32381,7 +32381,7 @@
     "armorClass": 17,
     "hitPoints": 172,
     "hitDice": "15d12+75",
-    "speed": 17,
+    "speed": " 20 ft., swim 40 ft.",
     "abilities": {
       "strength": 25,
       "dexterity": 11,
@@ -32476,7 +32476,7 @@
     "armorClass": 13,
     "hitPoints": 126,
     "hitDice": "11d12+55",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 24,
       "dexterity": 9,
@@ -32523,7 +32523,7 @@
     "armorClass": 9,
     "hitPoints": 9,
     "hitDice": "2d6+2",
-    "speed": 9,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 9,
@@ -32571,7 +32571,7 @@
     "armorClass": 14,
     "hitPoints": 68,
     "hitDice": "8d10+24",
-    "speed": 14,
+    "speed": " 30 ft., fly 50 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 16,
@@ -32626,7 +32626,7 @@
     "armorClass": 17,
     "hitPoints": 229,
     "hitDice": "17d10+136",
-    "speed": 17,
+    "speed": " 30 ft., fly 60 ft., swim 90 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 12,
@@ -32706,7 +32706,7 @@
     "armorClass": 18,
     "hitPoints": 189,
     "hitDice": "18d10+90",
-    "speed": 18,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 20,
@@ -32803,7 +32803,7 @@
     "armorClass": 17,
     "hitPoints": 58,
     "hitDice": "9d8+18",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 13,
@@ -32863,7 +32863,7 @@
     "armorClass": 15,
     "hitPoints": 136,
     "hitDice": "16d8+64",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 11,
@@ -32941,7 +32941,7 @@
     "armorClass": 16,
     "hitPoints": 60,
     "hitDice": "11d8+11",
-    "speed": 16,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 17,
@@ -33009,7 +33009,7 @@
     "armorClass": 16,
     "hitPoints": 83,
     "hitDice": "13d8+26",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 18,
@@ -33102,7 +33102,7 @@
     "armorClass": 12,
     "hitPoints": 5,
     "hitDice": "1d8+1",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 14,
@@ -33150,7 +33150,7 @@
     "armorClass": 13,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 8,
@@ -33203,7 +33203,7 @@
     "armorClass": 15,
     "hitPoints": 127,
     "hitDice": "17d8+51",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 15,
@@ -33275,7 +33275,7 @@
     "armorClass": 15,
     "hitPoints": 31,
     "hitDice": "7d6+7",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 15,
@@ -33341,7 +33341,7 @@
     "armorClass": 11,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 11,
+    "speed": " 10 ft., swim 40 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 13,
@@ -33389,7 +33389,7 @@
     "armorClass": 13,
     "hitPoints": 45,
     "hitDice": "6d10+12",
-    "speed": 13,
+    "speed": " 10 ft., swim 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -33444,7 +33444,7 @@
     "armorClass": 18,
     "hitPoints": 75,
     "hitDice": "10d8+30",
-    "speed": 18,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 11,
@@ -33526,7 +33526,7 @@
     "armorClass": 12,
     "hitPoints": 58,
     "hitDice": "9d8+18",
-    "speed": 12,
+    "speed": " 15 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 12,
@@ -33594,7 +33594,7 @@
     "armorClass": 15,
     "hitPoints": 71,
     "hitDice": "13d8+13",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 12,
@@ -33739,7 +33739,7 @@
     "armorClass": 15,
     "hitPoints": 71,
     "hitDice": "13d8+13",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 12,
@@ -33832,7 +33832,7 @@
     "armorClass": 15,
     "hitPoints": 71,
     "hitDice": "13d8+13",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 12,
@@ -33925,7 +33925,7 @@
     "armorClass": 15,
     "hitPoints": 75,
     "hitDice": "10d10+20",
-    "speed": 15,
+    "speed": " 0 ft., fly 20 ft. (hover)",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -33996,7 +33996,7 @@
     "armorClass": 12,
     "hitPoints": 67,
     "hitDice": "9d10+18",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 11,
@@ -34050,7 +34050,7 @@
     "armorClass": 14,
     "hitPoints": 76,
     "hitDice": "9d10+27",
-    "speed": 14,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 11,
@@ -34110,7 +34110,7 @@
     "armorClass": 10,
     "hitPoints": 82,
     "hitDice": "11d8+33",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 10,
@@ -34223,7 +34223,7 @@
     "armorClass": 10,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 10,
@@ -34283,7 +34283,7 @@
     "armorClass": 11,
     "hitPoints": 26,
     "hitDice": "4d8+8",
-    "speed": 11,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 9,
@@ -34355,7 +34355,7 @@
     "armorClass": 15,
     "hitPoints": 5,
     "hitDice": "1d8+1",
-    "speed": 15,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 13,
@@ -34406,7 +34406,7 @@
     "armorClass": 17,
     "hitPoints": 130,
     "hitDice": "20d8+40",
-    "speed": 17,
+    "speed": " 25 ft., swim 50 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 14,
@@ -34556,7 +34556,7 @@
     "armorClass": 13,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 13,
+    "speed": " 0 ft., fly 60 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 16,
@@ -34621,7 +34621,7 @@
     "armorClass": 14,
     "hitPoints": 105,
     "hitDice": "10d12+40",
-    "speed": 14,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 10,
@@ -34675,7 +34675,7 @@
     "armorClass": 11,
     "hitPoints": 27,
     "hitDice": "6d6+6",
-    "speed": 11,
+    "speed": " 20 ft., fly 20 ft., swim 20 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 12,
@@ -34739,7 +34739,7 @@
     "armorClass": 10,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 10,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 10,
@@ -34786,7 +34786,7 @@
     "armorClass": 17,
     "hitPoints": 97,
     "hitDice": "13d8+39",
-    "speed": 17,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -34954,7 +34954,7 @@
     "armorClass": 11,
     "hitPoints": 58,
     "hitDice": "9d8+18",
-    "speed": 11,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 8,
@@ -35012,7 +35012,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 12,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 10,
@@ -35067,7 +35067,7 @@
     "armorClass": 13,
     "hitPoints": 60,
     "hitDice": "8d10+16",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 10,
@@ -35134,7 +35134,7 @@
     "armorClass": 10,
     "hitPoints": 7,
     "hitDice": "2d6",
-    "speed": 10,
+    "speed": " 10 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 10,
@@ -35185,7 +35185,7 @@
     "armorClass": 18,
     "hitPoints": 135,
     "hitDice": "18d8+54",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 12,
@@ -35266,7 +35266,7 @@
     "armorClass": 18,
     "hitPoints": 184,
     "hitDice": "16d10+96",
-    "speed": 18,
+    "speed": " 20 ft., fly 30 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 10,
@@ -35355,7 +35355,7 @@
     "armorClass": 12,
     "hitPoints": 40,
     "hitDice": "9d6+9",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -35451,7 +35451,7 @@
     "armorClass": 12,
     "hitPoints": 18,
     "hitDice": "4d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 15,
@@ -35519,7 +35519,7 @@
     "armorClass": 10,
     "hitPoints": 27,
     "hitDice": "6d8",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 11,
@@ -35612,7 +35612,7 @@
     "armorClass": 12,
     "hitPoints": 66,
     "hitDice": "12d8+12",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -35733,7 +35733,7 @@
     "armorClass": 12,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 12,
@@ -35778,7 +35778,7 @@
     "armorClass": 11,
     "hitPoints": 7,
     "hitDice": "3d4",
-    "speed": 11,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 13,
@@ -35825,7 +35825,7 @@
     "armorClass": 15,
     "hitPoints": 71,
     "hitDice": "13d6+26",
-    "speed": 15,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 16,
@@ -35939,7 +35939,7 @@
     "armorClass": 15,
     "hitPoints": 33,
     "hitDice": "6d6+12",
-    "speed": 15,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 16,
@@ -36007,7 +36007,7 @@
     "armorClass": 16,
     "hitPoints": 325,
     "hitDice": "21d20+105",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 7,
@@ -36075,7 +36075,7 @@
     "armorClass": 13,
     "hitPoints": 44,
     "hitDice": "8d8+8",
-    "speed": 13,
+    "speed": " 30 ft., swim 60 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 17,
@@ -36146,7 +36146,7 @@
     "armorClass": 17,
     "hitPoints": 117,
     "hitDice": "18d8+36",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 17,
@@ -36229,7 +36229,7 @@
     "armorClass": 11,
     "hitPoints": 27,
     "hitDice": "6d8",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 13,
@@ -36333,7 +36333,7 @@
     "armorClass": 17,
     "hitPoints": 112,
     "hitDice": "15d8+45",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -36431,7 +36431,7 @@
     "armorClass": 13,
     "hitPoints": 68,
     "hitDice": "8d10+24",
-    "speed": 13,
+    "speed": " 60 ft., fly 90 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -36484,7 +36484,7 @@
     "armorClass": 13,
     "hitPoints": 7,
     "hitDice": "2d6",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 14,
@@ -36548,7 +36548,7 @@
     "armorClass": 15,
     "hitPoints": 9,
     "hitDice": "2d8",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 12,
@@ -36603,7 +36603,7 @@
     "armorClass": 15,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 16,
@@ -36675,7 +36675,7 @@
     "armorClass": 18,
     "hitPoints": 123,
     "hitDice": "13d10+52",
-    "speed": 18,
+    "speed": " 40 ft., fly 60 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 11,
@@ -36765,7 +36765,7 @@
     "armorClass": 8,
     "hitPoints": 45,
     "hitDice": "6d10+12",
-    "speed": 8,
+    "speed": " 10 ft., climb 10 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 6,
@@ -36828,7 +36828,7 @@
     "armorClass": 12,
     "hitPoints": 3,
     "hitDice": "1d6",
-    "speed": 12,
+    "speed": " 5 ft., swim 30 ft.",
     "abilities": {
       "strength": 4,
       "dexterity": 15,
@@ -36892,7 +36892,7 @@
     "armorClass": 8,
     "hitPoints": 85,
     "hitDice": "9d10+36",
-    "speed": 8,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 6,
@@ -36944,7 +36944,7 @@
     "armorClass": 11,
     "hitPoints": 59,
     "hitDice": "7d10+21",
-    "speed": 11,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 8,
@@ -36986,7 +36986,7 @@
     "armorClass": 20,
     "hitPoints": 526,
     "hitDice": "27d20+243",
-    "speed": 20,
+    "speed": " 50 ft., burrow 50 ft.",
     "abilities": {
       "strength": 26,
       "dexterity": 11,
@@ -37094,7 +37094,7 @@
     "armorClass": 18,
     "hitPoints": 324,
     "hitDice": "24d12+168",
-    "speed": 18,
+    "speed": " 50 ft., swim 100 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 22,
@@ -37206,7 +37206,7 @@
     "armorClass": 12,
     "hitPoints": 49,
     "hitDice": "9d8+9",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -37300,7 +37300,7 @@
     "armorClass": 16,
     "hitPoints": 110,
     "hitDice": "13d10+39",
-    "speed": 16,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 11,
@@ -37393,7 +37393,7 @@
     "armorClass": 9,
     "hitPoints": 138,
     "hitDice": "12d12+60",
-    "speed": 9,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 1,
@@ -37542,7 +37542,7 @@
     "armorClass": 18,
     "hitPoints": 60,
     "hitDice": "8d8+24",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 11,
@@ -37619,7 +37619,7 @@
     "armorClass": 14,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 15,
@@ -37718,7 +37718,7 @@
     "armorClass": 16,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 12,
@@ -37800,7 +37800,7 @@
     "armorClass": 12,
     "hitPoints": 30,
     "hitDice": "4d8+12",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 11,
@@ -37893,7 +37893,7 @@
     "armorClass": 9,
     "hitPoints": 30,
     "hitDice": "4d8+12",
-    "speed": 9,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 8,
@@ -37948,7 +37948,7 @@
     "armorClass": 15,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -38028,7 +38028,7 @@
     "armorClass": 16,
     "hitPoints": 93,
     "hitDice": "11d8+44",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 12,
@@ -38105,7 +38105,7 @@
     "armorClass": 13,
     "hitPoints": 15,
     "hitDice": "2d8+6",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 12,
@@ -38157,7 +38157,7 @@
     "armorClass": 17,
     "hitPoints": 405,
     "hitDice": "30d12+210",
-    "speed": 17,
+    "speed": " 40 ft., fly 40 ft.",
     "abilities": {
       "strength": 27,
       "dexterity": 14,
@@ -38276,7 +38276,7 @@
     "armorClass": 11,
     "hitPoints": 39,
     "hitDice": "6d8+12",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 13,
@@ -38377,7 +38377,7 @@
     "armorClass": 11,
     "hitPoints": 9,
     "hitDice": "2d6+2",
-    "speed": 11,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 13,
@@ -38447,7 +38447,7 @@
     "armorClass": 18,
     "hitPoints": 42,
     "hitDice": "5d8+20",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 12,
@@ -38507,7 +38507,7 @@
     "armorClass": 14,
     "hitPoints": 114,
     "hitDice": "12d10+48",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -38567,7 +38567,7 @@
     "armorClass": 11,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 11,
+    "speed": " 5 ft., fly 60 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 13,
@@ -38623,7 +38623,7 @@
     "armorClass": 13,
     "hitPoints": 59,
     "hitDice": "7d10+21",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 12,
@@ -38679,7 +38679,7 @@
     "armorClass": 10,
     "hitPoints": 15,
     "hitDice": "2d10+4",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -38726,7 +38726,7 @@
     "armorClass": 12,
     "hitPoints": 13,
     "hitDice": "3d8",
-    "speed": 12,
+    "speed": " 50 ft., climb 40 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 15,
@@ -38786,7 +38786,7 @@
     "armorClass": 12,
     "hitPoints": 59,
     "hitDice": "7d10+21",
-    "speed": 12,
+    "speed": " 60 ft., fly 90 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -38842,7 +38842,7 @@
     "armorClass": 16,
     "hitPoints": 32,
     "hitDice": "5d10+5",
-    "speed": 16,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -38902,7 +38902,7 @@
     "armorClass": 13,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 13,
+    "speed": " 20 ft., fly 60 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 12,
@@ -38968,7 +38968,7 @@
     "armorClass": 16,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -39052,7 +39052,7 @@
     "armorClass": 15,
     "hitPoints": 59,
     "hitDice": "7d8+28",
-    "speed": 15,
+    "speed": " 20 ft., swim 40 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 12,
@@ -39173,7 +39173,7 @@
     "armorClass": 13,
     "hitPoints": 32,
     "hitDice": "5d10+5",
-    "speed": 13,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 15,
@@ -39229,7 +39229,7 @@
     "armorClass": 14,
     "hitPoints": 10,
     "hitDice": "3d6",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -39287,7 +39287,7 @@
     "armorClass": 15,
     "hitPoints": 22,
     "hitDice": "3d8+9",
-    "speed": 15,
+    "speed": " 5 ft., climb 5 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 13,
@@ -39339,7 +39339,7 @@
     "armorClass": 19,
     "hitPoints": 300,
     "hitDice": "24d10+168",
-    "speed": 19,
+    "speed": " 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 26,
       "dexterity": 14,
@@ -39431,7 +39431,7 @@
     "armorClass": 15,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 15,
+    "speed": " 10 ft., fly 30 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 20,
@@ -39487,7 +39487,7 @@
     "armorClass": 19,
     "hitPoints": 200,
     "hitDice": "16d10+112",
-    "speed": 19,
+    "speed": " 40 ft., fly 120 ft.",
     "abilities": {
       "strength": 24,
       "dexterity": 20,
@@ -39575,7 +39575,7 @@
     "armorClass": 13,
     "hitPoints": 68,
     "hitDice": "8d10+24",
-    "speed": 13,
+    "speed": " 20 ft., swim 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 15,
@@ -39627,7 +39627,7 @@
     "armorClass": 13,
     "hitPoints": 2,
     "hitDice": "1d4",
-    "speed": 13,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 16,
@@ -39665,7 +39665,7 @@
     "armorClass": 12,
     "hitPoints": 42,
     "hitDice": "5d10+15",
-    "speed": 12,
+    "speed": " 40 ft., swim 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 10,
@@ -39721,7 +39721,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 12,
+    "speed": " 0 ft., fly 50 ft. (hover)",
     "abilities": {
       "strength": 1,
       "dexterity": 14,
@@ -39796,7 +39796,7 @@
     "armorClass": 10,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 10,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 10,
@@ -39834,7 +39834,7 @@
     "armorClass": 13,
     "hitPoints": 27,
     "hitDice": "5d8+5",
-    "speed": 13,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 10,
@@ -39924,7 +39924,7 @@
     "armorClass": 13,
     "hitPoints": 7,
     "hitDice": "2d4+2",
-    "speed": 13,
+    "speed": " 15 ft., fly 60 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 15,
@@ -39992,7 +39992,7 @@
     "armorClass": 13,
     "hitPoints": 13,
     "hitDice": "3d8",
-    "speed": 13,
+    "speed": " 10 ft., fly 60 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 15,
@@ -40040,7 +40040,7 @@
     "armorClass": 18,
     "hitPoints": 247,
     "hitDice": "15d20+90",
-    "speed": 18,
+    "speed": " 50 ft., burrow 30 ft.",
     "abilities": {
       "strength": 28,
       "dexterity": 7,
@@ -40100,7 +40100,7 @@
     "armorClass": 12,
     "hitPoints": 42,
     "hitDice": "5d10+15",
-    "speed": 12,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 7,
@@ -40146,7 +40146,7 @@
     "armorClass": 16,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 16,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 14,
@@ -40206,7 +40206,7 @@
     "armorClass": 13,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 13,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 12,
@@ -40256,7 +40256,7 @@
     "armorClass": 13,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 13,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 12,
@@ -40316,7 +40316,7 @@
     "armorClass": 13,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 13,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 12,
@@ -40372,7 +40372,7 @@
     "armorClass": 13,
     "hitPoints": 7,
     "hitDice": "3d4",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 5,
       "dexterity": 17,
@@ -40445,7 +40445,7 @@
     "armorClass": 13,
     "hitPoints": 30,
     "hitDice": "4d12+4",
-    "speed": 13,
+    "speed": " 10 ft., fly 80 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 13,
@@ -40497,7 +40497,7 @@
     "armorClass": 16,
     "hitPoints": 10,
     "hitDice": "3d4+3",
-    "speed": 16,
+    "speed": " 120 ft.",
     "abilities": {
       "strength": 4,
       "dexterity": 23,
@@ -40565,7 +40565,7 @@
     "armorClass": 13,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 13,
+    "speed": " swim 40 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 16,
@@ -40612,7 +40612,7 @@
     "armorClass": 18,
     "hitPoints": 135,
     "hitDice": "18d8+54",
-    "speed": 18,
+    "speed": " 35 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 22,
@@ -40705,7 +40705,7 @@
     "armorClass": 16,
     "hitPoints": 110,
     "hitDice": "13d8+52",
-    "speed": 16,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 17,
@@ -40769,7 +40769,7 @@
     "armorClass": 10,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 10,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 11,
@@ -40812,7 +40812,7 @@
     "armorClass": 13,
     "hitPoints": 71,
     "hitDice": "11d8+22",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -40943,7 +40943,7 @@
     "armorClass": 12,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 12,
+    "speed": " 10 ft., fly 50 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 14,
@@ -40991,7 +40991,7 @@
     "armorClass": 17,
     "hitPoints": 112,
     "hitDice": "15d8+75",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -41053,7 +41053,7 @@
     "armorClass": 17,
     "hitPoints": 75,
     "hitDice": "10d8+30",
-    "speed": 17,
+    "speed": " 30 ft., climb 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -41123,7 +41123,7 @@
     "armorClass": 14,
     "hitPoints": 52,
     "hitDice": "7d8+21",
-    "speed": 14,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -41176,7 +41176,7 @@
     "armorClass": 14,
     "hitPoints": 93,
     "hitDice": "11d10+33",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 12,
@@ -41246,7 +41246,7 @@
     "armorClass": 14,
     "hitPoints": 16,
     "hitDice": "3d8+3",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 14,
@@ -41293,7 +41293,7 @@
     "armorClass": 13,
     "hitPoints": 45,
     "hitDice": "6d6+24",
-    "speed": 13,
+    "speed": " 25 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -41357,7 +41357,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 12,
+    "speed": " swim 40 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 13,
@@ -41409,7 +41409,7 @@
     "armorClass": 17,
     "hitPoints": 195,
     "hitDice": "17d12+85",
-    "speed": 17,
+    "speed": " 30 ft., burrow 20 ft.",
     "abilities": {
       "strength": 24,
       "dexterity": 13,
@@ -41459,7 +41459,7 @@
     "armorClass": 13,
     "hitPoints": 136,
     "hitDice": "16d8+64",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -41551,7 +41551,7 @@
     "armorClass": 13,
     "hitPoints": 90,
     "hitDice": "12d8+36",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 16,
@@ -41658,7 +41658,7 @@
     "armorClass": 11,
     "hitPoints": 45,
     "hitDice": "6d10+12",
-    "speed": 11,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 8,
@@ -41701,7 +41701,7 @@
     "armorClass": 12,
     "hitPoints": 77,
     "hitDice": "14d8+14",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 12,
@@ -41837,7 +41837,7 @@
     "armorClass": 10,
     "hitPoints": 13,
     "hitDice": "2d10+2",
-    "speed": 10,
+    "speed": " 60 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 10,
@@ -41875,7 +41875,7 @@
     "armorClass": 15,
     "hitPoints": 248,
     "hitDice": "16d20+80",
-    "speed": 15,
+    "speed": " 20 ft., fly 120 ft.",
     "abilities": {
       "strength": 28,
       "dexterity": 10,
@@ -41948,7 +41948,7 @@
     "armorClass": 20,
     "hitPoints": 93,
     "hitDice": "11d10+33",
-    "speed": 20,
+    "speed": " 10 ft., climb 10 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 8,
@@ -42020,7 +42020,7 @@
     "armorClass": 10,
     "hitPoints": 15,
     "hitDice": "2d10+4",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -42063,7 +42063,7 @@
     "armorClass": 12,
     "hitPoints": 33,
     "hitDice": "6d10",
-    "speed": 12,
+    "speed": " 10 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 14,
@@ -42125,7 +42125,7 @@
     "armorClass": 14,
     "hitPoints": 27,
     "hitDice": "5d8+5",
-    "speed": 14,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 12,
@@ -42176,7 +42176,7 @@
     "armorClass": 12,
     "hitPoints": 52,
     "hitDice": "7d10+14",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -42236,7 +42236,7 @@
     "armorClass": 14,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 14,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 15,
@@ -42304,7 +42304,7 @@
     "armorClass": 16,
     "hitPoints": 76,
     "hitDice": "9d10+27",
-    "speed": 16,
+    "speed": " 30 ft., swim 50 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 15,
@@ -42389,7 +42389,7 @@
     "armorClass": 12,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 12,
+    "speed": " 30 ft., swim 40 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 11,
@@ -42490,7 +42490,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "4d8+4",
-    "speed": 12,
+    "speed": " 30 ft., swim 40 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 11,
@@ -42558,7 +42558,7 @@
     "armorClass": 15,
     "hitPoints": 90,
     "hitDice": "12d10+24",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -42619,7 +42619,7 @@
     "armorClass": 14,
     "hitPoints": 31,
     "hitDice": "7d8",
-    "speed": 14,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 16,
@@ -42687,7 +42687,7 @@
     "armorClass": 11,
     "hitPoints": 36,
     "hitDice": "8d8",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 13,
@@ -42751,7 +42751,7 @@
     "armorClass": 11,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 11,
+    "speed": " 10 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 11,
@@ -42789,7 +42789,7 @@
     "armorClass": 13,
     "hitPoints": 16,
     "hitDice": "3d8+3",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 14,
@@ -42857,7 +42857,7 @@
     "armorClass": 14,
     "hitPoints": 52,
     "hitDice": "7d8+21",
-    "speed": 14,
+    "speed": " 30 ft., swim 40 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 13,
@@ -42924,7 +42924,7 @@
     "armorClass": 11,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 11,
+    "speed": " swim 20 ft.",
     "abilities": {
       "strength": 1,
       "dexterity": 12,
@@ -42962,7 +42962,7 @@
     "armorClass": 15,
     "hitPoints": 90,
     "hitDice": "12d10+24",
-    "speed": 15,
+    "speed": " 10 ft., swim 40 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 15,
@@ -43038,7 +43038,7 @@
     "armorClass": 11,
     "hitPoints": 32,
     "hitDice": "5d8+10",
-    "speed": 11,
+    "speed": " 20 ft., swim 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 8,
@@ -43089,7 +43089,7 @@
     "armorClass": 16,
     "hitPoints": 150,
     "hitDice": "20d8+60",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 13,
@@ -43195,7 +43195,7 @@
     "armorClass": 13,
     "hitPoints": 66,
     "hitDice": "12d8+12",
-    "speed": 13,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 1,
       "dexterity": 17,
@@ -43280,7 +43280,7 @@
     "armorClass": 12,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -43346,7 +43346,7 @@
     "armorClass": 12,
     "hitPoints": 16,
     "hitDice": "3d8+3",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 14,
@@ -43423,7 +43423,7 @@
     "armorClass": 13,
     "hitPoints": 27,
     "hitDice": "6d8",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 15,
@@ -43499,7 +43499,7 @@
     "armorClass": 15,
     "hitPoints": 136,
     "hitDice": "16d10+48",
-    "speed": 15,
+    "speed": " 20 ft., swim 20 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 8,
@@ -43564,7 +43564,7 @@
     "armorClass": 16,
     "hitPoints": 13,
     "hitDice": "2d8+4",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 13,
@@ -43653,7 +43653,7 @@
     "armorClass": 17,
     "hitPoints": 142,
     "hitDice": "15d10+60",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 8,
@@ -43720,7 +43720,7 @@
     "armorClass": 10,
     "hitPoints": 60,
     "hitDice": "8d8+24",
-    "speed": 10,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 12,
@@ -43821,7 +43821,7 @@
     "armorClass": 14,
     "hitPoints": 110,
     "hitDice": "13d10+39",
-    "speed": 14,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -43896,7 +43896,7 @@
     "armorClass": 5,
     "hitPoints": 13,
     "hitDice": "3d8",
-    "speed": 5,
+    "speed": " 0 ft.",
     "abilities": {
       "strength": 1,
       "dexterity": 1,
@@ -43943,7 +43943,7 @@
     "armorClass": 16,
     "hitPoints": 27,
     "hitDice": "5d8+5",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 10,
@@ -44007,7 +44007,7 @@
     "armorClass": 17,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 17,
+    "speed": " 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -44077,7 +44077,7 @@
     "armorClass": 18,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 11,
@@ -44145,7 +44145,7 @@
     "armorClass": 18,
     "hitPoints": 19,
     "hitDice": "3d8+6",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 9,
@@ -44213,7 +44213,7 @@
     "armorClass": 14,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 17,
@@ -44277,7 +44277,7 @@
     "armorClass": 14,
     "hitPoints": 38,
     "hitDice": "7d8+7",
-    "speed": 14,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 18,
@@ -44353,7 +44353,7 @@
     "armorClass": 13,
     "hitPoints": 13,
     "hitDice": "2d8+4",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -44399,7 +44399,7 @@
     "armorClass": 12,
     "hitPoints": 44,
     "hitDice": "8d8+8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 14,
@@ -44482,7 +44482,7 @@
     "armorClass": 12,
     "hitPoints": 10,
     "hitDice": "4d4",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 15,
@@ -44536,7 +44536,7 @@
     "armorClass": 14,
     "hitPoints": 32,
     "hitDice": "5d8+10",
-    "speed": 14,
+    "speed": " 30 ft., climb 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 19,
@@ -44627,7 +44627,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d6+5",
-    "speed": 12,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 14,
@@ -44696,7 +44696,7 @@
     "armorClass": 21,
     "hitPoints": 243,
     "hitDice": "18d10+144",
-    "speed": 21,
+    "speed": " 50 ft., fly 150 ft.",
     "abilities": {
       "strength": 26,
       "dexterity": 22,
@@ -44809,7 +44809,7 @@
     "armorClass": 10,
     "hitPoints": 76,
     "hitDice": "9d8+36",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -44874,7 +44874,7 @@
     "armorClass": 14,
     "hitPoints": 39,
     "hitDice": "6d8+12",
-    "speed": 14,
+    "speed": " 0 ft., fly 30 ft. (hover)",
     "abilities": {
       "strength": 8,
       "dexterity": 14,
@@ -44931,7 +44931,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 12,
+    "speed": " 0 ft., fly 50 ft. (hover)",
     "abilities": {
       "strength": 1,
       "dexterity": 14,
@@ -44998,7 +44998,7 @@
     "armorClass": 12,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 12,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 14,
@@ -45054,7 +45054,7 @@
     "armorClass": 13,
     "hitPoints": 22,
     "hitDice": "5d6+5",
-    "speed": 13,
+    "speed": " 20 ft., fly 40 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 15,
@@ -45129,7 +45129,7 @@
     "armorClass": 15,
     "hitPoints": 75,
     "hitDice": "10d10+20",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 17,
@@ -45241,7 +45241,7 @@
     "armorClass": 15,
     "hitPoints": 2,
     "hitDice": "1d4",
-    "speed": 15,
+    "speed": " 10 ft., fly 40 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 18,
@@ -45300,7 +45300,7 @@
     "armorClass": 12,
     "hitPoints": 27,
     "hitDice": "6d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 15,
@@ -45384,7 +45384,7 @@
     "armorClass": 10,
     "hitPoints": 21,
     "hitDice": "6d6",
-    "speed": 10,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 5,
       "dexterity": 11,
@@ -45444,7 +45444,7 @@
     "armorClass": 13,
     "hitPoints": 76,
     "hitDice": "8d12+24",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 9,
@@ -45482,7 +45482,7 @@
     "armorClass": 10,
     "hitPoints": 15,
     "hitDice": "2d10+4",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -45533,7 +45533,7 @@
     "armorClass": 14,
     "hitPoints": 2,
     "hitDice": "1d4",
-    "speed": 14,
+    "speed": " 10 ft., fly 40 ft.",
     "abilities": {
       "strength": 4,
       "dexterity": 16,
@@ -45571,7 +45571,7 @@
     "armorClass": 18,
     "hitPoints": 161,
     "hitDice": "14d12+70",
-    "speed": 18,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 14,
@@ -45651,7 +45651,7 @@
     "armorClass": 17,
     "hitPoints": 126,
     "hitDice": "11d12+55",
-    "speed": 17,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 15,
@@ -45736,7 +45736,7 @@
     "armorClass": 17,
     "hitPoints": 178,
     "hitDice": "17d10+85",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 9,
@@ -45806,7 +45806,7 @@
     "armorClass": 17,
     "hitPoints": 75,
     "hitDice": "10d8+30",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 10,
@@ -45900,7 +45900,7 @@
     "armorClass": 12,
     "hitPoints": 230,
     "hitDice": "20d12+100",
-    "speed": 12,
+    "speed": " 50 ft., fly 50 ft. (hover), swim 50 ft.",
     "abilities": {
       "strength": 29,
       "dexterity": 14,
@@ -46000,7 +46000,7 @@
     "armorClass": 16,
     "hitPoints": 230,
     "hitDice": "20d12+100",
-    "speed": 16,
+    "speed": " 50 ft., swim 50 ft.",
     "abilities": {
       "strength": 29,
       "dexterity": 14,
@@ -46098,7 +46098,7 @@
     "armorClass": 16,
     "hitPoints": 144,
     "hitDice": "17d8+68",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 18,
@@ -46274,7 +46274,7 @@
     "armorClass": 8,
     "hitPoints": 30,
     "hitDice": "4d8+12",
-    "speed": 8,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 6,
@@ -46334,7 +46334,7 @@
     "armorClass": 21,
     "hitPoints": 112,
     "hitDice": "15d8+45",
-    "speed": 21,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 13,
@@ -46413,7 +46413,7 @@
     "armorClass": 15,
     "hitPoints": 66,
     "hitDice": "12d8+12",
-    "speed": 15,
+    "speed": " 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 17,
@@ -46503,7 +46503,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 12,
+    "speed": " 0 ft., fly 30 ft.",
     "abilities": {
       "strength": 5,
       "dexterity": 15,
@@ -46567,7 +46567,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 12,
+    "speed": " 20 ft., burrow 5 ft., climb 20 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 13,
@@ -46623,7 +46623,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 12,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 13,
@@ -46679,7 +46679,7 @@
     "armorClass": 12,
     "hitPoints": 36,
     "hitDice": "8d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -46747,7 +46747,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 12,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 13,
@@ -46803,7 +46803,7 @@
     "armorClass": 14,
     "hitPoints": 36,
     "hitDice": "8d8",
-    "speed": 14,
+    "speed": " 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 18,
@@ -46859,7 +46859,7 @@
     "armorClass": 13,
     "hitPoints": 28,
     "hitDice": "8d8-8",
-    "speed": 13,
+    "speed": " 0 ft., swim 40 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 16,
@@ -46923,7 +46923,7 @@
     "armorClass": 10,
     "hitPoints": 24,
     "hitDice": "7d8-7",
-    "speed": 10,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 11,
@@ -46983,7 +46983,7 @@
     "armorClass": 12,
     "hitPoints": 24,
     "hitDice": "7d8-7",
-    "speed": 12,
+    "speed": " 10 ft., fly 50 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 14,
@@ -47039,7 +47039,7 @@
     "armorClass": 8,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 8,
+    "speed": " 5 ft., climb 5 ft.",
     "abilities": {
       "strength": 2,
       "dexterity": 7,
@@ -47093,7 +47093,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 12,
+    "speed": " 20 ft., climb 20 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 13,
@@ -47160,7 +47160,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 12,
+    "speed": " 5 ft., fly 30 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 13,
@@ -47216,7 +47216,7 @@
     "armorClass": 17,
     "hitPoints": 66,
     "hitDice": "12d8+12",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 18,
@@ -47284,7 +47284,7 @@
     "armorClass": 18,
     "hitPoints": 58,
     "hitDice": "9d8+18",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 12,
@@ -47411,7 +47411,7 @@
     "armorClass": 14,
     "hitPoints": 95,
     "hitDice": "10d8+50",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -47482,7 +47482,7 @@
     "armorClass": 25,
     "hitPoints": 676,
     "hitDice": "33d20+330",
-    "speed": 25,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 30,
       "dexterity": 11,
@@ -47596,7 +47596,7 @@
     "armorClass": 16,
     "hitPoints": 105,
     "hitDice": "14d8+42",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -47779,7 +47779,7 @@
     "armorClass": 16,
     "hitPoints": 52,
     "hitDice": "8d8+16",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 13,
@@ -47843,7 +47843,7 @@
     "armorClass": 13,
     "hitPoints": 49,
     "hitDice": "9d6+18",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 16,
@@ -47987,7 +47987,7 @@
     "armorClass": 11,
     "hitPoints": 32,
     "hitDice": "5d10+5",
-    "speed": 11,
+    "speed": " 10 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 12,
@@ -48042,7 +48042,7 @@
     "armorClass": 14,
     "hitPoints": 27,
     "hitDice": "5d8+5",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 12,
@@ -48101,7 +48101,7 @@
     "armorClass": 15,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 15,
@@ -48185,7 +48185,7 @@
     "armorClass": 15,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 15,
@@ -48265,7 +48265,7 @@
     "armorClass": 11,
     "hitPoints": 32,
     "hitDice": "5d8+10",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 11,
@@ -48321,7 +48321,7 @@
     "armorClass": 16,
     "hitPoints": 71,
     "hitDice": "11d8+21",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -48423,7 +48423,7 @@
     "armorClass": 25,
     "hitPoints": 615,
     "hitDice": "30d20+300",
-    "speed": 25,
+    "speed": " 60 ft., fly 120 ft.",
     "abilities": {
       "strength": 30,
       "dexterity": 10,
@@ -48567,7 +48567,7 @@
     "armorClass": 12,
     "hitPoints": 37,
     "hitDice": "5d10+10",
-    "speed": 12,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 15,
@@ -48627,7 +48627,7 @@
     "armorClass": 15,
     "hitPoints": 85,
     "hitDice": "10d10+30",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 13,
@@ -48690,7 +48690,7 @@
     "armorClass": 12,
     "hitPoints": 40,
     "hitDice": "9d8",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -48801,7 +48801,7 @@
     "armorClass": 13,
     "hitPoints": 85,
     "hitDice": "10d10+30",
-    "speed": 13,
+    "speed": " 10 ft., climb 10 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 10,
@@ -48853,7 +48853,7 @@
     "armorClass": 16,
     "hitPoints": 138,
     "hitDice": "12d12+60",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 8,
@@ -48917,7 +48917,7 @@
     "armorClass": 15,
     "hitPoints": 149,
     "hitDice": "13d12+65",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 10,
@@ -48979,7 +48979,7 @@
     "armorClass": 12,
     "hitPoints": 5,
     "hitDice": "2d4",
-    "speed": 12,
+    "speed": " 40 ft., climb 30 ft., fly 40' ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 15,
@@ -49043,7 +49043,7 @@
     "armorClass": 12,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 11,
@@ -49086,7 +49086,7 @@
     "armorClass": 13,
     "hitPoints": 95,
     "hitDice": "10d12+30",
-    "speed": 13,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 9,
@@ -49133,7 +49133,7 @@
     "armorClass": 15,
     "hitPoints": 16,
     "hitDice": "3d8+3",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 13,
@@ -49188,7 +49188,7 @@
     "armorClass": 14,
     "hitPoints": 59,
     "hitDice": "7d8+28",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 12,
@@ -49268,7 +49268,7 @@
     "armorClass": 11,
     "hitPoints": 13,
     "hitDice": "2d8+4",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 10,
@@ -49332,7 +49332,7 @@
     "armorClass": 15,
     "hitPoints": 84,
     "hitDice": "8d10+40",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -49396,7 +49396,7 @@
     "armorClass": 13,
     "hitPoints": 4,
     "hitDice": "1d6+1",
-    "speed": 13,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 13,
@@ -49449,7 +49449,7 @@
     "armorClass": 13,
     "hitPoints": 136,
     "hitDice": "13d12+52",
-    "speed": 13,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 25,
       "dexterity": 10,
@@ -49500,7 +49500,7 @@
     "armorClass": 15,
     "hitPoints": 127,
     "hitDice": "17d10+14",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 12,
@@ -49593,7 +49593,7 @@
     "armorClass": 19,
     "hitPoints": 153,
     "hitDice": "18d8+72",
-    "speed": 19,
+    "speed": " 30 ft., fly 60 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 16,
@@ -49685,7 +49685,7 @@
     "armorClass": 18,
     "hitPoints": 93,
     "hitDice": "11d10+33",
-    "speed": 18,
+    "speed": " 30 ft., burrow 20 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 13,
@@ -49740,7 +49740,7 @@
     "armorClass": 12,
     "hitPoints": 67,
     "hitDice": "9d10+18",
-    "speed": 12,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -49830,7 +49830,7 @@
     "armorClass": 13,
     "hitPoints": 38,
     "hitDice": "7d8+7",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 12,
@@ -49894,7 +49894,7 @@
     "armorClass": 15,
     "hitPoints": 82,
     "hitDice": "11d8+33",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 16,
@@ -49974,7 +49974,7 @@
     "armorClass": 16,
     "hitPoints": 144,
     "hitDice": "17d8+68",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 18,
@@ -50127,7 +50127,7 @@
     "armorClass": 18,
     "hitPoints": 144,
     "hitDice": "17d8+68",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 18,
@@ -50235,7 +50235,7 @@
     "armorClass": 16,
     "hitPoints": 144,
     "hitDice": "17d8+68",
-    "speed": 16,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 18,
@@ -50352,7 +50352,7 @@
     "armorClass": 16,
     "hitPoints": 44,
     "hitDice": "8d8+8",
-    "speed": 16,
+    "speed": " 0 ft., swim 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 18,
@@ -50426,7 +50426,7 @@
     "armorClass": 16,
     "hitPoints": 44,
     "hitDice": "8d8+8",
-    "speed": 16,
+    "speed": " 0 ft., swim 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 18,
@@ -50468,7 +50468,7 @@
     "armorClass": 13,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 13,
+    "speed": " 0 ft., fly 30 ft. (hover)",
     "abilities": {
       "strength": 6,
       "dexterity": 16,
@@ -50554,7 +50554,7 @@
     "armorClass": 15,
     "hitPoints": 112,
     "hitDice": "15d8+45",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 16,
@@ -50674,7 +50674,7 @@
     "armorClass": 12,
     "hitPoints": 13,
     "hitDice": "3d4+6",
-    "speed": 12,
+    "speed": " 5 ft., fly 40 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 14,
@@ -50728,7 +50728,7 @@
     "armorClass": 14,
     "hitPoints": 33,
     "hitDice": "6d6+12",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 14,
@@ -50790,7 +50790,7 @@
     "armorClass": 13,
     "hitPoints": 9,
     "hitDice": "2d6+2",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 14,
@@ -50853,7 +50853,7 @@
     "armorClass": 13,
     "hitPoints": 10,
     "hitDice": "3d4+3",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 6,
       "dexterity": 14,
@@ -50909,7 +50909,7 @@
     "armorClass": 17,
     "hitPoints": 58,
     "hitDice": "9d8+18",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 13,
@@ -50968,7 +50968,7 @@
     "armorClass": 12,
     "hitPoints": 26,
     "hitDice": "4d8+4",
-    "speed": 12,
+    "speed": " 10 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 8,
@@ -51023,7 +51023,7 @@
     "armorClass": 5,
     "hitPoints": 18,
     "hitDice": "4d8",
-    "speed": 5,
+    "speed": " 5 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 1,
@@ -51074,7 +51074,7 @@
     "armorClass": 17,
     "hitPoints": 192,
     "hitDice": "16d8+64",
-    "speed": 17,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -51170,7 +51170,7 @@
     "armorClass": 15,
     "hitPoints": 104,
     "hitDice": "11d10+44",
-    "speed": 15,
+    "speed": " 40 ft., fly 60 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 15,
@@ -51255,7 +51255,7 @@
     "armorClass": 10,
     "hitPoints": 5,
     "hitDice": "1d8+1",
-    "speed": 10,
+    "speed": " 10 ft., fly 50 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 10,
@@ -51307,7 +51307,7 @@
     "armorClass": 18,
     "hitPoints": 117,
     "hitDice": "18d8+36",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 10,
@@ -51431,7 +51431,7 @@
     "armorClass": 13,
     "hitPoints": 22,
     "hitDice": "3d10+6",
-    "speed": 13,
+    "speed": " 60 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 12,
@@ -51476,7 +51476,7 @@
     "armorClass": 11,
     "hitPoints": 19,
     "hitDice": "3d10+3",
-    "speed": 11,
+    "speed": " 60 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 12,
@@ -51519,7 +51519,7 @@
     "armorClass": 11,
     "hitPoints": 49,
     "hitDice": "11d8",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 13,
@@ -51626,7 +51626,7 @@
     "armorClass": 12,
     "hitPoints": 78,
     "hitDice": "12d8+24",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 14,
@@ -51732,7 +51732,7 @@
     "armorClass": 12,
     "hitPoints": 91,
     "hitDice": "14d8+28",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 9,
       "dexterity": 14,
@@ -51831,7 +51831,7 @@
     "armorClass": 18,
     "hitPoints": 229,
     "hitDice": "27d8+108",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 20,
       "dexterity": 16,
@@ -51929,7 +51929,7 @@
     "armorClass": 18,
     "hitPoints": 127,
     "hitDice": "17d8+51",
-    "speed": 18,
+    "speed": " 40 ft., swim 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -51990,7 +51990,7 @@
     "armorClass": 14,
     "hitPoints": 114,
     "hitDice": "12d10+48",
-    "speed": 14,
+    "speed": " 30 ft., swim 90 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 14,
@@ -52059,7 +52059,7 @@
     "armorClass": 13,
     "hitPoints": 58,
     "hitDice": "9d10+9",
-    "speed": 13,
+    "speed": " 0 ft., swim 60 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 16,
@@ -52119,7 +52119,7 @@
     "armorClass": 13,
     "hitPoints": 1,
     "hitDice": "1d4-1",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 3,
       "dexterity": 16,
@@ -52171,7 +52171,7 @@
     "armorClass": 10,
     "hitPoints": 135,
     "hitDice": "18d8+54",
-    "speed": 10,
+    "speed": " 30 ft. (40 ft., climb 30 ft. in bear or hybrid form)",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -52237,7 +52237,7 @@
     "armorClass": 10,
     "hitPoints": 78,
     "hitDice": "12d8+24",
-    "speed": 10,
+    "speed": " 30 ft. (40 ft. in boar form)",
     "abilities": {
       "strength": 17,
       "dexterity": 10,
@@ -52303,7 +52303,7 @@
     "armorClass": 12,
     "hitPoints": 33,
     "hitDice": "6d8+6",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 15,
@@ -52373,7 +52373,7 @@
     "armorClass": 12,
     "hitPoints": 31,
     "hitDice": "7d8",
-    "speed": 12,
+    "speed": " 30 ft., fly 50 ft. in raven and hybrid forms",
     "abilities": {
       "strength": 10,
       "dexterity": 15,
@@ -52443,7 +52443,7 @@
     "armorClass": 12,
     "hitPoints": 120,
     "hitDice": "16d8+48",
-    "speed": 12,
+    "speed": " 30 ft. (40 ft. in tiger form)",
     "abilities": {
       "strength": 17,
       "dexterity": 15,
@@ -52521,7 +52521,7 @@
     "armorClass": 11,
     "hitPoints": 58,
     "hitDice": "9d8+18",
-    "speed": 11,
+    "speed": " 30 ft. (40 ft. in wolf form)",
     "abilities": {
       "strength": 15,
       "dexterity": 13,
@@ -52587,7 +52587,7 @@
     "armorClass": 16,
     "hitPoints": 32,
     "hitDice": "5d8+10",
-    "speed": 16,
+    "speed": " 30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.",
     "abilities": {
       "strength": 14,
       "dexterity": 10,
@@ -52657,7 +52657,7 @@
     "armorClass": 14,
     "hitPoints": 52,
     "hitDice": "7d8+21",
-    "speed": 14,
+    "speed": " 30 ft., burrow 20 ft., climb 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -52715,7 +52715,7 @@
     "armorClass": 5,
     "hitPoints": 217,
     "hitDice": "14d20+70",
-    "speed": 5,
+    "speed": " 10 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 1,
@@ -52792,7 +52792,7 @@
     "armorClass": 11,
     "hitPoints": 36,
     "hitDice": "8d6+8",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 12,
@@ -52880,7 +52880,7 @@
     "armorClass": 14,
     "hitPoints": 45,
     "hitDice": "6d8+18",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -52949,7 +52949,7 @@
     "armorClass": 19,
     "hitPoints": 22,
     "hitDice": "9d4",
-    "speed": 19,
+    "speed": " 0 ft., fly 50 ft. (hover)",
     "abilities": {
       "strength": 1,
       "dexterity": 28,
@@ -53026,7 +53026,7 @@
     "armorClass": 15,
     "hitPoints": 55,
     "hitDice": "10d8+10",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 10,
       "dexterity": 16,
@@ -53137,7 +53137,7 @@
     "armorClass": 13,
     "hitPoints": 7,
     "hitDice": "3d6-3",
-    "speed": 13,
+    "speed": " 30 ft., fly 30 ft.",
     "abilities": {
       "strength": 7,
       "dexterity": 16,
@@ -53188,7 +53188,7 @@
     "armorClass": 13,
     "hitPoints": 75,
     "hitDice": "10d10+20",
-    "speed": 13,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -53254,7 +53254,7 @@
     "armorClass": 13,
     "hitPoints": 11,
     "hitDice": "2d8+2",
-    "speed": 13,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 15,
@@ -53310,7 +53310,7 @@
     "armorClass": 18,
     "hitPoints": 75,
     "hitDice": "10d8+30",
-    "speed": 18,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 12,
@@ -53390,7 +53390,7 @@
     "armorClass": 13,
     "hitPoints": 26,
     "hitDice": "4d10+4",
-    "speed": 13,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 13,
@@ -53438,7 +53438,7 @@
     "armorClass": 13,
     "hitPoints": 67,
     "hitDice": "9d8+27",
-    "speed": 13,
+    "speed": " 0 ft., fly 60 ft. (hover)",
     "abilities": {
       "strength": 6,
       "dexterity": 16,
@@ -53508,7 +53508,7 @@
     "armorClass": 13,
     "hitPoints": 110,
     "hitDice": "13d10+39",
-    "speed": 13,
+    "speed": " 20 ft., fly 80 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -53563,7 +53563,7 @@
     "armorClass": 19,
     "hitPoints": 73,
     "hitDice": "7d8+42",
-    "speed": 19,
+    "speed": " 20 ft., burrow 20 ft.",
     "abilities": {
       "strength": 17,
       "dexterity": 10,
@@ -53633,7 +53633,7 @@
     "armorClass": 13,
     "hitPoints": 7,
     "hitDice": "2d6",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 14,
@@ -53671,7 +53671,7 @@
     "armorClass": 12,
     "hitPoints": 22,
     "hitDice": "5d6+5",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 14,
@@ -53754,7 +53754,7 @@
     "armorClass": 13,
     "hitPoints": 7,
     "hitDice": "2d6",
-    "speed": 13,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 14,
@@ -53814,7 +53814,7 @@
     "armorClass": 12,
     "hitPoints": 52,
     "hitDice": "7d10+14",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 11,
@@ -53922,7 +53922,7 @@
     "armorClass": 11,
     "hitPoints": 60,
     "hitDice": "8d10+16",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 11,
@@ -53982,7 +53982,7 @@
     "armorClass": 22,
     "hitPoints": 283,
     "hitDice": "21d12+147",
-    "speed": 22,
+    "speed": " 50 ft., fly 150 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 24,
@@ -54099,7 +54099,7 @@
     "armorClass": 22,
     "hitPoints": 348,
     "hitDice": "24d12+192",
-    "speed": 22,
+    "speed": " 50 ft.",
     "abilities": {
       "strength": 29,
       "dexterity": 16,
@@ -54213,7 +54213,7 @@
     "armorClass": 15,
     "hitPoints": 75,
     "hitDice": "10d10+20",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 10,
@@ -54277,7 +54277,7 @@
     "armorClass": 14,
     "hitPoints": 51,
     "hitDice": "6d10+18",
-    "speed": 14,
+    "speed": " 40 ft., fly 40 ft. (hover)",
     "abilities": {
       "strength": 18,
       "dexterity": 17,
@@ -54338,7 +54338,7 @@
     "armorClass": 12,
     "hitPoints": 51,
     "hitDice": "6d10+18",
-    "speed": 12,
+    "speed": " 40 ft., climb 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -54408,7 +54408,7 @@
     "armorClass": 15,
     "hitPoints": 136,
     "hitDice": "16d8+64",
-    "speed": 15,
+    "speed": " 30 ft., climb 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -54514,7 +54514,7 @@
     "armorClass": 18,
     "hitPoints": 127,
     "hitDice": "15d10+45",
-    "speed": 18,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 14,
@@ -54597,7 +54597,7 @@
     "armorClass": 18,
     "hitPoints": 152,
     "hitDice": "16d10+64",
-    "speed": 18,
+    "speed": " 40 ft., burrow 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 10,
@@ -54675,7 +54675,7 @@
     "armorClass": 17,
     "hitPoints": 110,
     "hitDice": "13d10+39",
-    "speed": 17,
+    "speed": " 40 ft., burrow 20 ft., fly 80 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 10,
@@ -54757,7 +54757,7 @@
     "armorClass": 18,
     "hitPoints": 142,
     "hitDice": "15d10+60",
-    "speed": 18,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 21,
       "dexterity": 10,
@@ -54844,7 +54844,7 @@
     "armorClass": 17,
     "hitPoints": 119,
     "hitDice": "14d10+42",
-    "speed": 17,
+    "speed": " 40 ft., climb 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 12,
@@ -54926,7 +54926,7 @@
     "armorClass": 18,
     "hitPoints": 178,
     "hitDice": "17d10+85",
-    "speed": 18,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 14,
@@ -55017,7 +55017,7 @@
     "armorClass": 18,
     "hitPoints": 136,
     "hitDice": "16d10+48",
-    "speed": 18,
+    "speed": " 40 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 12,
@@ -55106,7 +55106,7 @@
     "armorClass": 18,
     "hitPoints": 178,
     "hitDice": "17d10+85",
-    "speed": 18,
+    "speed": " 40 ft., climb 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 10,
@@ -55184,7 +55184,7 @@
     "armorClass": 18,
     "hitPoints": 178,
     "hitDice": "17d10+85",
-    "speed": 18,
+    "speed": " 40 ft., climb 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 10,
@@ -55277,7 +55277,7 @@
     "armorClass": 14,
     "hitPoints": 93,
     "hitDice": "11d10+33",
-    "speed": 14,
+    "speed": " 30 ft., burrow 20 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 13,
@@ -55323,7 +55323,7 @@
     "armorClass": 18,
     "hitPoints": 168,
     "hitDice": "16d10+80",
-    "speed": 18,
+    "speed": " 40 ft., fly 80 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 10,
@@ -55409,7 +55409,7 @@
     "armorClass": 17,
     "hitPoints": 133,
     "hitDice": "14d10+56",
-    "speed": 17,
+    "speed": " 40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 10,
@@ -55492,7 +55492,7 @@
     "armorClass": 15,
     "hitPoints": 127,
     "hitDice": "15d10+45",
-    "speed": 15,
+    "speed": " 40 ft.",
     "abilities": {
       "strength": 19,
       "dexterity": 16,
@@ -55572,7 +55572,7 @@
     "armorClass": 16,
     "hitPoints": 189,
     "hitDice": "18d12+72",
-    "speed": 16,
+    "speed": " 40 ft., climb 30 ft., swim 30 ft.",
     "abilities": {
       "strength": 23,
       "dexterity": 13,
@@ -55672,7 +55672,7 @@
     "armorClass": 14,
     "hitPoints": 45,
     "hitDice": "7d8+14",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 15,
       "dexterity": 14,
@@ -55757,7 +55757,7 @@
     "armorClass": 12,
     "hitPoints": 66,
     "hitDice": "12d8+12",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -55837,7 +55837,7 @@
     "armorClass": 12,
     "hitPoints": 66,
     "hitDice": "12d8+12",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -55909,7 +55909,7 @@
     "armorClass": 12,
     "hitPoints": 66,
     "hitDice": "12d8+12",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -55993,7 +55993,7 @@
     "armorClass": 14,
     "hitPoints": 71,
     "hitDice": "13d8+13",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -56122,7 +56122,7 @@
     "armorClass": 14,
     "hitPoints": 71,
     "hitDice": "13d8+13",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -56239,7 +56239,7 @@
     "armorClass": 14,
     "hitPoints": 88,
     "hitDice": "16d8+16",
-    "speed": 14,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 16,
       "dexterity": 14,
@@ -56364,7 +56364,7 @@
     "armorClass": 11,
     "hitPoints": 40,
     "hitDice": "9d8",
-    "speed": 11,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 11,
       "dexterity": 12,
@@ -56436,7 +56436,7 @@
     "armorClass": 12,
     "hitPoints": 16,
     "hitDice": "3d6+6",
-    "speed": 12,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 8,
       "dexterity": 15,
@@ -56521,7 +56521,7 @@
     "armorClass": 15,
     "hitPoints": 22,
     "hitDice": "5d8",
-    "speed": 15,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 12,
       "dexterity": 15,
@@ -56593,7 +56593,7 @@
     "armorClass": 8,
     "hitPoints": 22,
     "hitDice": "3d8+9",
-    "speed": 8,
+    "speed": " 20 ft.",
     "abilities": {
       "strength": 13,
       "dexterity": 6,
@@ -56643,7 +56643,7 @@
     "armorClass": 18,
     "hitPoints": 304,
     "hitDice": "32d10+128",
-    "speed": 18,
+    "speed": " 30 ft.",
     "abilities": {
       "strength": 22,
       "dexterity": 15,
@@ -56749,7 +56749,7 @@
     "armorClass": 22,
     "hitPoints": 283,
     "hitDice": "21d12+147",
-    "speed": 22,
+    "speed": " 50 ft., fly 150 ft.",
     "abilities": {
       "strength": 18,
       "dexterity": 24,

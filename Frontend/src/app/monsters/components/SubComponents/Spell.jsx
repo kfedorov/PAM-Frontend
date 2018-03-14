@@ -57,7 +57,6 @@ class Spell extends React.Component {
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
           style={customStyles}
-          contentLabel="Example Modal"
         >
           {this.get_spell_component()}
         </Modal>

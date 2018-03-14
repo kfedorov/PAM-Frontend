@@ -1,40 +1,40 @@
 /* Utils */
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
 
 /* Style */
-import './Style/MonsterInfoElement.css'
+import "./Style/MonsterInfoElement.css";
 
 const savingThrow = (savingThrow, element) => {
   return (
     <span key={savingThrow.ability}>
-      {element !== 0 ? ',' : ''} {savingThrow.ability.substring(0, 3)}{' '}
+      {element !== 0 ? "," : ""} {savingThrow.ability.substring(0, 3)}{" "}
       {savingThrow.modifier}
     </span>
-  )
-}
+  );
+};
 
 const enumeration = (value, element) => {
   return (
     <span key={value}>
-      {element !== 0 ? ',' : ''} {value}
+      {element !== 0 ? "," : ""} {value}
     </span>
-  )
-}
+  );
+};
 
 const skill = (skill, element) => {
   return (
     <span key={skill.name}>
-      {element !== 0 ? ',' : ''} {skill.name} {skill.modifier}
+      {element !== 0 ? "," : ""} {skill.name} {skill.modifier}
     </span>
-  )
-}
+  );
+};
 
 const Info = ({ monster }) => {
   return (
     <div>
       <hr />
-      <div className='other-info'>
+      <div className="other-info">
         {monster.skills.length > 0 &&
           <div>
             <b>Skills:</b>
@@ -65,13 +65,14 @@ const Info = ({ monster }) => {
             <b>Condition Immunities:</b>
             {monster.resistances.conditionImmunities.map(enumeration)}
           </div>}
-        <div>
-          <b>Senses: </b>
-          {monster.senses}
-        </div>
+        {monster.senses.length > 0 &&
+          <div>
+            <b>Senses: </b>
+            {monster.senses}
+          </div>}
         <div>
           <b>Languages: </b>
-          {monster.languages ? monster.languages : '-'}
+          {monster.languages ? monster.languages : "-"}
         </div>
         <div>
           <b>Challenge Rating: </b>
@@ -79,11 +80,11 @@ const Info = ({ monster }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 Info.propType = {
-  monster: PropTypes.shape({}).isRequired
-}
+  monster: PropTypes.shape({}).isRequired,
+};
 
-export default Info
+export default Info;

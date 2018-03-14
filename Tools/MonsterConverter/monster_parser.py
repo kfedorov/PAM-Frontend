@@ -126,7 +126,7 @@ def parse_monster(path):
     monster["hitDice"] = get_value(all_text, HIT_DICE_RULE, is_optional = True)
 
     # AC
-    monster["speed"] = (int)(get_value(all_text, ARMOR_CLASS_RULE))
+    monster["speed"] = get_value(all_text, SPEED_RULE)
 
     # Abilities
     matches_abilities = get_all_values(all_text, ABILITIES_RULE)
