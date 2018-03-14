@@ -2,8 +2,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
+import FaClose from "react-icons/lib/fa/close";
 
 import SpellModule from "../../../spells";
+
+import "../style/Monster.css";
 
 import { connect } from "react-redux";
 
@@ -15,6 +18,7 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
+    padding: 0,
   },
 };
 
@@ -40,7 +44,9 @@ class Spell extends React.Component {
 
   get_spell_component() {
     const spell = this.props.all_spells.find(
-      x => x.name.toLowerCase().trim() == this.props.name.toLowerCase().trim()
+      x =>
+        x.name.toLowerCase().trim() ==
+        this.props.name.toLowerCase().trim().replace("*", "")
     );
     return <SpellModule.components.SpellInfo spellToRender={spell} />;
   }
@@ -48,7 +54,7 @@ class Spell extends React.Component {
   render() {
     return (
       <span>
-        <span onClick={this.openModal}>
+        <span className="monster-spell__name" onClick={this.openModal}>
           {this.props.name}
         </span>
 
@@ -58,6 +64,11 @@ class Spell extends React.Component {
           onRequestClose={this.closeModal}
           style={customStyles}
         >
+          <FaClose
+            size={30}
+            className="monster-spell__close_button"
+            onClick={this.closeModal}
+          />
           {this.get_spell_component()}
         </Modal>
       </span>

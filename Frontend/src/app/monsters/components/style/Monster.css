@@ -16,3 +16,24 @@ Small adjustement for the monster information box
 .monster-info h2 {
   margin-bottom: 0;
 }
+
+/* ************ Spell Modal ************ */
+
+.monster-spell__name {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.monster-spell__close_button {
+  background-color: #fff;
+  border-radius: 25px;
+  border-style: solid;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  cursor: pointer;
+}
+
+.monster-spell__close_button :hover {
+  color: #F00
+}
