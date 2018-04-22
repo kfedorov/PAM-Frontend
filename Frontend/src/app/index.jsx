@@ -1,35 +1,27 @@
 /* Utils */
-import React, { Component } from 'react'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-
-import schema from './schemas'
+import React, { Component } from "react";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 /* Modules */
-import Spells from './spells'
-import Monsters from './monsters'
-import Encounter from './encounterPlayer'
-import Party from './party'
-import EncounterBuilder from './encounterBuilder'
+import Spells from "./spells";
+import Monsters from "./monsters";
 
 /* Style and assets */
-import './App.css'
+import "./App.css";
 
 class App extends Component {
-  render () {
+  render() {
     return (
-      <div className='App'>
-        <div className='App-header'>
+      <div className="App">
+        <div className="App-header">
           <h1>P.A.M</h1>
           <h4>Personal Assistant Minion</h4>
         </div>
         <Tabs onSelect={this.handleMonsterSelect}>
           <TabList>
-            <Tab>Spells</Tab>
-            <Tab>Monsters</Tab>
-            <Tab>Monsters Edit</Tab>
-            <Tab>Tavern (party builder)</Tab>
-            <Tab>Enconters Dashboard</Tab>
-            <Tab>Encounter Player</Tab>
+            <Tab>Spells Database</Tab>
+            <Tab>Monsters Database</Tab>
+            <Tab>Monsters Showcase</Tab>
           </TabList>
           <TabPanel>
             <Spells.Database />
@@ -38,24 +30,12 @@ class App extends Component {
             <Monsters.Database />
           </TabPanel>
           <TabPanel>
-            <Monsters.Manage
-              schema={schema.monster}
-              uiSchema={schema.uiMonster}
-            />
-          </TabPanel>
-          <TabPanel>
-            <Party.Planner />
-          </TabPanel>
-          <TabPanel>
-            <EncounterBuilder.Dashboard />
-          </TabPanel>
-          <TabPanel>
-            <Encounter.Manager />
+            <Monsters.Showcase />
           </TabPanel>
         </Tabs>
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;

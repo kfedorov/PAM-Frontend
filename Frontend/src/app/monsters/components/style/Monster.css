@@ -17,6 +17,30 @@ Small adjustement for the monster information box
   margin-bottom: 0;
 }
 
+/* ************ HEADER ************ */
+.monster-quick-info__container {
+  width: 300px;
+}
+
+.monster-quick-info__name {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.monster-quick-info__name-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.monster-quick-info__more-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.monster-quick-info__more {
+  margin-left: 10px;
+}
+
 /* ************ Spell Modal ************ */
 
 .monster-spell__name {
@@ -35,5 +59,11 @@ Small adjustement for the monster information box
 }
 
 .monster-spell__close_button :hover {
-  color: #F00
+  color: #f00;
+}
+
+/* ************ Monster Overview ************ */
+
+.monster-overview__container {
+  display: flex;
 }

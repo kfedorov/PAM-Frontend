@@ -1,6 +1,5 @@
 /* Utils */
 import React from "react";
-import ReactDOM from "react-dom";
 import Modal from "react-modal";
 import FaClose from "react-icons/lib/fa/close";
 
@@ -18,8 +17,8 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    padding: 0,
-  },
+    padding: 0
+  }
 };
 
 class Spell extends React.Component {
@@ -27,7 +26,7 @@ class Spell extends React.Component {
     super();
 
     this.state = {
-      modalIsOpen: false,
+      modalIsOpen: false
     };
 
     this.openModal = this.openModal.bind(this);
@@ -45,8 +44,11 @@ class Spell extends React.Component {
   get_spell_component() {
     const spell = this.props.all_spells.find(
       x =>
-        x.name.toLowerCase().trim() ==
-        this.props.name.toLowerCase().trim().replace("*", "")
+        x.name.toLowerCase().trim() ===
+        this.props.name
+          .toLowerCase()
+          .trim()
+          .replace("*", "")
     );
     return <SpellModule.components.SpellInfo spellToRender={spell} />;
   }
@@ -78,7 +80,7 @@ class Spell extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    all_spells: state[SpellModule.constants.NAME],
+    all_spells: state[SpellModule.constants.NAME]
   };
 };
 
