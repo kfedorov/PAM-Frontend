@@ -13,7 +13,8 @@ class MonstersShowcase extends Component {
 
   renderTextEntry = () => {
     const onTextChange = event => {
-      this.setState({ textForm: event.target.value });
+      const text = event.target.value;
+      this.setState({ textForm: text });
     };
 
     return (
@@ -76,7 +77,8 @@ class MonstersShowcase extends Component {
   render() {
     const monsterDatabase = this.props.monsters;
     const monsters = this.getMonsters(this.state.textForm, monsterDatabase);
-    const selectedMonster = this.state.selectedMonster;
+    const selectedMonster =
+      monsters.length > 0 ? this.state.selectedMonster : null;
     return (
       <div className="monster-overview__container ">
         <div>

@@ -44,9 +44,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build",
-    "format":
-      "prettier --trailing-comma es5 --tab-width 2 --write 'src/**/*.{js,jsx,json,css}'",
-    "precommit": "pretty-quick staged"
+    "format": "prettier --trailing-comma es5 --tab-width 2 --write 'src/**/*.{js,jsx,json,css}'"
   },
   "standard": {
     "parser": "babel-eslint"
