@@ -10,7 +10,7 @@ import SpellCasting from "./SubComponents/SpellCasting";
 
 class Monster extends React.Component {
     render() {
-        const { monster } = this.props;
+        const { monster, spells } = this.props;
 
         return (
             <div className="information-box monster-info">
@@ -21,6 +21,7 @@ class Monster extends React.Component {
                 <Abilities abilities={monster.abilities} />
                 <OtherInfo monster={monster} />
                 <SpecialAbilities title="Features" specialAbilities={monster.features} />
+                <SpellCasting monsterSpells={monster.spellCasting} spellsDatabase={spells} />
                 <Actions actions={monster.actions} />
                 <SpecialAbilities
                     title="Legendary Actions"

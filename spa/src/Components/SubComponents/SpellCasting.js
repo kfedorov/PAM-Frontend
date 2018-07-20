@@ -1,54 +1,64 @@
 /* Utils */
-// import React from "react";
-// import PropTypes from "prop-types";
+import React from "react";
+import PropTypes from "prop-types";
 
-// import Spell from "./Spell";
+import SpellModal from "./SpellModal";
 
-// const SpellCasting = ({ spellsDetail }) => {
-//     if (spellsDetail == null) {
-//         return <div />;
-//     }
+const SpellCasting = ({ monsterSpells, spellsDatabase }) => {
+    if (monsterSpells == null) {
+        return <div />;
+    }
 
-//     return (
-//         <div>
-//             <h2 className="monster-section-name">Spell Casting</h>
-//             <hr />
-//             <p>{spellsDetail.desc}</p>
-//             {spellsDetail.details.map(x => <SpellDetail spellsByLevel={x} />)}
-//         </div>
-//     );
-// };
+    return (
+        <div>
+            <h2 className="monster-section-name">Spell Casting</h2>
+            <hr />
+            <p>{monsterSpells.desc}</p>
+            {monsterSpells.details.map(x => (
+                <SpellDetail spellsByLevel={x} spellsDatabase={spellsDatabase} />
+            ))}
+        </div>
+    );
+};
 
-// const SpellDetail = ({ spellsByLevel }) => {
-//     return (
-//         <div>
-//             <strong>{spellsByLevel.details}: </strong>
-//             {spellsByLevel.spells.map((x, index) => (
-//                 <SpellItem spellName={x} lastOne={index === spellsByLevel.spells.length - 1} />
-//             ))}
-//         </div>
-//     );
-// };
+const SpellDetail = ({ spellsByLevel, spellsDatabase }) => {
+    return (
+        <div>
+            <strong>{spellsByLevel.details}: </strong>
+            {spellsByLevel.spells.map((x, index) => (
+                <SpellItem
+                    spellName={x}
+                    isLastOne={index === spellsByLevel.spells.length - 1}
+                    spellsDatabase={spellsDatabase}
+                />
+            ))}
+        </div>
+    );
+};
 
-// const SpellItem = ({ spellName, lastOne }) => {
-//     return (
-//         <span>
-//             <Spell name={spellName} />
-//             {lastOne ? "" : ", "}
-//         </span>
-//     );
-// };
+const SpellItem = ({ spellName, isLastOne, spellsDatabase }) => {
+    return (
+        <span>
+            <SpellModal name={spellName} spellsDatabase={spellsDatabase} />
+            {isLastOne ? "" : ", "}
+        </span>
+    );
+};
 
-// SpellCasting.propType = {
-//     spellsDetail: PropTypes.shape({
-//         desc: PropTypes.string.isRequired,
-//         details: PropTypes.array.isRequired,
-//     }),
-// };
+SpellCasting.propType = {
+    monsterSpells: PropTypes.shape({
+        desc: PropTypes.string.isRequired,
+        details: PropTypes.array.isRequired,
+    }).isRequired,
+    spellsDatabase: PropTypes.shape({
+        desc: PropTypes.string.isRequired,
+        details: PropTypes.array.isRequired,
+    }).isRequired,
+};
 
-// SpellDetail.propType = {
-//     details: PropTypes.string.isRequired,
-//     spells: PropTypes.arrayOf(PropTypes.string).isRequired,
-// };
+SpellDetail.propType = {
+    details: PropTypes.string.isRequired,
+    spells: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
 
-// export default SpellCasting;
+export default SpellCasting;

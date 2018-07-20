@@ -111,7 +111,8 @@
           {
             "details": "Cantrip (at will)",
             "spells": [
-              "blade ward. dancing lights",
+              "blade ward",
+              "dancing lights",
               "mending",
               "message",
               "ray of frost"
@@ -165,7 +166,8 @@
           {
             "details": "7th level (1 slot)",
             "spells": [
-              "symbol* teleport"
+              "symbol*",
+              "teleport"
             ]
           }
         ]
