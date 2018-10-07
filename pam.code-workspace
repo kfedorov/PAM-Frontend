@@ -35,7 +35,9 @@
       "esbenp.prettier-vscode",
       "amatiasq.sort-imports",
       "robertohuertasm.vscode-icons",
-      "mikestead.dotenv"
+      "mikestead.dotenv",
+      "rebornix.project-snippets",
+      "dsznajder.es7-react-js-snippets"
     ]
   }
 }
