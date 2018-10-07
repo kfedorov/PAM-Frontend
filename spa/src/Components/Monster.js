@@ -8,12 +8,26 @@ import FightInfo from "./SubComponents/FightInfo";
 import OtherInfo from "./SubComponents/OtherInfo";
 import SpellCasting from "./SubComponents/SpellCasting";
 
+import styled from "styled-components";
+
+const MonsterComponent = styled.div`
+    border-style: solid;
+    border-color: #8e2f1a;
+    border-width: 6px 3px;
+    padding: 1em;
+    margin: 1em;
+    max-width: 45em;
+    background-color: #eee5ce;
+    background-image: url("background.jpg");
+    box-shadow: 10px 10px 5px #888888;
+`;
+
 class Monster extends React.Component {
     render() {
         const { monster, spells } = this.props;
 
         return (
-            <div className="information-box monster-info">
+            <MonsterComponent>
                 <Link to={`monsters/${monster.name}`} className="monster-name-link">
                     <h1 className="monster-name">{monster.name}</h1>
                 </Link>
@@ -27,7 +41,7 @@ class Monster extends React.Component {
                     title="Legendary Actions"
                     specialAbilities={monster.legendaryActions}
                 />
-            </div>
+            </MonsterComponent>
         );
     }
 }

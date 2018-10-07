@@ -47,7 +47,7 @@ const Abilities = ({ abilities }) => {
 };
 
 Abilities.propType = {
-    spellToRender: PropTypes.shape({
+    abilities: PropTypes.shape({
         strength: PropTypes.number.isRequired,
         dexterity: PropTypes.number.isRequired,
         constitution: PropTypes.number.isRequired,

@@ -1,5 +1,5 @@
 import React from "react";
-
+import LazyLoad, { forceCheck } from "react-lazyload";
 import Monster from "./Monster";
 
 class MonsterDatabase extends React.Component {
@@ -9,11 +9,16 @@ class MonsterDatabase extends React.Component {
         return (
             <div>
                 <h3>Monster Database</h3>
-                {monsters.map((monster, i) => (
-                    <Monster key={i} monster={monster} spells={spells} />
-                ))}
+                {monsters.map(function(monster, i) {
+                    return (
+                        <LazyLoad key={monster.name} height={1000} offset={500}>
+                            <Monster monster={monster} spells={spells} />
+                        </LazyLoad>
+                    );
+                })}
             </div>
         );
     }
 }
+
 export default MonsterDatabase;

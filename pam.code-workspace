@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "path": "spa"
+    }
+  ],
+  "settings": {
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    // Turns on auto format on save for all files types.
+    // This is also required to allow Prettier to auto format files on save.
+    "editor.formatOnSave": true,
+    "[html]": {
+      "editor.formatOnSave": false
+    },
+    // Turns it off for JavaScript since we use Prettier to auto format on save.
+    "javascript.format.enable": false,
+    "javascript.validate.enable": true,
+    // Required to allow auto format on save with Prettier + ESLint + Vetur.
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "prettier.eslintIntegration": true,
+    "sort-imports.suppress-warnings": true,
+    "javascript.implicitProjectConfig.checkJs": true
+  },
+  "extensions": {
+    "recommendations": [
+      "formulahendry.auto-rename-tag",
+      "msjsdiag.debugger-for-chrome",
+      "editorconfig.editorconfig",
+      "dbaeumer.vscode-eslint",
+      "eg2.vscode-npm-script",
+      "christian-kohler.npm-intellisense",
+      "christian-kohler.path-intellisense",
+      "esbenp.prettier-vscode",
+      "amatiasq.sort-imports",
+      "robertohuertasm.vscode-icons",
+      "mikestead.dotenv"
+    ]
+  }
+}
