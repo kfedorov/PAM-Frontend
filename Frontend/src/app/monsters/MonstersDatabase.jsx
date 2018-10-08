@@ -4,34 +4,39 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 /* Components */
-import { SearchBar } from '../common'
 import { MonstersList } from './components'
 
 import store from './'
+import SearchBar from '../common/components/SearchBar'
 
 class MonstersDatabase extends Component {
-  constructor (props) {
-    super(props)
-
-    this.state = {
-      showed_monsters: props.all_monsters.slice()
-    }
-
-    this.updateMonsters = this.updateMonsters.bind(this)
-  }
-
   componentWillReceiveProps = nextProps => {
     const { all_monsters } = nextProps
 
     this.setState({
-      showed_monsters: all_monsters
+      name_filter: new Array(all_monsters.length).fill(true),
     })
-  };
+  }
 
-  updateMonsters (updatedSpells) {
+  constructor (props) {
+    super(props)
+
+    this.state = {
+      name_filter: new Array(props.all_monsters).fill(true),
+    }
+
+    this.updateNameFilter = this.updateNameFilter.bind(this)
+    this.filterVisible = this.filterVisible.bind(this)
+  }
+
+  updateNameFilter (updatedNameFilter) {
     this.setState({
-      showed_monsters: updatedSpells
+      name_filter: updatedNameFilter,
     })
+  }
+
+  filterVisible (allItems) {
+    return allItems.filter((x, i) => this.state.name_filter[i])
   }
 
   render () {
@@ -39,8 +44,10 @@ class MonstersDatabase extends Component {
 
     return (
       <div>
-        <SearchBar searchables={all_monsters} callback={this.updateMonsters} />
-        <MonstersList monstersToRender={this.state.showed_monsters} />
+        <SearchBar searchables={ all_monsters.map(m => m.name) }
+                   callback={ this.updateNameFilter }
+                   field="name"/>
+        <MonstersList monstersToRender={ this.filterVisible(all_monsters) }/>
       </div>
     )
   }
@@ -48,7 +55,7 @@ class MonstersDatabase extends Component {
 
 const mapStateToProps = state => {
   return {
-    all_monsters: state[store.constants.NAME]
+    all_monsters: state[store.constants.NAME],
   }
 }
 
@@ -56,7 +63,7 @@ const mapDispatchToProps = dispatch => {
   return {
     addMonster: monster => {
       dispatch(store.actions.add(monster))
-    }
+    },
   }
 }
 

@@ -9,24 +9,18 @@ class SearchBar extends Component {
   constructor (props) {
     super(props)
 
-    this.filtered = this.filtered.bind(this)
+    this.filtered_indices = this.filtered_indices.bind(this)
     this.handleNameChange = this.handleNameChange.bind(this)
   }
 
-  filtered (name) {
-    function contains (value) {
-      // OMG FIX THIS!!!!
-      var bigTempHack = value.name != null ? value.name : value.Name
-      return bigTempHack.toLowerCase().includes(name.toLowerCase())
-    }
-
-    var filteredList = this.props.searchables.filter(contains)
-
-    this.props.callback(filteredList)
+  filtered_indices (name) {
+    // Callsback with an array of bools, indicating whether each element matches
+    this.props.callback(this.props.searchables.map(
+      v => v.toLowerCase().includes(name.toLowerCase())))
   }
 
   handleNameChange (event) {
-    this.filtered(event.target.value)
+    this.filtered_indices(event.target.value)
   }
 
   render () {
@@ -34,9 +28,9 @@ class SearchBar extends Component {
       <div className='search-bar'>
         <input
           type='text'
-          onChange={this.handleNameChange}
+          onChange={ this.handleNameChange }
           autoFocus
-          placeholder='Search by name: '
+          placeholder={ 'Search by ' + this.props.field + ':' }
         />
       </div>
     )
@@ -44,11 +38,8 @@ class SearchBar extends Component {
 }
 
 SearchBar.propType = {
-  searchables: PropTypes.arrayOf(
-    PropTypes.shape({
-      Name: PropTypes.string.isRequired
-    })
-  ).isRequired
+  searchables: PropTypes.arrayOf(PropTypes.string.required).isRequired,
+  field: PropTypes.string.isRequired,
 }
 
 export default SearchBar
