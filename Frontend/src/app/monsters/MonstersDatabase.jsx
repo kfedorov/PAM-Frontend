@@ -20,9 +20,10 @@ class MonstersDatabase extends Component {
 
   constructor (props) {
     super(props)
+    const { all_monsters } = props
 
     this.state = {
-      name_filter: new Array(props.all_monsters).fill(true),
+      name_filter: new Array(all_monsters.length).fill(true),
     }
 
     this.updateNameFilter = this.updateNameFilter.bind(this)
